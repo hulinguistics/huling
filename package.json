@@ -1,0 +1,18 @@
+{
+
+  "devDependencies": {
+
+    "vuepress": "^1.9.7"
+
+  },
+
+  "scripts": {
+
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "eject": "vuepress eject src"
+
+  }
+
+}
+
