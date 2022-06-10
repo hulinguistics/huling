@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 <!-- TODO: 画像いい感じに -->
 ![top](/header.jpg)
 
