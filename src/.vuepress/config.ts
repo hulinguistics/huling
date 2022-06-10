@@ -7,6 +7,8 @@ module.exports = {
     sidebar: "auto",
     nav: [
       { text: 'About', link: '/about/'},
+      { text: 'Languages', link: '/languages/'},
+      { text: 'Olympiad', link: '/olympiad/'},
       { text: 'Twitter', link: 'https://twitter.com/HU_Linguistic' },
     ],
   }
