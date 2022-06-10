@@ -1,4 +1,7 @@
 module.exports = {
+  locales: {
+    '/': { lang: 'ja' }
+  },
   title: '北大言語学サークル Huling',
   themeConfig: {
     sidebar: "auto",
