@@ -29,9 +29,9 @@ title:  北大言語学サークル Huling
 
 #### 2019
 
-- [JOL2019-4](olympiad/jol2019-4)
+- [JOL2019-4](olympiad/jol/2019/4)
 
 
 #### 2022
 
-- [JOL2022-1](olympiad/jol2022-1)
+- [JOL2022-1](olympiad/jol/2022/1)
