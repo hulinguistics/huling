@@ -124,7 +124,7 @@ git config --global user.email "your_email@example.com"
 ```
 
 
-### 公開鍵の作成とGitHubへの登録
+### 公開鍵の生成
 
 手元のgitからGitHubにアクセスするためには公開鍵の登録が必要です．
 
@@ -157,7 +157,7 @@ cat ~/.ssh/id_rsa
 ```
 
 
-### GitHubへの登録
+### 公開鍵をGitHubに登録
 
 GitHubにログインしてメニューから
 **Settings** → **SSH and GPG keys** → **New SSH key**
