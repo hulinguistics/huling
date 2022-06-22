@@ -89,8 +89,8 @@ brew install git
 
 ##### 2. App Store から導入する場合
 
-App Storeで [Xcode](https://apps.apple.com/us/app/xcode/id497799835)
-をインストールすればgitが付属しています．
+[App Store](https://apps.apple.com/us/app/xcode/id497799835)
+で **Xcode** をインストールすればgitが付属しています．
 以下，**ターミナル** で作業を行います．
 
 
