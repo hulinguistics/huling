@@ -139,7 +139,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 # 公開鍵の表示
 # Windowsの場合はHomeにある.ssh/id_ed25519.pubをエクスプローラーから直接開くのが無難です
 # 表示された公開鍵をコピーしてください
-cat ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
 ```
 
 
@@ -153,7 +153,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # 公開鍵の表示
 # Windowsの場合はHomeにある.ssh/id_rsa.pubをエクスプローラーから直接開くのが無難です
 # 表示された公開鍵をコピーしてください
-cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
 ```
 
 
