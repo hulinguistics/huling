@@ -64,7 +64,7 @@ winget install -e --id Git.Git
 [公式ドキュメント](https://docs.microsoft.com/ja-jp/windows/wsl/install)にしたがってWSLをインストールし，
 インストールしたディストリビューションごとの方法にしたがってgitをインストールしてください．規定ではUbuntuがインストールされますが，
 ディストリビューションを変更することもできます．
-このドキュメントではUbuntu/Debian，Archlinuxでのインストール方法を紹介していますので，
+このドキュメントではUbuntu/Debian，Arch Linuxでのインストール方法を紹介していますので，
 これらも参考にしてください．
 
 以下，**Windowsターミナル** などで作業を行います．
@@ -100,7 +100,7 @@ sudo apt install git
 ```
 
 
-#### Archlinux
+#### Arch Linux
 
 ```bash
 sudo pacman -S git
@@ -192,12 +192,12 @@ hulinguistics/huling はVoltaの使用を前提として開発しております
 
 [Volta (公式サイト)](https://volta.sh/)
 
-Unix(macOS, Ubuntu/Debian, Archlinuxなど)の場合は以下を実行してください．
+Unix(macOS, Ubuntu/Debian, Arch Linuxなど)の場合は以下を実行してください．
 
 ```bash
 curl https://get.volta.sh | bash
 
-# Archlinuxの場合はAURのvolta-binも利用できます(自己責任)
+# Arch Linuxの場合はAURのvolta-binも利用できます(自己責任)
 yay -S volta-bin
 ```
 
