@@ -2,7 +2,7 @@
 
 言サHPの開発に興味を持っていただき，ありがとうございます．
 開発に必要な知識と手順について，
-最低限の知識と手順をてきとーに書いてありますので，
+最低限の知識と手順がてきとーに書いてありますので，
 参考になれば嬉しいです．
 
 
@@ -124,7 +124,7 @@ git config --global user.email "your_email@example.com"
 ```
 
 
-### 公開鍵の作成とGitHubへの登録
+### 公開鍵の生成
 
 手元のgitからGitHubにアクセスするためには公開鍵の登録が必要です．
 
@@ -139,7 +139,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 # 公開鍵の表示
 # Windowsの場合はHomeにある.ssh/id_ed25519.pubをエクスプローラーから直接開くのが無難です
 # 表示された公開鍵をコピーしてください
-cat ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
 ```
 
 
@@ -153,11 +153,11 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # 公開鍵の表示
 # Windowsの場合はHomeにある.ssh/id_rsa.pubをエクスプローラーから直接開くのが無難です
 # 表示された公開鍵をコピーしてください
-cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
 ```
 
 
-### GitHubへの登録
+### 公開鍵をGitHubに登録
 
 GitHubにログインしてメニューから
 **Settings** → **SSH and GPG keys** → **New SSH key**
@@ -236,7 +236,7 @@ OSSの[Codium](https://vscodium.com/)という選択肢もあります．
 こういった本に課金するのもアリとは思いますが，
 公式ドキュメントをはじめ，
 様々な情報がネットだけで手に入ります．
-まずは[先生に相談してください](https://www.google.com/search?q=vscode+%E4%BD%BF%E3%81%84%E6%96%B9).
+まずは[先生に相談してください](https://www.google.com/search?q=vscode+%E4%BD%BF%E3%81%84%E6%96%B9)．
 :::
 
 
