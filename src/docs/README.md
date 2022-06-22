@@ -236,7 +236,7 @@ OSSの[Codium](https://vscodium.com/)という選択肢もあります．
 こういった本に課金するのもアリとは思いますが，
 公式ドキュメントをはじめ，
 様々な情報がネットだけで手に入ります．
-まずは[先生に相談してください](https://www.google.com/search?q=vscode+%E4%BD%BF%E3%81%84%E6%96%B9).
+まずは[先生に相談してください](https://www.google.com/search?q=vscode+%E4%BD%BF%E3%81%84%E6%96%B9)．
 :::
 
 
