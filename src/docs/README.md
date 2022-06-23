@@ -294,6 +294,162 @@ Atomは開発終了が発表されています．
 エディタの選択は個人の自由です．
 
 
-## 開発の仕方
+## 手順
+
+### リポジトリをFork
+
+開発するために，
+GitHubでリポジトリをForkします．
+[hulinguistics/huling](https://github.com/hulinguistics/huling)
+にアクセスし，
+[Fork](https://github.com/hulinguistics/huling/fork)
+を押して
+**Create fork** を押します．
+
+
+### ローカルにclone
+
+フォークしましたら，リポジトリをローカルにcloneします．
+
+```bash
+# usernameを自分のユーザー名に書き換える
+git clone git@github.com:username/huling.git
+# passを入力後hulingディレクトリができる
+```
+
+クローンされたものをエディタで確認してみましょう．
+
+::: tip
+[vscode](#_1-vscode-を使う場合)を使っている場合，
+**File** → **Open Folder...** でクローンしたhulingディレクトリを選択すると，
+EXPLOREにファイルツリーが表示されます．
+[atom](#_2-atom-を使う場合)も同様の機能があるかもしれません．
+よく知りません．
+:::
+
+
+### ビルドしてみる
+
+試しにビルドしてみましょう．
+hulingディレクトリを端末で開きます．
+`yarn dev` でローカルサーバーが立てられ，
+リアルタイムで確認しながら編集することができます．
+
+```bash
+yarn install
+yarn dev
+```
+
+[localhost:8080](http://localhost:8080/)
+にアクセスすると言サHPが表示されるはずです．
+
+実際に最終生成物を確認したい場合は，
+
+```bash
+yarn build
+```
+
+で `src/.vuepress/dist` が生成されます．
+
+::: warning
+Voltaを使用している場合は `yarn` を実行するだけで，
+自動でnodejsとyarnがインストールされます．
+その他のバージョン管理ツールを使用している場合は，
+`package.json` を確認して，
+適切なバージョンのnodeとyarnをインストールしてください．
+:::
+
+
+### Issuesで取り組む内容を選ぶ
+
+[Issues · hulinguistics/huling](https://github.com/hulinguistics/huling/issues)
+
+Issuesには言サHPに関係したタスクが積まれています．
+この中から自分にできそうなものを探しましょう．
+やりたいものが無い場合は，
+自分でIssueを作成するのもアリです．
+Issueを作成するだけで自分で直さないのもアリです．
+
+::: tip Issue選びのヒント
+Issueにはタグを付けています．
+| タグ | 意味 |
+| :-: | :-- |
+| ✍article | あたらしい記事や内容の修正について |
+| 🎨design | デザインについて |
+| 💻feature | ソースの構造や新機能について |
+これらのタグも参考にして，
+自分にできそうなものを探してみてください．
+:::
+
+
+### ブランチを切る
+
+Issueを選んだら，
+開発するためのブランチを切ります．
+
+あなたのリポジトリのページから，
+**branch** → **New branch**
+で適当なブランチ名を付けます．
+
+- `3-deploy`
+- `18-開発ドキュメントの整備`
+
+など，`(issue番号)-(issueタイトルなど)`にすると良いです．
+`(タグ)/(issue番号)-(issueタイトルなど)`
+でも良いと思います．
+本音ではこっちに統一したいですね．
+
+ブランチを切ったらローカルリポジトリでブランチを切り替えます．
+
+```bash
+# n-branch_nameをブランチ名に書き換える
+git fetch origin
+git checkout n-branch_name
+```
+
+
+### 編集
+
+コード編集や執筆をします．
+
+一つの修正が終わったり，
+記事を一つ書き終えたときには，
+こまめに編集内容をcommitします．
+
+```bash
+git add .
+git commit -m "なにをどうしたかコメント"
+```
+
+
+### リモートにpush
+
+編集が一段落したら，
+リモートリポジトリにpushします．
+
+```bash
+# n-branch_nameをブランチ名に書き換える
+git push -u origin n-branch_name
+
+# 2度目以降は以下のみでも可
+git push
+```
+
+
+### Pull requestsを投げる
+
+[Pull requests · hulinguistics/huling](https://github.com/hulinguistics/huling/pulls)
+
+編集を終えたら，
+hulinguistics/huling にPRを投げます．
+これは，
+あなたの編集を言サHPにmergeしてほしいという要請です．
+他の人の確認が行われた後，
+問題が無ければmergeされて作業終了となります．
+
+おつかれさまでした．
+
+
+## 逆引きリファレンス
 
 TODO
