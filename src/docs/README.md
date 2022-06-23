@@ -29,14 +29,15 @@ TODO
 言サHPは[Git](https://git-scm.com/)を用いて管理されているので，
 開発に参加するにはGitをインストールする必要があります．
 
-#### Windows
+
+::: details Windows
 
 いくつか選択肢がありますが，
 今は惰性でなんとかなると思います．
 困ったら[先生に質問](https://www.google.com/search?q=windows+git+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)してください．
 
 
-##### 1. winget を使う場合
+#### 1. winget を使う場合
 
 [winget (公式サイト)](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
 
@@ -49,7 +50,7 @@ winget install -e --id Git.Git
 ```
 
 
-##### 2. 公式の手順にしたがう場合
+#### 2. 公式の手順にしたがう場合
 
 [公式サイト](https://git-scm.com/download/win)から **64-bit Git for Windows Setup** をダウンロードして起動，
 エディタは自分が使っているものを選択して `Next` を連打してください．
@@ -57,7 +58,7 @@ winget install -e --id Git.Git
 以下，**Git Bash** で作業を行います．
 
 
-##### 3. WSL を使う場合
+#### 3. WSL を使う場合
 
 [Windows Subsystem for Linux (公式サイト)](https://docs.microsoft.com/en-us/windows/wsl/)
 
@@ -70,9 +71,17 @@ winget install -e --id Git.Git
 以下，**Windowsターミナル** などで作業を行います．
 
 
-#### macOS
+:::
 
-##### 1. Homebrew から導入する場合
+
+::: details macOS
+
+いくつか選択肢がありますが，
+今は惰性でなんとかなると思います．
+困ったら[先生に質問](https://www.google.com/search?q=macos+git+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)してください．
+
+
+#### 1. Homebrew から導入する場合
 
 [Homebrew (公式サイト)](https://brew.sh/)
 
@@ -87,25 +96,37 @@ brew install git
 ```
 
 
-##### 2. App Store から導入する場合
+#### 2. App Store から導入する場合
 
 [App Store](https://apps.apple.com/us/app/xcode/id497799835)
 で **Xcode** をインストールすればgitが付属しています．
 以下，**ターミナル** で作業を行います．
 
 
-#### Ubuntu/Debian
+:::
+
+
+::: details Ubuntu/Debian
+
+普通にいれます．
 
 ```bash
 sudo apt install git
 ```
 
 
-#### Arch Linux
+:::
+
+::: details Arch Linux
+
+普通にいれます．
 
 ```bash
 sudo pacman -S git
 ```
+
+
+:::
 
 
 ### GitHubアカウントの作成
@@ -144,7 +165,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 
-#### 2. RSA-4096 を使う場合
+::: details 2. RSA-4096 を使う場合
 
 ```bash
 # 鍵の作成
@@ -156,6 +177,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # 表示された公開鍵をコピーしてください
 cat ~/.ssh/id_rsa.pub
 ```
+
+
+:::
 
 
 ### 公開鍵をGitHubに登録
@@ -205,7 +229,7 @@ yay -S volta-bin
 Windowsの場合は[公式ドキュメント](https://docs.volta.sh/guide/getting-started)を参考にインストールしてください．
 
 
-#### 2. その他の選択肢
+::: details 2. その他の選択肢
 
 - [nvm](https://github.com/nvm-sh/nvm) (mac/linux)
 - [n](https://github.com/tj/n) (win/mac/linux)
@@ -216,6 +240,9 @@ Windowsの場合は[公式ドキュメント](https://docs.volta.sh/guide/gettin
 これらを利用する場合は，
 [package.json](https://github.com/hulinguistics/huling/blob/dev/package.json)を確認し，
 適切なバージョンのnodeとyarnをインストールしてください．
+
+
+:::
 
 
 ### エディタ(任意)
