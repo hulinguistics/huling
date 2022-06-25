@@ -1,11 +1,13 @@
+import { defaultTheme } from '@vuepress/theme-default';
+import { searchPlugin } from '@vuepress/plugin-search';
+
 module.exports = {
   locales: {
     '/': { lang: 'ja' },
   },
   title: '北大言語学サークル Huling',
-  themeConfig: {
-    sidebar: 'auto',
-    nav: [
+  theme: defaultTheme({
+    navbar: [
       { text: 'About', link: '/about/' },
       { text: 'Booklet', link: '/booklet/' },
       { text: 'Languages', link: '/languages/' },
@@ -16,6 +18,8 @@ module.exports = {
     docsRepo: 'hulinguistics/huling',
     docsDir: 'src',
     docsBranch: 'dev',
-    editLinks: true,
-  },
+    editLink: true,
+    contributors: false,
+  }),
+  plugins: [searchPlugin()],
 };
