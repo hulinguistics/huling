@@ -1,18 +1,14 @@
 {
-
   "devDependencies": {
-
     "vuepress": "^1.9.7"
-
   },
-
   "scripts": {
-
     "dev": "vuepress dev src",
     "build": "vuepress build src",
     "eject": "vuepress eject src"
-
+  },
+  "volta": {
+    "node": "16.15.1",
+    "yarn": "1.22.19"
   }
-
 }
-

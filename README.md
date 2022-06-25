@@ -5,6 +5,6 @@
 ```bash
 git clone -b dev git@github.com:hulinguistics/huling.git
 cd huling
-npm i
-npm run dev
+yarn
+yarn dev
 ```

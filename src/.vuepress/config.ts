@@ -12,5 +12,10 @@ module.exports = {
       { text: 'Olympiad', link: '/olympiad/'},
       { text: 'Twitter', link: 'https://twitter.com/HU_Linguistic' },
     ],
+
+    docsRepo: 'hulinguistics/huling',
+    docsDir: 'src',
+    docsBranch: 'dev',
+    editLinks: true,
   }
 }
