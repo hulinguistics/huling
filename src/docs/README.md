@@ -5,11 +5,9 @@
 最低限がてきとーに書いてありますので，
 参考になれば嬉しいです．
 
-
 ## 前提知識
 
 TODO
-
 
 ## 環境構築
 
@@ -23,19 +21,16 @@ TODO
 有識者の加筆訂正をお待ちしております．
 :::
 
-
 ### CLI環境とGit
 
 言サHPは[Git](https://git-scm.com/)を用いて管理されているので，
 開発に参加するにはGitをインストールする必要があります．
-
 
 ::: details Windows
 
 いくつか選択肢がありますが，
 今は惰性でなんとかなると思います．
 困ったら[先生に質問](https://www.google.com/search?q=windows+git+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)してください．
-
 
 #### 1. winget を使う場合
 
@@ -49,14 +44,12 @@ TODO
 winget install -e --id Git.Git
 ```
 
-
 #### 2. 公式の手順にしたがう場合
 
 [公式サイト](https://git-scm.com/download/win)から **64-bit Git for Windows Setup** をダウンロードして起動，
 エディタは自分が使っているものを選択して `Next` を連打してください．
 
 以下，**Git Bash** で作業を行います．
-
 
 #### 3. WSL を使う場合
 
@@ -70,16 +63,13 @@ winget install -e --id Git.Git
 
 以下，**Windowsターミナル** などで作業を行います．
 
-
 :::
-
 
 ::: details macOS
 
 いくつか選択肢がありますが，
 今は惰性でなんとかなると思います．
 困ったら[先生に質問](https://www.google.com/search?q=macos+git+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)してください．
-
 
 #### 1. Homebrew から導入する場合
 
@@ -95,16 +85,13 @@ winget install -e --id Git.Git
 brew install git
 ```
 
-
 #### 2. App Store から導入する場合
 
 [App Store](https://apps.apple.com/us/app/xcode/id497799835)
 で **Xcode** をインストールすればgitが付属しています．
 以下，**ターミナル** で作業を行います．
 
-
 :::
-
 
 ::: details Ubuntu/Debian
 
@@ -113,7 +100,6 @@ brew install git
 ```bash
 sudo apt install git
 ```
-
 
 :::
 
@@ -125,9 +111,7 @@ sudo apt install git
 sudo pacman -S git
 ```
 
-
 :::
-
 
 ### GitHubアカウントの作成
 
@@ -145,11 +129,9 @@ git config --global user.name "YourName"
 git config --global user.email "your_email@example.com"
 ```
 
-
 ### 公開鍵の生成
 
 手元のgitからGitHubにアクセスするためには公開鍵の登録が必要です．
-
 
 #### 1. Ed25519 を使う場合
 
@@ -164,7 +146,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 cat ~/.ssh/id_ed25519.pub
 ```
 
-
 ::: details 2. RSA-4096 を使う場合
 
 ```bash
@@ -178,9 +159,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
 ```
 
-
 :::
-
 
 ### 公開鍵をGitHubに登録
 
@@ -195,7 +174,6 @@ Keyに先程コピーした公開鍵を貼り付けて **Add SSH key** を押し
 ssh git@github.com
 # passを入力後，ユーザー名が表示されれば成功
 ```
-
 
 ### Node.jsのバージョン管理ツール
 
@@ -212,7 +190,6 @@ hulinguistics/huling はVoltaの使用を前提として開発しております
 以下，Voltaの利用を前提に解説します．
 :::
 
-
 #### 1. Volta を使う場合(強く推奨)
 
 [Volta (公式サイト)](https://volta.sh/)
@@ -228,7 +205,6 @@ yay -S volta-bin
 
 Windowsの場合は[公式ドキュメント](https://docs.volta.sh/guide/getting-started)を参考にインストールしてください．
 
-
 ::: details 2. その他の選択肢
 
 - [nvm](https://github.com/nvm-sh/nvm) (mac/linux)
@@ -241,15 +217,12 @@ Windowsの場合は[公式ドキュメント](https://docs.volta.sh/guide/gettin
 [package.json](https://github.com/hulinguistics/huling/blob/dev/package.json)を確認し，
 適切なバージョンのnodeとyarnをインストールしてください．
 
-
 :::
-
 
 ### エディタ(任意)
 
 書ければなんでもいいです．
 好きなエディタを使ってください．
-
 
 #### 1. VSCode を使う場合
 
@@ -267,7 +240,6 @@ OSSの[Codium](https://vscodium.com/)という選択肢もあります．
 まずは[先生に相談してください](https://www.google.com/search?q=vscode+%E4%BD%BF%E3%81%84%E6%96%B9)．
 :::
 
-
 #### 2. Atom を使う場合
 
 [Atom (公式サイト)](https://atom.io/)
@@ -281,18 +253,15 @@ Atomは開発終了が発表されています．
 注意してください．
 :::
 
-
 #### 3. Sublime Text を使う場合
 
 [Sublime Text (公式サイト)](https://www.sublimetext.com/)
 
 拡張機能が豊富で広く使われていた．
 
-
 #### 4. Vim/Emacsなどその他
 
 エディタの選択は個人の自由です．
-
 
 ## 手順
 
@@ -305,7 +274,6 @@ GitHubでリポジトリをForkします．
 [Fork](https://github.com/hulinguistics/huling/fork)
 を押して
 **Create fork** を押します．
-
 
 ### ローカルにclone
 
@@ -326,7 +294,6 @@ EXPLOREにファイルツリーが表示されます．
 [atom](#_2-atom-を使う場合)も同様の機能があるかもしれません．
 よく知りません．
 :::
-
 
 ### ビルドしてみる
 
@@ -359,7 +326,6 @@ Voltaを使用している場合は `yarn` を実行するだけで，
 適切なバージョンのnodeとyarnをインストールしてください．
 :::
 
-
 ### Issuesで取り組む内容を選ぶ
 
 [Issues · hulinguistics/huling](https://github.com/hulinguistics/huling/issues)
@@ -380,7 +346,6 @@ Issueにはタグを付けています．
 これらのタグも参考にして，
 自分にできそうなものを探してみてください．
 :::
-
 
 ### ブランチを切る
 
@@ -407,7 +372,6 @@ git fetch origin
 git checkout n-branch_name
 ```
 
-
 ### 編集
 
 コード編集や執筆をします．
@@ -420,7 +384,6 @@ git checkout n-branch_name
 git add .
 git commit -m "なにをどうしたかコメント"
 ```
-
 
 ### リモートにpush
 
@@ -435,7 +398,6 @@ git push -u origin n-branch_name
 git push
 ```
 
-
 ### Pull requestsを投げる
 
 [Pull requests · hulinguistics/huling](https://github.com/hulinguistics/huling/pulls)
@@ -448,7 +410,6 @@ hulinguistics/huling にPRを投げます．
 問題が無ければmergeされて作業終了となります．
 
 おつかれさまでした．
-
 
 ## 逆引きリファレンス
 
