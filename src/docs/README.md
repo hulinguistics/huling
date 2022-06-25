@@ -29,14 +29,15 @@ TODO
 言サHPは[Git](https://git-scm.com/)を用いて管理されているので，
 開発に参加するにはGitをインストールする必要があります．
 
-#### Windows
+
+::: details Windows
 
 いくつか選択肢がありますが，
 今は惰性でなんとかなると思います．
 困ったら[先生に質問](https://www.google.com/search?q=windows+git+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)してください．
 
 
-##### 1. winget を使う場合
+#### 1. winget を使う場合
 
 [winget (公式サイト)](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
 
@@ -49,7 +50,7 @@ winget install -e --id Git.Git
 ```
 
 
-##### 2. 公式の手順にしたがう場合
+#### 2. 公式の手順にしたがう場合
 
 [公式サイト](https://git-scm.com/download/win)から **64-bit Git for Windows Setup** をダウンロードして起動，
 エディタは自分が使っているものを選択して `Next` を連打してください．
@@ -57,7 +58,7 @@ winget install -e --id Git.Git
 以下，**Git Bash** で作業を行います．
 
 
-##### 3. WSL を使う場合
+#### 3. WSL を使う場合
 
 [Windows Subsystem for Linux (公式サイト)](https://docs.microsoft.com/en-us/windows/wsl/)
 
@@ -70,9 +71,17 @@ winget install -e --id Git.Git
 以下，**Windowsターミナル** などで作業を行います．
 
 
-#### macOS
+:::
 
-##### 1. Homebrew から導入する場合
+
+::: details macOS
+
+いくつか選択肢がありますが，
+今は惰性でなんとかなると思います．
+困ったら[先生に質問](https://www.google.com/search?q=macos+git+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)してください．
+
+
+#### 1. Homebrew から導入する場合
 
 [Homebrew (公式サイト)](https://brew.sh/)
 
@@ -87,25 +96,37 @@ brew install git
 ```
 
 
-##### 2. App Store から導入する場合
+#### 2. App Store から導入する場合
 
 [App Store](https://apps.apple.com/us/app/xcode/id497799835)
 で **Xcode** をインストールすればgitが付属しています．
 以下，**ターミナル** で作業を行います．
 
 
-#### Ubuntu/Debian
+:::
+
+
+::: details Ubuntu/Debian
+
+普通にいれます．
 
 ```bash
 sudo apt install git
 ```
 
 
-#### Arch Linux
+:::
+
+::: details Arch Linux
+
+普通にいれます．
 
 ```bash
 sudo pacman -S git
 ```
+
+
+:::
 
 
 ### GitHubアカウントの作成
@@ -144,7 +165,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 
-#### 2. RSA-4096 を使う場合
+::: details 2. RSA-4096 を使う場合
 
 ```bash
 # 鍵の作成
@@ -156,6 +177,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # 表示された公開鍵をコピーしてください
 cat ~/.ssh/id_rsa.pub
 ```
+
+
+:::
 
 
 ### 公開鍵をGitHubに登録
@@ -205,7 +229,7 @@ yay -S volta-bin
 Windowsの場合は[公式ドキュメント](https://docs.volta.sh/guide/getting-started)を参考にインストールしてください．
 
 
-#### 2. その他の選択肢
+::: details 2. その他の選択肢
 
 - [nvm](https://github.com/nvm-sh/nvm) (mac/linux)
 - [n](https://github.com/tj/n) (win/mac/linux)
@@ -216,6 +240,9 @@ Windowsの場合は[公式ドキュメント](https://docs.volta.sh/guide/gettin
 これらを利用する場合は，
 [package.json](https://github.com/hulinguistics/huling/blob/dev/package.json)を確認し，
 適切なバージョンのnodeとyarnをインストールしてください．
+
+
+:::
 
 
 ### エディタ(任意)
@@ -267,6 +294,162 @@ Atomは開発終了が発表されています．
 エディタの選択は個人の自由です．
 
 
-## 開発の仕方
+## 手順
+
+### リポジトリをFork
+
+開発するために，
+GitHubでリポジトリをForkします．
+[hulinguistics/huling](https://github.com/hulinguistics/huling)
+にアクセスし，
+[Fork](https://github.com/hulinguistics/huling/fork)
+を押して
+**Create fork** を押します．
+
+
+### ローカルにclone
+
+フォークしましたら，リポジトリをローカルにcloneします．
+
+```bash
+# usernameを自分のユーザー名に書き換える
+git clone git@github.com:username/huling.git
+# passを入力後hulingディレクトリができる
+```
+
+クローンされたものをエディタで確認してみましょう．
+
+::: tip
+[vscode](#_1-vscode-を使う場合)を使っている場合，
+**File** → **Open Folder...** でクローンしたhulingディレクトリを選択すると，
+EXPLOREにファイルツリーが表示されます．
+[atom](#_2-atom-を使う場合)も同様の機能があるかもしれません．
+よく知りません．
+:::
+
+
+### ビルドしてみる
+
+試しにビルドしてみましょう．
+hulingディレクトリを端末で開きます．
+`yarn dev` でローカルサーバーが立てられ，
+リアルタイムで確認しながら編集することができます．
+
+```bash
+yarn install
+yarn dev
+```
+
+[localhost:8080](http://localhost:8080/)
+にアクセスすると言サHPが表示されるはずです．
+
+実際に最終生成物を確認したい場合は，
+
+```bash
+yarn build
+```
+
+で `src/.vuepress/dist` が生成されます．
+
+::: warning
+Voltaを使用している場合は `yarn` を実行するだけで，
+自動でnodejsとyarnがインストールされます．
+その他のバージョン管理ツールを使用している場合は，
+`package.json` を確認して，
+適切なバージョンのnodeとyarnをインストールしてください．
+:::
+
+
+### Issuesで取り組む内容を選ぶ
+
+[Issues · hulinguistics/huling](https://github.com/hulinguistics/huling/issues)
+
+Issuesには言サHPに関係したタスクが積まれています．
+この中から自分にできそうなものを探しましょう．
+やりたいものが無い場合は，
+自分でIssueを作成するのもアリです．
+Issueを作成するだけで自分で直さないのもアリです．
+
+::: tip Issue選びのヒント
+Issueにはタグを付けています．
+| タグ | 意味 |
+| :-: | :-- |
+| ✍article | あたらしい記事や内容の修正について |
+| 🎨design | デザインについて |
+| 💻feature | ソースの構造や新機能について |
+これらのタグも参考にして，
+自分にできそうなものを探してみてください．
+:::
+
+
+### ブランチを切る
+
+Issueを選んだら，
+開発するためのブランチを切ります．
+
+あなたのリポジトリのページから，
+**branch** → **New branch**
+で適当なブランチ名を付けます．
+
+- `3-deploy`
+- `18-開発ドキュメントの整備`
+
+など，`(issue番号)-(issueタイトルなど)`にすると良いです．
+`(タグ)/(issue番号)-(issueタイトルなど)`
+でも良いと思います．
+本音ではこっちに統一したいですね．
+
+ブランチを切ったらローカルリポジトリでブランチを切り替えます．
+
+```bash
+# n-branch_nameをブランチ名に書き換える
+git fetch origin
+git checkout n-branch_name
+```
+
+
+### 編集
+
+コード編集や執筆をします．
+
+一つの修正が終わったり，
+記事を一つ書き終えたときには，
+こまめに編集内容をcommitします．
+
+```bash
+git add .
+git commit -m "なにをどうしたかコメント"
+```
+
+
+### リモートにpush
+
+編集が一段落したら，
+リモートリポジトリにpushします．
+
+```bash
+# n-branch_nameをブランチ名に書き換える
+git push -u origin n-branch_name
+
+# 2度目以降は以下のみでも可
+git push
+```
+
+
+### Pull requestsを投げる
+
+[Pull requests · hulinguistics/huling](https://github.com/hulinguistics/huling/pulls)
+
+編集を終えたら，
+hulinguistics/huling にPRを投げます．
+これは，
+あなたの編集を言サHPにmergeしてほしいという要請です．
+他の人の確認が行われた後，
+問題が無ければmergeされて作業終了となります．
+
+おつかれさまでした．
+
+
+## 逆引きリファレンス
 
 TODO
