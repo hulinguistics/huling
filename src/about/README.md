@@ -14,4 +14,4 @@
 
 ## 入会方法
 
-Twitter の @HU_Linguistic にDMを送ってください。なお入会する前の活動見学も受け付けております。
+Twitter の [@HU_Linguistic](https://twitter.com/HU_Linguistic) にDMを送ってください。なお入会する前の活動見学も受け付けております。
