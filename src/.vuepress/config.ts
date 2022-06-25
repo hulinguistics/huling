@@ -13,8 +13,6 @@ module.exports = {
       { text: 'Twitter', link: 'https://twitter.com/HU_Linguistic' },
     ],
 
-    repo: 'hulinguistics/huling',
-    repoLabel: 'Contribute!',
     docsRepo: 'hulinguistics/huling',
     docsDir: 'src',
     docsBranch: 'dev',
