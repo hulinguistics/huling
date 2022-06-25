@@ -307,7 +307,8 @@ yarn install
 yarn dev
 ```
 
-[localhost:8080](http://localhost:8080/)
+ブラウザで
+`http://localhost:3001/`
 にアクセスすると言サHPが表示されるはずです．
 
 実際に最終生成物を確認したい場合は，
