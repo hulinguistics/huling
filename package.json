@@ -9,12 +9,13 @@
     "markdownlint-cli": "^0.31.1",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
-    "vuepress": "^1.9.7"
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
   },
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "eject": "vuepress eject src",
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "eject": "vitepress eject src",
     "lint": "eslint --ext .js,.ts,.vue src && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src"
   },
