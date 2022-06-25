@@ -1,15 +1,15 @@
 module.exports = {
   locales: {
-    '/': { lang: 'ja' }
+    '/': { lang: 'ja' },
   },
   title: '北大言語学サークル Huling',
   themeConfig: {
-    sidebar: "auto",
+    sidebar: 'auto',
     nav: [
-      { text: 'About', link: '/about/'},
-      { text: 'Booklet', link: '/booklet/'},
-      { text: 'Languages', link: '/languages/'},
-      { text: 'Olympiad', link: '/olympiad/'},
+      { text: 'About', link: '/about/' },
+      { text: 'Booklet', link: '/booklet/' },
+      { text: 'Languages', link: '/languages/' },
+      { text: 'Olympiad', link: '/olympiad/' },
       { text: 'Twitter', link: 'https://twitter.com/HU_Linguistic' },
     ],
 
@@ -17,5 +17,5 @@ module.exports = {
     docsDir: 'src',
     docsBranch: 'dev',
     editLinks: true,
-  }
-}
+  },
+};

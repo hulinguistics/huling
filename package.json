@@ -1,11 +1,21 @@
 {
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
     "vuepress": "^1.9.7"
   },
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "eject": "vuepress eject src"
+    "eject": "vuepress eject src",
+    "lint": "eslint --ext .js,.ts,.vue src",
+    "fix": "eslint --fix --ext .js,.ts,.vue src"
   },
   "volta": {
     "node": "16.15.1",
