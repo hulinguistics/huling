@@ -14,7 +14,7 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src",
     "eject": "vuepress eject src",
-    "lint": "eslint --ext .js,.ts,.vue src",
+    "lint": "eslint --ext .js,.ts,.vue src && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src"
   },
   "volta": {
