@@ -1,15 +1,19 @@
 ---
-home: true
-title: 北大言語学サークル Huling
-heroImage: /top.png
-tagline: 北海道大学 非公認サークル
-actions:
-  - text: About us
-    link: /about/
-    type: primary
-  - text: Booklet
-    link: /booklet/
-    type: secondary
+layout: home
+
+hero:
+  name: Huling
+  text: 北大言語学サークル
+  image: /top.png
+  tagline: 北海道大学 非公認サークル
+  actions:
+    - theme: brand
+      text: About us
+      link: /about/
+    - theme: alt
+      text: Booklet
+      link: /booklet/
+
 features:
   - title: 活動内容 
     details: しらんしらんしらんしらんしらんしらんしらんしらんしらんしらんしらんしらんしらんしらんしらんしらん
@@ -17,5 +21,4 @@ features:
     details: ほしいほしいほしいほしいほしいほしいほしいほしいほしいほしいほしいほしいほしいほしいほしいほしい
   - title: 活動頻度
     details: しばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしばしば
-footer: Copyright © 2022 Huling
 ---
