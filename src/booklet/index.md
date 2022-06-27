@@ -2,7 +2,7 @@
 title: 頒布冊子
 ---
 
-![book image](./img/2022yuryo.jpg)
+![book image](./img/2022yuryo.png)
 
 ※画像はイメージです
 
