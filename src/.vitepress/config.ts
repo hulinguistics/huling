@@ -22,7 +22,7 @@ function nav() {
   return [
     { text: 'About', link: '/about/' },
     { text: 'Booklet', link: '/booklet/' },
-    { text: 'Languages', link: '/languages/' },
+    { text: 'language', link: '/language/' },
     { text: 'Olympiad', link: '/olympiad/' },
   ];
 }
