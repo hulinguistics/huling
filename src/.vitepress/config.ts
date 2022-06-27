@@ -38,7 +38,7 @@ function sidebarDocs() {
       text: '言語学の概説',
       items: [
         { text: '「言語学」とは？', link: '/docs/about/' },
-        { text: '文法用語の解説', link: '/docs/grammar/' }
+        { text: '文法用語の解説', link: '/docs/grammar/' },
       ],
     },
     {
