@@ -2,6 +2,8 @@ export default {
   lang: 'ja',
   title: '北大言語学サークル Huling',
 
+  lastUpdated: true,
+
   themeConfig: {
     nav: nav(),
 
