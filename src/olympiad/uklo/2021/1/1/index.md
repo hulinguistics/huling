@@ -2,7 +2,7 @@
 
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough)
 
-Problem 1. Ogham 
+Problem 1. Ogham
 
 ジャンル：文字
 
@@ -22,7 +22,8 @@ Problem 1. Ogham
 問題文の1文目に
 
 > Ogham is an alphabet that was the earliest form of writing in Ireland;
-> it was used between the 4th and 9th centuries when it was replaced by the Roman alphabet (i.e. our alphabet).
+> it was used between the 4th and 9th centuries
+> when it was replaced by the Roman alphabet (i.e. our alphabet).
 
 とあることから、
 オガム文字とラテン文字にほぼほぼ全単射の写像が存在していると決め打ちしてよい
