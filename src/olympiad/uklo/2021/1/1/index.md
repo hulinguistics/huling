@@ -9,7 +9,7 @@ Problem 1. Ogham
 難易度：☆1
 
 問題・解答は
-[過去問・資料まとめ](https://iolingjapan.org/preparation/)
+[Past exam papers](https://www.uklo.org/problems-2021a)
 より引用。
 
 ![image](./problem1.jpg)
