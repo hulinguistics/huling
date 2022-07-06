@@ -1,3 +1,7 @@
 {
-  "first-line-h1": false
+  "first-line-h1": false,
+  "MD013": {
+    "code_blocks": false,
+    "tables": false
+  }
 }
