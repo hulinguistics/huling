@@ -9,8 +9,6 @@ Problem 2. Kabyle
 難易度：☆２
 
 問題・解答は
-
-問題・解答は
 [Past exam papers](https://www.uklo.org/problems-2021a)
 より引用。
 
