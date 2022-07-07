@@ -100,7 +100,7 @@ Todos los seres humanos nacen libres e iguales en dignidad y derechos y,
 dotados como están de razón y conciencia,
 deben comportarse fraternalmente los unos con los otros.
 
-::: details
+::: details 逐語訳
 
 | スペイン語 | 日本語 |
 | :-- | :-- |
