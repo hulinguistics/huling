@@ -263,7 +263,8 @@ deben comportarse fraternalmente los unos con los otros.
 
 ## ラテン語 / Latina
 
-I
+### I
+
 Omnes homines dignitate et iure liberi et pares nascuntur,
 rationis et conscientiae participes sunt, quibus inter se
 concordiae studio est agendum.
