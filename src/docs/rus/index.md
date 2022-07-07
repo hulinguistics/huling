@@ -294,7 +294,6 @@ sobaka はイラン系言語からの借用だと言われています.
 ## 参考文献
 
 - 西中村浩 朝妻恵里子,『ロシア語をはじめよう』, 朝日出版社, 2019
-- Undata, Population by language, sex and urban/rural residence
-(http://data.un.org/Data.aspx?d=POP&f=tableCode%3a27),
+- [Undata, Population by language, sex and urban/rural residence](http://data.un.org/Data.aspx?d=POP&f=tableCode%3a27),
 最終閲覧日 2022/5/29
 - 黒田龍之助,『つばさ君のウクライナ語』, 白水社, 2020
