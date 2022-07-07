@@ -45,6 +45,13 @@ deben comportarse fraternalmente los unos con los otros.
 
 [参考文献](https://www.ohchr.org/en/human-rights/universal-declaration/translations/russian)
 
+## 中国語 / 汉语 (普通话)
+
+第一条
+人人生而自由,在尊严和权利上一律平等。他们赋有理性和良心,并应以兄弟关系的精神相对待。
+
+[参考文献](https://www.ohchr.org/en/human-rights/universal-declaration/translations/chinese)
+
 ## 韓国朝鮮語 / 한국어
 
 제 1 조
