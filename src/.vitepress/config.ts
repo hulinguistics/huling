@@ -39,7 +39,7 @@ function nav() {
   return [
     { text: 'About', link: '/about/' },
     { text: 'Booklet', link: '/booklet/' },
-    { text: 'Docs', link: '/docs/about/', activeMatch: '/docs/' },
+    { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
     { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
   ];
 }
@@ -48,10 +48,7 @@ function sidebarDocs() {
   return [
     {
       text: '言語学の概説',
-      items: [
-        { text: '「言語学」とは？', link: '/docs/about/' },
-        { text: '文法用語の解説', link: '/docs/grammar/' },
-      ],
+      items: [{ text: '文法用語の解説', link: '/docs/grammar/' }],
     },
     {
       text: '言語の比較',
