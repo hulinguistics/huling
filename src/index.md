@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Huling
   text: 北大言語学サークル
-  image: /top.png
+  image: /top.svg
   tagline: 北海道大学 非公認サークル
   actions:
     - theme: brand
