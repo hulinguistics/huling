@@ -1,8 +1,10 @@
 export default {
   lang: 'ja',
   title: '北大言語学サークル Huling',
+  description:
+    '2022年3月末にできたばかりの、言語学を勉強したい人たちが集まったサークルです。現在30名程度が参加しています。様々な学年・学部学科の人たちが参加していて、言語学への造詣の深さも多様ですが、週1回ゆるーく活動しています。',
 
-  lastUpdated: true,
+  _lastUpdated: true,
 
   themeConfig: {
     nav: nav(),
