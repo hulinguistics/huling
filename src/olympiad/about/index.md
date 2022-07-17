@@ -40,9 +40,10 @@ Wikipedia ([日本言語学オリンピック](https://ja.wikipedia.org/wiki/日
 
 | 大会 | 年 | 大問 |  |
 | :-: | :-: | :-: | :-- |
-| JOL | 2019 | 4 | [イヌクティトゥット語](/olympiad/jol/2019/4/) |
 | JOL | 2022 | 1 | [タグバヌワ文字](/olympiad/jol/2022/1/) |
 | JOL | 2022 | 2 | [タワラ語](/olympiad/jol/2022/2/) |
+| JOL | 2019 | 4 | [イヌクティトゥット語](/olympiad/jol/2019/4/) |
+| JOL | 2017 | 3 | [モンゴル語](/olympiad/jol/2017/3/) |
 
 ### APLO: アジア太平洋言語学オリンピック
 
