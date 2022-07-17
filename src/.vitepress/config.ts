@@ -81,9 +81,10 @@ function sidebarOlympiad() {
     {
       text: 'オリンピック問題解説集',
       items: [
-        { text: 'JOL2019-4 イヌクティトゥット語', link: '/olympiad/jol/2019/4/' },
         { text: 'JOL2022-1 タグバヌワ文字', link: '/olympiad/jol/2022/1/' },
         { text: 'JOL2022-2 タワラ語', link: '/olympiad/jol/2022/2/' },
+        { text: 'JOL2019-4 イヌクティトゥット語', link: '/olympiad/jol/2019/4/' },
+        { text: 'JOL2017-3 モンゴル語', link: '/olympiad/jol/2017/3/' },
         { text: 'APLO2022-1 パナラ語', link: '/olympiad/aplo/2022/1/' },
         { text: 'UKLO2021R1-1 オガム文字', link: '/olympiad/uklo/2021/1/1/' },
         { text: 'UKLO2021R1-2 カビル語', link: '/olympiad/uklo/2021/1/2/' },
