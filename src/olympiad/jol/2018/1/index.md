@@ -14,6 +14,7 @@
 
 ![image](./problem1.jpg)
 ![image](./problem2.jpg)
+
 訂正：問題のスウェーデン語の最終行に誤りがあったそうです。
 誤vighet→正evighet
 
@@ -26,7 +27,8 @@
 ## 頻出単語の分析
 
 古英語の文で、s1、s7に出てきてかつ文章中に複数回登場する単語は以下の通りです
-![Eng](https://user-images.githubusercontent.com/107721009/180432156-add83f9b-74a1-4ef5-92a1-fd1b9196fc74.jpg)
+
+![Eng](./img.jpg)
 
 ### ・our
 
