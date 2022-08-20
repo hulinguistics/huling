@@ -292,10 +292,10 @@ git clone git@github.com:username/huling.git
 クローンされたものをエディタで確認してみましょう．
 
 ::: tip
-[vscode](#_1-vscode-を使う場合)を使っている場合，
+vscode を使っている場合，
 **File** → **Open Folder...** でクローンしたhulingディレクトリを選択すると，
 EXPLOREにファイルツリーが表示されます．
-[atom](#_2-atom-を使う場合)も同様の機能があるかもしれません．
+atom も同様の機能があるかもしれません．
 よく知りません．
 :::
 
