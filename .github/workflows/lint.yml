@@ -1,4 +1,4 @@
-name: Test
+name: Lint
 
 on:
   push:
@@ -7,11 +7,19 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Volta
-      uses: volta-cli/action@v1
-    - name: Install dependencies
-      run: yarn install
-    - name: Lint
-      run: yarn lint
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Use Volta
+        uses: volta-cli/action@v1
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Lint
+        run: yarn run lint
