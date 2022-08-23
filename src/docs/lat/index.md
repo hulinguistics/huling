@@ -1,4 +1,8 @@
-# ラテン語 / Latina
+---
+title: ラテン語 / Latina
+---
+
+# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 

@@ -1,4 +1,8 @@
-# UKLO2021R1-3 ワアマ語
+---
+title: UKLO2021R1-3 ワアマ語
+---
+
+# {{ $frontmatter.title }}
 
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough, Foundation)
 

@@ -1,4 +1,8 @@
-# UKLO2021R1-2 カビル語
+---
+title: UKLO2021R1-2 カビル語
+---
+
+# {{ $frontmatter.title }}
 
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough, Foundation)
 

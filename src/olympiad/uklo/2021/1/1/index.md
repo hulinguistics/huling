@@ -1,4 +1,8 @@
-# UKLO2021R1-1 オガム文字
+---
+title: UKLO2021R1-1 オガム文字
+---
+
+# {{ $frontmatter.title }}
 
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough)
 

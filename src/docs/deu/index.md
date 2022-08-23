@@ -1,4 +1,8 @@
-# ドイツ語 / Deutsch
+---
+title: ドイツ語 / Deutsch
+---
+
+# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 

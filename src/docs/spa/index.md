@@ -1,4 +1,8 @@
-# スペイン語/ Español
+---
+title: スペイン語 / Español
+---
+
+# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 
