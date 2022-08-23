@@ -1,5 +1,6 @@
 ---
 title: UKLO2021R1-2 カビル語
+section: オリンピック問題解説集
 ---
 
 # {{ $frontmatter.title }}

@@ -1,5 +1,6 @@
 ---
 title: JOL2022-1 タグバヌワ文字
+section: オリンピック問題解説集
 ---
 
 # {{ $frontmatter.title }}

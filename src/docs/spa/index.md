@@ -1,5 +1,6 @@
 ---
 title: スペイン語 / Español
+section: 言語ごとの概説
 ---
 
 # {{ $frontmatter.title }}

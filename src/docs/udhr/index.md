@@ -1,5 +1,6 @@
 ---
 title: 各言語の世界人権宣言
+section: 言語の比較
 ---
 
 # {{ $frontmatter.title }}

@@ -1,5 +1,6 @@
 ---
 title: JOL2018-1 英語、チェコ語、ポーランド語、スウェーデン語
+section: オリンピック問題解説集
 ---
 
 # {{ $frontmatter.title }}
