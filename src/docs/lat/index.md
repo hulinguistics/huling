@@ -1,4 +1,9 @@
-# ラテン語 / Latina
+---
+title: ラテン語 / Latina
+section: 言語ごとの概説
+---
+
+# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 

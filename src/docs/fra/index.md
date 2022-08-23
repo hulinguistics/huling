@@ -1,4 +1,9 @@
-# フランス語 / Français
+---
+title: フランス語 / Français
+section: 言語ごとの概説
+---
+
+# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 
