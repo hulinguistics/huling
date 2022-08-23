@@ -38,6 +38,9 @@ Wikipedia ([日本言語学オリンピック](https://ja.wikipedia.org/wiki/日
 [国際言語学オリンピック](https://ja.wikipedia.org/wiki/国際言語学オリンピック "国際言語学オリンピック"))
 の説明も参照してください。
 
+<!--
+TODO: 表の自動化
+
 ### JOL: 日本言語学オリンピック
 
 日本大会の問題
@@ -66,4 +69,5 @@ Wikipedia ([日本言語学オリンピック](https://ja.wikipedia.org/wiki/日
 | :-: | :-: | :-: | :-: | :-- |
 | UKLO | 2021 | 1 | 1 | [オガム文字](/olympiad/uklo/2021/1/1/) |
 | UKLO | 2021 | 1 | 2 | [カビル語](/olympiad/uklo/2021/1/2/) |
-| UKLO | 2021 | 1 | 3 | [ワアマ語](/olympiad/uklo/2021/1/3/) |
+| UKLO | 2021 | 1 | 3 | [ワアマ語](/olympiad/uklo/2021/1/3/) | 
+-->
