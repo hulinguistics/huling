@@ -1,4 +1,4 @@
-import { sidebarDocs, sidebarOlympiad } from './theme/sidebar';
+import { sidebar } from './theme/sidebar';
 
 async function config() {
   return {
@@ -13,8 +13,8 @@ async function config() {
       nav: nav,
 
       sidebar: {
-        '/docs/': await sidebarDocs(),
-        '/olympiad/': await sidebarOlympiad(),
+        '/docs/': await sidebar('src/docs/'),
+        '/olympiad/': await sidebar('src/olympiad/'),
       },
 
       editLink: {

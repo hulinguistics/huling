@@ -1,6 +1,5 @@
 ---
 title: 開発の手引き
-section: 言語の比較
 ---
 
 # {{ $frontmatter.title }}
