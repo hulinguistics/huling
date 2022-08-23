@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
@@ -6,6 +7,9 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
+    "fs-extra": "^10.1.0",
+    "globby": "^13.1.2",
+    "gray-matter": "^4.0.3",
     "markdownlint-cli": "^0.32.1",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
