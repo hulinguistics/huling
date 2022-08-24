@@ -5,6 +5,7 @@
   },
   "eslint.validate": [
     "javascript",
+    "typescript",
     "vue",
   ],
 }
