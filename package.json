@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
     "@types/jsdom": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^5.34.0",
     "@typescript-eslint/parser": "^5.34.0",
