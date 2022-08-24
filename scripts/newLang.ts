@@ -9,6 +9,7 @@ const lang = process.argv[2];
 
 (async () => {
   console.log('ISO result: ' + (await getISO639(lang)));
+  console.log('ttl result: ' + (await getTitle(lang)));
   console.log('ntv result: ' + (await getNative(lang)));
 })();
 
@@ -45,6 +46,14 @@ async function getISO639(lang: string) {
   if (isocode == undefined || !isocode.textContent) throw new Error(lang + ' does not have any ISO 639-3 links.');
 
   return isocode.textContent.trim();
+}
+
+async function getTitle(lang: string) {
+  const res = await fetch('https://ja.wikipedia.org/wiki/' + lang);
+  const body = await res.text();
+  const dom = new JSDOM(body);
+  const h1 = dom.window.document.getElementsByTagName('h1')[0].textContent;
+  return h1 ? h1.trim() : null;
 }
 
 async function getNative(lang: string) {
