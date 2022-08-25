@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs-extra';
 
 export default async function (postPath, templatePath, dict) {
-  // exist check
+  // Existence check
   if (fs.existsSync(postPath)) throw new Error('Post (' + postPath + ') already exists.');
   if (!fs.existsSync(templatePath)) throw new Error('Template (' + templatePath + ") doesn't exists");
 
@@ -21,4 +21,6 @@ export default async function (postPath, templatePath, dict) {
   fs.writeFile(postPath, post, (err) => {
     if (err) throw err;
   });
+
+  return postPath;
 }
