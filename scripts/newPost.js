@@ -8,7 +8,7 @@ export default async function (postPath, templatePath, dict) {
 
   // Create dir
   const dirPath = path.dirname(postPath);
-  fs.mkdirs(dirPath, (err) => {
+  fs.mkdirsSync(dirPath, (err) => {
     if (err) throw err;
   });
 
@@ -18,7 +18,7 @@ export default async function (postPath, templatePath, dict) {
   for (const key in dict) while (post != (post = post.replace('{{ ' + key + ' }}', dict[key])));
 
   // Create and write post
-  fs.writeFile(postPath, post, (err) => {
+  fs.writeFileSync(postPath, post, (err) => {
     if (err) throw err;
   });
 
