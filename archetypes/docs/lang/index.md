@@ -1,5 +1,5 @@
 ---
-title: 言語名 / Language Name
+title: {{ JpnName }} / {{ NtvName }}
 section: 言語ごとの概説
 ---
 

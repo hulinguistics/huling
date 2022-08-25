@@ -27,7 +27,7 @@
     "eject": "vitepress eject src",
     "lint": "eslint --ext .js,.ts,.vue src && eslint --ext .js,.ts,.vue scripts && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
-    "new:lang": "node --loader ts-node/esm scripts/newLang.ts"
+    "post:new": "node --loader ts-node/esm scripts/newPost.ts"
   },
   "volta": {
     "node": "16.15.1",
