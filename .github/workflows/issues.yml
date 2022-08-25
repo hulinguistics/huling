@@ -43,7 +43,7 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           branch: ${{ env.BRANCH_NAME }}
-          message: add ${{ env.ISO_CODE }}
+          message: add ${{ env.ISO_CODE }} post
           add: ${{ env.POST_PATH }}
 
       - name: Set env var for comment
