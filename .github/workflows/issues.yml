@@ -48,8 +48,8 @@ jobs:
 
       - name: Set env var for comment
         run: |
-          echo 'SUBDOMAIN=${${{ env.BRANCH_NAME }}//\//-}' >> $GITHUB_ENV
-          echo 'WEB_PATH=${${${{ env.POST_PATH }}#src/}%index.md}' >> $GITHUB_ENV
+          echo ${{ env.BRANCH_NAME }} | sed -e "s/\//-/g" | awk '{print "SUBDOMAIN="$1}' >> $GITHUB_ENV
+          echo ${{ env.POST_PATH }} | sed -e "s/src\///g" | sed -e "s/index\.md//g" | awk '{print "WEB_PATH="$1}' >> $GITHUB_ENV
 
       - name: Add comment
         uses: peter-evans/create-or-update-comment@v2

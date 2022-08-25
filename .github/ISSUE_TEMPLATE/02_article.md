@@ -1,6 +1,6 @@
 ---
 name: ✍ 記事
-about: その他の新規記事や(言語概説を含めた)記事の修正について
+about: その他の新規記事、または記事の修正について
 title: ''
 labels: ✍article
 assignees: ''
