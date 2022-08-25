@@ -25,9 +25,11 @@ jobs:
 
       - name: Create new post and set path as env var
         run: echo POST_PATH=$(yarn run --silent util:lang new "${{ github.event.issue.title }}") >> $GITHUB_ENV
+        shell: bash
 
       - name: Set iso code as env var
         run: echo ISO_CODE=$(yarn run --silent util:lang iso "${{ github.event.issue.title }}") >> $GITHUB_ENV
+        shell: bash
 
       - name: Set branch name as env var
         run: echo 'BRANCH_NAME=article/${{ github.event.issue.number }}-${{ env.ISO_CODE }}' >> $GITHUB_ENV
@@ -83,9 +85,11 @@ jobs:
 
       - name: Create new post and set path as env var
         run: echo POST_PATH=$(yarn run --silent util:olym new "${{ github.event.issue.title }}") >> $GITHUB_ENV
+        shell: bash
 
       - name: Set problem code as env var
         run: echo PROB_CODE=$(yarn run --silent util:olym code "${{ github.event.issue.title }}") >> $GITHUB_ENV
+        shell: bash
 
       - name: Set branch name as env var
         run: echo 'BRANCH_NAME=article/${{ github.event.issue.number }}-${{ env.PROB_CODE }}' >> $GITHUB_ENV
