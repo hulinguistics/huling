@@ -71,9 +71,9 @@ async function getLangData(lang) {
   const JpnName = jpn.trim();
 
   // Native name
-  const ntv = [...infobox.getElementsByTagName('span')].filter((span) => span.getAttribute('lang') != null)[0].textContent;
+  const ntv = [...infobox.getElementsByTagName('span')].filter((span) => span.getAttribute('lang') != null)[0].lastChild;
   if (!ntv) throw new Error("Something's gone wrong");
-  const NtvName = ntv.trim()[0].toUpperCase() + ntv.trim().slice(1);
+  const NtvName = ntv.textContent.trim()[0].toUpperCase() + ntv.textContent.trim().slice(1);
 
   return { IsoCode, JpnName, NtvName };
 }
