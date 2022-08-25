@@ -24,13 +24,13 @@ jobs:
         run: yarn install
 
       - name: Create new post and set path as env var
-        run: echo 'POST_PATH=$(yarn run --silent util:lang new "${{ github.event.issue.title }}")' >> $GITHUB_ENV
+        run: echo POST_PATH=$(yarn run --silent util:lang new "${{ github.event.issue.title }}") >> $GITHUB_ENV
 
       - name: Set iso code as env var
-        run: echo 'ISO_CODE=$(yarn run --silent util:lang iso "${{ github.event.issue.title }}")' >> $GITHUB_ENV
+        run: echo ISO_CODE=$(yarn run --silent util:lang iso "${{ github.event.issue.title }}") >> $GITHUB_ENV
 
       - name: Set branch name as env var
-        run: echo 'BRANCH_NAME=article/${{ github.event.issue.number }}_${{ env.ISO_CODE }}' >> $GITHUB_ENV
+        run: echo 'BRANCH_NAME=article/${{ github.event.issue.number }}-${{ env.ISO_CODE }}' >> $GITHUB_ENV
 
       - name: Create new branch
         env:
