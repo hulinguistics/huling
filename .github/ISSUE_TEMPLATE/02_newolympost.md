@@ -4,7 +4,7 @@ about: あたらしいオリンピック問題解説の記事。すでにある�
 title: ''
 labels:
   - ✍article
-  - 🍃newlangpost
+  - 🏅newolympost
 assignees: ''
 
 ---
