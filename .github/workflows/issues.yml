@@ -43,7 +43,7 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           branch: ${{ env.BRANCH_NAME }}
-          message: add ${{ env.ISO_CODE }}
+          message: add ${{ env.ISO_CODE }} post
           add: ${{ env.POST_PATH }}
 
       - name: Set env var for comment
@@ -61,5 +61,5 @@ jobs:
             | | Links |
             | :-- | :-- |
             | 🪵 Branch | [`${{ env.BRANCH_NAME }}`](https://github.com/hulinguistics/huling/tree/${{ env.BRANCH_NAME }}) |
-            | ✏ Post | [`${{ env.POST_PATH }}`](https://github.com/hulinguistics/huling/blob/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }}) ([edit](https://github.com/hulinguistics/huling/edit/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }})) |
-            | ☁ Preview | [here](https://${{ env.SUBDOMAIN }}.huling-dev.pages.dev/${{ env.WEB_PATH }}) |
+            | ✏ Post | [`${{ env.POST_PATH }}`](https://github.com/hulinguistics/huling/blob/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }}) ([Edit on Web](https://github.com/hulinguistics/huling/edit/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }})) |
+            | ☁ Preview | [here](https://${{ env.SUBDOMAIN }}.huling-dev.pages.dev/${{ env.WEB_PATH }}) (please wait a few mins) |
