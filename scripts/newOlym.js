@@ -6,32 +6,32 @@ const typeList = (typ) => {
     case 'new':
       return newOlymPost;
     case 'title':
-      return async (arg) => {
+      return (arg) => {
         const { Title } = getOlymData(arg);
         return Title;
       };
     case 'year':
-      return async (arg) => {
+      return (arg) => {
         const { Year } = getOlymData(arg);
         return Year;
       };
     case 'round':
-      return async (arg) => {
+      return (arg) => {
         const { Round } = getOlymData(arg);
         return Round;
       };
     case 'num':
-      return async (arg) => {
+      return (arg) => {
         const { Number } = getOlymData(arg);
         return Number;
       };
     case 'code':
-      return async (arg) => {
+      return (arg) => {
         const { Code } = getOlymData(arg);
         return Code;
       };
     case 'name':
-      return async (arg) => {
+      return (arg) => {
         const { Name } = getOlymData(arg);
         return Name;
       };

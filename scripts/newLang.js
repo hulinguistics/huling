@@ -11,17 +11,17 @@ const typeList = (typ) => {
       return newLangPost;
     case 'iso':
       return async (arg) => {
-        const { IsoCode } = getLangData(arg);
+        const { IsoCode } = await getLangData(arg);
         return IsoCode;
       };
     case 'jpn':
       return async (arg) => {
-        const { JpnName } = getLangData(arg);
+        const { JpnName } = await getLangData(arg);
         return JpnName;
       };
     case 'ntv':
       return async (arg) => {
-        const { NtvName } = getLangData(arg);
+        const { NtvName } = await getLangData(arg);
         return NtvName;
       };
     default:
@@ -43,7 +43,7 @@ async function newLangPost(lang) {
   const templatePath = 'archetypes/docs/lang/index.md';
   const dict = {
     JpnName: JpnName,
-    NtvName: NtvName,
+    NtvName: NtvName ? NtvName : '',
   };
 
   return await newPost(postPath, templatePath, dict);
@@ -58,21 +58,29 @@ async function getLangData(lang) {
   if (infobox == undefined) throw new Error(lang + " doesn't have any infoboxes.");
 
   // ISO 639-3 code
-  const isoTrs = [...infobox.getElementsByTagName('tr')].filter((item) => item.outerHTML.includes('ISO 639-3'))[0];
-  if (isoTrs == undefined) throw new Error("Something's gone wrong");
-  const iso = isoTrs.getElementsByTagName('code')[0].lastChild;
-  if (iso == undefined || !iso.textContent) throw new Error(lang + ' does not have any ISO 639-3 links.');
-  const IsoCode = iso.textContent.trim();
+  const IsoCode = (() => {
+    const isoTrs = [...infobox.getElementsByTagName('tr')].filter((item) => item.outerHTML.includes('ISO 639-3'))[0];
+    if (isoTrs == undefined) throw new Error("Something's gone wrong");
+    const iso = isoTrs.getElementsByTagName('code')[0].lastChild;
+    if (iso == undefined || !iso.textContent) throw new Error(lang + ' does not have any ISO 639-3 links.');
+    return iso.textContent.trim();
+  })();
 
   // Japanese name
-  const jpn = dom.window.document.getElementsByTagName('h1')[0].textContent;
-  if (!jpn) throw new Error("Something's gone wrong");
-  const JpnName = jpn.trim();
+  const JpnName = (() => {
+    const jpn = dom.window.document.getElementsByTagName('h1')[0].textContent;
+    if (!jpn) throw new Error("Something's gone wrong");
+    return jpn.trim();
+  })();
 
   // Native name
-  const ntv = [...infobox.getElementsByTagName('span')].filter((span) => span.getAttribute('lang') != null)[0].lastChild;
-  if (!ntv) throw new Error("Something's gone wrong");
-  const NtvName = ntv.textContent.trim()[0].toUpperCase() + ntv.textContent.trim().slice(1);
+  const NtvName = (() => {
+    const spans = [...infobox.getElementsByTagName('span')].filter((span) => span.getAttribute('lang') != null);
+    if (!spans[0]) return null;
+    const ntv = spans[0].lastChild;
+    if (!ntv) return null;
+    return ntv.textContent.trim()[0].toUpperCase() + ntv.textContent.trim().slice(1);
+  })();
 
   return { IsoCode, JpnName, NtvName };
 }
