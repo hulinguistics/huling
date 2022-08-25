@@ -1,16 +1,29 @@
 import fetch from 'node-fetch';
 import jsdom from 'jsdom';
 import path from 'path';
-import fs from 'fs-extra';
+import newPost from './newPost.js';
 
 const { JSDOM } = jsdom;
 
-type F = (arg: string) => Promise<void>;
-
-const typeList = (typ: string): F => {
+const typeList = (typ) => {
   switch (typ) {
-    case 'lang':
+    case 'new':
       return newLangPost;
+    case 'iso':
+      return async (arg) => {
+        const { IsoCode } = await getLangData(arg);
+        return IsoCode;
+      };
+    case 'jpn':
+      return async (arg) => {
+        const { JpnName } = await getLangData(arg);
+        return JpnName;
+      };
+    case 'ntv':
+      return async (arg) => {
+        const { NtvName } = await getLangData(arg);
+        return NtvName;
+      };
     default:
       throw new Error('type not found: ' + typ);
   }
@@ -20,10 +33,10 @@ const typ = process.argv[2];
 const arg = process.argv[3];
 
 (async () => {
-  await typeList(typ)(arg);
+  console.log(await typeList(typ)(arg));
 })();
 
-export async function newLangPost(lang: string) {
+async function newLangPost(lang) {
   const { IsoCode, JpnName, NtvName } = await getLangData(lang);
 
   const postPath = path.join('src/docs/', IsoCode, 'index.md');
@@ -34,33 +47,10 @@ export async function newLangPost(lang: string) {
   };
 
   await newPost(postPath, templatePath, dict);
+  return postPath;
 }
 
-async function newPost(postPath: string, templatePath: string, dict: { [key: string]: string }) {
-  // exist check
-  if (fs.existsSync(postPath)) throw new Error('Post (' + postPath + ') already exists.');
-  if (!fs.existsSync(templatePath)) throw new Error('Template (' + templatePath + ") doesn't exists");
-
-  // Create dir
-  const dirPath = path.dirname(postPath);
-  fs.mkdir(dirPath, (err) => {
-    if (err) throw err;
-    console.log('create dir ' + dirPath);
-  });
-
-  // Read template
-  const template = await fs.readFile(templatePath, 'utf-8');
-  let post = template;
-  for (const key in dict) while (post != (post = post.replace('{{ ' + key + ' }}', dict[key])));
-
-  // Create and write post
-  fs.writeFile(postPath, post, (err) => {
-    if (err) throw err;
-    console.log('create file ' + postPath);
-  });
-}
-
-async function getLangData(lang: string) {
+async function getLangData(lang) {
   const res = await fetch('https://ja.wikipedia.org/wiki/' + lang);
   const body = await res.text();
   const dom = new JSDOM(body);

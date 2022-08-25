@@ -14,5 +14,5 @@ yarn dev
 ### 言語概説
 
 ```bash
-yarn post:new lang 日本語での言語名
+yarn util:lang new 日本語での言語名
 ```
