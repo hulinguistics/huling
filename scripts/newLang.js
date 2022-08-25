@@ -61,7 +61,9 @@ async function getLangData(lang) {
   const IsoCode = (() => {
     const isoTrs = [...infobox.getElementsByTagName('tr')].filter((item) => item.outerHTML.includes('ISO 639-3'))[0];
     if (isoTrs == undefined) throw new Error("Something's gone wrong");
-    const iso = isoTrs.getElementsByTagName('code')[0].lastChild;
+    const codes = isoTrs.getElementsByTagName('code');
+    if (codes[0] == undefined) throw new Error(lang + ' does not have any ISO 639-3 codes.');
+    const iso = codes[0].lastChild;
     if (iso == undefined || !iso.textContent) throw new Error(lang + ' does not have any ISO 639-3 links.');
     return iso.textContent.trim();
   })();
