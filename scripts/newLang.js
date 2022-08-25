@@ -11,17 +11,17 @@ const typeList = (typ) => {
       return newLangPost;
     case 'iso':
       return async (arg) => {
-        const { IsoCode } = await getLangData(arg);
+        const { IsoCode } = getLangData(arg);
         return IsoCode;
       };
     case 'jpn':
       return async (arg) => {
-        const { JpnName } = await getLangData(arg);
+        const { JpnName } = getLangData(arg);
         return JpnName;
       };
     case 'ntv':
       return async (arg) => {
-        const { NtvName } = await getLangData(arg);
+        const { NtvName } = getLangData(arg);
         return NtvName;
       };
     default:
@@ -46,8 +46,7 @@ async function newLangPost(lang) {
     NtvName: NtvName,
   };
 
-  await newPost(postPath, templatePath, dict);
-  return postPath;
+  return await newPost(postPath, templatePath, dict);
 }
 
 async function getLangData(lang) {

@@ -21,4 +21,6 @@ export default async function (postPath, templatePath, dict) {
   fs.writeFile(postPath, post, (err) => {
     if (err) throw err;
   });
+
+  return postPath;
 }
