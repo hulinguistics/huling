@@ -9,7 +9,7 @@
 import { useData } from 'vitepress';
 
 export default {
-  name: 'utterances-comment',
+  name: 'UtterancesComment',
   setup() {
     const { frontmatter } = useData();
     const title = frontmatter.value.title;
@@ -17,8 +17,12 @@ export default {
       title,
     };
   },
+  mounted() {
+    this.initValine('comment-light', 'github-light', 'Comment: ' + this.title);
+    this.initValine('comment-dark', 'github-dark', 'Comment: ' + this.title);
+  },
   methods: {
-    initValine(id, theme, issueTerm) {
+    initValine(id: string, theme: string, issueTerm: string) {
       let utterances = window.document.createElement('script');
       utterances.type = 'text/javascript';
       utterances.src = 'https://utteranc.es/client.js';
@@ -30,10 +34,6 @@ export default {
       utterances.crossOrigin = 'anonymous';
       window.document.getElementById(id).appendChild(utterances);
     },
-  },
-  mounted() {
-    this.initValine('comment-light', 'github-light', 'Comment: ' + this.title);
-    this.initValine('comment-dark', 'github-dark', 'Comment: ' + this.title);
   },
 };
 </script>

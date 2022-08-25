@@ -3,18 +3,16 @@
   "env": {
     "node": true
   },
-  "extends": [
+  "parser":  "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "extends":  [
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:vue/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "plugin:vue/essential",
     "prettier"
-  ],
-  "plugins": [
-    "prettier",
-    "vue",
-    "@typescript-eslint"
   ],
   "rules": {
     "prettier/prettier": [

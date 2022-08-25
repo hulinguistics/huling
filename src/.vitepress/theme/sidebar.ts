@@ -2,7 +2,7 @@ import { globby } from 'globby';
 import matter from 'gray-matter';
 import fs from 'fs-extra';
 
-export async function sidebar(parant) {
+export async function sidebar(parant: string) {
   const posts = await getPosts(parant);
   const sections = Array.from(new Set(posts.map((post) => post.frontMatter.section).filter((post) => post)));
 
@@ -21,14 +21,14 @@ export async function sidebar(parant) {
   });
 }
 
-async function getMDFilePaths(parent) {
+async function getMDFilePaths(parent: string) {
   const paths = await globby(['**.md'], {
     ignore: ['node_modules', 'README.md'],
   });
   return paths.filter((path) => path.includes(parent));
 }
 
-async function getPosts(parent) {
+async function getPosts(parent: string) {
   const posts = await Promise.all(
     (
       await getMDFilePaths(parent)

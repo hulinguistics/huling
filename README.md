@@ -8,3 +8,11 @@ cd huling
 yarn
 yarn dev
 ```
+
+## 記事作成
+
+### 言語概説
+
+```bash
+yarn util:lang new 日本語での言語名
+```
