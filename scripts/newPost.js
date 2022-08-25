@@ -8,7 +8,7 @@ export default async function (postPath, templatePath, dict) {
 
   // Create dir
   const dirPath = path.dirname(postPath);
-  fs.mkdir(dirPath, { recursive: true }, (err) => {
+  fs.mkdirs(dirPath, (err) => {
     if (err) throw err;
   });
 
