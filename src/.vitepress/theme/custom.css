@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;500;600&display=swap');
+
 :root {
   --vp-c-blue: #679fd1;
   --vp-c-blue-light: #79aedc;
@@ -10,4 +12,7 @@
   --vp-c-brand-lighter: var(--vp-c-blue-lighter);
   --vp-c-brand-dark: var(--vp-c-blue-dark);
   --vp-c-brand-darker: var(--vp-c-blue-darker);
+
+  --vp-font-family-base: 'Noto Sans', 'Noto Sans JP', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo,
+    sans-serif;
 }
