@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/fontkit": "^1.8.0",
     "@types/fs-extra": "^9.0.13",
     "@types/jsdom": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^5.34.0",
@@ -9,6 +10,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.4.0",
+    "fontkit": "^2.0.2",
     "fs-extra": "^10.1.0",
     "globby": "^13.1.2",
     "gray-matter": "^4.0.3",
@@ -23,12 +25,14 @@
   },
   "scripts": {
     "dev": "vitepress dev src",
-    "build": "vitepress build src",
+    "build": "yarn font:subset && vitepress build src",
     "eject": "vitepress eject src",
     "lint": "eslint --ext .js,.ts,.vue src && eslint --ext .js,.ts,.vue scripts && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
     "util:lang": "node scripts/newLang.js",
-    "util:olym": "node scripts/newOlym.js"
+    "util:olym": "node scripts/newOlym.js",
+    "font": "node scripts/font.js",
+    "font:subset": "node scripts/font.js subset src"
   },
   "volta": {
     "node": "16.15.1",

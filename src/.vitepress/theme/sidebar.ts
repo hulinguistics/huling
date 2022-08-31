@@ -22,10 +22,12 @@ export async function sidebar(parant: string) {
 }
 
 async function getMDFilePaths(parent: string) {
-  const paths = await globby(['**.md'], {
-    ignore: ['node_modules', 'README.md'],
-  });
-  return paths.filter((path) => path.includes(parent));
+  const paths = (
+    await globby(['**.md'], {
+      ignore: ['node_modules', 'README.md'],
+    })
+  ).filter((path) => path.includes(parent));
+  return paths;
 }
 
 async function getPosts(parent: string) {
