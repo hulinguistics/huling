@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "vitepress dev src",
-    "build": "yarn font:subset && vitepress build src",
+    "build": "yarn font && vitepress build src",
     "eject": "vitepress eject src",
     "font": "node scripts/font.js subset src",
     "lint": "eslint --ext .js,.ts,.vue src && eslint --ext .js,.ts,.vue scripts && markdownlint src",
