@@ -1,8 +1,8 @@
 import { globby } from 'globby';
 import fs from 'fs-extra';
 import fetch from 'node-fetch';
-import * as fontkit from 'fontkit';
 import path from 'path';
+import subsetFont from 'subset-font';
 
 // コマンドライン引数
 const typ = process.argv[2];
@@ -84,18 +84,16 @@ async function createSubsetFont(parent) {
   const charas = await getCharaList(parent);
   return await Promise.all(
     fontUrls.map(async (fontUrl) => {
-      console.log(fontUrl);
-      const subset = await (async () => {
-        const font = await fontkit.create(Buffer.from(await (await fetch(fontUrl)).arrayBuffer()));
-        const run = font.layout(charas);
-        let subset = font.createSubset();
-        run.glyphs.forEach((glyph) => {
-          subset.includeGlyph(glyph);
-        });
-        return subset;
-      })();
-      const fontPath = path.join(fontDir, path.basename(fontUrl, path.extname(fontUrl)) + '.woff');
-      fs.writeFileSync(fontPath, subset.encode());
+      // 元フォントを読み込む
+      const buffer = Buffer.from(await (await fetch(fontUrl)).arrayBuffer());
+
+      // サブセットを生成
+      const subsetBuffer = await subsetFont(buffer, charas, { targetFormat: 'woff2' });
+
+      // サブセットの書き込み
+      const fontPath = path.join(fontDir, path.basename(fontUrl, path.extname(fontUrl)) + '.woff2');
+      fs.writeFileSync(fontPath, subsetBuffer);
+
       return fontPath;
     }),
   );

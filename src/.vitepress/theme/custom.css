@@ -21,33 +21,33 @@
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('/font/NotoSans-Regular.woff') format('woff');
+  src: url('/font/NotoSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 500;
-  src: url('/font/NotoSans-Medium.woff') format('woff');
+  src: url('/font/NotoSans-Medium.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('/font/NotoSans-SemiBold.woff') format('woff');
+  src: url('/font/NotoSans-SemiBold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
-  src: url('/font/NotoSansCJKjp-Regular.woff') format('woff');
+  src: url('/font/NotoSansCJKjp-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 700;
-  src: url('/font/NotoSansCJKjp-Bold.woff') format('woff');
+  src: url('/font/NotoSansCJKjp-Bold.woff2') format('woff2');
 }
