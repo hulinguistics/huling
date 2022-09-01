@@ -12,7 +12,4 @@
   --vp-c-brand-lighter: var(--vp-c-blue-lighter);
   --vp-c-brand-dark: var(--vp-c-blue-dark);
   --vp-c-brand-darker: var(--vp-c-blue-darker);
-
-  --vp-font-family-base: 'Noto Sans', 'Noto Sans JP', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo,
-    sans-serif;
 }
