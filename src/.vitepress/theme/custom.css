@@ -21,6 +21,7 @@
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('/font/NotoSans-Regular.woff2') format('woff2');
 }
 
@@ -28,6 +29,7 @@
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url('/font/NotoSans-Medium.woff2') format('woff2');
 }
 
@@ -35,6 +37,7 @@
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url('/font/NotoSans-SemiBold.woff2') format('woff2');
 }
 
@@ -42,6 +45,7 @@
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('/font/NotoSansCJKjp-Regular.woff2') format('woff2');
 }
 
@@ -49,5 +53,6 @@
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('/font/NotoSansCJKjp-Bold.woff2') format('woff2');
 }
