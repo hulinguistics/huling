@@ -1,8 +1,8 @@
-import { globby } from 'globby';
 import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
 import subsetFont from 'subset-font';
+import { getPosts } from '../src/.vitepress/utils/getPosts.js';
 
 // コマンドライン引数
 const typ = process.argv[2];
@@ -24,10 +24,6 @@ const fontDir = 'src/public/font/';
 
 const typeList = (typ) => {
   switch (typ) {
-    case 'paths':
-      return getMDFilePaths;
-    case 'contents':
-      return getContents;
     case 'charas':
       return getCharaList;
     case 'subset':
@@ -41,33 +37,14 @@ const typeList = (typ) => {
   console.log(await typeList(typ)(arg));
 })();
 
-async function getMDFilePaths(parent) {
-  const paths = (
-    await globby(['**.md'], {
-      ignore: ['node_modules', 'README.md'],
-    })
-  ).filter((path) => path.includes(parent));
-  return paths;
-}
-
-async function getContents(parent) {
-  const contents = await Promise.all(
-    (
-      await getMDFilePaths(parent)
-    ).map(async (path) => {
-      return await fs.readFile(path, 'utf-8');
-    }),
-  );
-  return contents;
-}
-
 async function getCharaList(parent) {
   const charas = await Promise.all(
     Array.from(
       new Set(
         (
-          await getContents(parent)
+          await getPosts(parent)
         )
+          .map((post) => post.content)
           .map((content) => {
             return content;
           })

@@ -1,6 +1,4 @@
-import { globby } from 'globby';
-import matter from 'gray-matter';
-import fs from 'fs-extra';
+import { getPosts } from '../utils/getPosts';
 
 export async function sidebar(parant: string) {
   const posts = await getPosts(parant);
@@ -19,27 +17,4 @@ export async function sidebar(parant: string) {
         }),
     };
   });
-}
-
-async function getMDFilePaths(parent: string) {
-  const paths = (
-    await globby(['**.md'], {
-      ignore: ['node_modules', 'README.md'],
-    })
-  ).filter((path) => path.includes(parent));
-  return paths;
-}
-
-async function getPosts(parent: string) {
-  const posts = await Promise.all(
-    (
-      await getMDFilePaths(parent)
-    ).map(async (path) => {
-      const content = await fs.readFile(path, 'utf-8');
-      const { data } = matter(content);
-      return { frontMatter: data, path: path.replace('src', '') };
-    }),
-  );
-
-  return posts;
 }

@@ -22,10 +22,9 @@
 </template>
 
 <script lang="ts">
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import { useData } from 'vitepress';
 import HLUtterances from './HLUtterances.vue';
-import { watch } from '@vue/runtime-core';
 
 export default {
   components: {
