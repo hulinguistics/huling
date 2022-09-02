@@ -1,5 +1,8 @@
 ---
 title: 開発の手引き
+author:
+  - name: xiupos
+    url: https://twitter.com/xiupos
 ---
 
 # {{ $frontmatter.title }}
