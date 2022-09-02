@@ -1,7 +1,7 @@
 import { h } from 'vue';
 import DefaultTheme from 'vitepress/theme';
 import HLDocAfter from './components/HLDocAfter.vue';
-import './css/main.css';
+import './scss/main.scss';
 
 export default {
   ...DefaultTheme,
