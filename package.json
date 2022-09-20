@@ -38,5 +38,9 @@
   "volta": {
     "node": "16.15.1",
     "yarn": "1.22.19"
+  },
+  "dependencies": {
+    "@vue-leaflet/vue-leaflet": "^0.6.1",
+    "leaflet": "^1.8.0"
   }
 }
