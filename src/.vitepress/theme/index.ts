@@ -2,6 +2,7 @@ import { h } from 'vue';
 import DefaultTheme from 'vitepress/theme';
 import HLDocAfter from './components/HLDocAfter.vue';
 import HLDocFooterBefore from './components/HLDocFooterBefore.vue';
+import HLConverter from './components/HLConverter.vue';
 
 import './scss/index.scss';
 
@@ -12,5 +13,9 @@ export default {
       'doc-after': () => h(HLDocAfter),
       'doc-footer-before': () => h(HLDocFooterBefore),
     });
+  },
+  enhanceApp(ctx) {
+    DefaultTheme.enhanceApp(ctx);
+    ctx.app.component('HLConverter', HLConverter);
   },
 };
