@@ -180,6 +180,9 @@ export default {
         font-size: 1em;
         line-height: 1.8;
         background-color: var(--vp-c-bg-alt);
+        border: 1px solid transparent;
+        border-radius: 8px;
+        border-color: var(--vp-custom-block-details-border);
       }
     }
   }
