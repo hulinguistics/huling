@@ -279,7 +279,7 @@ eel の 'l' は舌が下方へ押し下げられているように感じると�
 ### ラテン文字とロシア語キリル文字の変換
 
 <!-- markdownlint-disable MD033 -->
-<HLConverter src="./rus.csv" />
+<HLConverter src="/conv/rus.csv" />
 <!-- markdownlint-enable MD033 -->
 
 ## ロシア語とウクライナ語

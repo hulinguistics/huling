@@ -8,5 +8,5 @@ section: 言語の表記
 ## アイヌ語仮名
 
 <!-- markdownlint-disable MD033 -->
-<HLConverter src="./ain.csv" />
+<HLConverter src="/conv/ain.csv" />
 <!-- markdownlint-enable MD033 -->
