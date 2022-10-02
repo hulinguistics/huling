@@ -154,6 +154,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 .HLConverter {
   margin: 16px 0;
 
@@ -178,7 +180,8 @@ export default {
         min-height: 200px;
         padding: 15px;
         font-size: 1em;
-        line-height: 1.8;
+        font-family: 'Source Code Pro', monospace;
+        line-height: 1.6;
         background-color: var(--vp-c-bg-alt);
         border: 1px solid transparent;
         border-radius: 8px;
