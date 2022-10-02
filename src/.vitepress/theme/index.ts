@@ -14,8 +14,7 @@ export default {
       'doc-footer-before': () => h(HLDocFooterBefore),
     });
   },
-  enhanceApp(ctx) {
-    DefaultTheme.enhanceApp(ctx);
-    ctx.app.component('HLConverter', HLConverter);
+  enhanceApp({ app }) {
+    app.component('HLConverter', HLConverter);
   },
 };

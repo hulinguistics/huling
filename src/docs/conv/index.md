@@ -5,4 +5,8 @@ section: 言語の表記
 
 # {{ $frontmatter.title }}
 
-<HLConverter />
+## アイヌ語仮名
+
+<!-- markdownlint-disable MD033 -->
+<HLConverter src="./ain.csv" />
+<!-- markdownlint-enable MD033 -->
