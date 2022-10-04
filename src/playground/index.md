@@ -20,5 +20,5 @@ commentHide: true
 記号対応。
 
 <!-- markdownlint-disable MD033 -->
-<HLConverter src="/conv/ain.csv" />
+<HLConverter src="/conv/chu.csv" />
 <!-- markdownlint-enable MD033 -->
