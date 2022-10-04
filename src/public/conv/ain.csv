@@ -1,5 +1,6 @@
 ラテン文字,アイヌ語仮名
 =,
+',
 -,・
 aa,aー
 ii,iー
@@ -36,11 +37,6 @@ ir,iㇼ
 ur,uㇽ
 er,eㇾ
 or,oㇿ
-ra,ラ
-ri,リ
-ru,ル
-re,レ
-ro,ロ
 aha,aハ
 ahi,aヒ
 ahu,aフ
@@ -72,6 +68,11 @@ up,uㇷ゚
 uh,uㇷ
 eh,eㇸ
 oh,oㇹ
+ra,ラ
+ri,リ
+ru,ル
+re,レ
+ro,ロ
 ha,ハ
 hi,ヒ
 hu,フ

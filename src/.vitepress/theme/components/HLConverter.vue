@@ -68,39 +68,46 @@ export default {
   props: {
     src: {
       type: String,
-      required: true,
+      default: null,
+    },
+    csv: {
+      type: String,
+      default: '',
     },
   },
 
   setup(props) {
-    // 変換表取得関数
+    // csv取得関数
     let status = ref({ loading: true, error: '' });
-    const getList = async (path: string) =>
+    const getCSV = async (src: string) =>
       await axios
-        .get(path)
-        .then((response) => {
-          const data = papa.parse(response.data.trim(), {
-            error: (error: any) => {
-              console.log(error);
-              status.value.error = error;
-            },
-            quoteChar: '\\',
-          }).data;
-          return {
-            title: { left: data[0][0], right: data[0][1] },
-            set: data.slice(1, data.len),
-            test: converter('HELLO, WORLD!', data.slice(1, data.len)),
-          };
-        })
+        .get(src)
+        .then((response) => response.data.trim())
         .catch((error) => {
           console.log(error);
           status.value.error = error;
         });
 
+    // 変換表取得関数
+    const csv2list = (csv: string) => {
+      const data = papa.parse(csv, {
+        error: (error: any) => {
+          console.log(error);
+          status.value.error = error;
+        },
+        quoteChar: '\\',
+      }).data;
+      return {
+        title: { left: data[0][0], right: data[0][1] },
+        set: data.slice(1, data.len),
+        test: converter('HELLO, WORLD!', data.slice(1, data.len)),
+      };
+    };
+
     // 変換表の初期化
     const list = ref();
     (async () => {
-      list.value = await getList(props.src);
+      list.value = csv2list(props.src ? await getCSV(props.src) : props.csv);
       status.value.loading = false;
     })();
 
