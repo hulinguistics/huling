@@ -46,6 +46,7 @@ const nav = [
   { text: 'Booklet', link: '/booklet/' },
   { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
   { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
+  { text: 'Tools', link: '/tools/' },
 ];
 
 export default config();

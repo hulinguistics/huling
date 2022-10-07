@@ -68,7 +68,11 @@ export default {
   props: {
     src: {
       type: String,
-      required: true,
+      default: null,
+    },
+    csv: {
+      type: String,
+      default: '',
     },
   },
 
