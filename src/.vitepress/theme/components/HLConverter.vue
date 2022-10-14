@@ -70,9 +70,13 @@ export default {
       type: String,
       default: null,
     },
-    csv: {
+    font_left: {
       type: String,
-      default: '',
+      default: 'Source Code Pro',
+    },
+    font_right: {
+      type: String,
+      default: 'Source Code Pro',
     },
   },
 
@@ -148,16 +152,23 @@ export default {
       { deep: true },
     );
 
+    // フォント出力
+    const font_left = props.font_left;
+    const font_right = props.font_right;
+
     return {
       status,
       list,
       textarea,
+      font_left,
+      font_right,
     };
   },
 };
 </script>
 
 <style lang="scss" scoped>
+// Source Code Pro
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 .HLConverter {
@@ -184,12 +195,19 @@ export default {
         min-height: 200px;
         padding: 15px;
         font-size: 1em;
-        font-family: 'Source Code Pro', monospace;
         line-height: 1.6;
         background-color: var(--vp-c-bg-alt);
         border: 1px solid transparent;
         border-radius: 8px;
         border-color: var(--vp-custom-block-details-border);
+
+        &#leftta {
+          font-family: v-bind(font_left), 'Source Code Pro', monospace;
+        }
+
+        &#rightta {
+          font-family: v-bind(font_right), 'Source Code Pro', monospace;
+        }
       }
     }
   }

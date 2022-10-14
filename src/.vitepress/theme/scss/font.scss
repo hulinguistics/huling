@@ -3,6 +3,7 @@
     sans-serif;
 }
 
+// Noto Sans
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
@@ -27,6 +28,7 @@
   src: url('/font/NotoSans-SemiBold.woff2') format('woff2');
 }
 
+// Noto Sans JP
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
@@ -41,4 +43,17 @@
   font-weight: 700;
   font-display: swap;
   src: url('/font/NotoSansCJKjp-Bold.woff2') format('woff2');
+}
+
+// Monomakh Unicode
+@font-face {
+  font-family: 'Monomakh Unicode';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot');
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.ttf') format('truetype');
 }
