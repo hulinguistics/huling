@@ -25,7 +25,7 @@ commentHide: true
 ### 古代教会スラヴ語キリル文字
 
 <!-- markdownlint-disable MD033 -->
-<HLConverter src="/conv/chu.csv" font_right="Monomakh Unicode" />
+<HLConverter src="/conv/chu.csv" fontRight="Monomakh Unicode" />
 <!-- markdownlint-enable MD033 -->
 
 ### アイヌ語仮名

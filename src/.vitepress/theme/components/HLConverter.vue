@@ -70,11 +70,11 @@ export default {
       type: String,
       default: null,
     },
-    font_left: {
+    fontLeft: {
       type: String,
       default: 'Source Code Pro',
     },
-    font_right: {
+    fontRight: {
       type: String,
       default: 'Source Code Pro',
     },
@@ -152,16 +152,10 @@ export default {
       { deep: true },
     );
 
-    // フォント出力
-    const font_left = props.font_left;
-    const font_right = props.font_right;
-
     return {
       status,
       list,
       textarea,
-      font_left,
-      font_right,
     };
   },
 };
@@ -202,11 +196,11 @@ export default {
         border-color: var(--vp-custom-block-details-border);
 
         &#leftta {
-          font-family: v-bind(font_left), 'Source Code Pro', monospace;
+          font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
         }
 
         &#rightta {
-          font-family: v-bind(font_right), 'Source Code Pro', monospace;
+          font-family: v-bind(fontRight), 'Source Code Pro', monospace;
         }
       }
     }
