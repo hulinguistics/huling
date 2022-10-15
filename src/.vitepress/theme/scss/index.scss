@@ -14,3 +14,33 @@
   --vp-c-brand-dark: var(--vp-c-blue-dark);
   --vp-c-brand-darker: var(--vp-c-blue-darker);
 }
+
+//
+// Fonts
+//
+
+// Monomakh Unicode
+@font-face {
+  font-family: 'Monomakh Unicode';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot');
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.ttf') format('truetype');
+}
+
+// Shafarik
+@font-face {
+  font-family: 'Shafarik';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/Shafarik-Regular.eot');
+  src: url('https://sci.ponomar.net/fonts/Shafarik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.ttf') format('truetype');
+}
