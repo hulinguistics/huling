@@ -66,3 +66,35 @@
   font-display: swap;
   src: url('/font/NotoSansCJKjp-Bold.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/font/NotoSansCJKsc-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/font/NotoSansCJKsc-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/font/NotoSansCJKtc-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/font/NotoSansCJKtc-Bold.woff2') format('woff2');
+}
