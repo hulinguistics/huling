@@ -20,9 +20,66 @@ commentHide: true
 
 <HLConverter src="/conv/rus.csv" />
 
-### 古代教会スラヴ語キリル文字
+### 古教会スラヴ語キリル文字
 
 <HLConverter src="/conv/chu.csv" fontRight="Monomakh Unicode" />
+
+::: details 対応表
+
+| キリル文字 | ラテン文字 | 備考 |
+| :--: | :--: | :-- |
+| <span cyrs>а</span> | a |  |
+| <span cyrs>б</span> | b |  |
+| <span cyrs>г</span> | g |  |
+| <span cyrs>д</span> | d |  |
+| <span cyrs>е</span> | e |  |
+| <span cyrs>ж</span> | ž, zh | zh→ж↔ž |
+| <span cyrs>ѕ</span> | dz |  |
+| <span cyrs>з</span> | z |  |
+| <span cyrs>и</span> | i |  |
+| <span cyrs>і</span> | î, j | 通例：キリル文字 і ↔ラテン文字 i <br> 当変換器：キリル文字 і ↔ラテン文字 î <br> （技術的な問題により） |
+| <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 ꙇ ↔ラテン文字 i <br> 当変換器：キリル文字 ꙇ ↔ラテン文字 ɩ <br> （技術的な問題により） |
+| <span cyrs>ћ</span> | ǵ, gh | gh→ћ↔ǵ |
+| <span cyrs>к</span> | k |  |
+| <span cyrs>л</span> | l |  |
+| <span cyrs>м</span> | m |  |
+| <span cyrs>н</span> | n |  |
+| <span cyrs>о</span> | o |  |
+| <span cyrs>п</span> | p |  |
+| <span cyrs>р</span> | r |  |
+| <span cyrs>с</span> | s |  |
+| <span cyrs>т</span> | t |  |
+| <span cyrs>ѹ</span> | u |  |
+| <span cyrs>ф</span> | f |  |
+| <span cyrs>х</span> | x, h | h は zh(ж), eh(ѣ) などの表記にも使われているため, <br> なるべく x を使うよう推奨. <br>e.g. ex↔ех, eh→ѣ↔ě |
+| <span cyrs>ѡ</span> | ô, oh |  |
+| <span cyrs>ѿ</span> | ôtъ, oht | oht→ѿ↔ôtъ <br> oht"→ѡтъ↔ôtъ |
+| <span cyrs>ц</span> | c |  |
+| <span cyrs>ч</span> | č, ch | ch→ч↔č |
+| <span cyrs>ш</span> | š, sh | sh→ш↔š |
+| <span cyrs>щ</span> | št, sht | sht→щ↔št |
+| <span cyrs>ъ</span> | ъ, ŭ, " | 単独または一部の文字列の後ろで "→ъ↔ŭ |
+| <span cyrs>ꙑ</span> | y |  |
+| <span cyrs>ь</span> | ь, ĭ, ' | 単独または一部の文字列の後ろで '→ь↔ĭ​ |
+| <span cyrs>ѣ</span> | ě, eh | eh→ѣ↔ě |
+| <span cyrs>ꙗ</span> | ja |  |
+| <span cyrs>ѥ</span> | je |  |
+| <span cyrs>ю</span> | ju |  |
+| <span cyrs>ѫ</span> | ǫ, onn | onn→ѫ↔ǫ |
+| <span cyrs>ѭ</span> | jǫ, jonn | jonn→ѭ↔jǫ |
+| <span cyrs>ѧ</span> | ę, enn | enn→ѧ↔ę |
+| <span cyrs>ѩ</span> | ję, jenn | jenn→ѩ↔ję |
+| <span cyrs>ѯ</span> | ks |  |
+| <span cyrs>ѱ</span> | ps |  |
+| <span cyrs>ѳ</span> | th |  |
+| <span cyrs>ѵ</span> | ü, uh | uh→ѵ↔ü |
+| <span cyrs>ҁ</span> | q |  |
+| <span cyrs> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
+| <span cyrs> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
+| <span cyrs> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |
+| <span cyrs>҂</span> | # | 数字'1000' |
+
+:::
 
 ### アイヌ語仮名
 

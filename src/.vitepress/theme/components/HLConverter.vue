@@ -18,6 +18,7 @@
             rows="10"
             @focus="textarea.left.isFocus = true"
             @blur="textarea.left.isFocus = false"
+            leftta
           ></textarea>
         </div>
         <div>
@@ -29,11 +30,12 @@
             rows="10"
             @focus="textarea.right.isFocus = true"
             @blur="textarea.right.isFocus = false"
+            rightta
           ></textarea>
         </div>
       </div>
       <details class="details custom-block">
-        <summary>対応表</summary>
+        <summary>優先順</summary>
         <table>
           <thead>
             <tr>
@@ -46,10 +48,10 @@
             <tr v-for="(column, index) in list.set" :key="index">
               <td style="text-align: center">{{ index + 1 }}</td>
               <td style="text-align: center">
-                <code>{{ column[0] }}</code>
+                <code leftta>{{ column[0] }}</code>
               </td>
               <td style="text-align: center">
-                <code>{{ column[1] }}</code>
+                <code rightta>{{ column[1] }}</code>
               </td>
             </tr>
           </tbody>
@@ -194,16 +196,16 @@ export default {
         border: 1px solid transparent;
         border-radius: 8px;
         border-color: var(--vp-custom-block-details-border);
-
-        &#leftta {
-          font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
-        }
-
-        &#rightta {
-          font-family: v-bind(fontRight), 'Source Code Pro', monospace;
-        }
       }
     }
+  }
+
+  [leftta] {
+    font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
+  }
+
+  [rightta] {
+    font-family: v-bind(fontRight), 'Source Code Pro', monospace;
   }
 }
 </style>
