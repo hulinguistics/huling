@@ -18,20 +18,14 @@ commentHide: true
 
 [詳細](/docs/rus/index.html#ラテン文字・ロシア語キリル文字変換器)
 
-<!-- markdownlint-disable MD033 -->
 <HLConverter src="/conv/rus.csv" />
-<!-- markdownlint-enable MD033 -->
 
 ### 古代教会スラヴ語キリル文字
 
-<!-- markdownlint-disable MD033 -->
 <HLConverter src="/conv/chu.csv" fontRight="Monomakh Unicode" />
-<!-- markdownlint-enable MD033 -->
 
 ### アイヌ語仮名
 
 北海道アイヌ語、樺太アイヌ語対応。
 
-<!-- markdownlint-disable MD033 -->
 <HLConverter src="/conv/ain.csv" />
-<!-- markdownlint-enable MD033 -->

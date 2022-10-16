@@ -1,6 +1,7 @@
 {
   "single-h1": false,
   "first-line-h1": false,
+  "no-inline-html": false,
   "MD013": {
     "code_blocks": false,
     "tables": false
