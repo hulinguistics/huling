@@ -32,6 +32,11 @@
     url('https://sci.ponomar.net/fonts/MonomakhUnicode.ttf') format('truetype');
 }
 
+// キリル文字（古代教会スラヴ語での異種）
+[cyrs] {
+  font-family: 'Monomakh Unicode', var(--vp-font-family-base);
+}
+
 // Shafarik
 @font-face {
   font-family: 'Shafarik';
@@ -43,4 +48,19 @@
     url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff2') format('woff2'),
     url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff') format('woff'),
     url('https://sci.ponomar.net/fonts/Shafarik-Regular.ttf') format('truetype');
+}
+
+// グラゴル文字
+[glag] {
+  font-family: 'Shafarik', var(--vp-font-family-base);
+}
+
+// 簡体字
+[hans] {
+  font-family: 'Noto Sans SC', var(--vp-font-family-base);
+}
+
+// 繁体字
+[hant] {
+  font-family: 'Noto Sans TC', var(--vp-font-family-base);
 }
