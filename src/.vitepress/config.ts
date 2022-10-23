@@ -1,4 +1,5 @@
 import { sidebar } from './theme/sidebar';
+import footnote from 'markdown-it-footnote';
 
 async function config() {
   return {
@@ -39,6 +40,13 @@ async function config() {
       ['meta', { name: 'msapplication-TileColor', content: '#679fd1' }],
       ['meta', { name: 'theme-color', content: '#ffffff' }],
     ],
+
+    markdown: {
+      config: (md) => {
+        // use more markdown-it plugins!
+        md.use(footnote);
+      },
+    },
   };
 }
 
