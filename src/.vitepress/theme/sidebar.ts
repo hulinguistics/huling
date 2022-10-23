@@ -13,7 +13,7 @@ export async function sidebar(parant: string) {
           .map((post) => {
             return {
               text: post.frontMatter.title,
-              link: post.path.replace('src', ''),
+              link: post.path.replace('src', '').replace('index.md', ''),
             };
           }),
       };
