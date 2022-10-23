@@ -15,6 +15,7 @@ async function config() {
       sidebar: {
         '/docs/': await sidebar('src/docs/'),
         '/olympiad/': await sidebar('src/olympiad/'),
+        '/tools/': await sidebar('src/tools/'),
       },
 
       editLink: {
@@ -46,7 +47,7 @@ const nav = [
   { text: 'Booklet', link: '/booklet/' },
   { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
   { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
-  { text: 'Tools', link: '/tools/' },
+  { text: 'Tools', link: '/tools/conv/', activeMatch: '/tools/' },
 ];
 
 export default config();
