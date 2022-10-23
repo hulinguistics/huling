@@ -1,5 +1,6 @@
 ---
 title: 頒布冊子
+commentHide: true
 ---
 
 ![book image](./img/2022yuryo.png)

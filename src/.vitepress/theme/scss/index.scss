@@ -1,0 +1,66 @@
+@import url('font.scss');
+@import url('./theme-default/VPDocFooter.scss');
+
+:root {
+  --vp-c-blue: #679fd1;
+  --vp-c-blue-light: #79aedc;
+  --vp-c-blue-lighter: #c4dcee;
+  --vp-c-blue-dark: #4d82b1;
+  --vp-c-blue-darker: #19609e;
+
+  --vp-c-brand: var(--vp-c-blue);
+  --vp-c-brand-light: var(--vp-c-blue-light);
+  --vp-c-brand-lighter: var(--vp-c-blue-lighter);
+  --vp-c-brand-dark: var(--vp-c-blue-dark);
+  --vp-c-brand-darker: var(--vp-c-blue-darker);
+}
+
+//
+// Fonts
+//
+
+// Monomakh Unicode
+@font-face {
+  font-family: 'Monomakh Unicode';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot');
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.ttf') format('truetype');
+}
+
+// キリル文字（古代教会スラヴ語での異種）
+[cyrs] {
+  font-family: 'Monomakh Unicode', var(--vp-font-family-base);
+}
+
+// Shafarik
+@font-face {
+  font-family: 'Shafarik';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/Shafarik-Regular.eot');
+  src: url('https://sci.ponomar.net/fonts/Shafarik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.ttf') format('truetype');
+}
+
+// グラゴル文字
+[glag] {
+  font-family: 'Shafarik', var(--vp-font-family-base);
+}
+
+// 簡体字
+[hans] {
+  font-family: 'Noto Sans SC', var(--vp-font-family-base);
+}
+
+// 繁体字
+[hant] {
+  font-family: 'Noto Sans TC', var(--vp-font-family-base);
+}

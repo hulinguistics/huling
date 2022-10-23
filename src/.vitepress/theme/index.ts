@@ -1,13 +1,20 @@
 import { h } from 'vue';
 import DefaultTheme from 'vitepress/theme';
-import Comment from './components/Comment.vue';
-import './custom.css';
+import HLDocAfter from './components/HLDocAfter.vue';
+import HLDocFooterBefore from './components/HLDocFooterBefore.vue';
+import HLConverter from './components/HLConverter.vue';
+
+import './scss/index.scss';
 
 export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'doc-after': () => h(Comment),
+      'doc-after': () => h(HLDocAfter),
+      'doc-footer-before': () => h(HLDocFooterBefore),
     });
+  },
+  enhanceApp({ app }) {
+    app.component('HLConverter', HLConverter);
   },
 };

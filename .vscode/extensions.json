@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "DavidAnson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "rvest.vs-code-prettier-eslint"
   ]
 }
