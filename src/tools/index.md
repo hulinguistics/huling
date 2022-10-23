@@ -86,3 +86,7 @@ commentHide: true
 北海道アイヌ語、樺太アイヌ語対応。
 
 <HLConverter src="/conv/ain.csv" />
+
+### 国際音声記号(X-SAMPA to IPA)
+
+<HLConverter src="/conv/ipa.csv" />
