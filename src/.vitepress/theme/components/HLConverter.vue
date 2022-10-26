@@ -80,6 +80,14 @@ export default {
       type: String,
       default: 'Source Code Pro',
     },
+    dirLeft: {
+      type: String,
+      default: 'ltr',
+    },
+    dirRight: {
+      type: String,
+      default: 'ltr',
+    },
   },
 
   setup(props) {
@@ -202,10 +210,12 @@ export default {
 
   [leftta] {
     font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
+    direction: v-bind(dirLeft);
   }
 
   [rightta] {
     font-family: v-bind(fontRight), 'Source Code Pro', monospace;
+    direction: v-bind(dirRight);
   }
 }
 </style>
