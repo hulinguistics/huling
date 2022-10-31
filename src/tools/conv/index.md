@@ -80,6 +80,10 @@ section: Tools
 
 :::
 
+## アラビア語アラビア文字
+
+<HLConverter src="/conv/ara.csv" dirRight="rtl" />
+
 ## アイヌ語仮名
 
 北海道アイヌ語、樺太アイヌ語対応。
