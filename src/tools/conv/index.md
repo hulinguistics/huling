@@ -84,6 +84,10 @@ section: Tools
 
 <HLConverter src="/conv/ara.csv" dirRight="rtl" />
 
+## 聖書ヘブライ語ヘブライ文字
+
+<HLConverter src="/conv/hbo.csv" dirRight="rtl" />
+
 ## アイヌ語仮名
 
 北海道アイヌ語、樺太アイヌ語対応。
