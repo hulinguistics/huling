@@ -129,7 +129,7 @@ export default {
         set.some((value: [string, string]) => {
           if (value[0] && output.indexOf(value[0]) !== -1) {
             const output_old = output;
-            output = output.replace(value[0], value[1]);
+            output = output.replaceAll(value[0], value[1]);
             return output != output_old;
           } else {
             return false;
