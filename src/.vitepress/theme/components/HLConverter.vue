@@ -16,9 +16,9 @@
             v-model="textarea.left.value"
             cols="20"
             rows="10"
+            leftta
             @focus="textarea.left.isFocus = true"
             @blur="textarea.left.isFocus = false"
-            leftta
           ></textarea>
         </div>
         <div>
@@ -28,9 +28,9 @@
             v-model="textarea.right.value"
             cols="20"
             rows="10"
+            rightta
             @focus="textarea.right.isFocus = true"
             @blur="textarea.right.isFocus = false"
-            rightta
           ></textarea>
         </div>
       </div>
