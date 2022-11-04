@@ -89,3 +89,7 @@ section: Tools
 ## 国際音声記号(X-SAMPA to IPA)
 
 <HLConverter src="/conv/ipa.csv" />
+
+## ダイアクリティカルマーク付きラテン文字
+
+<HLConverter src="/conv/lat.csv" />
