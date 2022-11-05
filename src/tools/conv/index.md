@@ -80,10 +80,6 @@ section: Tools
 
 :::
 
-## ASCII->Symbol
-
-<HLConverter src="/conv/temp.csv" />
-
 ## アラビア語アラビア文字
 
 <HLConverter src="/conv/ara.csv" dirRight="rtl" />
