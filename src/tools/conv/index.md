@@ -86,6 +86,10 @@ section: Tools
 
 <HLConverter src="/conv/ain.csv" />
 
+## シリア語シリア文字
+
+<HLConverter src="/conv/syc.csv" />
+
 ## ダイアクリティカルマーク付きラテン文字
 
 例)
