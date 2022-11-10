@@ -211,7 +211,7 @@ f(:S:),g(:S:)
 
 ## シリア語シリア文字
 
-<HLConverter src="/conv/syc.csv" />
+<HLConverter src="/conv/syc.csv" dirRight="rtl" />
 
 ## ダイアクリティカルマーク付きラテン文字
 
