@@ -1,7 +1,7 @@
 ---
 title: 文字変換器
 commentHide: true
-section: Tools
+section: 便利機能
 ---
 
 # {{ $frontmatter.title }}
