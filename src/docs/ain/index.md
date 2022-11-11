@@ -1,9 +1,9 @@
 ---
-title: アイヌ語 / アイヌ イタㇰ
+title: アイヌ語 / aynu itak
 section: 言語ごとの概説
 ---
 
-# アイヌ語 / アイヌ イタㇰ(aynu itak)
+# {{ $frontmatter.title }}
 
 ## 系統
 
