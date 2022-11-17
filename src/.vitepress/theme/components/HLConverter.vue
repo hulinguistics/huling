@@ -16,9 +16,9 @@
             v-model="textarea.left.value"
             cols="20"
             rows="10"
+            leftta
             @focus="textarea.left.isFocus = true"
             @blur="textarea.left.isFocus = false"
-            leftta
           ></textarea>
         </div>
         <div>
@@ -28,9 +28,9 @@
             v-model="textarea.right.value"
             cols="20"
             rows="10"
+            rightta
             @focus="textarea.right.isFocus = true"
             @blur="textarea.right.isFocus = false"
-            rightta
           ></textarea>
         </div>
       </div>
@@ -80,6 +80,14 @@ export default {
       type: String,
       default: 'Source Code Pro',
     },
+    dirLeft: {
+      type: String,
+      default: 'ltr',
+    },
+    dirRight: {
+      type: String,
+      default: 'ltr',
+    },
   },
 
   setup(props) {
@@ -121,7 +129,7 @@ export default {
         set.some((value: [string, string]) => {
           if (value[0] && output.indexOf(value[0]) !== -1) {
             const output_old = output;
-            output = output.replace(value[0], value[1]);
+            output = output.replaceAll(value[0], value[1]);
             return output != output_old;
           } else {
             return false;
@@ -202,10 +210,12 @@ export default {
 
   [leftta] {
     font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
+    direction: v-bind(dirLeft);
   }
 
   [rightta] {
     font-family: v-bind(fontRight), 'Source Code Pro', monospace;
+    direction: v-bind(dirRight);
   }
 }
 </style>

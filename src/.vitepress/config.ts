@@ -1,5 +1,6 @@
 import { sidebar } from './theme/sidebar';
 import footnote from 'markdown-it-footnote';
+import MarkdownItMergeCells from 'markdown-it-merge-cells';
 
 async function config() {
   return {
@@ -45,6 +46,7 @@ async function config() {
       config: (md) => {
         // use more markdown-it plugins!
         md.use(footnote);
+        md.use(MarkdownItMergeCells);
       },
     },
   };
@@ -55,7 +57,6 @@ const nav = [
   { text: 'Booklet', link: '/booklet/' },
   { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
   { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
-  { text: 'Tools', link: '/tools/conv/', activeMatch: '/tools/' },
 ];
 
 export default config();
