@@ -28,8 +28,10 @@ section: 言語ごとの概説
 しかし祖語に近いとは言え既に方言的特徴も現れてきており,
 古教会スラヴ語はその音韻上の特徴から南スラヴ語に分類されます[^2].
 
-[^1]:12世紀以降のものは, 古教会スラヴ語とは呼びません. これは当時スラヴ語において方言差が拡大しつつあったため後世に定められた, 便宜的な線引きです. 12世紀以降の教会スラヴ語は, 地方ごとに名前を付けてブルガリア教会スラヴ語, マケドニア教会スラヴ語, セルビア教会スラヴ語などと呼び分けることになっています.
-[^2]: 逆に南スラヴ語的な特徴をもつものを古教会スラヴ語だとし, もし東スラヴ語や西スラヴ語の特徴が見られれば, たとえ11世紀以前の文献であっても古教会スラヴ語とは認めない人もいます.
+[^1]:12世紀以降のものは, 古教会スラヴ語とは呼ばない. これは当時スラヴ語の方言差が拡大しつつあったことを考慮して便宜的に設けた線引きである.
+12世紀以降の教会スラヴ語は, 地方ごとに名前を付けてブルガリア教会スラヴ語, マケドニア教会スラヴ語, セルビア教会スラヴ語などと呼び分けることになっている.
+[^2]: 逆に南スラヴ語的な特徴をもつものを古教会スラヴ語だとし, もし東スラヴ語や西スラヴ語の特徴が見られれば,
+たとえ11世紀以前の文献であっても古教会スラヴ語とは認めないとする立場もある.
 
 ::: info 言語の名称
 
@@ -50,7 +52,7 @@ section: 言語ごとの概説
 当サイトでもこれにならって「古教会スラヴ語」と呼ぶことにします。
 
 [^3]:しかし若干言いにくい. 特に「古ロシア語」はともすれば「ころしや語」と聞こえてしまうおそれがあるため,
-「古」の後に声門閉鎖音 [ ʔ ] を入れることが多いようです.
+「古」の後に声門閉鎖音 [ ʔ ] を入れることが多いようである.
 
 :::
 
@@ -72,9 +74,9 @@ section: 言語ごとの概説
     >и истопихомъ сꙙ и погѹбихомъ много имѣниѥ. и своѥ и стѹжде
     <!--blockquoteを分割-->
     >さてこの福者グレゴリウスが, 自分の独房にすわって書きものをしていたとき,
-    >彼のもとへ, [ ひとりの ] 貧者が来て, 懇願して [ こう ] 言った. «いと高き神のしもべよ, わたしをお憐れみください,
+    >彼のもとへ, [ひとりの] 貧者が来て, 懇願して [こう] 言った. «いと高き神のしもべよ, わたしをお憐れみください,
     >なぜならわたしは船乗りのかしらでしたが,
-    >われわれは, 難破して, 自分のも他人のも [ ふくめて ] 多くの財産をなくしたからです» <br> (木村, 2003, p.176)
+    >われわれは, 難破して, 自分のも他人のも [ふくめて] 多くの財産をなくしたからです» <br> (木村, 2003, p.176)
 
     </span>
 
@@ -92,19 +94,22 @@ section: 言語ごとの概説
 
 ### ２つの文字：グラゴル文字とキリル文字
 
-上のテキストでも見たように,
-古教会スラヴ語のテキストには２種類の文字が使われています[^4].
+上の２つのテキストから分かるように,
+古教会スラヴ語の表記には２種類の文字体系が使われています[^4].
 ひとつは現在でもロシア語やウクライナ語,
-ブルガリア語などで使われているキリル文字です.
+ブルガリア語などで使われている**キリル文字**です.
+１番目の聖者伝のテキストはキリル文字で書かれており,
 ロシア語などを学んでいる人なら,
 少しだけ見慣れない文字はあるにせよ,
-何となく読める気がすると思います.
-しかしもうひとつの文字は,
-スラヴ語の教会文献と関わりがない限り,
-なかなかお目にかかれないでしょう.
-グラゴル文字という文字です.
+何となく読める気がすると思います.  
+そしてもうひとつの文字は,
+**グラゴル文字**と言います.
+現代ではこの文字はほとんど使われておらず,
+19世紀前半にクロアチア沿岸部の教会が使っていたのを最後に常用されなくなってしまいました.
+いまでもクロアチアなどへ行くと土産物屋でグラゴル文字のキーホルダーが売られたりしているそうですが,
+日本に暮らしている限りはなかなかお目にかかれないでしょう.  
 
-[^4]:２つの文字を混ぜて使うことはありません.
+[^4]:日本語の漢字かな混じり文のように混ぜて使うことはない.
 
 ::: details 文字一覧
 
@@ -120,8 +125,8 @@ section: 言語ごとの概説
 |<span glag>ⰷ</span>|<span cyrs>ѕ</span>|dz|/d͡z/|英 *car**ds***|
 |<span glag>ⰸ</span>|<span cyrs>з</span>|z|/z/|英 *car**s***|
 |<span glag>ⰹ</span>|<span cyrs>і</span>|i|/i/|「イ」. 場合によっては /ji/ のような発音も想定される. <br> 例: краи = *kraji|
-|<span glag>ⰺ</span>|<span cyrs>ꙇ</span>|^|^|^|
-|<span glag>ⰻ</span>|<span cyrs>и</span>|^|^|^|
+|<span glag>ⰺ</span>|<span cyrs>ꙇ</span>|i|/i/|同上|
+|<span glag>ⰻ</span>|<span cyrs>и</span>|i|/i/|同上|
 |<span glag>ⰼ</span>|<span cyrs>(ћ)</span>|ǵ|/gʲ/?|正確な音価は不明 <br> 古代ギリシア語における前舌母音の前の *γ* (ガンマ) と対応している|
 |<span glag>ⰽ</span>|<span cyrs>к</span>|k|/k/|「カ」の子音|
 |<span glag>ⰾ</span>|<span cyrs>л</span>|l|/l/|英 ***l**ast*|
@@ -158,9 +163,23 @@ section: 言語ごとの概説
 
 :::
 
-### 資料リスト
+### 写本
 
-古教会スラヴ語は資料の数が限られており,
+|キエフ断片|
+|:--:|
+|![キエフ断片7枚目右][kiev]|
+
+|スプラシル写本|
+|:--:|
+|![スプラシル写本１枚目右][suprasl]|
+
+古教会スラヴ語の資料の大半は,
+上の画像のような**羊皮紙**の写本です.
+2022年現在,
+9世紀の資料は発見されておらず,
+見つかっている資料のうち一部が10世紀,
+大半が11世紀のものです.  
+また資料の数は限られており,
 主要なものをすべて足し合わせても1300葉 (2600ページ) ほどしかありません.
 読もうと思えば生きているうちに読破可能です.
 お試しあれ.
@@ -169,41 +188,135 @@ section: 言語ごとの概説
 
 |資料|使用文字|内容|分量|年代|備考|
 |:----|:----|:----|:----|:----|:----|
-|ゾグラフォス写本|グラゴル文字|四福音書|303葉|10~11世紀|1843年, ギリシア・アトス山にあるゾグラフォス修道院で発見される|
-|マリア写本|グラゴル文字|四福音書|174葉|11世紀初|1845年頃, ギリシア・アトス山にあった生神女 (マリア) 修道院​の​僧庵で発見される|
-|アッセマーニ写本|グラゴル文字|アプラコス|158葉|11世紀初|1736年, イタリアのイエズス会士​アッセマーニによって​エルサレムで​発見される. 後に甥がバチカン図書館に寄贈し現在に至る|
+|ゾグラフォス写本|グラゴル文字|四福音書|303葉|10~11世紀|1843年, ギリシア・アトス山にあるゾグラフォス修道院で発見される.|
+|マリア写本|グラゴル文字|四福音書|174葉|11世紀初|1845年頃, ギリシア・アトス山にあった生神女 (マリア) 修道院​の​僧庵で発見される.|
+|アッセマーニ写本|グラゴル文字|アプラコス[^5]|158葉|11世紀初|1736年, イタリアのイエズス会士​アッセマーニによって​エルサレムで​発見される. 後に甥がバチカン図書館に寄贈し現在に至る.|
 |シナイ詩篇|グラゴル文字|詩篇|177+32葉|11世紀|1850年, エジプト・シナイ山にある聖カタリナ修道院で発見される. <br> 1968年, その続き32葉が追加で発見される. 現在も同修道院が所蔵.|
-|シナイ祈祷書|グラゴル文字|祈祷書|109+28葉|11世紀|詩篇と同じく1850年に聖カタリナ修道院で発見される. <br> 1975年, 28葉が新たに発見される|
-|クローツ文書|グラゴル文字|説教集|14葉|11世紀|14葉のうちの12葉は19世紀前半までクローツ伯爵という人物が所有していた. <br> 残り2葉はスロベニアのスラヴ語学者フランツ・ミクロシッチが発見|
-|サバの本|キリル文字|アプラコス|129葉|11世紀|1866年, モスクワの出版社 Здание Синодальной типографии の書庫で発見される. 名の由来は写し手と思われる司祭サバ (Савва) から|
-|スプラシル写本|キリル文字|聖者伝|285葉|10世紀|1823年, ポーランド・スプラシルにある受胎告知修道院で発見される|
-|エニナ・アポストル|キリル文字|使徒行伝|39葉|11世紀|1960年, ブルガリア・エニナ村で修復中だった教会の壁の中から発見される|
-|キエフ断片|グラゴル文字|ローマ・ミサ典礼書|7葉|10世紀|19世紀にエルサレムで発見され, 後にキエフ神学アカデミーに寄贈される. 確認されているなかで最古の資料. 南スラヴ語的でない特徴が見られる|
+|シナイ祈祷書|グラゴル文字|祈祷書|109+28葉|11世紀|詩篇と同じく1850年に聖カタリナ修道院で発見される. <br> 1975年, 28葉が新たに発見される. 現在も同修道院が所蔵.|
+|クローツ文書|グラゴル文字|説教集|14葉|11世紀|14葉のうちの12葉は19世紀前半までクローツ伯爵という人物が所有していた. <br> 残り2葉はスロベニアのスラヴ語学者フランツ・ミクロシッチが発見.|
+|サバの本|キリル文字|アプラコス|129葉|11世紀|1866年, モスクワの出版社 Здание Синодальной типографии の書庫で発見される. 名の由来は写し手と思われる司祭サバ (Савва) から.|
+|スプラシル写本|キリル文字|聖者伝|285葉|10世紀|1823年, ポーランド・スプラシルにある受胎告知修道院で発見される.|
+|エニナ・アポストル|キリル文字|使徒行伝|39葉|11世紀|1960年, ブルガリア・エニナ村で修復中だった教会の壁の中から発見される.|
+|キエフ断片|グラゴル文字|ローマ・ミサ典礼書|7葉|10世紀|19世紀にエルサレムで発見され, 後にキエフ神学アカデミーに寄贈される. 確認されているなかで最古の資料. 南スラヴ語的でない特徴が見られる.|
 
 :::
 
+[^5]:福音書の内容を, 毎週日曜日に教会で読むときの順番に並べ替えたもの. 復活祭を基準に1年周期で読まれる.
+
 ## 歴史
 
+第一部　モラヴィア編  
+
 その昔, ビザンツ帝国に**コンスタンティノス**と**メトディオス**という２人の兄弟がおりました.
-コンスタンティノスが弟でメトディオスがお兄さん
+弟のコンスタンティノスは弟でメトディオスがお兄さんです.
+
+モラヴィア王ロスティスラフ
+「」
+
+第二部　ブルガリア編
 
 ## 音韻
 
-### 硬子音と軟子音
+以下, 音韻について記述するときは上表「[文字一覧](#２つの文字グラゴル文字とキリル文字)」におけるラテン文字表記を用います.
+また補助記号付きの文字 ń, ľ, ŕ はそれぞれ「ニャ」の子音 /nʲ/,
+ロシア語の ль /lʲ/,
+「リャ」の子音 /rʲ/ を表します.
 
-## 怒涛の語形変化
+### 母音
+
+|前舌母音|後舌母音|
+|:----:|:----:|
+|ě|a|
+|e|o|
+|ь|ъ|
+|i|y|
+| |u|
+|ę|ǫ|
+
+#### 鼻母音
+
+古教会スラヴ語の特徴のひとつとして,
+鼻母音 ę, ǫ の存在が挙げられます.
+鼻母音は現代スラヴ語においてはポーランド語を除いて消失してしまい,
+しかもポーランド語の鼻母音 ę /ɛ̃/, ą /ɔ̃/ も厳密には古教会スラヴ語の ę, ǫ と対応していないため,
+スラヴ祖語の姿を探る重要な手がかりになります.
+
+#### 弱化母音
+
+鼻母音と並ぶ古教会スラヴ語のもうひとつの特徴が,
+弱化母音 ь, ъ です.
+それぞれ,
+非常に弱い「ィ」および「ゥ」という**母音**だったと考えられています.
+弱化母音は語末においてほとんど発音されなかったと考えられており,
+現代のスラヴ語では綴りの上でも一切消え去っています.
+
+これらはラテン文字で ĭ, ŭ と表されることもありますが,
+ふつうはラテン文字表記でもキリル文字 ь, ъ を用います.
+
+### 子音
+
+| |唇音|歯茎音|硬口蓋音|軟口蓋音|
+|:---:|:---:|:---:|:---:|:---:|
+|**破裂音**|p b|t d| |k g|
+|**破擦音**| |c dz|č| |
+|**摩擦音**|v|s z|š ž|x|
+|**鼻音**|m|n|ń| |
+|**流音**| |l r|ľ ŕ| |
+|**接近音**| | |j| |
+
+#### 硬い子音と軟らかい子音
+
+古教会スラヴ語の子音は,
+その性質から硬子音と軟子音という2つのグループに分けることができます.
+
+軟子音: c dz č ž š ń ľ ŕ j št žd  
+硬子音: p b v m t d s z n l r k g x
+
+これらの区別は,
+実際の発音がどうであったかというより,
+どのような音環境のもとで存在するのかという点に基づいています.
+厳密なことは無視してごくおおまかに言うと,
+軟子音は[前舌母音](#母音)を後ろに従えることが多く,
+硬子音 (特に軟口蓋音 k, g, x) は[後舌母音](#母音)を従えることが多いです.
+これは特にロシア語との比較において注意が必要で,
+古教会スラヴ語における硬軟の区別はロシア語のそれとはまた意味合いが異なります.
+古教会スラヴ語の軟子音もロシア語の軟子音も「**硬口蓋化**[^6]という現象によって生じた子音である」という点では共通しているのですが,
+その現象の起こった時代と音の変化の度合いが異なります.  
+すなわち,
+古教会スラヴ語における軟子音は**スラヴ祖語時代**の硬口蓋化現象によって生じた子音である――つまり対応する子音がすべてのスラヴ語に見出せる――のに対して,
+ロシア語における軟子音は**スラヴ祖語の解体後**に**独自**に発達させた硬口蓋化音なのです.
+そして前者では
+k → č/c, g → ž/dz, x → š/ś
+のように割と大きな音の変化が起こったのに対し,
+後者では
+k → kʲ, g → gʲ
+という小さな変化だったという点でも違いが見られます.
+
+[^6]:硬口蓋化：子音を発音するときに, 舌が上あご(硬口蓋)に向かって盛り上がる現象.
+日本語のイ段 (キ, シ, チ...) の子音は硬口蓋化されている.
+特に軟口蓋音は硬口蓋化によって大きく音が変化することがあり,
+たとえば英語の church やイタリア語の ciao も, 綴りから分かるように元来 /k/ だった音が /t͡ʃ/ に変化している.
+
+## 屈折した言語
+
+古教会スラヴ語は名詞類や動詞の**語形変化 (屈折)** が非常に豊かな言語です.
+名詞類は**性・数・格**の区別を,
+動詞は**人称・数・時制・アスペクト・法・態**の区別をもち,
+語形変化によってこれらの文法情報を示します.
+
+### 名詞類
 
 ::: details 男性名詞 <span cyrs>градъ</span> '町'
 
 ||単数|複数|双数|
 |:--:|:--:|:--:|:--:|
-|主格|<span cyrs>градъ</span>|<span cyrs>гради</span>|<span cyrs>града</span>|
-|生格|<span cyrs>града</span>|<span cyrs>градъ</span>|<span cyrs>градѹ</span>|
-|与格|<span cyrs>градѹ</span>|<span cyrs>градомъ</span>|<span cyrs>градома</span>|
-|対格|<span cyrs>градъ</span>|<span cyrs>градꙑ</span>|<span cyrs>града</span>|
-|造格|<span cyrs>градомь</span>|<span cyrs>градꙑ</span>|<span cyrs>градома</span>|
-|所格|<span cyrs>градѣ</span>|<span cyrs>градѣхъ</span>|<span cyrs>градѹ</span>|
-|呼格|<span cyrs>граде</span>|<span cyrs>гради</span>|<span cyrs>града</span>|
+|**主格**|<span cyrs>градъ</span>|<span cyrs>гради</span>|<span cyrs>града</span>|
+|**生格**|<span cyrs>града</span>|<span cyrs>градъ</span>|<span cyrs>градѹ</span>|
+|**与格**|<span cyrs>градѹ</span>|<span cyrs>градомъ</span>|<span cyrs>градома</span>|
+|**対格**|<span cyrs>градъ</span>|<span cyrs>градꙑ</span>|<span cyrs>града</span>|
+|**造格**|<span cyrs>градомь</span>|<span cyrs>градꙑ</span>|<span cyrs>градома</span>|
+|**所格**|<span cyrs>градѣ</span>|<span cyrs>градѣхъ</span>|<span cyrs>градѹ</span>|
+|**呼格**|<span cyrs>граде</span>|<span cyrs>гради</span>|<span cyrs>града</span>|
 
 :::
 
@@ -211,13 +324,13 @@ section: 言語ごとの概説
 
 |単数|男性|中性|女性|​|複数|男性|中性|女性|​|双数|男性|中性|女性|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|主格|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добра</span>|​|主格|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|主格|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
-|生格|<span cyrs>добра</span>|<span cyrs></span>|<span cyrs>добрꙑ</span>|​|生格|<span cyrs>добръ</span>|<span cyrs></span>|<span cyrs>добръ</span>|​|生格|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѹ</span>|
-|与格|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѣ</span>|​|与格|<span cyrs>добромъ</span>|<span cyrs></span>|<span cyrs>добрамъ</span>|​|与格|<span cyrs>доброма</span>|<span cyrs></span>|<span cyrs>добрама</span>|
-|対格|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добрѫ</span>|​|対格|<span cyrs>добрꙑ</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|対格|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
-|造格|<span cyrs>добромь</span>|<span cyrs></span>|<span cyrs>доброѭ</span>|​|造格|<span cyrs>добрꙑ</span>|<span cyrs></span>|<span cyrs>добрами</span>|​|造格|<span cyrs>доброма</span>|<span cyrs></span>|<span cyrs>добрама</span>|
-|所格|<span cyrs>добрѣ</span>|<span cyrs></span>|<span cyrs>добрѣ</span>|​|所格|<span cyrs>добрѣхъ</span>|<span cyrs></span>|<span cyrs>добрахъ</span>|​|所格|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѹ</span>|
-|呼格|<span cyrs>добре</span>|<span cyrs>добро</span>|<span cyrs>добро</span>|​|呼格|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|呼格|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
+|**主格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добра</span>|​|**主格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**主格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
+|**生格**|<span cyrs>добра</span>|<span cyrs></span>|<span cyrs>добрꙑ</span>|​|**生格**|<span cyrs>добръ</span>|<span cyrs></span>|<span cyrs>добръ</span>|​|**生格**|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѹ</span>|
+|**与格**|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѣ</span>|​|**与格**|<span cyrs>добромъ</span>|<span cyrs></span>|<span cyrs>добрамъ</span>|​|**与格**|<span cyrs>доброма</span>|<span cyrs></span>|<span cyrs>добрама</span>|
+|**対格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добрѫ</span>|​|**対格**|<span cyrs>добрꙑ</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**対格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
+|**造格**|<span cyrs>добромь</span>|<span cyrs></span>|<span cyrs>доброѭ</span>|​|**造格**|<span cyrs>добрꙑ</span>|<span cyrs></span>|<span cyrs>добрами</span>|​|**造格**|<span cyrs>доброма</span>|<span cyrs></span>|<span cyrs>добрама</span>|
+|**所格**|<span cyrs>добрѣ</span>|<span cyrs></span>|<span cyrs>добрѣ</span>|​|**所格**|<span cyrs>добрѣхъ</span>|<span cyrs></span>|<span cyrs>добрахъ</span>|​|**所格**|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѹ</span>|
+|**呼格**|<span cyrs>добре</span>|<span cyrs>добро</span>|<span cyrs>добро</span>|​|**呼格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**呼格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
 
 :::
 
@@ -225,27 +338,29 @@ section: 言語ごとの概説
 
 |単数|男性|中性|女性|​|複数|男性|中性|女性|​|双数|男性|中性|女性|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|主格|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|主格|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|主格|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
-|生格|<span cyrs>добраѥго</span>|<span cyrs></span>|<span cyrs>добрꙑѩ</span>|​|生格|<span cyrs>добрꙑихъ</span>|<span cyrs></span>|<span cyrs></span>|​|生格|<span cyrs>добрѹю</span>|<span cyrs></span>|<span cyrs></span>|
-|与格|<span cyrs>добрѹѥмѹ</span>|<span cyrs></span>|<span cyrs>добрѣи</span>|​|与格|<span cyrs>добрꙑимъ</span>|<span cyrs></span>|<span cyrs></span>|​|与格|<span cyrs>добрꙑима</span>|<span cyrs></span>|<span cyrs></span>|
-|対格|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добрѫѭ</span>|​|対格|<span cyrs>добрꙑѩ</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|対格|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
-|造格|<span cyrs>добрꙑимь</span>|<span cyrs></span>|<span cyrs>добрѫѭ</span>|​|造格|<span cyrs>добрꙑими</span>|<span cyrs></span>|<span cyrs></span>|​|造格|<span cyrs>добрꙑима</span>|<span cyrs></span>|<span cyrs></span>|
-|所格|<span cyrs>добрѣѥмь</span>|<span cyrs></span>|<span cyrs>добрѣи</span>|​|所格|<span cyrs>добрꙑихъ</span>|<span cyrs></span>|<span cyrs></span>|​|所格|<span cyrs>добрѹю</span>|<span cyrs></span>|<span cyrs></span>|
-|呼格|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|呼格|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|呼格|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
+|**主格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|**主格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**主格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
+|**生格**|<span cyrs>добраѥго</span>|<span cyrs></span>|<span cyrs>добрꙑѩ</span>|​|**生格**|<span cyrs>добрꙑихъ</span>|<span cyrs></span>|<span cyrs></span>|​|**生格**|<span cyrs>добрѹю</span>|<span cyrs></span>|<span cyrs></span>|
+|**与格**|<span cyrs>добрѹѥмѹ</span>|<span cyrs></span>|<span cyrs>добрѣи</span>|​|**与格**|<span cyrs>добрꙑимъ</span>|<span cyrs></span>|<span cyrs></span>|​|**与格**|<span cyrs>добрꙑима</span>|<span cyrs></span>|<span cyrs></span>|
+|**対格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добрѫѭ</span>|​|**対格**|<span cyrs>добрꙑѩ</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**対格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
+|**造格**|<span cyrs>добрꙑимь</span>|<span cyrs></span>|<span cyrs>добрѫѭ</span>|​|**造格**|<span cyrs>добрꙑими</span>|<span cyrs></span>|<span cyrs></span>|​|**造格**|<span cyrs>добрꙑима</span>|<span cyrs></span>|<span cyrs></span>|
+|**所格**|<span cyrs>добрѣѥмь</span>|<span cyrs></span>|<span cyrs>добрѣи</span>|​|**所格**|<span cyrs>добрꙑихъ</span>|<span cyrs></span>|<span cyrs></span>|​|**所格**|<span cyrs>добрѹю</span>|<span cyrs></span>|<span cyrs></span>|
+|**呼格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|**呼格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**呼格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
 
 :::
+
+### 動詞
 
 ::: details be動詞 <span cyrs>бꙑти</span> '～である'
 
 |不定形 <span cyrs>бꙑти</span>| |現在 (不完了体)|現在 (完了体)|未完了過去|アオリスト (不完了体)|アオリスト (完了体)|命令法|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|単数|1人称|<span cyrs>ѥсмь</span>|<span cyrs>бѫдѫ</span>|<span cyrs>-</span>|<span cyrs>бѣхъ</span>|<span cyrs>бꙑхъ</span>|<span cyrs>-</span>|
+|**単数**|1人称|<span cyrs>ѥсмь</span>|<span cyrs>бѫдѫ</span>|<span cyrs>-</span>|<span cyrs>бѣхъ</span>|<span cyrs>бꙑхъ</span>|<span cyrs>-</span>|
 |^|2人称|<span cyrs>ѥси</span>|<span cyrs>бѫдеши</span>|<span cyrs>-</span>|<span cyrs>бѣ</span>|<span cyrs>бꙑ(-стъ)</span>|<span cyrs>бѫди</span>|
 |^|3人称|<span cyrs>ѥстъ</span>|<span cyrs>бѫдетъ</span>|<span cyrs>бѣаше</span>|<span cyrs>бѣ</span>|<span cyrs>бꙑ(-стъ)</span>|<span cyrs>бѫди</span>|
-|複数|1人称|<span cyrs>ѥсмъ</span>|<span cyrs>бѫдемъ</span>|<span cyrs>-</span>|<span cyrs>бѣхомъ</span>|<span cyrs>бꙑхомъ</span>|<span cyrs>бѫдѣмъ</span>|
+|**複数**|1人称|<span cyrs>ѥсмъ</span>|<span cyrs>бѫдемъ</span>|<span cyrs>-</span>|<span cyrs>бѣхомъ</span>|<span cyrs>бꙑхомъ</span>|<span cyrs>бѫдѣмъ</span>|
 |^|2人称|<span cyrs>ѥсте</span>|<span cyrs>бѫдете</span>|<span cyrs>-</span>|<span cyrs>бѣсте</span>|<span cyrs>бꙑсте</span>|<span cyrs>бѫдѣте</span>|
 |^|3人称|<span cyrs>сѫтъ</span>|<span cyrs>бѫдѫтъ</span>|<span cyrs>бѣахѫ</span>|<span cyrs>бѣшѧ</span>|<span cyrs>бꙑшѧ</span>|<span cyrs>-</span>|
-|双数|1人称|<span cyrs>ѥсвѣ</span>|<span cyrs>бѫдевѣ</span>|<span cyrs>-</span>|<span cyrs>бѣховѣ</span>|<span cyrs>бꙑховѣ</span>|<span cyrs>бѫдѣве</span>|
+|**双数**|1人称|<span cyrs>ѥсвѣ</span>|<span cyrs>бѫдевѣ</span>|<span cyrs>-</span>|<span cyrs>бѣховѣ</span>|<span cyrs>бꙑховѣ</span>|<span cyrs>бѫдѣве</span>|
 |^|2人称|<span cyrs>ѥста</span>|<span cyrs>бѫдета</span>|<span cyrs>-</span>|<span cyrs>бѣста</span>|<span cyrs>бꙑста</span>|<span cyrs>бѫдѣта</span>|
 |^|3人称|<span cyrs>ѥсте</span>|<span cyrs>бѫдете</span>|<span cyrs>бѣашете</span>|<span cyrs>бѣсте</span>|<span cyrs>бꙑсте</span>|<span cyrs>-</span>|
 
@@ -255,13 +370,13 @@ section: 言語ごとの概説
 
 |不定形 <span cyrs>пьсати</span>| |現在|未完了過去|アオリスト|完了 (男性)|過去完了 (男性)|命令法|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|単数|1人称|<span cyrs>пишѫ</span>|<span cyrs>пьсаахъ</span>|<span cyrs>пьсахъ</span>|<span cyrs>пьсалъ ѥсмь</span>|<span cyrs>пьсалъ бѣхъ</span>|<span cyrs>-</span>|
+|**単数**|1人称|<span cyrs>пишѫ</span>|<span cyrs>пьсаахъ</span>|<span cyrs>пьсахъ</span>|<span cyrs>пьсалъ ѥсмь</span>|<span cyrs>пьсалъ бѣхъ</span>|<span cyrs>-</span>|
 |^|2人称|<span cyrs>пишеши</span>|<span cyrs>пьсааше</span>|<span cyrs>пьса</span>|<span cyrs>пьсалъ ѥси</span>|<span cyrs>пьсалъ бѣ</span>|<span cyrs>пиши</span>|
 |^|3人称|<span cyrs>пишетъ</span>|<span cyrs>пьсааше</span>|<span cyrs>пьса</span>|<span cyrs>пьсалъ ѥстъ</span>|<span cyrs>пьсалъ бѣ/бѣаше</span>|<span cyrs>пиши</span>|
-|複数|1人称|<span cyrs>пишемъ</span>|<span cyrs>пьсаахомъ</span>|<span cyrs>пьсахомъ</span>|<span cyrs>пьсали ѥсмъ</span>|<span cyrs>пьсали бѣхомъ</span>|<span cyrs>пишѣмъ</span>|
+|**複数**|1人称|<span cyrs>пишемъ</span>|<span cyrs>пьсаахомъ</span>|<span cyrs>пьсахомъ</span>|<span cyrs>пьсали ѥсмъ</span>|<span cyrs>пьсали бѣхомъ</span>|<span cyrs>пишѣмъ</span>|
 |^|2人称|<span cyrs>пишете</span>|<span cyrs>пьсаашете</span>|<span cyrs>пьсасте</span>|<span cyrs>пьсали ѥсте</span>|<span cyrs>пьсали бѣсте</span>|<span cyrs>пишѣте</span>|
 |^|3人称|<span cyrs>пишѫтъ</span>|<span cyrs>пьсаахѫ</span>|<span cyrs>пьсашѧ</span>|<span cyrs>пьсали сѫтъ</span>|<span cyrs>пьсали бѣшѧ/бѣахѫ</span>|<span cyrs>-</span>|
-|双数|1人称|<span cyrs>пишевѣ</span>|<span cyrs>пьсааховѣ</span>|<span cyrs>пьсаховѣ</span>|<span cyrs>пьсала ѥсвѣ</span>|<span cyrs>пьсала бѣхове</span>|<span cyrs>пишѣве</span>|
+|**双数**|1人称|<span cyrs>пишевѣ</span>|<span cyrs>пьсааховѣ</span>|<span cyrs>пьсаховѣ</span>|<span cyrs>пьсала ѥсвѣ</span>|<span cyrs>пьсала бѣхове</span>|<span cyrs>пишѣве</span>|
 |^|2人称|<span cyrs>пишета</span>|<span cyrs>пьсаашета</span>|<span cyrs>пьсаста</span>|<span cyrs>пьсала ѥста</span>|<span cyrs>пьсала бѣста</span>|<span cyrs>пишѣта</span>|
 |^|3人称|<span cyrs>пишете</span>|<span cyrs>пьсаашете</span>|<span cyrs>пьсасте</span>|<span cyrs>пьсала ѥсте</span>|<span cyrs>пьсала бѣсте/бѣашете</span>|<span cyrs>-</span>|
 
@@ -271,13 +386,13 @@ section: 言語ごとの概説
 
 |不定形 <span cyrs>пьсати</span>| |能動現在分詞 <br> 「書いている」|能動過去分詞 <br> 「書いていた」|受動現在分詞 <br> 「書かれている」|受動過去分詞 <br> 「書かれた」|l-分詞|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|単数|男性|<span cyrs>пишѧ</span>|<span cyrs>пьсавъ</span>|<span cyrs>пишемъ</span>|<span cyrs>пьсанъ</span>|<span cyrs>пьсалъ</span>|
+|**単数**|男性|<span cyrs>пишѧ</span>|<span cyrs>пьсавъ</span>|<span cyrs>пишемъ</span>|<span cyrs>пьсанъ</span>|<span cyrs>пьсалъ</span>|
 |^|中性|<span cyrs>пишѧ</span>|<span cyrs>пьсавъ</span>|<span cyrs>пишемо</span>|<span cyrs>пьсано</span>|<span cyrs>пьсало</span>|
 |^|女性|<span cyrs>пишѫщи</span>|<span cyrs>пьсавъши</span>|<span cyrs>пишема</span>|<span cyrs>пьсана</span>|<span cyrs>пьсала</span>|
-|複数|男性|<span cyrs>пишѫще</span>|<span cyrs>пьсавъше</span>|<span cyrs>пишеми</span>|<span cyrs>пьсани</span>|<span cyrs>пьсали</span>|
+|**複数**|男性|<span cyrs>пишѫще</span>|<span cyrs>пьсавъше</span>|<span cyrs>пишеми</span>|<span cyrs>пьсани</span>|<span cyrs>пьсали</span>|
 |^|中性|<span cyrs>пишѫща</span>|<span cyrs>пьсавъша</span>|<span cyrs>пишема</span>|<span cyrs>пьсана</span>|<span cyrs>пьсала</span>|
 |^|女性|<span cyrs>пишѫщѧ</span>|<span cyrs>пьсавъшѧ</span>|<span cyrs>пишемꙑ</span>|<span cyrs>пьсанꙑ</span>|<span cyrs>пьсалꙑ</span>|
-|双数|男性|<span cyrs>пишѫща</span>|<span cyrs>пьсавъша</span>|<span cyrs>пишема</span>|<span cyrs>пьсана</span>|<span cyrs>пьсала</span>|
+|**双数**|男性|<span cyrs>пишѫща</span>|<span cyrs>пьсавъша</span>|<span cyrs>пишема</span>|<span cyrs>пьсана</span>|<span cyrs>пьсала</span>|
 |^|中性|<span cyrs>пишѫщи</span>|<span cyrs>пьсавъши</span>|<span cyrs>пишемѣ</span>|<span cyrs>пьсанѣ</span>|<span cyrs>пьсалѣ</span>|
 |^|女性|<span cyrs>пишѫщи</span>|<span cyrs>пьсавъши</span>|<span cyrs>пишемѣ</span>|<span cyrs>пьсанѣ</span>|<span cyrs>пьсалѣ</span>|
 
@@ -286,3 +401,7 @@ section: 言語ごとの概説
 ## 参考文献
 
 木村彰一, 『古代教会スラブ語入門』, 白水社, 2003
+
+[kiev]:Kiev_Folios,_fol._7r.jpg "キエフ断片7枚目右"
+
+[suprasl]: Codex_Suprasliensis.jpg "スプラシル写本1ページ目"
