@@ -15,6 +15,7 @@
     "globby": "^13.1.2",
     "gray-matter": "^4.0.3",
     "jsdom": "^20.0.2",
+    "markdown-it-merge-cells": "git+ssh://git@github.com:xiupos/markdown-it-merge-cells.git#master",
     "markdownlint-cli": "^0.32.2",
     "node-fetch": "^3.3.0",
     "node-sass": "^8.0.0",

@@ -1,4 +1,5 @@
 import { sidebar } from './theme/sidebar';
+import MarkdownItMergeCells from 'markdown-it-merge-cells';
 
 async function config() {
   return {
@@ -39,6 +40,13 @@ async function config() {
       ['meta', { name: 'msapplication-TileColor', content: '#679fd1' }],
       ['meta', { name: 'theme-color', content: '#ffffff' }],
     ],
+
+    markdown: {
+      config: (md) => {
+        // use more markdown-it plugins!
+        md.use(MarkdownItMergeCells);
+      },
+    },
   };
 }
 

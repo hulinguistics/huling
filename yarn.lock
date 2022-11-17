@@ -2334,6 +2334,10 @@ map-obj@^4.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.3.0.tgz#9304f906e93faae70880da102a9f1df0ea8bb05a"
   integrity sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==
 
+"markdown-it-merge-cells@git+ssh://git@github.com:xiupos/markdown-it-merge-cells.git#master":
+  version "2.0.0"
+  resolved "git+ssh://git@github.com:xiupos/markdown-it-merge-cells.git#55134485bb4587ec342382855e9bfc571858d604"
+
 markdown-it@13.0.1:
   version "13.0.1"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-13.0.1.tgz#c6ecc431cacf1a5da531423fc6a42807814af430"
