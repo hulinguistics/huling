@@ -92,7 +92,7 @@ section: 言語ごとの概説
 
     </span>
 
-### ２つの文字：グラゴル文字とキリル文字
+### グラゴル文字とキリル文字
 
 上の２つのテキストから分かるように,
 古教会スラヴ語の表記には２種類の文字体系が使われています[^4].
@@ -124,9 +124,9 @@ section: 言語ごとの概説
 |<span glag>ⰶ</span>|<span cyrs>ж</span>|ž|/ʒ/|英 *mea**s**ure*|
 |<span glag>ⰷ</span>|<span cyrs>ѕ</span>|dz|/d͡z/|英 *car**ds***|
 |<span glag>ⰸ</span>|<span cyrs>з</span>|z|/z/|英 *car**s***|
-|<span glag>ⰹ</span>|<span cyrs>і</span>|i|/i/|「イ」. 場合によっては /ji/ のような発音も想定される. <br> 例: краи = *kraji|
-|<span glag>ⰺ</span>|<span cyrs>ꙇ</span>|i|/i/|同上|
-|<span glag>ⰻ</span>|<span cyrs>и</span>|i|/i/|同上|
+|<span glag>ⰹ</span>|<span cyrs>і</span>|i|/i/|「イ」. 場合によっては /ji/ のような発音も想定される. <br> 例: краи = \*kraji|
+|<span glag>ⰺ</span>|<span cyrs>ꙇ</span>|^|^|^|
+|<span glag>ⰻ</span>|<span cyrs>и</span>|^|^|^|
 |<span glag>ⰼ</span>|<span cyrs>(ћ)</span>|ǵ|/gʲ/?|正確な音価は不明 <br> 古代ギリシア語における前舌母音の前の *γ* (ガンマ) と対応している|
 |<span glag>ⰽ</span>|<span cyrs>к</span>|k|/k/|「カ」の子音|
 |<span glag>ⰾ</span>|<span cyrs>л</span>|l|/l/|英 ***l**ast*|
@@ -203,21 +203,9 @@ section: 言語ごとの概説
 
 [^5]:福音書の内容を, 毎週日曜日に教会で読むときの順番に並べ替えたもの. 復活祭を基準に1年周期で読まれる.
 
-## 歴史
-
-第一部　モラヴィア編  
-
-その昔, ビザンツ帝国に**コンスタンティノス**と**メトディオス**という２人の兄弟がおりました.
-弟のコンスタンティノスは弟でメトディオスがお兄さんです.
-
-モラヴィア王ロスティスラフ
-「」
-
-第二部　ブルガリア編
-
 ## 音韻
 
-以下, 音韻について記述するときは上表「[文字一覧](#２つの文字グラゴル文字とキリル文字)」におけるラテン文字表記を用います.
+以下, 音韻について記述するときは上表「[文字一覧](#グラゴル文字とキリル文字)」におけるラテン文字表記を用います.
 また補助記号付きの文字 ń, ľ, ŕ はそれぞれ「ニャ」の子音 /nʲ/,
 ロシア語の ль /lʲ/,
 「リャ」の子音 /rʲ/ を表します.
@@ -325,11 +313,11 @@ k → kʲ, g → gʲ
 |単数|男性|中性|女性|​|複数|男性|中性|女性|​|双数|男性|中性|女性|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**主格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добра</span>|​|**主格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**主格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
-|**生格**|<span cyrs>добра</span>|<span cyrs></span>|<span cyrs>добрꙑ</span>|​|**生格**|<span cyrs>добръ</span>|<span cyrs></span>|<span cyrs>добръ</span>|​|**生格**|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѹ</span>|
-|**与格**|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѣ</span>|​|**与格**|<span cyrs>добромъ</span>|<span cyrs></span>|<span cyrs>добрамъ</span>|​|**与格**|<span cyrs>доброма</span>|<span cyrs></span>|<span cyrs>добрама</span>|
+|**生格**|>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**生格**|>|<span cyrs>добръ</span>|<span cyrs>добръ</span>|​|**生格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѹ</span>|
+|**与格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѣ</span>|​|**与格**|>|<span cyrs>добромъ</span>|<span cyrs>добрамъ</span>|​|**与格**|>|<span cyrs>доброма</span>|<span cyrs>добрама</span>|
 |**対格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добрѫ</span>|​|**対格**|<span cyrs>добрꙑ</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**対格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
-|**造格**|<span cyrs>добромь</span>|<span cyrs></span>|<span cyrs>доброѭ</span>|​|**造格**|<span cyrs>добрꙑ</span>|<span cyrs></span>|<span cyrs>добрами</span>|​|**造格**|<span cyrs>доброма</span>|<span cyrs></span>|<span cyrs>добрама</span>|
-|**所格**|<span cyrs>добрѣ</span>|<span cyrs></span>|<span cyrs>добрѣ</span>|​|**所格**|<span cyrs>добрѣхъ</span>|<span cyrs></span>|<span cyrs>добрахъ</span>|​|**所格**|<span cyrs>добрѹ</span>|<span cyrs></span>|<span cyrs>добрѹ</span>|
+|**造格**|>|<span cyrs>добромь</span>|<span cyrs>доброѭ</span>|​|**造格**|>|<span cyrs>добрꙑ</span>|<span cyrs>добрами</span>|​|**造格**|>|<span cyrs>доброма</span>|<span cyrs>добрама</span>|
+|**所格**|>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|​|**所格**|>|<span cyrs>добрѣхъ</span>|<span cyrs>добрахъ</span>|​|**所格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѹ</span>|
 |**呼格**|<span cyrs>добре</span>|<span cyrs>добро</span>|<span cyrs>добро</span>|​|**呼格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**呼格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
 
 :::
@@ -339,11 +327,11 @@ k → kʲ, g → gʲ
 |単数|男性|中性|女性|​|複数|男性|中性|女性|​|双数|男性|中性|女性|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**主格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|**主格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**主格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
-|**生格**|<span cyrs>добраѥго</span>|<span cyrs></span>|<span cyrs>добрꙑѩ</span>|​|**生格**|<span cyrs>добрꙑихъ</span>|<span cyrs></span>|<span cyrs></span>|​|**生格**|<span cyrs>добрѹю</span>|<span cyrs></span>|<span cyrs></span>|
-|**与格**|<span cyrs>добрѹѥмѹ</span>|<span cyrs></span>|<span cyrs>добрѣи</span>|​|**与格**|<span cyrs>добрꙑимъ</span>|<span cyrs></span>|<span cyrs></span>|​|**与格**|<span cyrs>добрꙑима</span>|<span cyrs></span>|<span cyrs></span>|
+|**生格**|>|<span cyrs>добраѥго</span>|<span cyrs>добрꙑѩ</span>|​|**生格**|>|>|<span cyrs>добрꙑихъ</span>|​|**生格**|>|>|<span cyrs>добрѹю</span>|
+|**与格**|>|<span cyrs>добрѹѥмѹ</span>|<span cyrs>добрѣи</span>|​|**与格**|>|>|<span cyrs>добрꙑимъ</span>|​|**与格**|>|>|<span cyrs>добрꙑима</span>|
 |**対格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добрѫѭ</span>|​|**対格**|<span cyrs>добрꙑѩ</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**対格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
-|**造格**|<span cyrs>добрꙑимь</span>|<span cyrs></span>|<span cyrs>добрѫѭ</span>|​|**造格**|<span cyrs>добрꙑими</span>|<span cyrs></span>|<span cyrs></span>|​|**造格**|<span cyrs>добрꙑима</span>|<span cyrs></span>|<span cyrs></span>|
-|**所格**|<span cyrs>добрѣѥмь</span>|<span cyrs></span>|<span cyrs>добрѣи</span>|​|**所格**|<span cyrs>добрꙑихъ</span>|<span cyrs></span>|<span cyrs></span>|​|**所格**|<span cyrs>добрѹю</span>|<span cyrs></span>|<span cyrs></span>|
+|**造格**|>|<span cyrs>добрꙑимь</span>|<span cyrs>добрѫѭ</span>|​|**造格**|>|>|<span cyrs>добрꙑими</span>|​|**造格**|>|>|<span cyrs>добрꙑима</span>|
+|**所格**|>|<span cyrs>добрѣѥмь</span>|<span cyrs>добрѣи</span>|​|**所格**|>|>|<span cyrs>добрꙑихъ</span>|​|**所格**|>|>|<span cyrs>добрѹю</span>|
 |**呼格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|**呼格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**呼格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
 
 :::
@@ -352,7 +340,7 @@ k → kʲ, g → gʲ
 
 ::: details be動詞 <span cyrs>бꙑти</span> '～である'
 
-|不定形 <span cyrs>бꙑти</span>| |現在 (不完了体)|現在 (完了体)|未完了過去|アオリスト (不完了体)|アオリスト (完了体)|命令法|
+|>|不定形 <span cyrs>бꙑти</span>|現在 (不完了体)|現在 (完了体)|未完了過去|アオリスト (不完了体)|アオリスト (完了体)|命令法|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**単数**|1人称|<span cyrs>ѥсмь</span>|<span cyrs>бѫдѫ</span>|<span cyrs>-</span>|<span cyrs>бѣхъ</span>|<span cyrs>бꙑхъ</span>|<span cyrs>-</span>|
 |^|2人称|<span cyrs>ѥси</span>|<span cyrs>бѫдеши</span>|<span cyrs>-</span>|<span cyrs>бѣ</span>|<span cyrs>бꙑ(-стъ)</span>|<span cyrs>бѫди</span>|
@@ -368,7 +356,7 @@ k → kʲ, g → gʲ
 
 ::: details 動詞 <span cyrs>пьсати</span> '書く'
 
-|不定形 <span cyrs>пьсати</span>| |現在|未完了過去|アオリスト|完了 (男性)|過去完了 (男性)|命令法|
+|>|不定形 <span cyrs>пьсати</span>|現在|未完了過去|アオリスト|完了 (男性)|過去完了 (男性)|命令法|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**単数**|1人称|<span cyrs>пишѫ</span>|<span cyrs>пьсаахъ</span>|<span cyrs>пьсахъ</span>|<span cyrs>пьсалъ ѥсмь</span>|<span cyrs>пьсалъ бѣхъ</span>|<span cyrs>-</span>|
 |^|2人称|<span cyrs>пишеши</span>|<span cyrs>пьсааше</span>|<span cyrs>пьса</span>|<span cyrs>пьсалъ ѥси</span>|<span cyrs>пьсалъ бѣ</span>|<span cyrs>пиши</span>|
@@ -384,7 +372,7 @@ k → kʲ, g → gʲ
 
 ::: details 動詞 <span cyrs>пьсати</span> の分詞
 
-|不定形 <span cyrs>пьсати</span>| |能動現在分詞 <br> 「書いている」|能動過去分詞 <br> 「書いていた」|受動現在分詞 <br> 「書かれている」|受動過去分詞 <br> 「書かれた」|l-分詞|
+|>|不定形 <span cyrs>пьсати</span>|能動現在分詞 <br> 「書いている」|能動過去分詞 <br> 「書いていた」|受動現在分詞 <br> 「書かれている」|受動過去分詞 <br> 「書かれた」|l-分詞|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**単数**|男性|<span cyrs>пишѧ</span>|<span cyrs>пьсавъ</span>|<span cyrs>пишемъ</span>|<span cyrs>пьсанъ</span>|<span cyrs>пьсалъ</span>|
 |^|中性|<span cyrs>пишѧ</span>|<span cyrs>пьсавъ</span>|<span cyrs>пишемо</span>|<span cyrs>пьсано</span>|<span cyrs>пьсало</span>|
