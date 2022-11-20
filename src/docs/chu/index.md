@@ -386,6 +386,11 @@ k → kʲ, g → gʲ
 
 :::
 
+<span cyrs>азъбѹкꙑ</span>  
+<span glag>ⰰⰸⱏⰱⱆⰽⱏⰹ</span>  
+<span hans>简体字</span>  
+<span hant>繁體字</span>  
+
 ## 参考文献
 
 木村彰一, 『古代教会スラブ語入門』, 白水社, 2003
