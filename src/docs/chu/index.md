@@ -386,10 +386,35 @@ k → kʲ, g → gʲ
 
 :::
 
-<span cyrs>азъбѹкꙑ</span>  
-<span glag>ⰰⰸⱏⰱⱆⰽⱏⰹ</span>  
-<span hans>简体字</span>  
-<span hant>繁體字</span>  
+::: info
+
+灰色で表示
+
+:::
+
+::: details
+
+折りたたまれて表示
+
+:::
+
+::: alert
+
+赤色で表示
+
+:::
+
+::: warning
+
+橙色で表示
+
+:::
+
+::: tip
+
+緑色で表示
+
+:::
 
 ## 参考文献
 
