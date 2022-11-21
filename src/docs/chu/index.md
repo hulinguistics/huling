@@ -312,13 +312,13 @@ k → kʲ, g → gʲ
 
 |単数|男性|中性|女性|​|複数|男性|中性|女性|​|双数|男性|中性|女性|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**主格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добра</span>|​|**主格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**主格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
-|**生格**|>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**生格**|>|<span cyrs>добръ</span>|<span cyrs>добръ</span>|​|**生格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѹ</span>|
-|**与格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѣ</span>|​|**与格**|>|<span cyrs>добромъ</span>|<span cyrs>добрамъ</span>|​|**与格**|>|<span cyrs>доброма</span>|<span cyrs>добрама</span>|
-|**対格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добрѫ</span>|​|**対格**|<span cyrs>добрꙑ</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**対格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
-|**造格**|>|<span cyrs>добромь</span>|<span cyrs>доброѭ</span>|​|**造格**|>|<span cyrs>добрꙑ</span>|<span cyrs>добрами</span>|​|**造格**|>|<span cyrs>доброма</span>|<span cyrs>добрама</span>|
-|**所格**|>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|​|**所格**|>|<span cyrs>добрѣхъ</span>|<span cyrs>добрахъ</span>|​|**所格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѹ</span>|
-|**呼格**|<span cyrs>добре</span>|<span cyrs>добро</span>|<span cyrs>добро</span>|​|**呼格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|​|**呼格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
+|**主格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добра</span>|^|**主格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|^|**主格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
+|**生格**|>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|^|**生格**|>|<span cyrs>добръ</span>|<span cyrs>добръ</span>|^|**生格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѹ</span>|
+|**与格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѣ</span>|^|**与格**|>|<span cyrs>добромъ</span>|<span cyrs>добрамъ</span>|^|**与格**|>|<span cyrs>доброма</span>|<span cyrs>добрама</span>|
+|**対格**|<span cyrs>добръ</span>|<span cyrs>добро</span>|<span cyrs>добрѫ</span>|^|**対格**|<span cyrs>добрꙑ</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|^|**対格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
+|**造格**|>|<span cyrs>добромь</span>|<span cyrs>доброѭ</span>|^|**造格**|>|<span cyrs>добрꙑ</span>|<span cyrs>добрами</span>|^|**造格**|>|<span cyrs>доброма</span>|<span cyrs>добрама</span>|
+|**所格**|>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|^|**所格**|>|<span cyrs>добрѣхъ</span>|<span cyrs>добрахъ</span>|^|**所格**|>|<span cyrs>добрѹ</span>|<span cyrs>добрѹ</span>|
+|**呼格**|<span cyrs>добре</span>|<span cyrs>добро</span>|<span cyrs>добро</span>|^|**呼格**|<span cyrs>добри</span>|<span cyrs>добра</span>|<span cyrs>добрꙑ</span>|^|**呼格**|<span cyrs>добра</span>|<span cyrs>добрѣ</span>|<span cyrs>добрѣ</span>|
 
 :::
 
@@ -326,13 +326,13 @@ k → kʲ, g → gʲ
 
 |単数|男性|中性|女性|​|複数|男性|中性|女性|​|双数|男性|中性|女性|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**主格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|**主格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**主格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
-|**生格**|>|<span cyrs>добраѥго</span>|<span cyrs>добрꙑѩ</span>|​|**生格**|>|>|<span cyrs>добрꙑихъ</span>|​|**生格**|>|>|<span cyrs>добрѹю</span>|
-|**与格**|>|<span cyrs>добрѹѥмѹ</span>|<span cyrs>добрѣи</span>|​|**与格**|>|>|<span cyrs>добрꙑимъ</span>|​|**与格**|>|>|<span cyrs>добрꙑима</span>|
-|**対格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добрѫѭ</span>|​|**対格**|<span cyrs>добрꙑѩ</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**対格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
-|**造格**|>|<span cyrs>добрꙑимь</span>|<span cyrs>добрѫѭ</span>|​|**造格**|>|>|<span cyrs>добрꙑими</span>|​|**造格**|>|>|<span cyrs>добрꙑима</span>|
-|**所格**|>|<span cyrs>добрѣѥмь</span>|<span cyrs>добрѣи</span>|​|**所格**|>|>|<span cyrs>добрꙑихъ</span>|​|**所格**|>|>|<span cyrs>добрѹю</span>|
-|**呼格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|​|**呼格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|​|**呼格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
+|**主格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|^|**主格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|^|**主格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
+|**生格**|>|<span cyrs>добраѥго</span>|<span cyrs>добрꙑѩ</span>|^|**生格**|>|>|<span cyrs>добрꙑихъ</span>|^|**生格**|>|>|<span cyrs>добрѹю</span>|
+|**与格**|>|<span cyrs>добрѹѥмѹ</span>|<span cyrs>добрѣи</span>|^|**与格**|>|>|<span cyrs>добрꙑимъ</span>|^|**与格**|>|>|<span cyrs>добрꙑима</span>|
+|**対格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добрѫѭ</span>|^|**対格**|<span cyrs>добрꙑѩ</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|^|**対格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
+|**造格**|>|<span cyrs>добрꙑимь</span>|<span cyrs>добрѫѭ</span>|^|**造格**|>|>|<span cyrs>добрꙑими</span>|^|**造格**|>|>|<span cyrs>добрꙑима</span>|
+|**所格**|>|<span cyrs>добрѣѥмь</span>|<span cyrs>добрѣи</span>|^|**所格**|>|>|<span cyrs>добрꙑихъ</span>|^|**所格**|>|>|<span cyrs>добрѹю</span>|
+|**呼格**|<span cyrs>добрꙑи</span>|<span cyrs>доброѥ</span>|<span cyrs>добраꙗ</span>|^|**呼格**|<span cyrs>добрии</span>|<span cyrs>добраꙗ</span>|<span cyrs>добрꙑѩ</span>|^|**呼格**|<span cyrs>добраꙗ</span>|<span cyrs>добрѣи</span>|<span cyrs>добрѣи</span>|
 
 :::
 
@@ -386,15 +386,15 @@ k → kʲ, g → gʲ
 
 :::
 
-::: info カスタム見出し
-
-灰色で表示
-
-:::
-
 ::: details カスタム見出し
 
 折りたたまれて表示
+
+:::
+
+::: info カスタム見出し
+
+灰色で表示
 
 :::
 
