@@ -26,16 +26,17 @@ section: 便利機能
 | :--: | :--: | :-- |
 | <span cyrs>а</span> | a |  |
 | <span cyrs>б</span> | b |  |
+| <span cyrs>в</span> | v |  |
 | <span cyrs>г</span> | g |  |
 | <span cyrs>д</span> | d |  |
 | <span cyrs>е</span> | e |  |
-| <span cyrs>ж</span> | ž, zh | zh→<span cyrs>ж</span>↔ž |
+| <span cyrs>ж</span> | ž, zh | zh → <span cyrs>ж</span> ↔ ž |
 | <span cyrs>ѕ</span> | dz |  |
 | <span cyrs>з</span> | z |  |
 | <span cyrs>и</span> | i |  |
-| <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ラテン文字 î <br> （技術的な問題により） |
-| <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ラテン文字 ɩ <br> （技術的な問題により） |
-| <span cyrs>ћ</span> | ǵ, gh | gh→<span cyrs>ћ</span>↔ǵ |
+| <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 î <br> （技術的な問題により） |
+| <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
+| <span cyrs>ћ</span> | ǵ, gh | gh → <span cyrs>ћ</span> ↔ ǵ |
 | <span cyrs>к</span> | k |  |
 | <span cyrs>л</span> | l |  |
 | <span cyrs>м</span> | m |  |
@@ -47,28 +48,29 @@ section: 便利機能
 | <span cyrs>т</span> | t |  |
 | <span cyrs>ѹ</span> | u |  |
 | <span cyrs>ф</span> | f |  |
-| <span cyrs>х</span> | x, h | h は zh(<span cyrs>ж</span>), eh(<span cyrs>ѣ</span>) などの表記にも使われているため, <br> なるべく x を使うよう推奨. <br>e.g. ex↔<span cyrs>ех</span>, eh→<span cyrs>ѣ</span>↔ě |
+| <span cyrs>ѳ</span> | th |  |
+| <span cyrs>х</span> | x, h | h は zh (<span cyrs>ж</span>), eh (<span cyrs>ѣ</span>) などの表記にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span cyrs>ех</span>, eh → <span cyrs>ѣ</span> ↔ ě |
 | <span cyrs>ѡ</span> | ô, oh |  |
-| <span cyrs>ѿ</span> | ôtъ, oht | oht→<span cyrs>ѿ</span>↔ôtъ <br> oht"→<span cyrs>ѡтъ</span>↔ôtъ |
+| <span cyrs>ѿ</span> | ôtъ, oht | oht → <span cyrs>ѿ</span> ↔ ôtъ <br> oht" → <span cyrs>ѡтъ</span> ↔ ôtъ |
 | <span cyrs>ц</span> | c |  |
-| <span cyrs>ч</span> | č, ch | ch→<span cyrs>ч</span>↔č |
-| <span cyrs>ш</span> | š, sh | sh→<span cyrs>ш</span>↔š |
-| <span cyrs>щ</span> | št, sht | sht→<span cyrs>щ</span>↔št |
-| <span cyrs>ъ</span> | ъ, ŭ, " | 単独または一部の文字列の後ろで "→<span cyrs>ъ</span>↔ŭ |
+| <span cyrs>ч</span> | č, ch | ch → <span cyrs>ч</span> ↔ č |
+| <span cyrs>ш</span> | š, sh | sh → <span cyrs>ш</span> ↔ š |
+| <span cyrs>щ</span> | št, sht | sht → <span cyrs>щ</span> ↔ št |
+| <span cyrs>ъ</span> | ъ, ŭ, " | 単独または一部の文字列の後ろで <br> " → <span cyrs>ъ</span> ↔ ŭ <br> （技術的な問題により） |
 | <span cyrs>ꙑ</span> | y |  |
-| <span cyrs>ь</span> | ь, ĭ, ' | 単独または一部の文字列の後ろで '→<span cyrs>ь</span>↔ĭ​ |
-| <span cyrs>ѣ</span> | ě, eh | eh→<span cyrs>ѣ</span>↔ě |
+| <span cyrs>ь</span> | ь, ĭ, ' | 単独または一部の文字列の後ろで <br> ' → <span cyrs>ь</span> ↔ ĭ <br> （技術的な問題により） |
+| <span cyrs>ѣ</span> | ě, eh | eh → <span cyrs>ѣ</span> ↔ ě |
 | <span cyrs>ꙗ</span> | ja |  |
 | <span cyrs>ѥ</span> | je |  |
 | <span cyrs>ю</span> | ju |  |
-| <span cyrs>ѫ</span> | ǫ, onn | onn→<span cyrs>ѫ</span>↔ǫ |
-| <span cyrs>ѭ</span> | jǫ, jonn | jonn→<span cyrs>ѭ</span>↔jǫ |
-| <span cyrs>ѧ</span> | ę, enn | enn→<span cyrs>ѧ</span>↔ę |
-| <span cyrs>ѩ</span> | ję, jenn | jenn→<span cyrs>ѩ</span>↔ję |
+| <span cyrs>ѫ</span> | ǫ, onn | onn → <span cyrs>ѫ</span> ↔ ǫ |
+| <span cyrs>ѭ</span> | jǫ, jonn | jonn → <span cyrs>ѭ</span> ↔ jǫ |
+| <span cyrs>ѧ</span> | ę, enn | enn → <span cyrs>ѧ</span> ↔ ę |
+| <span cyrs>ѩ</span> | ję, jenn | jenn → <span cyrs>ѩ</span> ↔ ję |
 | <span cyrs>ѯ</span> | ks |  |
 | <span cyrs>ѱ</span> | ps |  |
 | <span cyrs>ѳ</span> | th |  |
-| <span cyrs>ѵ</span> | ü, uh | uh→<span cyrs>ѵ</span>↔ü |
+| <span cyrs>ѵ</span> | ü, uh | uh → <span cyrs>ѵ</span> ↔ ü |
 | <span cyrs>ҁ</span> | q |  |
 | <span cyrs> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
 | <span cyrs> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
@@ -87,16 +89,17 @@ section: 便利機能
 | :--: | :--: | :-- |
 | <span glag>ⰰ</span> | a |  |
 | <span glag>ⰱ</span> | b |  |
+| <span glag>ⰲ</span> | v |  |
 | <span glag>ⰳ</span> | g |  |
 | <span glag>ⰴ</span> | d |  |
 | <span glag>ⰵ</span> | e |  |
-| <span glag>ⰶ</span> | ž, zh | zh→<span glag>ⰶ</span>↔ž |
+| <span glag>ⰶ</span> | ž, zh | zh → <span glag>ⰶ</span> ↔ ž |
 | <span glag>ⰷ</span> | dz |  |
 | <span glag>ⰸ</span> | z |  |
 | <span glag>ⰻ</span> | i |  |
-| <span glag>ⰹ</span> | î, j | 通例：グラゴル文字 <span glag>ⰹ</span> ↔ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰹ</span> ↔ラテン文字 î <br> （技術的な問題により） |
-| <span glag>ⰺ</span> | ɩ, jj | 通例：グラゴル文字 <span glag>ⰺ</span> ↔ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰺ</span> ↔ラテン文字 ɩ <br> （技術的な問題により） |
-| <span glag>ⰼ</span> | ǵ, gh | gh→<span glag>ⰼ</span>↔ǵ |
+| <span glag>ⰹ</span> | î, j | 通例：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 î <br> （技術的な問題により） |
+| <span glag>ⰺ</span> | ɩ, jj | 通例：グラゴル文字 <span glag>ⰺ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰺ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
+| <span glag>ⰼ</span> | ǵ, gh | gh → <span glag>ⰼ</span> ↔ ǵ |
 | <span glag>ⰽ</span> | k |  |
 | <span glag>ⰾ</span> | l |  |
 | <span glag>ⰿ</span> | m |  |
@@ -108,23 +111,23 @@ section: 便利機能
 | <span glag>ⱅ</span> | t |  |
 | <span glag>ⱆ</span> | u |  |
 | <span glag>ⱇ</span> | f |  |
-| <span glag>ⱈ</span> | x, h | h は zh(<span glag>ⰶ</span>), eh(<span glag>ⱑ</span>) などの表記にも使われているため, <br> なるべく x を使うよう推奨. <br>e.g. ex↔<span glag>ⰵⱈ</span>, eh→<span glag>ⱑ</span>↔ě |
+| <span glag>ⱚ</span> | th |  |
+| <span glag>ⱈ</span> | x, h | h は zh(<span glag>ⰶ</span>), eh(<span glag>ⱑ</span>) などの表記にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱉ</span> | ô, oh |  |
 | <span glag>ⱌ</span> | c |  |
-| <span glag>ⱍ</span> | č, ch | ch→<span glag>ⱍ</span>↔č |
-| <span glag>ⱎ</span> | š, sh | sh→<span glag>ⱎ</span>↔š |
-| <span glag>ⱋ</span> | št, sht | sht→<span glag>ⱋ</span>↔št |
-| <span glag>ⱏ</span> | ъ, ŭ, " | 単独または一部の文字列の後ろで "→<span glag>ⱏ</span>↔ŭ |
+| <span glag>ⱍ</span> | č, ch | ch → <span glag>ⱍ</span> ↔ č |
+| <span glag>ⱎ</span> | š, sh | sh → <span glag>ⱎ</span> ↔ š |
+| <span glag>ⱋ</span> | št, sht | sht → <span glag>ⱋ</span> ↔ št |
+| <span glag>ⱏ</span> | ъ, " |  |
 | <span glag>ⱏⰹ</span> | y |  |
-| <span glag>ⱐ</span> | ь, ĭ, ' | 単独または一部の文字列の後ろで '→<span glag>ⱐ</span>↔ĭ​ |
-| <span glag>ⱑ</span> | ě, eh | eh→<span glag>ⱑ</span>↔ě |
+| <span glag>ⱐ</span> | ь, ' |  |
+| <span glag>ⱑ</span> | ě, eh | eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱓ</span> | ju |  |
-| <span glag>ⱘ</span> | ǫ, onn | onn→<span glag>ⱘ</span>↔ǫ |
-| <span glag>ⱙ</span> | jǫ, jonn | jonn→<span glag>ⱙ</span>↔jǫ |
-| <span glag>ⱔ</span> | ę, enn | enn→<span glag>ⱔ</span>↔ę |
-| <span glag>ⱗ</span> | ję, jenn | jenn→<span glag>ⱗ</span>↔ję |
-| <span glag>ⱚ</span> | th |  |
-| <span glag>ⱛ</span> | ü, uh | uh→<span glag>ⱛ</span>↔ü |
+| <span glag>ⱘ</span> | ǫ, onn | onn → <span glag>ⱘ</span> ↔ ǫ |
+| <span glag>ⱙ</span> | jǫ, jonn | jonn → <span glag>ⱙ</span> ↔ jǫ |
+| <span glag>ⱔ</span> | ę, enn | enn → <span glag>ⱔ</span> ↔ ę |
+| <span glag>ⱗ</span> | ję, jenn | jenn → <span glag>ⱗ</span> ↔ ję |
+| <span glag>ⱛ</span> | ü, uh | uh → <span glag>ⱛ</span> ↔ ü |
 | <span glag> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
 | <span glag> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
 | <span glag> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |
