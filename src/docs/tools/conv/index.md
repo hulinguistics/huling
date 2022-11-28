@@ -200,6 +200,10 @@ f(:S:),g(:S:)
 
 :::
 
+## ゲエズ語ゲエズ文字
+
+<HLConverter src="/conv/gez.tsv" />
+
 ## イディッシュ語ヘブライ文字
 
 シュトゥメル・アリフ「א」は `|`．
@@ -212,7 +216,7 @@ f(:S:),g(:S:)
 「תּ」`*t`．
 ラテン文字は語頭も小文字で入力すること．
 
-<HLConverter src="/conv/yid.tsv" dirRight="rtl"  />
+<HLConverter src="/conv/yid.tsv" dirRight="rtl" />
 
 ## アイヌ語仮名
 
