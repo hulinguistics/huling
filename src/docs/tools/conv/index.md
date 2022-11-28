@@ -14,11 +14,11 @@ section: 便利機能
 
 [詳細](/docs/rus/index.html#ラテン文字・ロシア語キリル文字変換器)
 
-<HLConverter src="/conv/rus.csv" />
+<HLConverter src="/conv/rus.tsv" />
 
 ## 古教会スラヴ語キリル文字
 
-<HLConverter src="/conv/chu.csv" fontRight="Monomakh Unicode" />
+<HLConverter src="/conv/chu.tsv" fontRight="Monomakh Unicode" />
 
 ::: details 対応表
 
@@ -88,7 +88,7 @@ section: 便利機能
 名詞の女性語尾のターは `_t`,
 ワスラ付きアリフは `/a`.
 
-<HLConverter src="/conv/ara.csv" dirRight="rtl" />
+<HLConverter src="/conv/ara.tsv" dirRight="rtl" />
 
 ::: details 対応表解説
 
@@ -212,13 +212,13 @@ f(:S:),g(:S:)
 「תּ」`*t`．
 ラテン文字は語頭も小文字で入力すること．
 
-<HLConverter src="/conv/yid.csv" dirRight="rtl"  />
+<HLConverter src="/conv/yid.tsv" dirRight="rtl"  />
 
 ## アイヌ語仮名
 
 北海道アイヌ語、樺太アイヌ語対応。
 
-<HLConverter src="/conv/ain.csv" />
+<HLConverter src="/conv/ain.tsv" />
 
 ## ダイアクリティカルマーク付きラテン文字
 
@@ -229,7 +229,7 @@ f(:S:),g(:S:)
 
 詳しくは下の「対応表」を参照してください．
 
-<HLConverter src="/conv/lat.csv" />
+<HLConverter src="/conv/lat.tsv" />
 
 ::: details 対応表
 
@@ -276,4 +276,4 @@ f(:S:),g(:S:)
 
 ## 国際音声記号(X-SAMPA to IPA)
 
-<HLConverter src="/conv/ipa.csv" />
+<HLConverter src="/conv/ipa.tsv" />

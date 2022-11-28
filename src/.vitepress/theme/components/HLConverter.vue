@@ -103,6 +103,7 @@ export default {
               status.value.error = error;
             },
             quoteChar: '\\',
+            delimiter: '\t',
           }).data;
           return {
             title: { left: data[0][0], right: data[0][1] },
