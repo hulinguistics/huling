@@ -112,7 +112,7 @@ section: 便利機能
 | <span glag>ⱆ</span> | u |  |
 | <span glag>ⱇ</span> | f |  |
 | <span glag>ⱚ</span> | th |  |
-| <span glag>ⱈ</span> | x, h | h は zh(<span glag>ⰶ</span>), eh(<span glag>ⱑ</span>) などの表記にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
+| <span glag>ⱈ</span> | x, h | h は zh (<span glag>ⰶ</span>), eh (<span glag>ⱑ</span>) などの表記にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱉ</span> | ô, oh |  |
 | <span glag>ⱌ</span> | c |  |
 | <span glag>ⱍ</span> | č, ch | ch → <span glag>ⱍ</span> ↔ č |
