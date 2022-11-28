@@ -49,7 +49,7 @@ section: 便利機能
 | <span cyrs>ѹ</span> | u |  |
 | <span cyrs>ф</span> | f |  |
 | <span cyrs>ѳ</span> | th |  |
-| <span cyrs>х</span> | x, h | h は zh (<span cyrs>ж</span>), eh (<span cyrs>ѣ</span>) などの表記にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span cyrs>ех</span>, eh → <span cyrs>ѣ</span> ↔ ě |
+| <span cyrs>х</span> | x, h | h は zh (<span cyrs>ж</span>), eh (<span cyrs>ѣ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span cyrs>ех</span>, eh → <span cyrs>ѣ</span> ↔ ě |
 | <span cyrs>ѡ</span> | ô, oh |  |
 | <span cyrs>ѿ</span> | ôtъ, oht | oht → <span cyrs>ѿ</span> ↔ ôtъ <br> oht" → <span cyrs>ѡтъ</span> ↔ ôtъ |
 | <span cyrs>ц</span> | c |  |
@@ -79,7 +79,7 @@ section: 便利機能
 
 :::
 
-## グラゴル文字
+## 古教会スラヴ語グラゴル文字
 
 <HLConverter src="/conv/glag.tsv" fontRight="Shafarik" />
 
@@ -112,15 +112,15 @@ section: 便利機能
 | <span glag>ⱆ</span> | u |  |
 | <span glag>ⱇ</span> | f |  |
 | <span glag>ⱚ</span> | th |  |
-| <span glag>ⱈ</span> | x, h | h は zh (<span glag>ⰶ</span>), eh (<span glag>ⱑ</span>) などの表記にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
+| <span glag>ⱈ</span> | x, h | h は zh (<span glag>ⰶ</span>), eh (<span glag>ⱑ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱉ</span> | ô, oh |  |
 | <span glag>ⱌ</span> | c |  |
 | <span glag>ⱍ</span> | č, ch | ch → <span glag>ⱍ</span> ↔ č |
 | <span glag>ⱎ</span> | š, sh | sh → <span glag>ⱎ</span> ↔ š |
 | <span glag>ⱋ</span> | št, sht | sht → <span glag>ⱋ</span> ↔ št |
-| <span glag>ⱏ</span> | ъ, " |  |
+| <span glag>ⱏ</span> | ъ, " | " → <span glag>ⱏ</span> ↔ ъ |
 | <span glag>ⱏⰹ</span> | y |  |
-| <span glag>ⱐ</span> | ь, ' |  |
+| <span glag>ⱐ</span> | ь, ' | ' → <span glag>ⱐ</span> ↔ ь |
 | <span glag>ⱑ</span> | ě, eh | eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱓ</span> | ju |  |
 | <span glag>ⱘ</span> | ǫ, onn | onn → <span glag>ⱘ</span> ↔ ǫ |
