@@ -301,7 +301,7 @@ h よりも x の方が確実です.
 шема と出力されてしまいます.
 
 <!-- markdownlint-disable MD033 -->
-<HLConverter src="/conv/rus.csv" />
+<HLConverter src="/conv/rus.tsv" />
 <!-- markdownlint-enable MD033 -->
 
 ## ロシア語とウクライナ語
