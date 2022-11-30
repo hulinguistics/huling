@@ -1,6 +1,6 @@
 ---
 title: 言語学用語の解説
-section: 雑記
+section: 言語学の概説
 ---
 
 # {{ $frontmatter.title }}
