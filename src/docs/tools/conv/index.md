@@ -134,6 +134,10 @@ section: 便利機能
 
 :::
 
+## 古代ギリシア語ギリシア文字
+
+<HLConverter src="/conv/grc.tsv" dirRight="rtl" />
+
 ## アラビア語アラビア文字
 
 長母音は大文字 `A U I`,
