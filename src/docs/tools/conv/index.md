@@ -136,7 +136,7 @@ section: 便利機能
 
 ## 古代ギリシア語ギリシア文字
 
-<HLConverter src="/conv/grc.tsv" dirRight="rtl" />
+<HLConverter src="/conv/grc.tsv" />
 
 ## アラビア語アラビア文字
 
