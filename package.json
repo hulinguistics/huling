@@ -34,11 +34,11 @@
     "dev": "vitepress dev src",
     "build": "yarn font && vitepress build src",
     "eject": "vitepress eject src",
-    "font": "ts-node-esm scripts/font.ts subset src",
-    "lint": "eslint --ext .js,.ts,.vue src && eslint --ext .js,.ts,.vue scripts && markdownlint src",
+    "font": "ts-node-esm src/.vitepress/utils/font.ts subset src",
+    "lint": "eslint --ext .js,.ts,.vue src && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
-    "util:lang": "ts-node-esm scripts/newLang.ts",
-    "util:olym": "ts-node-esm scripts/newOlym.ts"
+    "util:lang": "ts-node-esm src/.vitepress/utils/newLang.ts",
+    "util:olym": "ts-node-esm src/.vitepress/utils/newOlym.ts"
   },
   "volta": {
     "node": "16.15.1",

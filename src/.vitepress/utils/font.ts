@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
 import subsetFont from 'subset-font';
-import { getPosts } from '../src/.vitepress/utils/getPosts.js';
+import { getPosts } from './getPosts.js';
 
 // コマンドライン引数
 const typ = process.argv[2];

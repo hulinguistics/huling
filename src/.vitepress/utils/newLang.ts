@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import jsdom from 'jsdom';
 import path from 'path';
-import newPost from '../src/.vitepress/utils/newPost.js';
+import newPost from './newPost.js';
 
 const { JSDOM } = jsdom;
 

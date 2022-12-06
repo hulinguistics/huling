@@ -1,5 +1,5 @@
 import path from 'path';
-import newPost from '../src/.vitepress/utils/newPost.js';
+import newPost from './newPost.js';
 
 const typeList = (typ: string) => {
   switch (typ) {
