@@ -35,7 +35,7 @@
     "build": "yarn font && vitepress build src",
     "eject": "vitepress eject src",
     "font": "ts-node-esm src/.vitepress/utils/font.ts subset src",
-    "lint": "eslint --ext .js,.ts,.vue src && eslint --ext .js,.ts,.vue scripts && markdownlint src",
+    "lint": "eslint --ext .js,.ts,.vue src && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
     "util:lang": "ts-node-esm src/.vitepress/utils/newLang.ts",
     "util:olym": "ts-node-esm src/.vitepress/utils/newOlym.ts"
