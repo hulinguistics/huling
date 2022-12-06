@@ -2,7 +2,7 @@ import { globby } from 'globby';
 import matter from 'gray-matter';
 import fs from 'fs-extra';
 
-export async function getMDFilePaths(parent) {
+export async function getMDFilePaths(parent: string) {
   const paths = (
     await globby(['**.md'], {
       ignore: ['node_modules', 'README.md'],
@@ -11,7 +11,7 @@ export async function getMDFilePaths(parent) {
   return paths;
 }
 
-export async function getContents(parent) {
+export async function getContents(parent: string) {
   const contents = await Promise.all(
     (
       await getMDFilePaths(parent)
@@ -22,7 +22,7 @@ export async function getContents(parent) {
   return contents;
 }
 
-export async function getPosts(parent) {
+export async function getPosts(parent: string) {
   const posts = await Promise.all(
     (
       await getMDFilePaths(parent)
