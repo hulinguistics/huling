@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
 import subsetFont from 'subset-font';
-import { getPosts } from './getPosts.js';
+import { getContents } from './getPosts.js';
 
 // コマンドライン引数
 const typ = process.argv[2];
@@ -49,9 +49,8 @@ async function getCharaList(parent: string) {
     Array.from(
       new Set(
         (
-          await getPosts(parent)
+          await getContents(parent, ['md', 'tsv'])
         )
-          .map((post) => post.content)
           .map((content) => {
             return content;
           })
