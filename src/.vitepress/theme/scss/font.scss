@@ -3,6 +3,7 @@
     sans-serif;
 }
 
+// Noto Sans
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
@@ -51,6 +52,7 @@
   src: url('/font/NotoSans-SemiBoldItalic.woff2') format('woff2');
 }
 
+// NotoSans JP
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
@@ -67,6 +69,7 @@
   src: url('/font/NotoSansCJKjp-Bold.woff2') format('woff2');
 }
 
+// Noto Sans SC
 @font-face {
   font-family: 'Noto Sans SC';
   font-style: normal;
@@ -83,6 +86,7 @@
   src: url('/font/NotoSansCJKsc-Bold.woff2') format('woff2');
 }
 
+// Noto Sans TC
 @font-face {
   font-family: 'Noto Sans TC';
   font-style: normal;
@@ -97,4 +101,50 @@
   font-weight: 700;
   font-display: swap;
   src: url('/font/NotoSansCJKtc-Bold.woff2') format('woff2');
+}
+
+// Monomakh Unicode
+@font-face {
+  font-family: 'Monomakh Unicode';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot');
+  src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/MonomakhUnicode.ttf') format('truetype');
+}
+
+// キリル文字（古代教会スラヴ語での異種）
+[cyrs] {
+  font-family: 'Monomakh Unicode', var(--vp-font-family-base);
+}
+
+// Shafarik
+@font-face {
+  font-family: 'Shafarik';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://sci.ponomar.net/fonts/Shafarik-Regular.eot');
+  src: url('https://sci.ponomar.net/fonts/Shafarik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff2') format('woff2'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.woff') format('woff'),
+    url('https://sci.ponomar.net/fonts/Shafarik-Regular.ttf') format('truetype');
+}
+
+// グラゴル文字
+[glag] {
+  font-family: 'Shafarik', var(--vp-font-family-base);
+}
+
+// 簡体字
+[hans] {
+  font-family: 'Noto Sans SC', var(--vp-font-family-base);
+}
+
+// 繁体字
+[hant] {
+  font-family: 'Noto Sans TC', var(--vp-font-family-base);
 }
