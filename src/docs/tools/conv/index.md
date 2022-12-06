@@ -1,6 +1,5 @@
 ---
 title: 文字変換器
-commentHide: true
 section: 便利機能
 ---
 

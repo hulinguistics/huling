@@ -7,6 +7,7 @@ labels:
   - 🍃newlangpost
 assignees: ''
 
+comment: true
 ---
 
 <!--

@@ -1,6 +1,7 @@
 ---
 title: JOL2022-5 ティンリン語
 section: オリンピック問題解説集
+comment: true
 ---
 
 # {{ $frontmatter.title }}
