@@ -97,11 +97,7 @@ export default {
       await axios
         .get(path)
         .then((response) => {
-          const data = papa.parse(response.data.trim(), {
-            error: (error: any) => {
-              console.log(error);
-              status.value.error = error;
-            },
+          const data: any = papa.parse(response.data.trim(), {
             quoteChar: '\\',
             delimiter: '\t',
           }).data;
