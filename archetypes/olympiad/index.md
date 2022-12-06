@@ -1,6 +1,7 @@
 ---
 title: {{ Code }} {{ Name }}
 section: オリンピック問題解説集
+comment: true
 ---
 
 # {{ $frontmatter.title }}

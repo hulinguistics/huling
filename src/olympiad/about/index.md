@@ -1,6 +1,7 @@
 ---
 title: 「言語学オリンピック」とは？
 section: 言語学オリンピックについて
+comment: true
 ---
 
 # {{ $frontmatter.title }}

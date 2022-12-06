@@ -1,6 +1,7 @@
 ---
 title: JOL2017-3 モンゴル語
 section: オリンピック問題解説集
+comment: true
 ---
 
 # {{ $frontmatter.title }}
