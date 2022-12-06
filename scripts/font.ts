@@ -29,7 +29,7 @@ const fontUrls = [
 
 const fontDir = 'src/public/font/';
 
-const typeList = (typ) => {
+const typeList = (typ: string) => {
   switch (typ) {
     case 'charas':
       return getCharaList;
@@ -44,7 +44,7 @@ const typeList = (typ) => {
   console.log(await typeList(typ)(arg));
 })();
 
-async function getCharaList(parent) {
+async function getCharaList(parent: string) {
   const charas = await Promise.all(
     Array.from(
       new Set(
@@ -62,7 +62,7 @@ async function getCharaList(parent) {
   return charas.join('');
 }
 
-async function createSubsetFont(parent) {
+async function createSubsetFont(parent: string) {
   fs.existsSync(fontDir) && fs.removeSync(fontDir);
   fs.mkdirsSync(fontDir);
   const charas = await getCharaList(parent);

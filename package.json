@@ -4,6 +4,7 @@
     "@types/fs-extra": "^9.0.13",
     "@types/jsdom": "^20.0.1",
     "@types/papaparse": "^5.3.5",
+    "@types/subset-font": "^1.4.0",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "axios": "^1.1.3",
@@ -33,11 +34,11 @@
     "dev": "vitepress dev src",
     "build": "yarn font && vitepress build src",
     "eject": "vitepress eject src",
-    "font": "node scripts/font.js subset src",
+    "font": "ts-node-esm scripts/font.ts subset src",
     "lint": "eslint --ext .js,.ts,.vue src && eslint --ext .js,.ts,.vue scripts && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
-    "util:lang": "node scripts/newLang.js",
-    "util:olym": "node scripts/newOlym.js"
+    "util:lang": "ts-node-esm scripts/newLang.ts",
+    "util:olym": "ts-node-esm scripts/newOlym.ts"
   },
   "volta": {
     "node": "16.15.1",
