@@ -101,7 +101,7 @@ async function createScss(config: any) {
     });
   config.subsets.forEach((subset: any) => {
     if (!subset.name) return;
-    if (subset.tag) {
+    if (subset.tag)
       result.push({
         selector: '[' + subset.tag + ']',
         style: [
@@ -111,8 +111,7 @@ async function createScss(config: any) {
           },
         ],
       });
-    }
-    subset.fonts.map((font: any) => {
+    subset.fonts.forEach((font: any) => {
       result.push({
         selector: '@font-face',
         style: [
@@ -120,12 +119,10 @@ async function createScss(config: any) {
             property: 'font-family',
             value: '"' + subset.name + '"',
           },
-          ...Object.entries(font).map(([prop, val]) => {
-            return {
-              property: prop == 'src' ? prop : 'font-' + prop,
-              value: prop == 'src' ? 'url("' + val + '")' : val,
-            };
-          }),
+          ...Object.entries(font).map(([prop, val]) => ({
+            property: prop == 'src' ? prop : 'font-' + prop,
+            value: prop == 'src' ? 'url("' + val + '")' : val,
+          })),
         ],
       });
     });
