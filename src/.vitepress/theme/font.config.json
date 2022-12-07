@@ -1,5 +1,5 @@
 {
-  "root-family": [
+  "root_family": [
     "Noto Sans",
     "Noto Sans JP",
     "Helvetica Neue",
@@ -14,37 +14,37 @@
       "name": "Noto Sans",
       "fonts": [
         {
-          "url": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "url": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Italic.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Italic.ttf",
           "style": "italic",
           "weight": 400,
           "display": "swap"
         },
         {
-          "url": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Medium.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Medium.ttf",
           "style": "normal",
           "weight": 500,
           "display": "swap"
         },
         {
-          "url": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-MediumItalic.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-MediumItalic.ttf",
           "style": "italic",
           "weight": 500,
           "display": "swap"
         },
         {
-          "url": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-SemiBold.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-SemiBold.ttf",
           "style": "normal",
           "weight": 600,
           "display": "swap"
         },
         {
-          "url": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-SemiBoldItalic.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-SemiBoldItalic.ttf",
           "style": "italic",
           "weight": 600,
           "display": "swap"
@@ -55,13 +55,13 @@
       "name": "Noto Sans JP",
       "fonts": [
         {
-          "url": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "url": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Bold.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Bold.otf",
           "style": "normal",
           "weight": 700,
           "display": "swap"
@@ -73,13 +73,13 @@
       "tag": "hans",
       "fonts": [
         {
-          "url": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "url": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
           "style": "normal",
           "weight": 700,
           "display": "swap"
@@ -91,13 +91,13 @@
       "tag": "hant",
       "fonts": [
         {
-          "url": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Regular.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Regular.otf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "url": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Bold.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Bold.otf",
           "style": "normal",
           "weight": 700,
           "display": "swap"
@@ -109,7 +109,7 @@
       "tag": "cyrs",
       "fonts": [
         {
-          "url": "https://sci.ponomar.net/fonts/MonomakhUnicode.ttf",
+          "src": "https://sci.ponomar.net/fonts/MonomakhUnicode.ttf",
           "style": "normal",
           "weight": "normal",
           "display": "swap"
@@ -121,7 +121,7 @@
       "tag": "glag",
       "fonts": [
         {
-          "url": "https://sci.ponomar.net/fonts/Shafarik-Regular.ttf",
+          "src": "https://sci.ponomar.net/fonts/Shafarik-Regular.ttf",
           "style": "normal",
           "weight": "normal",
           "display": "swap"
