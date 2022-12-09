@@ -3,10 +3,6 @@
     <div v-if="status.loading">
       <p>Now loading...</p>
     </div>
-    <div v-else-if="status.error" class="danger custom-block">
-      <p class="custom-block-title">ERROR</p>
-      <p>{{ status.error }}</p>
-    </div>
     <div v-else>
       <div class="convbox">
         <div>
@@ -63,8 +59,7 @@
 
 <script lang="ts">
 import { ref, watch } from 'vue';
-import axios from 'axios';
-import papa from 'papaparse';
+import { getList, converter } from '../../utils/conv';
 
 export default {
   props: {
@@ -92,25 +87,7 @@ export default {
 
   setup(props) {
     // 変換表取得関数
-    let status = ref({ loading: true, error: '' });
-    const getList = async (path: string) =>
-      await axios
-        .get(path)
-        .then((response) => {
-          const data: any = papa.parse(response.data.trim(), {
-            quoteChar: '\\',
-            delimiter: '\t',
-          }).data;
-          return {
-            title: { left: data[0][0], right: data[0][1] },
-            set: data.slice(1, data.len),
-            test: converter('HELLO, WORLD!', data.slice(1, data.len)),
-          };
-        })
-        .catch((error) => {
-          console.log(error);
-          status.value.error = error;
-        });
+    let status = ref({ loading: true });
 
     // 変換表の初期化
     const list = ref();
@@ -118,23 +95,6 @@ export default {
       list.value = await getList(props.src);
       status.value.loading = false;
     })();
-
-    // 文字変換関数
-    const converter = (input: string, set: [string, string][]) => {
-      let output: string = input;
-      while (
-        set.some((value: [string, string]) => {
-          if (value[0] && output.indexOf(value[0]) !== -1) {
-            const output_old = output;
-            output = output.replaceAll(value[0], value[1]);
-            return output != output_old;
-          } else {
-            return false;
-          }
-        })
-      );
-      return output;
-    };
 
     // テキストエリアの中身を更新
     const textarea = ref({
