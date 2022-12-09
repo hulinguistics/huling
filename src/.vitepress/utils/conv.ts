@@ -16,7 +16,7 @@ export const getList = async (path: string) =>
       };
     })
     .catch((error) => {
-      throw new Error(error);
+      throw error;
     });
 
 // 文字変換関数
