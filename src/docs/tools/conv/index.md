@@ -141,8 +141,10 @@ section: 便利機能
 短母音は `a_`, `i_`, `y_`, 長母音は `aa`, `ee`, `ii`..., 分離記号は `"i`, `"y`,  
 下書きのイオータは `aai`, `eei`, `ooi`, `aa/i` などで変換されます.  
 またシグマの語末形は `s.`, `s;`, `s + 半角スペース` などで変換できます.  
-ギリシア文字からラテン文字への転写は **ALA-LC** (American Library Association – Library of Congress) を参考にしてアクセント記号を追加したものです.
-[ALA-LC のラテン文字転写表](https://www.loc.gov/catdir/cpso/romanization/greek.pdf "ALA-LC Romanization Tables: Greek")
+ギリシア文字からラテン文字への転写は
+**ALA-LC** (American Library Association – Library of Congress)
+の転写法を参考にしてアクセント記号を追加したものです.
+[ALA-LC のラテン文字転写表][grc-lat table]
 
 <HLConverter src="/conv/grc.tsv" />
 
@@ -371,3 +373,5 @@ f(:S:),g(:S:)
 ## 国際音声記号(X-SAMPA to IPA)
 
 <HLConverter src="/conv/ipa.tsv" />
+
+[grc-lat table]:https://www.loc.gov/catdir/cpso/romanization/greek.pdf
