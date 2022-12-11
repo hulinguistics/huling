@@ -169,9 +169,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// Source Code Pro
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
 .HLConverter {
   margin: 16px 0;
 
