@@ -1,6 +1,7 @@
 ---
 title: JOL2021-1 カビル語
 section: オリンピック問題解説集
+comment: true
 ---
 
 # {{ $frontmatter.title }}
