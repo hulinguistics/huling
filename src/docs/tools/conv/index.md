@@ -307,14 +307,14 @@ f(:S:),g(:S:)
 「תּ」`*t`．
 ラテン文字は語頭も小文字で入力すること．
 
-<HLConverter src="/conv/yid.tsv" dirRight="rtl"  />
+<HLConverter src="/conv/yid.tsv" dirRight="rtl" fontRight="Noto Sans Hebrew" />
 
 ## アイヌ語カタカナ
 
 北海道アイヌ語、樺太アイヌ語対応．
 喉頭破裂音は `'`．
 
-<HLConverter src="/conv/ain.tsv" />
+<HLConverter src="/conv/ain.tsv" fontRight="Noto Sans JP" />
 
 ::: details 変換表
 

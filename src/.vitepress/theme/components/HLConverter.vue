@@ -169,9 +169,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// Source Code Pro
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
 .HLConverter {
   margin: 16px 0;
 
@@ -206,12 +203,12 @@ export default {
   }
 
   [leftta] {
-    font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
+    font-family: v-bind(fontLeft), 'Noto Sans Mono', monospace;
     direction: v-bind(dirLeft);
   }
 
   [rightta] {
-    font-family: v-bind(fontRight), 'Source Code Pro', monospace;
+    font-family: v-bind(fontRight), 'Noto Sans Mono', monospace;
     direction: v-bind(dirRight);
   }
 }

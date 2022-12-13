@@ -42,11 +42,16 @@
           "style": "normal",
           "weight": 600,
           "display": "swap"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Noto Sans Mono",
+      "fonts": [
         {
-          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-SemiBoldItalic.ttf",
-          "style": "italic",
-          "weight": 600,
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSansMono/NotoSansMono-Regular.ttf",
+          "style": "normal",
+          "weight": 400,
           "display": "swap"
         }
       ]
@@ -100,6 +105,18 @@
           "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Bold.otf",
           "style": "normal",
           "weight": 700,
+          "display": "swap"
+        }
+      ]
+    },
+    {
+      "name": "Noto Sans Hebrew",
+      "tag": "hebr",
+      "fonts": [
+        {
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSansHebrew/NotoSansHebrew-Regular.ttf",
+          "style": "normal",
+          "weight": 400,
           "display": "swap"
         }
       ]
