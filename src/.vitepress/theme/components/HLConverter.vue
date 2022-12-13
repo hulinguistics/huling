@@ -203,12 +203,12 @@ export default {
   }
 
   [leftta] {
-    font-family: v-bind(fontLeft), 'Source Code Pro', monospace;
+    font-family: v-bind(fontLeft), 'Noto Sans Mono', monospace;
     direction: v-bind(dirLeft);
   }
 
   [rightta] {
-    font-family: v-bind(fontRight), 'Source Code Pro', monospace;
+    font-family: v-bind(fontRight), 'Noto Sans Mono', monospace;
     direction: v-bind(dirRight);
   }
 }

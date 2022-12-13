@@ -1,7 +1,7 @@
 {
   "root_family": [
-    "Source Sans",
-    "Source Han Sans Japanese",
+    "Noto Sans",
+    "Noto Sans JP",
     "Helvetica Neue",
     "Arial",
     "Hiragino Kaku Gothic ProN",
@@ -11,39 +11,45 @@
   ],
   "subsets": [
     {
-      "name": "Source Sans",
+      "name": "Noto Sans",
       "fonts": [
         {
-          "src": "https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-Regular.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "src": "https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-It.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Italic.ttf",
           "style": "italic",
           "weight": 400,
           "display": "swap"
         },
         {
-          "src": "https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-Semibold.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Medium.ttf",
           "style": "normal",
-          "weight": 600,
+          "weight": 500,
           "display": "swap"
         },
         {
-          "src": "https://github.com/adobe-fonts/source-sans/raw/release/TTF/SourceSans3-SemiboldIt.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-MediumItalic.ttf",
           "style": "italic",
+          "weight": 500,
+          "display": "swap"
+        },
+        {
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-SemiBold.ttf",
+          "style": "normal",
           "weight": 600,
           "display": "swap"
         }
       ]
     },
     {
-      "name": "Source Code Pro",
+      "name": "Noto Sans Mono",
       "fonts": [
         {
-          "src": "https://github.com/adobe-fonts/source-code-pro/raw/release/TTF/SourceCodePro-Regular.ttf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSansMono/NotoSansMono-Regular.ttf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
@@ -51,16 +57,16 @@
       ]
     },
     {
-      "name": "Source Han Sans Japanese",
+      "name": "Noto Sans JP",
       "fonts": [
         {
-          "src": "https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/Japanese/SourceHanSans-Regular.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "src": "https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/Japanese/SourceHanSans-Bold.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Bold.otf",
           "style": "normal",
           "weight": 700,
           "display": "swap"
@@ -68,17 +74,17 @@
       ]
     },
     {
-      "name": "Source Han Sans SimplifiedChinese",
+      "name": "Noto Sans SC",
       "tag": "hans",
       "fonts": [
         {
-          "src": "https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "src": "https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SimplifiedChinese/SourceHanSansSC-Bold.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
           "style": "normal",
           "weight": 700,
           "display": "swap"
@@ -86,17 +92,17 @@
       ]
     },
     {
-      "name": "Source Han Sans TraditionalChinese",
+      "name": "Noto Sans TC",
       "tag": "hant",
       "fonts": [
         {
-          "src": "https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/TraditionalChinese/SourceHanSansTC-Regular.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Regular.otf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
         },
         {
-          "src": "https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/TraditionalChinese/SourceHanSansTC-Bold.otf",
+          "src": "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Bold.otf",
           "style": "normal",
           "weight": 700,
           "display": "swap"
@@ -104,11 +110,11 @@
       ]
     },
     {
-      "name": "Source Hebrew Sans",
+      "name": "Noto Sans Hebrew",
       "tag": "hebr",
       "fonts": [
         {
-          "src": "https://github.com/adobe-fonts/source-hebrew-sans/raw/master/Upright/Regular/SourceHebrewSans-Regular.otf",
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSansHebrew/NotoSansHebrew-Regular.ttf",
           "style": "normal",
           "weight": 400,
           "display": "swap"
