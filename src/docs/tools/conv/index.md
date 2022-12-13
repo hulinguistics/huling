@@ -314,7 +314,7 @@ f(:S:),g(:S:)
 北海道アイヌ語、樺太アイヌ語対応．
 喉頭破裂音は `'`．
 
-<HLConverter src="/conv/ain.tsv" />
+<HLConverter src="/conv/ain.tsv" fontRight="Noto Sans JP" />
 
 ::: details 変換表
 
