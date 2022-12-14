@@ -178,6 +178,7 @@ section: 便利機能
 supralinear stroke <span copt>◌̄</span> `-`,
 数詞を表す上線(nomina sacra) <span copt>◌̅</span> `_`.
 文字は下の対応表を参照.
+数字は1~9999の範囲のみ対応.
 
 <HLConverter src="/conv/cop.tsv" fontRight="Noto Sans Coptic" />
 
