@@ -172,13 +172,14 @@ section: 便利機能
 
 :::
 
-## コプト語サイード方言コプト文字
+## コプト語コプト文字
 
 1000を表す上線 <span copt>◌̿</span> `=`,
 supralinear stroke <span copt>◌̄</span> `-`,
-数詞を表す上線(nomina sacra) <span copt>◌̅</span> `_`.
+数詞および nomina sacra を表す上線 <span copt>◌̅</span> `_`.
 文字は下の対応表を参照.
 数字は1~9999の範囲のみ対応.
+[ALA-LC のラテン文字転写表][cop-lat table]
 
 <HLConverter src="/conv/cop.tsv" fontRight="Noto Sans Coptic" />
 
@@ -186,22 +187,25 @@ supralinear stroke <span copt>◌̄</span> `-`,
 
 | コプト文字 | ラテン転写 | 入力方法 | コプト文字 | ラテン転写 | 入力方法 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| <span copt>Ⲁ ⲁ</span> | A a | a | <span copt>Ⲡ ⲡ</span> | P p | p |
-| <span copt>Ⲃ ⲃ</span> | B b | b | <span copt>Ⲣ ⲣ</span> | R r | r |
-| <span copt>Ⲅ ⲅ</span> | G g | g | <span copt>Ⲥ ⲥ</span> | S s | s |
-| <span copt>Ⲇ ⲇ</span> | D d | d | <span copt>Ⲧ ⲧ</span> | T t | t |
-| <span copt>Ⲉ ⲉ</span> | E e | e | <span copt>Ⲩ ⲩ</span> | U u | u |
-| <span copt>Ⲋ ⲋ</span> | St st | st | <span copt>Ⲫ ⲫ</span> | Ph ph | ph |
-| <span copt>Ⲍ ⲍ</span> | Z z | z | <span copt>Ⲭ ⲭ</span> | Kh kh | kh |
-| <span copt>Ⲏ ⲏ</span> | Ē ē | ee | <span copt>Ⲯ ⲯ</span> | Ps ps | ps |
-| <span copt>Ⲑ ⲑ</span> | Th th | th | <span copt>Ⲱ ⲱ</span> | Ō ō | oo |
-| <span copt>Ⲓ ⲓ</span> | I i | i | <span copt>Ϣ ϣ</span> | Š š | sh |
-| <span copt>Ⲕ ⲕ</span> | K k | k | <span copt>Ϥ ϥ</span> | F f | f |
-| <span copt>Ⲗ ⲗ</span> | L l | l | <span copt>Ϧ ϧ</span> | X x | x |
-| <span copt>Ⲙ ⲙ</span> | M m | m | <span copt>Ϩ ϩ</span> | H h | h |
-| <span copt>Ⲛ ⲛ</span> | N n | n | <span copt>Ϫ ϫ</span> | Č č | ch |
-| <span copt>Ⲝ ⲝ</span> | Ks ks | ks | <span copt>Ϭ ϭ</span> | Ki ki | ki, ky |
-| <span copt>Ⲟ ⲟ</span> | O o | o | <span copt>Ϯ ϯ</span> | Ti ti | ti |
+| <span copt>Ⲁ ⲁ</span> | A a | `a` | <span copt>Ⲧ ⲧ</span> | T t | `t` |
+| <span copt>Ⲃ ⲃ</span> | B b | `b` | <span copt>Ⲩ ⲩ</span> | U u | `u`, `w` |
+| <span copt>Ⲅ ⲅ</span> | G g | `g` | <span copt>Ⲫ ⲫ</span> | Ph ph | `ph` |
+| <span copt>Ⲇ ⲇ</span> | D d | `d` | <span copt>Ⲭ ⲭ</span> | Ch ch | `ch`, `kh` |
+| <span copt>Ⲉ ⲉ</span> | E e | `e` | <span copt>Ⲯ ⲯ</span> | Ps ps | `ps` |
+| <span copt>Ⲋ ⲋ</span> | St st | `st` | <span copt>Ⲱ ⲱ</span> | Ō ō | `oo` |
+| <span copt>Ⲍ ⲍ</span> | Z z | `z` | <span copt>Ϣ ϣ</span> | Š š | `sh` |
+| <span copt>Ⲏ ⲏ</span> | Ē ē | `ee` | <span copt>Ϥ ϥ</span> | F f | `f` |
+| <span copt>Ⲑ ⲑ</span> | Th th | `th` | <span copt>Ϧ ϧ</span> | Ḥ ḥ | .`h` |
+| <span copt>Ⲓ ⲓ</span> | I i | `i`, `y` | <span copt>Ϩ ϩ</span> | H h | `h` |
+| <span copt>Ⲕ ⲕ</span> | K k | `k` | <span copt>Ϫ ϫ</span> | Č č | `tch` |
+| <span copt>Ⲗ ⲗ</span> | L l | `l` | <span copt>Ϭ ϭ</span> | Ky ky | `ky` |
+| <span copt>Ⲙ ⲙ</span> | M m | `m` | <span copt>Ϯ ϯ</span> | Ti ti | `ti` |
+| <span copt>Ⲛ ⲛ</span> | N n | `n` | <span copt>Ⲳ ⲳ</span> | ' | `"` `'` |
+| <span copt>Ⲝ ⲝ</span> | X x | `x`, `ks` | <span copt>Ⲹ ⲹ</span> | K̤ k̤ | `"k` |
+| <span copt>Ⲟ ⲟ</span> | O o | `o` | <span copt>Ⲻ ⲻ</span> | N̈ n̈ | `"n` |
+| <span copt>Ⲡ ⲡ</span> | P p | `p` | <span copt>Ⳃ ⳃ</span> | Ç̈ ç̈ | `"c` |
+| <span copt>Ⲣ ⲣ</span> | R r | `r` | <span copt>Ⳋ ⳋ</span> | Ç ç | `c` |
+| <span copt>Ⲥ ⲥ</span> | S s | `s` | <span copt>Ⳁ ⳁ</span> | 900 | `~p` |
 
 :::
 
@@ -441,3 +445,4 @@ f(:S:),g(:S:)
 <HLConverter src="/conv/ipa.tsv" />
 
 [grc-lat table]:https://www.loc.gov/catdir/cpso/romanization/greek.pdf
+[cop-lat table]:https://www.loc.gov/catdir/cpso/romanization/coptic.pdf
