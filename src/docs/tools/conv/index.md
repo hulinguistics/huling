@@ -179,6 +179,7 @@ supralinear stroke <span copt>◌̄</span> `-`,
 数詞および nomina sacra を表す上線 <span copt>◌̅</span> `_`.
 文字は下の対応表を参照.
 数字は1~9999の範囲のみ対応.
+ラテン文字記入上の区切り文字は `/`.
 [ALA-LC のラテン文字転写表][cop-lat table]
 
 <HLConverter src="/conv/cop.tsv" fontRight="Noto Sans Coptic" />
