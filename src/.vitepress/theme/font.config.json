@@ -122,6 +122,18 @@
       ]
     },
     {
+      "name": "Noto Sans Coptic",
+      "tag": "copt",
+      "fonts": [
+        {
+          "src": "https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSansCoptic/NotoSansCoptic-Regular.ttf",
+          "style": "normal",
+          "weight": 400,
+          "display": "swap"
+        }
+      ]
+    },
+    {
       "name": "Monomakh Unicode",
       "tag": "cyrs",
       "fonts": [
