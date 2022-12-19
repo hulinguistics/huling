@@ -11,11 +11,62 @@ section: 便利機能
 
 ## ロシア語キリル文字
 
-[詳細](/docs/rus/index.html#ラテン文字・ロシア語キリル文字変換器)
+軟音記号 ь は `'`, 硬音記号 ъ は `''`, ダッシュ — は `--`, 引用符 « » は `" ""`.  
+アクセント記号は母音字の直後に `/` を入れる (`//` で第2アクセントになる).
+1918年の正書法改革以前に使用されていた文字 ѣ, і, ѵ, ѳ はそれぞれ `e_`, `i_`, `i__`, `f_`.  
 
 <HLConverter src="/conv/rus.tsv" />
 
+::: details 対応表
+
+|キリル文字|ラテン転写|入力方法|
+|:----|:----|:----|
+|А а|A a|A a|
+|Б б|B b|B b|
+|В в|V v|V v|
+|Г г|G g|G g|
+|Д д|D d|D d|
+|Е е|E e|E e|
+|Ё ё|Ë ë|Yo yo|
+|Ж ж|Ž ž|Zh zh|
+|З з|Z z|Z z|
+|И и|I i|I i|
+|Й й|J j|J j|
+|К к|K k|K k|
+|Л л|L l|L l|
+|М м|M m|M m|
+|Н н|N n|N n|
+|О о|O o|O o|
+|П п|P p|P p|
+|Р р|R r|R r|
+|С с|S s|S s|
+|Т т|T t|T t|
+|У у|U u|U u|
+|Ф ф|F f|F f|
+|Х х|X x|X x|
+|Ц ц|C c|C c|
+|Ч ч|Č č|Ch ch|
+|Ш ш|Š š|Sh sh|
+|Щ щ|Šč šč|Shch shch|
+|ъ|ʺ|'' (アポストロフィ×2)|
+|Ы ы|Y y|Y y|
+|ь|ʹ|'|
+|Э э|È è|Eh eh|
+|Ю ю|Ju ju|Ju ju|
+|Я я|Ja ja|Ja ja|
+|Ѣ ѣ|Ě ě|E\_ e_|
+|І і|Ì ì|I\_ i_|
+|Ѵ ѵ|Í í|I\__ i__|
+|Ѳ ѳ|Ḟ ḟ|F\_ f_|
+
+:::
+
 ## 古教会スラヴ語キリル文字
+
+前舌のイェル (front jer) <span cyrs>ь</span> は `/`,
+後舌のイェル (back jer) <span cyrs>ъ</span> は `//`.  
+一部の字母は後ろに `_` を加えることで別形になる (対応表を参照のこと).  
+数字は1~9999の範囲のみ対応.
 
 <HLConverter src="/conv/chu.tsv" fontRight="Monomakh Unicode" />
 
@@ -31,7 +82,7 @@ section: 便利機能
 | <span cyrs>е</span> | e |  |
 | <span cyrs>ж</span> | ž, zh | zh → <span cyrs>ж</span> ↔ ž |
 | <span cyrs>ѕ</span> | dz |  |
-| <span cyrs>з</span> | z |  |
+| <span cyrs>з</span> | z | z_ = <span cyrs>ꙁ</span> |
 | <span cyrs>и</span> | i |  |
 | <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 î <br> （技術的な問題により） |
 | <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
@@ -45,27 +96,27 @@ section: 便利機能
 | <span cyrs>р</span> | r |  |
 | <span cyrs>с</span> | s |  |
 | <span cyrs>т</span> | t |  |
-| <span cyrs>ѹ</span> | u |  |
+| <span cyrs>ѹ</span> | u | u_ = <span cyrs>ꙋ</span> |
 | <span cyrs>ф</span> | f |  |
 | <span cyrs>ѳ</span> | th |  |
 | <span cyrs>х</span> | x, h | h は zh (<span cyrs>ж</span>), eh (<span cyrs>ѣ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span cyrs>ех</span>, eh → <span cyrs>ѣ</span> ↔ ě |
-| <span cyrs>ѡ</span> | ô, oh |  |
-| <span cyrs>ѿ</span> | ôtъ, oht | oht → <span cyrs>ѿ</span> ↔ ôtъ <br> oht" → <span cyrs>ѡтъ</span> ↔ ôtъ |
+| <span cyrs>ѡ</span> | ô, oh | oh_ = <span cyrs>ѻ</span> |
+| <span cyrs>ѿ</span> | ôtъ, oht | oht → <span cyrs>ѿ</span> ↔ ôtъ <br> oh-t// → <span cyrs>ѡтъ</span> ↔ ôtъ |
 | <span cyrs>ц</span> | c |  |
 | <span cyrs>ч</span> | č, ch | ch → <span cyrs>ч</span> ↔ č |
 | <span cyrs>ш</span> | š, sh | sh → <span cyrs>ш</span> ↔ š |
 | <span cyrs>щ</span> | št, sht | sht → <span cyrs>щ</span> ↔ št |
-| <span cyrs>ъ</span> | ъ, ŭ, " | 単独または一部の文字列の後ろで <br> " → <span cyrs>ъ</span> ↔ ŭ <br> （技術的な問題により） |
+| <span cyrs>ъ</span> | ъ, ŭ, // | 単独または一部の文字列の後ろで <br> // → <span cyrs>ъ</span> ↔ ŭ <br> （技術的な問題により） |
 | <span cyrs>ꙑ</span> | y |  |
-| <span cyrs>ь</span> | ь, ĭ, ' | 単独または一部の文字列の後ろで <br> ' → <span cyrs>ь</span> ↔ ĭ <br> （技術的な問題により） |
+| <span cyrs>ь</span> | ь, ĭ, / | 単独または一部の文字列の後ろで <br> / → <span cyrs>ь</span> ↔ ĭ <br> （技術的な問題により） |
 | <span cyrs>ѣ</span> | ě, eh | eh → <span cyrs>ѣ</span> ↔ ě |
 | <span cyrs>ꙗ</span> | ja |  |
 | <span cyrs>ѥ</span> | je |  |
 | <span cyrs>ю</span> | ju |  |
 | <span cyrs>ѫ</span> | ǫ, onn | onn → <span cyrs>ѫ</span> ↔ ǫ |
 | <span cyrs>ѭ</span> | jǫ, jonn | jonn → <span cyrs>ѭ</span> ↔ jǫ |
-| <span cyrs>ѧ</span> | ę, enn | enn → <span cyrs>ѧ</span> ↔ ę |
-| <span cyrs>ѩ</span> | ję, jenn | jenn → <span cyrs>ѩ</span> ↔ ję |
+| <span cyrs>ѧ</span> | ę, enn | enn → <span cyrs>ѧ</span> ↔ ę<br>enn_ = <span cyrs>ꙙ</span> |
+| <span cyrs>ѩ</span> | ję, jenn | jenn → <span cyrs>ѩ</span> ↔ ję<br>jenn_ = <span cyrs>ꙝ</span> |
 | <span cyrs>ѯ</span> | ks |  |
 | <span cyrs>ѱ</span> | ps |  |
 | <span cyrs>ѳ</span> | th |  |
@@ -73,12 +124,15 @@ section: 便利機能
 | <span cyrs>ҁ</span> | q |  |
 | <span cyrs> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
 | <span cyrs> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
-| <span cyrs> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |
-| <span cyrs>҂</span> | # | 数字'1000' |
+| <span cyrs> ꙯</span> | ¯, & | 略記記号. 正しく表示されない可能性あり |
 
 :::
 
 ## 古教会スラヴ語グラゴル文字
+
+前舌のイェル (front jer) <span glag>ⱐ</span> は `/`,
+後舌のイェル (back jer) <span glag>ⱏ</span> は `//`.  
+数字は1~999の範囲のみ対応.
 
 <HLConverter src="/conv/glag.tsv" fontRight="Shafarik" />
 
@@ -138,11 +192,11 @@ section: 便利機能
 無気記号は語頭のとき自動的に, 有気記号は `h + 母音字`,  
 鋭アクセントは `/`, 重アクセントは `//`, 曲アクセントは `///` (`////` で無アクセントに戻る),
 短母音は `a_`, `i_`, `y_`, 長母音は `aa`, `ee`, `ii`..., 分離記号は `"i`, `"y`,
-下書きのイオータは `aai`, `eei`, `ooi`, `aa/i` などで変換されます.  
-またシグマの語末形は `s.`, `s;`, `s + 半角スペース` などで変換できます.  
+下書きのイオータは `aai`, `eei`, `ooi`, `aa/i` など.  
+またシグマの語末形は `s.`, `s;`, `s + 半角スペース` など.  
 ギリシア文字からラテン文字への転写は
 **ALA-LC** (American Library Association – Library of Congress)
-の転写法を参考にしてアクセント記号を追加したものです.
+の転写法を参考にしてアクセント記号を追加したものである.  
 [ALA-LC のラテン文字転写表][grc-lat table]
 
 <HLConverter src="/conv/grc.tsv" />
@@ -166,7 +220,7 @@ section: 便利機能
 |Ψ ψ|Ps ps|ps|ῼ ῳ|Ōi ōi|ooi|
 |Μ μ|M m|m|Ῐ ῐ|Ĭ ĭ|i_|
 |Ν ν|N n|n|Ῠ ῠ|Y̆ y̆|y_, u_|
-|Λ λ|L l|l|Ϊ ϊ|Ï ï|i
+|Λ λ|L l|l|Ϊ ϊ|Ï ï|"i|
 |Ρ ρ|R r|r|Ϋ ϋ|Ÿ ÿ|"y, "u|
 |Ῥ ῥ|Rh rh|rh||||
 
