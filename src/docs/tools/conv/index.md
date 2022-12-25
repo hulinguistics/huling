@@ -553,4 +553,4 @@ f(:S:),g(:S:)
 
 [grc-lat table]:https://www.loc.gov/catdir/cpso/romanization/greek.pdf
 [cop-lat table]:https://www.loc.gov/catdir/cpso/romanization/coptic.pdf
-[nag-lat table]:../../../public/conv/nag.pdf
+[nag-lat table]:nag-lat.jpg
