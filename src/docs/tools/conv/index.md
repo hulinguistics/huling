@@ -446,7 +446,6 @@ f(:S:),g(:S:)
 **IAST** (International Alphabet of Sanskrit Transliteration)
 の翻字方式を採用.
 対応可能な入力方式は京都・ハーバード式, ITRANS, Velthuis.
-[詳細][nag-lat table]
 
 <HLConverter src="/conv/nag.tsv" />
 
@@ -490,6 +489,10 @@ f(:S:),g(:S:)
 |^|^|ya|^|ra|^|la|^|va|^|^|
 |**摩擦音**|**श**|śa|**ष**|ṣa|**स**|sa|**ह**|ha|^|^|
 |^|^|za|^|Sa|^|sa|^|ha|^|^|
+
+::: details 入力方式の詳細
+
+![詳細][nag-lat table]
 
 :::
 
