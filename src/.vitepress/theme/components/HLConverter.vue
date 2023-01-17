@@ -10,28 +10,30 @@
     <div v-else>
       <div class="convbox">
         <div>
-          <label for="leftta">{{ list.title.left }}</label>
-          <textarea
-            id="leftta"
-            v-model="textarea.left.value"
-            cols="20"
-            rows="10"
-            leftta
-            @focus="textarea.left.isFocus = true"
-            @blur="textarea.left.isFocus = false"
-          ></textarea>
+          <label>
+            <header>{{ list.title.left }}</header>
+            <textarea
+              v-model="textarea.left.value"
+              cols="20"
+              rows="10"
+              leftta
+              @focus="textarea.left.isFocus = true"
+              @blur="textarea.left.isFocus = false"
+            ></textarea>
+            </label>
         </div>
         <div>
-          <label for="rightta">{{ list.title.right }}</label>
-          <textarea
-            id="rightta"
-            v-model="textarea.right.value"
-            cols="20"
-            rows="10"
-            rightta
-            @focus="textarea.right.isFocus = true"
-            @blur="textarea.right.isFocus = false"
-          ></textarea>
+          <label>
+            <header>{{ list.title.right }}</header>
+            <textarea
+              v-model="textarea.right.value"
+              cols="20"
+              rows="10"
+              rightta
+              @focus="textarea.right.isFocus = true"
+              @blur="textarea.right.isFocus = false"
+            ></textarea>
+          </label>
         </div>
       </div>
       <details class="details custom-block">
@@ -177,8 +179,8 @@ export default {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 
-    div {
-      label {
+    div label {
+      header {
         display: inline-block;
         width: 100%;
         font-size: 1.1em;
