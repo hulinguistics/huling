@@ -68,11 +68,11 @@ export default {
     },
     fontLeft: {
       type: String,
-      default: 'Source Code Pro',
+      default: 'Noto Sans Mono',
     },
     fontRight: {
       type: String,
-      default: 'Source Code Pro',
+      default: 'Noto Sans Mono',
     },
     dirLeft: {
       type: String,
@@ -197,12 +197,12 @@ export default {
   }
 
   [leftta] {
-    font-family: v-bind(fontLeft), 'Noto Sans Mono', monospace;
+    font-family: v-bind(fontLeft), monospace;
     direction: v-bind(dirLeft);
   }
 
   [rightta] {
-    font-family: v-bind(fontRight), 'Noto Sans Mono', monospace;
+    font-family: v-bind(fontRight), monospace;
     direction: v-bind(dirRight);
   }
 }
