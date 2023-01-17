@@ -1,14 +1,14 @@
-name: gh-pages deploy
+name: Build Test
 
 on:
   push:
-  pull_request:
 
 jobs:
-  build-deploy:
+  build-test:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+
     steps:
       - uses: actions/checkout@v2
         with:
@@ -23,11 +23,3 @@ jobs:
 
       - name: Build
         run: yarn build
-
-      # If it is main branch, deploy to gh-pages.
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/.vitepress/dist
