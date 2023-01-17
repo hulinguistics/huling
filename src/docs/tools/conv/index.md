@@ -19,7 +19,7 @@ section: 便利機能
 アクセント記号は母音字の直後に `/` を入れてください (`//` で第2アクセント).
 1918年の正書法改革以前に使用されていた文字 ѣ, і, ѵ, ѳ はそれぞれ `e_`, `i_`, `i__`, `f_`.  
 
-<HLConverter src="/conv/rus.tsv" />
+<HLConverter src="/conv/rus.atsv" />
 
 ::: details 対応表
 

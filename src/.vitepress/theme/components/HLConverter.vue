@@ -1,65 +1,57 @@
 <template>
   <div class="HLConverter">
-    <div v-if="status.loading">
-      <p>Now loading...</p>
+    <div class="convbox">
+      <label>
+        <header>{{ status.loading ? 'Now loading...' : status.error ? 'ERROR' : list.title.left }}</header>
+        <textarea
+          v-model="textarea.left.value"
+          cols="20"
+          rows="10"
+          leftta
+          :readonly="!!status.loading || !!status.error"
+          @focus="textarea.left.isFocus = true"
+          @blur="textarea.left.isFocus = false"
+        ></textarea>
+      </label>
+      <label>
+        <header>{{ status.loading ? 'Now loading...' : status.error ? 'ERROR' : list.title.right }}</header>
+        <textarea
+          v-model="textarea.right.value"
+          cols="20"
+          rows="10"
+          rightta
+          :readonly="!!status.loading || !!status.error"
+          @focus="textarea.right.isFocus = true"
+          @blur="textarea.right.isFocus = false"
+        ></textarea>
+      </label>
     </div>
-    <div v-else-if="status.error" class="danger custom-block">
-      <p class="custom-block-title">ERROR</p>
-      <p>{{ status.error }}</p>
-    </div>
-    <div v-else>
-      <div class="convbox">
-        <div>
-          <label>
-            <header>{{ list.title.left }}</header>
-            <textarea
-              v-model="textarea.left.value"
-              cols="20"
-              rows="10"
-              leftta
-              @focus="textarea.left.isFocus = true"
-              @blur="textarea.left.isFocus = false"
-            ></textarea>
-            </label>
-        </div>
-        <div>
-          <label>
-            <header>{{ list.title.right }}</header>
-            <textarea
-              v-model="textarea.right.value"
-              cols="20"
-              rows="10"
-              rightta
-              @focus="textarea.right.isFocus = true"
-              @blur="textarea.right.isFocus = false"
-            ></textarea>
-          </label>
-        </div>
+    <details class="details custom-block">
+      <summary>{{ status.loading ? 'Now loading...' : status.error ? 'ERROR' : '優先順' }}</summary>
+      <table v-if="!status.loading && !status.error">
+        <thead>
+          <tr>
+            <th style="text-align: center">優先順</th>
+            <th style="text-align: center">{{ list.title.left }}</th>
+            <th style="text-align: center">{{ list.title.right }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(column, index) in list.set" :key="index">
+            <td style="text-align: center">{{ index + 1 }}</td>
+            <td style="text-align: center">
+              <code leftta>{{ column[0] }}</code>
+            </td>
+            <td style="text-align: center">
+              <code rightta>{{ column[1] }}</code>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div v-if="status.error" class="language-txt">
+        <pre class="shiki"><code><span class="line"><span style="color:#A6ACCD;">{{ status.error }}</span></span></code></pre>
       </div>
-      <details class="details custom-block">
-        <summary>優先順</summary>
-        <table>
-          <thead>
-            <tr>
-              <th style="text-align: center">優先順</th>
-              <th style="text-align: center">{{ list.title.left }}</th>
-              <th style="text-align: center">{{ list.title.right }}</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(column, index) in list.set" :key="index">
-              <td style="text-align: center">{{ index + 1 }}</td>
-              <td style="text-align: center">
-                <code leftta>{{ column[0] }}</code>
-              </td>
-              <td style="text-align: center">
-                <code rightta>{{ column[1] }}</code>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
-    </div>
+    </details>
   </div>
 </template>
 
@@ -179,7 +171,7 @@ export default {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 
-    div label {
+    label {
       header {
         display: inline-block;
         width: 100%;
