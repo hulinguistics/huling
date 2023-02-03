@@ -6,7 +6,7 @@ on:
       - dev
 
 jobs:
-  deploy:
+  deploy-prod:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
