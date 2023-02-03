@@ -131,3 +131,14 @@ dist
 
 # fonts
 src/public/font
+
+# vitepress
+/coverage
+/src/client/shared.ts
+/src/node/shared.ts
+.idea
+.temp
+.vite_opt_cache
+dist
+cache
+examples-temp
