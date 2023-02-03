@@ -1,10 +1,11 @@
-name: Deploy
+name: Deploy (Preview)
 
 on:
   push:
-
+    branches:
+      - '!dev'
 jobs:
-  deploy:
+  deploy-prev:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
