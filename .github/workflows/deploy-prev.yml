@@ -1,9 +1,7 @@
-name: Deploy (Production)
+name: Deploy (Preview)
 
 on:
   push:
-    branches:
-      - dev
 
 jobs:
   deploy-prod:
@@ -11,8 +9,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     environment:
-      name: Production
-      url: https://huling.org/
+      name: Preview
 
     steps:
       - uses: actions/checkout@v2
