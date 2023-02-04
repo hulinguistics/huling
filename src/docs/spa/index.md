@@ -4,8 +4,6 @@ section: grammar
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 性, 数, 格
 
 スペイン語の名詞には性 (男性/女性) と数 (単数/複数) の区別があります.

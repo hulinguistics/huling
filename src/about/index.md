@@ -1,9 +1,10 @@
 ---
 title: 「北大言語学サークル Huling」とは？
+docbefore: false
 ---
 
 <!-- TODO: 画像いい感じに -->
-![top](/header.png)
+![top](./header.png)
 
 ## 「北大言語学サークル Huling」とは？
 

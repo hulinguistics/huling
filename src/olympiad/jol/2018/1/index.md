@@ -4,8 +4,6 @@ section: explanation
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 日本言語学オリンピック2018
 
 第1問．英語、チェコ語、ポーランド語、スウェーデン語

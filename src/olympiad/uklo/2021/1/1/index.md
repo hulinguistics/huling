@@ -4,8 +4,6 @@ section: explanation
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough)
 
 Problem 1. Ogham

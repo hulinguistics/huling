@@ -4,8 +4,6 @@ section: linguistics
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 名詞に関する用語
 
 ### 数

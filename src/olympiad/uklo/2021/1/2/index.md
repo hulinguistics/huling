@@ -4,8 +4,6 @@ section: explanation
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough, Foundation)
 
 Problem 2. Kabyle

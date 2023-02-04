@@ -4,8 +4,6 @@ section: grammar
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 系統
 
 韓国朝鮮語はアルタイ語族だという説が定説でしたが,

@@ -4,8 +4,6 @@ section: オリンピック問題解説集
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 {{ Title }}{{ Year }}{{ Round }}
 
 第{{ Number }}問.

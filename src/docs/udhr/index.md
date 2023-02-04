@@ -4,8 +4,6 @@ section: comparison
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 日本語
 
 > ### 第１条

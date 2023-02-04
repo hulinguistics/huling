@@ -4,8 +4,6 @@ section: explanation
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 日本言語学オリンピック2017
 
 第3問．モンゴル語

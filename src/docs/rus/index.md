@@ -4,8 +4,6 @@ section: grammar
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 性, 数, 格
 
 ### 性

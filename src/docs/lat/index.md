@@ -4,8 +4,6 @@ section: grammar
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 性, 数, 格
 
 前置詞, 副詞, 接続詞を除いた品詞全てに性・数・格の区別があります.

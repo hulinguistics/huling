@@ -4,8 +4,6 @@ section: explanation
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 Asia Pacific Linguistics Olympiad 2022（アジア太平洋言語学オリンピック2022）
 
 第1問. パナラ語

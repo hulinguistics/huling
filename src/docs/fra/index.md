@@ -4,8 +4,6 @@ section: grammar
 comment: true
 ---
 
-# {{ $frontmatter.title }}
-
 ## 性, 数, 格
 
 フランス語のすべての名詞に性があり,
