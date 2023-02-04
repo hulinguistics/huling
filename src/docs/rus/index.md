@@ -1,6 +1,6 @@
 ---
 title: ロシア語 / Русский
-section: 言語ごとの概説
+section: grammar
 comment: true
 ---
 

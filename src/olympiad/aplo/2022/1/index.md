@@ -1,6 +1,6 @@
 ---
 title: APLO2022-1 パナラ語
-section: オリンピック問題解説集
+section: explanation
 comment: true
 ---
 

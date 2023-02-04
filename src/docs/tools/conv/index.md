@@ -1,6 +1,6 @@
 ---
 title: 文字変換器
-section: 便利機能
+section: tools
 ---
 
 # {{ $frontmatter.title }}

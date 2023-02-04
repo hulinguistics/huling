@@ -1,6 +1,6 @@
 ---
 title: UKLO2021R1-1 オガム文字
-section: オリンピック問題解説集
+section: explanation
 comment: true
 ---
 

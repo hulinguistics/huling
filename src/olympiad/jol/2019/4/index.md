@@ -1,6 +1,6 @@
 ---
 title: JOL2019-4 イヌクティトゥット語
-section: オリンピック問題解説集
+section: explanation
 comment: true
 ---
 

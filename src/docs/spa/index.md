@@ -1,6 +1,6 @@
 ---
 title: スペイン語 / Español
-section: 言語ごとの概説
+section: grammar
 comment: true
 ---
 

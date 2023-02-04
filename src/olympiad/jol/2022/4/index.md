@@ -1,6 +1,6 @@
 ---
 title: JOL2022-4 ヤオ語
-section: オリンピック問題解説集
+section: explanation
 comment: true
 ---
 

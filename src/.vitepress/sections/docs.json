@@ -1,0 +1,6 @@
+[
+  { "name": "linguistics", "display": "言語学の概説", "collapsed": false },
+  { "name": "grammar", "display": "言語ごとの概説", "collapsed": false },
+  { "name": "comparison", "display": "言語の比較", "collapsed": false },
+  { "name": "tools", "display": "便利機能", "collapsed": false }
+]

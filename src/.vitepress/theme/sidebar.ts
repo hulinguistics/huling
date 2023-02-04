@@ -1,26 +1,29 @@
 import { getPosts } from '../utils/getPosts';
+import fs from 'fs-extra';
 
-export async function sidebar(parant: string) {
+// サイドバーの生成
+export async function sidebar(parant: string, sectionListPath: string) {
+  // 記事の親ディレクトリから md ファイルの一覧を取得
   const posts = await getPosts(parant);
-  const sections = Array.from(new Set(posts.map((post) => post.frontMatter.section).filter((post) => post)));
 
-  return sections
-    .map((section) => {
-      return {
-        text: section,
-        items: posts
-          .filter((post) => post.frontMatter.section == section)
-          .map((post) => {
-            return {
-              text: post.frontMatter.title,
-              link: post.path.replace('src', '').replace('index.md', ''),
-            };
-          }),
-      };
-    })
-    .sort((a, b) => {
-      if (a.text.toUpperCase() > b.text.toUpperCase()) return 1;
-      else if (a.text.toUpperCase() < b.text.toUpperCase()) return -1;
-      else return 0;
-    });
+  // src/.vitepress/sections/* からセクションのリストを作成
+  const sections = JSON.parse(await fs.readFile(sectionListPath, 'utf-8')).filter((section) =>
+    // そのセクションに属す記事が無いものを除外
+    posts.some((post) => post.frontMatter.section === section.name),
+  );
+
+  return sections.map((section) => {
+    return {
+      text: section.display,
+      collapsed: section.collapsed,
+      items: posts
+        .filter((post) => post.frontMatter.section == section.name)
+        .map((post) => {
+          return {
+            text: post.frontMatter.title,
+            link: post.path.replace('src', '').replace('index.md', ''),
+          };
+        }),
+    };
+  });
 }

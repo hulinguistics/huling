@@ -1,6 +1,6 @@
 ---
 title: 韓国朝鮮語 / 한국어
-section: 言語ごとの概説
+section: grammar
 comment: true
 ---
 

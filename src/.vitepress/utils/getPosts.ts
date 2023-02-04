@@ -35,6 +35,5 @@ export async function getPosts(parent: string) {
       return { content: content, frontMatter: data, path: path.replace('src', '') };
     }),
   );
-
   return posts;
 }
