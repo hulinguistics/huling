@@ -1,6 +1,12 @@
 ---
 title: UKLO2021R1-3 ワアマ語
 section: explanation
+tags: [
+  "UKLO",
+  "統語",
+  "対応",
+  "☆2",
+]
 comment: true
 ---
 

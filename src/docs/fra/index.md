@@ -1,6 +1,12 @@
 ---
 title: フランス語 / Français
 section: grammar
+tags: [
+  "文法概説",
+  "フランス語",
+  "イタリック語派",
+  "インド・ヨーロッパ語族",
+]
 comment: true
 ---
 

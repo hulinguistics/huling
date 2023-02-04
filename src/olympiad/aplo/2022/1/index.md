@@ -1,6 +1,11 @@
 ---
 title: APLO2022-1 パナラ語
 section: explanation
+tags: [
+  "APLO",
+  "統語",
+  "☆5",
+]
 comment: true
 ---
 

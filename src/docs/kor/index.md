@@ -1,6 +1,11 @@
 ---
 title: 韓国朝鮮語 / 한국어
 section: grammar
+tags: [
+  "文法概説",
+  "韓国朝鮮語",
+  "朝鮮語族",
+]
 comment: true
 ---
 

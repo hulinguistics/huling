@@ -1,6 +1,11 @@
 ---
 title: JOL2022-2 タワラ語
 section: explanation
+tags: [
+  "JOL",
+  "韻律",
+  "☆2",
+]
 comment: true
 ---
 

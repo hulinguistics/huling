@@ -1,6 +1,11 @@
 ---
 title: UKLO2021R1-2 カビル語
 section: explanation
+tags: [
+  "UKLO",
+  "統語",
+  "☆2",
+]
 comment: true
 ---
 

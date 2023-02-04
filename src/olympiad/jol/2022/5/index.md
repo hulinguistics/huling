@@ -1,6 +1,11 @@
 ---
 title: JOL2022-5 ティンリン語
 section: explanation
+tags: [
+  "JOL",
+  "統語",
+  "☆3",
+]
 comment: true
 ---
 

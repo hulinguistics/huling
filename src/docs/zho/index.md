@@ -1,6 +1,12 @@
 ---
 title: 中国語 / 汉语 (普通话)
 section: grammar
+tags: [
+  "文法概説",
+  "中国語",
+  "シナ語派",
+  "シナ・チベット語族",
+]
 comment: true
 ---
 

@@ -1,6 +1,11 @@
 ---
 title: JOL2022-1 タグバヌワ文字
 section: explanation
+tags: [
+  "JOL",
+  "文字",
+  "☆2",
+]
 comment: true
 ---
 

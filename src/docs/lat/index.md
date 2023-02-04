@@ -1,6 +1,12 @@
 ---
 title: ラテン語 / Latina
 section: grammar
+tags: [
+  "文法概説",
+  "ラテン語",
+  "イタリック語派",
+  "インド・ヨーロッパ語族",
+]
 comment: true
 ---
 

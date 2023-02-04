@@ -1,6 +1,11 @@
 ---
 title: JOL2017-3 モンゴル語
 section: explanation
+tags: [
+  "JOL",
+  "文章",
+  "☆4",
+]
 comment: true
 ---
 

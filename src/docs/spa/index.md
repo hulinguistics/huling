@@ -1,6 +1,12 @@
 ---
 title: スペイン語 / Español
 section: grammar
+tags: [
+  "文法概説",
+  "スペイン語",
+  "イタリック語派",
+  "インド・ヨーロッパ語族",
+]
 comment: true
 ---
 

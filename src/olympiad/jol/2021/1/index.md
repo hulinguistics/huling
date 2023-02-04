@@ -1,6 +1,11 @@
 ---
 title: JOL2021-1 カビル語
 section: explanation
+tags: [
+  "JOL",
+  "統語",
+  "☆2",
+]
 comment: true
 ---
 

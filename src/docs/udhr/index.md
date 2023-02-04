@@ -2,6 +2,10 @@
 title: 各言語の世界人権宣言
 section: comparison
 comment: true
+tags: [
+  "言語学",
+  "比較",
+]
 ---
 
 ## 日本語
