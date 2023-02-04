@@ -176,7 +176,10 @@ comment: true
 その母音に抑揚がついたと想定しました.
 これを「声調発生 (tonegenesis)」と言います.
 彼は, タイ語やミャオ語等の,
-声調が存在する言語の大半が同様の理由で声調も持つに至ったと主張しました.
+声調が存在する言語の大半が同様の理由で声調も持つに至ったと主張しました[^1].
+
+[^1]: Haudricourt, André-Georges (1954).
+“De l’origine des tons en vietnamien”. Journal Asiatique (242): 69–82
 
 ## 漢字文化圏の民としての学習のすゝめ
 
@@ -197,5 +200,3 @@ comment: true
   </span>, 最終閲覧日 2022/5/31
 - <span hans>[維基詞典 (中国語版 wiktionary),「言」](https://zh.wiktionary.org/wiki/%E8%A8%80)
   </span>, 最終閲覧日 2022/5/31
-- Haudricourt, André-Georges (1954).
-“De l’origine des tons en vietnamien”. Journal Asiatique (242): 69–82
