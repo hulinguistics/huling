@@ -1,6 +1,6 @@
 <template>
   <div v-if="show" class="docAfter">
-    <HLTitle />
+    <HLTitle :title="title" />
   </div>
 </template>
 
@@ -18,16 +18,20 @@ export default {
 
     // タイトルの取得
     const getShow = (value: any) => value.docbefore !== false;
+    const getTitle = (value: any) => value.title;
 
     // frontmatterの更新でshowも更新
     const show = ref(getShow(frontmatter.value));
+    const title = ref(getTitle(frontmatter.value));
     watch(frontmatter, (c) => {
       show.value = getShow(c);
+      title.value = getTitle(c);
     });
 
     return {
       frontmatter,
       show,
+      title,
     };
   },
 };
