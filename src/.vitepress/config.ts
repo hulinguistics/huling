@@ -1,4 +1,5 @@
 import { sidebar } from './theme/sidebar';
+import footnote from 'markdown-it-footnote';
 import MarkdownItMergeCells from 'markdown-it-merge-cells';
 
 async function config() {
@@ -44,6 +45,7 @@ async function config() {
     markdown: {
       config: (md) => {
         // use more markdown-it plugins!
+        md.use(footnote);
         md.use(MarkdownItMergeCells);
       },
     },
