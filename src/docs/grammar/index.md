@@ -1,6 +1,7 @@
 ---
 title: 文法用語の解説
 section: 言語学の概説
+comment: true
 ---
 
 # {{ $frontmatter.title }}

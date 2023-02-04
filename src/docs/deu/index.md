@@ -1,6 +1,7 @@
 ---
 title: ドイツ語 / Deutsch
 section: 言語ごとの概説
+comment: true
 ---
 
 # {{ $frontmatter.title }}

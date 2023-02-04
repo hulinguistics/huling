@@ -64,7 +64,7 @@ jobs:
             | :-- | :-- |
             | 🪵 Branch | [`${{ env.BRANCH_NAME }}`](https://github.com/hulinguistics/huling/tree/${{ env.BRANCH_NAME }}) |
             | ✏ Post | [`${{ env.POST_PATH }}`](https://github.com/hulinguistics/huling/blob/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }}) ([Edit on Web](https://github.com/hulinguistics/huling/edit/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }})) |
-            | ☁ Preview | [here](https://${{ env.SUBDOMAIN }}.huling-dev.pages.dev/${{ env.WEB_PATH }}) (please wait a few mins) |
+            | ☁ Preview | [here](https://${{ env.SUBDOMAIN }}.huling-dxj.pages.dev/${{ env.WEB_PATH }}) (please wait a few mins) |
 
   new-olym-post:
     if: github.event.label.name == '🏅newolympost'
@@ -124,4 +124,4 @@ jobs:
             | :-- | :-- |
             | 🪵 Branch | [`${{ env.BRANCH_NAME }}`](https://github.com/hulinguistics/huling/tree/${{ env.BRANCH_NAME }}) |
             | ✏ Post | [`${{ env.POST_PATH }}`](https://github.com/hulinguistics/huling/blob/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }}) ([Edit on Web](https://github.com/hulinguistics/huling/edit/${{ env.BRANCH_NAME }}/${{ env.POST_PATH }})) |
-            | ☁ Preview | [here](https://${{ env.SUBDOMAIN }}.huling-dev.pages.dev/${{ env.WEB_PATH }}) (please wait a few mins) |
+            | ☁ Preview | [here](https://${{ env.SUBDOMAIN }}.huling-dxj.pages.dev/${{ env.WEB_PATH }}) (please wait a few mins) |

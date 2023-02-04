@@ -35,10 +35,10 @@ export default {
 
     // frontmatterの更新でissueTermも更新
     const issueTerm = ref('Comment: ' + frontmatter.value.title);
-    const commentHide = ref(frontmatter.value.commentHide ? 'hide' : '');
+    const commentHide = ref(frontmatter.value.comment ? '' : 'hide');
     watch(frontmatter, (c) => {
-      issueTerm.value = 'Comment: ' + c.title;
-      commentHide.value = c.commentHide ? 'hide' : '';
+      issueTerm.value = 'Comment: ' + (c as any).title;
+      commentHide.value = (c as any).comment ? '' : 'hide';
     });
 
     return {

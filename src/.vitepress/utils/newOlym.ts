@@ -1,37 +1,37 @@
 import path from 'path';
-import newPost from '../src/.vitepress/utils/newPost.js';
+import newPost from './newPost.js';
 
-const typeList = (typ) => {
+const typeList = (typ: string) => {
   switch (typ) {
     case 'new':
       return newOlymPost;
     case 'title':
-      return (arg) => {
+      return (arg: string) => {
         const { Title } = getOlymData(arg);
         return Title;
       };
     case 'year':
-      return (arg) => {
+      return (arg: string) => {
         const { Year } = getOlymData(arg);
         return Year;
       };
     case 'round':
-      return (arg) => {
+      return (arg: string) => {
         const { Round } = getOlymData(arg);
         return Round;
       };
     case 'num':
-      return (arg) => {
+      return (arg: string) => {
         const { Number } = getOlymData(arg);
         return Number;
       };
     case 'code':
-      return (arg) => {
+      return (arg: string) => {
         const { Code } = getOlymData(arg);
         return Code;
       };
     case 'name':
-      return (arg) => {
+      return (arg: string) => {
         const { Name } = getOlymData(arg);
         return Name;
       };
@@ -47,7 +47,7 @@ const arg = process.argv[3];
   console.log(await typeList(typ)(arg));
 })();
 
-async function newOlymPost(str) {
+async function newOlymPost(str: string) {
   const { Title, Year, Round, Number, Code, Name } = getOlymData(str);
 
   const postPath = path.join('src/olympiad/', Title.toLowerCase(), Year, Round ? Round : '', Number, 'index.md');
@@ -64,27 +64,32 @@ async function newOlymPost(str) {
   return await newPost(postPath, templatePath, dict);
 }
 
-function getOlymData(str) {
+function getOlymData(str: string) {
   // Format check
-  if (str.match(/[a-zA-Z]{3,}[0-9]{4}(R[0-9]+)?-[0-9]+ .+/)[0] != str) throw new Error('format error: ' + str);
+  if (str.match(/[a-zA-Z]{3,}[0-9]{4}(R[0-9]+)?-[0-9]+ .+/) === null) throw new Error('format error: ' + str);
 
   // Olym name
-  const Title = str.match(/[a-zA-Z]{3,}/)[0];
+  const Title_raw = str.match(/[a-zA-Z]{3,}/);
+  const Title = Title_raw ? Title_raw[0] : '';
 
   // Year
-  const Year = str.match(/[0-9]{4}/)[0];
+  const Year_raw = str.match(/[0-9]{4}/);
+  const Year = Year_raw ? Year_raw[0] : '';
 
   // Round
-  const Round = str.match(/R[0-9]+/) ? str.match(/R[0-9]+/)[0].slice(1) : null;
+  const Round_raq = str.match(/R[0-9]+/);
+  const Round = Round_raq ? Round_raq[0].slice(1) : '';
 
   // Problem Number
-  const Number = str.match(/-[0-9]+/) ? str.match(/-[0-9]+/)[0].slice(1) : null;
+  const Number_raw = str.match(/-[0-9]+/);
+  const Number = Number_raw ? Number_raw[0].slice(1) : '';
 
   // Probrem Code
   const Code = Title + Year + (Round ? 'R' + Round : '') + '-' + Number;
 
   // Problem Name
-  const Name = str.match(/ .+/)[0].slice(1).trim();
+  const Name_raw = str.match(/ .+/);
+  const Name = Name_raw ? Name_raw[0].slice(1).trim() : '';
 
   return { Title, Year, Round, Number, Code, Name };
 }

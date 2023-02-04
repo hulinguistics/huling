@@ -1,6 +1,5 @@
 ---
 title: 「北大言語学サークル Huling」とは？
-commentHide: true
 ---
 
 <!-- TODO: 画像いい感じに -->

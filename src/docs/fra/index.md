@@ -1,6 +1,7 @@
 ---
 title: フランス語 / Français
 section: 言語ごとの概説
+comment: true
 ---
 
 # {{ $frontmatter.title }}

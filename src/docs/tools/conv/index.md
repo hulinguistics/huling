@@ -1,24 +1,175 @@
 ---
 title: 文字変換器
-commentHide: true
 section: 便利機能
 ---
 
 # {{ $frontmatter.title }}
 
-主にローマ字と別の文字を相互に変換できます。
-文字の詳しい対応についてはテキストエリア下の表を参照してください。
-予告無く仕様が変更される場合があります。
+- 主にラテン文字 (ローマ字) と別の文字を**相互に**変換できます.
+- ラテン文字→非ラテン文字変換のあと, **非ラテン文字側のテキストボックスをクリック・選択する**と, ラテン文字←非ラテン文字変換が行われ,
+学術的あるいは公的によく用いられるラテン文字表記に**再変換**されます.
+- ２つの文字体系を一対一で対応させるという変換器の性質上,
+ラテン文字への変換は**現代語の発音を反映していない**場合があります.
+- 文字の詳しい対応についてはテキストエリア下の**対応表**を参照してください.
+- 予告無く仕様が変更される場合があります.
 
 ## ロシア語キリル文字
 
-[詳細](/docs/rus/index.html#ラテン文字・ロシア語キリル文字変換器)
+軟音記号 ь は `'`, 硬音記号 ъ は `''`, ダッシュ — は `--`, 引用符 « » は `" ""`.  
+アクセント記号は母音字の直後に `/` を入れてください (`//` で第2アクセント).
+1918年の正書法改革以前に使用されていた文字 ѣ, і, ѵ, ѳ はそれぞれ `e_`, `i_`, `i__`, `f_`.  
 
-<HLConverter src="/conv/rus.csv" />
+<HLConverter src="/conv/rus.tsv" />
+
+::: details 対応表
+
+|キリル文字|ラテン転写|入力方法|
+|:----|:----|:----|
+|**А а**|A a|A a|
+|**Б б**|B b|B b|
+|**В в**|V v|V v|
+|**Г г**|G g|G g|
+|**Д д**|D d|D d|
+|**Е е**|E e|E e|
+|**Ё ё**|Ë ë|Yo yo|
+|**Ж ж**|Ž ž|Zh zh|
+|**З з**|Z z|Z z|
+|**И и**|I i|I i|
+|**Й й**|J j|J j|
+|**К к**|K k|K k|
+|**Л л**|L l|L l|
+|**М м**|M m|M m|
+|**Н н**|N n|N n|
+|**О о**|O o|O o|
+|**П п**|P p|P p|
+|**Р р**|R r|R r|
+|**С с**|S s|S s|
+|**Т т**|T t|T t|
+|**У у**|U u|U u|
+|**Ф ф**|F f|F f|
+|**Х х**|X x|X x|
+|**Ц ц**|C c|C c|
+|**Ч ч**|Č č|Ch ch|
+|**Ш ш**|Š š|Sh sh|
+|**Щ щ**|Šč šč|Shch shch|
+|**ъ**|ʺ|'' (アポストロフィ×2)|
+|**Ы ы**|Y y|Y y|
+|**ь**|ʹ|'|
+|**Э э**|È è|Eh eh|
+|**Ю ю**|Ju ju|Ju ju|
+|**Я я**|Ja ja|Ja ja|
+|**Ѣ ѣ**|Ě ě|E\_ e_|
+|**І і**|Ì ì|I\_ i_|
+|**Ѵ ѵ**|Í í|I\__ i__|
+|**Ѳ ѳ**|Ḟ ḟ|F\_ f_|
+
+:::
+
+## ウクライナ語キリル文字
+
+軟音記号 ь は `jj`, ダッシュ — は `--`, 引用符 « » は `" ""`.  
+アクセント記号は母音字の直後に `/` を入れてください.
+
+<HLConverter src="/conv/ukr.tsv" />
+
+::: details 対応表
+
+|キリル文字|ラテン転写|入力方法|
+|:----|:----|:----|
+|**А а**|A a|A a|
+|**Б б**|B b|B b|
+|**В в**|V v|V v|
+|**Г г**|H h|H h|
+|**Ґ ґ**|G g|G g|
+|**Д д**|D d|D d|
+|**Е е**|E e|E e|
+|**Є є**|Je je|Je je|
+|**Ж ж**|Ž ž|Zh zh|
+|**З з**|Z z|Z z|
+|**И и**|Y y|Y y|
+|**І і**|I i|I i|
+|**Ї ї**|Ji ji|Ji ji|
+|**Й й**|J j|J j|
+|**К к**|K k|K k|
+|**Л л**|L l|L l|
+|**М м**|M m|M m|
+|**Н н**|N n|N n|
+|**О о**|O o|O o|
+|**П п**|P p|P p|
+|**Р р**|R r|R r|
+|**С с**|S s|S s|
+|**Т т**|T t|T t|
+|**У у**|U u|U u|
+|**Ф ф**|F f|F f|
+|**Х х**|X x|X x|
+|**Ц ц**|C c|C c|
+|**Ч ч**|Č č|Ch ch|
+|**Ш ш**|Š š|Sh sh|
+|**Щ щ**|Šč šč|Shch shch|
+|**ь**|ʹ|jj|
+|**Ю ю**|Ju ju|Ju ju|
+|**Я я**|Ja ja|Ja ja|
+|**'**|ʺ|'|
+
+:::
+
+## セルビア語・クロアチア語（キリル文字・ラテン文字）
+
+**ガイ式ラテン文字**と**キリル文字**間で相互変換できます.
+ガイ式で補助記号の付く子音字は後ろに `/` (č, ž, š は `ch`, `zh`, `sh` でも可能).
+アクセント記号は母音字の直後に `/`.
+sh を ш ではなく сх としたい場合は `s_h` (zh, dzh なども同様).  
+
+- 補助記号付き子音字：ћ (ć) `c/` `t/`, ђ (đ) `d/`  
+- アクセント記号：á `a/`, à `a//`, ȃ `a///`, ȁ `a////`
+
+<HLConverter src="/conv/srp.tsv" />
+
+::: details 対応表
+
+|キリル文字|ガイ式|入力方法|
+|:---:|:---:|:---:|
+|**А а**|A a|a|
+|**Б б**|B b|b|
+|**В в**|V v|v|
+|**Г г**|G g|g|
+|**Д д**|D d|d|
+|**Ђ ђ**|Đ đ|d/|
+|**E e**|E e|e|
+|**Ж ж**|Ž ž|zh, z/|
+|**З з**|Z z|z|
+|**И и**|I i|i|
+|**J j**|J j|j, y|
+|**К к**|K k|k|
+|**Л л**|L l|l|
+|**Љ љ**|Lj lj|lj|
+|**М м**|M m|m|
+|**Н н**|N n|n|
+|**Њ њ**|Nj nj|nj|
+|**О о**|O o|o|
+|**П п**|P p|p|
+|**Р р**|R r|r|
+|**С с**|S s|s|
+|**Т т**|T t|t|
+|**Ћ ћ**|Ć ć|c/, t/|
+|**У у**|U u|u|
+|**Ф ф**|F f|f|
+|**Х х**|H h|h, x|
+|**Ц ц**|C c|c|
+|**Ч ч**|Č č|ch, c//|
+|**Џ џ**|Dž dž|dzh, dz/|
+|**Ш ш**|Š š|sh, s/|
+
+:::
 
 ## 古教会スラヴ語キリル文字
 
-<HLConverter src="/conv/chu.csv" fontRight="Monomakh Unicode" />
+前舌のイェル (front jer) <span cyrs>ь</span> は `/`,
+後舌のイェル (back jer) <span cyrs>ъ</span> は `//`.  
+一部の字母は後ろに `_` を加えることで別形になります (対応表を参照のこと).  
+数字は1~9999の範囲のみ対応.
+
+<HLConverter src="/conv/chu.tsv" fontRight="Monomakh Unicode" />
 
 ::: details 対応表
 
@@ -26,16 +177,17 @@ section: 便利機能
 | :--: | :--: | :-- |
 | <span cyrs>а</span> | a |  |
 | <span cyrs>б</span> | b |  |
+| <span cyrs>в</span> | v |  |
 | <span cyrs>г</span> | g |  |
 | <span cyrs>д</span> | d |  |
 | <span cyrs>е</span> | e |  |
-| <span cyrs>ж</span> | ž, zh | zh→<span cyrs>ж</span>↔ž |
+| <span cyrs>ж</span> | ž, zh | zh → <span cyrs>ж</span> ↔ ž |
 | <span cyrs>ѕ</span> | dz |  |
-| <span cyrs>з</span> | z |  |
+| <span cyrs>з</span> | z | z_ = <span cyrs>ꙁ</span> |
 | <span cyrs>и</span> | i |  |
-| <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ラテン文字 î <br> （技術的な問題により） |
-| <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ラテン文字 ɩ <br> （技術的な問題により） |
-| <span cyrs>ћ</span> | ǵ, gh | gh→<span cyrs>ћ</span>↔ǵ |
+| <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 î <br> （技術的な問題により） |
+| <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
+| <span cyrs>ћ</span> | ǵ, gh | gh → <span cyrs>ћ</span> ↔ ǵ |
 | <span cyrs>к</span> | k |  |
 | <span cyrs>л</span> | l |  |
 | <span cyrs>м</span> | m |  |
@@ -45,35 +197,171 @@ section: 便利機能
 | <span cyrs>р</span> | r |  |
 | <span cyrs>с</span> | s |  |
 | <span cyrs>т</span> | t |  |
-| <span cyrs>ѹ</span> | u |  |
+| <span cyrs>ѹ</span> | u | u_ = <span cyrs>ꙋ</span> |
 | <span cyrs>ф</span> | f |  |
-| <span cyrs>х</span> | x, h | h は zh(<span cyrs>ж</span>), eh(<span cyrs>ѣ</span>) などの表記にも使われているため, <br> なるべく x を使うよう推奨. <br>e.g. ex↔<span cyrs>ех</span>, eh→<span cyrs>ѣ</span>↔ě |
-| <span cyrs>ѡ</span> | ô, oh |  |
-| <span cyrs>ѿ</span> | ôtъ, oht | oht→<span cyrs>ѿ</span>↔ôtъ <br> oht"→<span cyrs>ѡтъ</span>↔ôtъ |
+| <span cyrs>ѳ</span> | th |  |
+| <span cyrs>х</span> | x, h | h は zh (<span cyrs>ж</span>), eh (<span cyrs>ѣ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span cyrs>ех</span>, eh → <span cyrs>ѣ</span> ↔ ě |
+| <span cyrs>ѡ</span> | ô, oh | oh_ = <span cyrs>ѻ</span> |
+| <span cyrs>ѿ</span> | ôtъ, oht | oht → <span cyrs>ѿ</span> ↔ ôtъ <br> oh-t// → <span cyrs>ѡтъ</span> ↔ ôtъ |
 | <span cyrs>ц</span> | c |  |
-| <span cyrs>ч</span> | č, ch | ch→<span cyrs>ч</span>↔č |
-| <span cyrs>ш</span> | š, sh | sh→<span cyrs>ш</span>↔š |
-| <span cyrs>щ</span> | št, sht | sht→<span cyrs>щ</span>↔št |
-| <span cyrs>ъ</span> | ъ, ŭ, " | 単独または一部の文字列の後ろで "→<span cyrs>ъ</span>↔ŭ |
+| <span cyrs>ч</span> | č, ch | ch → <span cyrs>ч</span> ↔ č |
+| <span cyrs>ш</span> | š, sh | sh → <span cyrs>ш</span> ↔ š |
+| <span cyrs>щ</span> | št, sht | sht → <span cyrs>щ</span> ↔ št |
+| <span cyrs>ъ</span> | ъ, ŭ, // | 単独または一部の文字列の後ろで <br> // → <span cyrs>ъ</span> ↔ ŭ <br> （技術的な問題により） |
 | <span cyrs>ꙑ</span> | y |  |
-| <span cyrs>ь</span> | ь, ĭ, ' | 単独または一部の文字列の後ろで '→<span cyrs>ь</span>↔ĭ​ |
-| <span cyrs>ѣ</span> | ě, eh | eh→<span cyrs>ѣ</span>↔ě |
+| <span cyrs>ь</span> | ь, ĭ, / | 単独または一部の文字列の後ろで <br> / → <span cyrs>ь</span> ↔ ĭ <br> （技術的な問題により） |
+| <span cyrs>ѣ</span> | ě, eh | eh → <span cyrs>ѣ</span> ↔ ě |
 | <span cyrs>ꙗ</span> | ja |  |
 | <span cyrs>ѥ</span> | je |  |
 | <span cyrs>ю</span> | ju |  |
-| <span cyrs>ѫ</span> | ǫ, onn | onn→<span cyrs>ѫ</span>↔ǫ |
-| <span cyrs>ѭ</span> | jǫ, jonn | jonn→<span cyrs>ѭ</span>↔jǫ |
-| <span cyrs>ѧ</span> | ę, enn | enn→<span cyrs>ѧ</span>↔ę |
-| <span cyrs>ѩ</span> | ję, jenn | jenn→<span cyrs>ѩ</span>↔ję |
+| <span cyrs>ѫ</span> | ǫ, onn | onn → <span cyrs>ѫ</span> ↔ ǫ |
+| <span cyrs>ѭ</span> | jǫ, jonn | jonn → <span cyrs>ѭ</span> ↔ jǫ |
+| <span cyrs>ѧ</span> | ę, enn | enn → <span cyrs>ѧ</span> ↔ ę<br>enn_ = <span cyrs>ꙙ</span> |
+| <span cyrs>ѩ</span> | ję, jenn | jenn → <span cyrs>ѩ</span> ↔ ję<br>jenn_ = <span cyrs>ꙝ</span> |
 | <span cyrs>ѯ</span> | ks |  |
 | <span cyrs>ѱ</span> | ps |  |
 | <span cyrs>ѳ</span> | th |  |
-| <span cyrs>ѵ</span> | ü, uh | uh→<span cyrs>ѵ</span>↔ü |
+| <span cyrs>ѵ</span> | ü, uh | uh → <span cyrs>ѵ</span> ↔ ü |
 | <span cyrs>ҁ</span> | q |  |
 | <span cyrs> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
 | <span cyrs> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
-| <span cyrs> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |
-| <span cyrs>҂</span> | # | 数字'1000' |
+| <span cyrs> ꙯</span> | ¯, & | 略記記号. 正しく表示されない可能性あり |
+
+:::
+
+## 古教会スラヴ語グラゴル文字
+
+前舌のイェル (front jer) <span glag>ⱐ</span> は `/`,
+後舌のイェル (back jer) <span glag>ⱏ</span> は `//`.  
+数字は1~999の範囲のみ対応.
+
+<HLConverter src="/conv/glag.tsv" fontRight="Shafarik" />
+
+::: details 対応表
+
+| グラゴル文字 | ラテン文字 | 備考 |
+| :--: | :--: | :-- |
+| <span glag>ⰰ</span> | a |  |
+| <span glag>ⰱ</span> | b |  |
+| <span glag>ⰲ</span> | v |  |
+| <span glag>ⰳ</span> | g |  |
+| <span glag>ⰴ</span> | d |  |
+| <span glag>ⰵ</span> | e |  |
+| <span glag>ⰶ</span> | ž, zh | zh → <span glag>ⰶ</span> ↔ ž |
+| <span glag>ⰷ</span> | dz |  |
+| <span glag>ⰸ</span> | z |  |
+| <span glag>ⰻ</span> | i |  |
+| <span glag>ⰹ</span> | î, j | 通例：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 î <br> （技術的な問題により） |
+| <span glag>ⰺ</span> | ɩ, jj | 通例：グラゴル文字 <span glag>ⰺ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰺ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
+| <span glag>ⰼ</span> | ǵ, gh | gh → <span glag>ⰼ</span> ↔ ǵ |
+| <span glag>ⰽ</span> | k |  |
+| <span glag>ⰾ</span> | l |  |
+| <span glag>ⰿ</span> | m |  |
+| <span glag>ⱀ</span> | n |  |
+| <span glag>ⱁ</span> | o |  |
+| <span glag>ⱂ</span> | p |  |
+| <span glag>ⱃ</span> | r |  |
+| <span glag>ⱄ</span> | s |  |
+| <span glag>ⱅ</span> | t |  |
+| <span glag>ⱆ</span> | u |  |
+| <span glag>ⱇ</span> | f |  |
+| <span glag>ⱚ</span> | th |  |
+| <span glag>ⱈ</span> | x, h | h は zh (<span glag>ⰶ</span>), eh (<span glag>ⱑ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
+| <span glag>ⱉ</span> | ô, oh |  |
+| <span glag>ⱌ</span> | c |  |
+| <span glag>ⱍ</span> | č, ch | ch → <span glag>ⱍ</span> ↔ č |
+| <span glag>ⱎ</span> | š, sh | sh → <span glag>ⱎ</span> ↔ š |
+| <span glag>ⱋ</span> | št, sht | sht → <span glag>ⱋ</span> ↔ št |
+| <span glag>ⱏ</span> | ъ, " | " → <span glag>ⱏ</span> ↔ ъ |
+| <span glag>ⱏⰹ</span> | y |  |
+| <span glag>ⱐ</span> | ь, ' | ' → <span glag>ⱐ</span> ↔ ь |
+| <span glag>ⱑ</span> | ě, eh | eh → <span glag>ⱑ</span> ↔ ě |
+| <span glag>ⱓ</span> | ju |  |
+| <span glag>ⱘ</span> | ǫ, onn | onn → <span glag>ⱘ</span> ↔ ǫ |
+| <span glag>ⱙ</span> | jǫ, jonn | jonn → <span glag>ⱙ</span> ↔ jǫ |
+| <span glag>ⱔ</span> | ę, enn | enn → <span glag>ⱔ</span> ↔ ę |
+| <span glag>ⱗ</span> | ję, jenn | jenn → <span glag>ⱗ</span> ↔ ję |
+| <span glag>ⱛ</span> | ü, uh | uh → <span glag>ⱛ</span> ↔ ü |
+| <span glag> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
+| <span glag> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
+| <span glag> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |
+
+:::
+
+## 古代ギリシア語ギリシア文字
+
+無気記号は語頭のとき自動的に, 有気記号は `h + 母音字`,  
+鋭アクセントは `/`, 重アクセントは `//`, 曲アクセントは `///` (`////` で無アクセントに戻る),
+短母音は `a_`, `i_`, `y_`, 長母音は `aa`, `ee`, `ii`..., 分離記号は `"i`, `"y`,
+下書きのイオータは `aai`, `eei`, `ooi`, `aa/i` など.  
+シグマの語末形は `s.`, `s;`, `s + 半角スペース` など.  
+ギリシア文字からラテン文字への転写は
+**ALA-LC** (American Library Association – Library of Congress)
+の転写法を参考にしてアクセント記号を追加したものです.  
+[ALA-LC のラテン文字転写表][grc-lat table]
+
+<HLConverter src="/conv/grc.tsv" />
+
+::: details 対応表
+
+|ギリシア文字|ラテン転写|入力方法|ギリシア文字|ラテン転写|入力方法|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|**Π π**|P p|p|**Α α**|A a|a|
+|**Β β**|B b|b|**Ε ε**|E e|e|
+|**Φ φ**|Ph ph|ph, f|**Ι ι**|I i|i|
+|**Τ τ**|T t|t|**Ο ο**|O o|o|
+|**Δ δ**|D d|d|**Υ υ**|Y y|y, u|
+|**Θ θ**|Th th|th|**Ᾱ ᾱ**|Ā ā|aa|
+|**Κ κ**|K k|k, c|**Η η**|Ē ē|ee|
+|**Γ γ**|G g|g|**Ῑ ῑ**|Ī ī|ii|
+|**Χ χ**|Ch ch|ch, kh|**Ω ω**|Ō ō|oo|
+|**Σ σ**|S s|s|**Ῡ ῡ**|Ȳ ȳ|yy, uu|
+|**Ζ ζ**|Z z|z|**ᾼ ᾳ**|Āi āi|aai|
+|**Ξ ξ**|X x|x, ks|**ῌ ῃ**|Ēi ēi|eei|
+|**Ψ ψ**|Ps ps|ps|**ῼ ῳ**|Ōi ōi|ooi|
+|**Μ μ**|M m|m|**Ῐ ῐ**|Ĭ ĭ|i_|
+|**Ν ν**|N n|n|**Ῠ ῠ**|Y̆ y̆|y_, u_|
+|**Λ λ**|L l|l|**Ϊ ϊ**|Ï ï|"i|
+|**Ρ ρ**|R r|r|**Ϋ ϋ**|Ÿ ÿ|"y, "u|
+|**Ῥ ῥ**|Rh rh|rh|>|>||
+
+:::
+
+## コプト語コプト文字
+
+1000を表す上線 <span copt>◌̿</span> `=`,
+supralinear stroke <span copt>◌̄</span> `-`,
+数詞および nomina sacra を表す上線 <span copt>◌̅</span> `_`.
+文字は下の対応表を参照.
+数字は1~9999の範囲のみ対応.
+ラテン文字記入上の区切り文字は `/`.
+[ALA-LC のラテン文字転写表][cop-lat table]
+
+<HLConverter src="/conv/cop.tsv" fontRight="Noto Sans Coptic" />
+
+::: details 対応表
+
+| コプト文字 | ラテン転写 | 入力方法 | コプト文字 | ラテン転写 | 入力方法 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| <span copt>Ⲁ ⲁ</span> | A a | `a` | <span copt>Ⲧ ⲧ</span> | T t | `t` |
+| <span copt>Ⲃ ⲃ</span> | B b | `b` | <span copt>Ⲩ ⲩ</span> | U u | `u`, `w` |
+| <span copt>Ⲅ ⲅ</span> | G g | `g` | <span copt>Ⲫ ⲫ</span> | Ph ph | `ph` |
+| <span copt>Ⲇ ⲇ</span> | D d | `d` | <span copt>Ⲭ ⲭ</span> | Ch ch | `ch`, `kh` |
+| <span copt>Ⲉ ⲉ</span> | E e | `e` | <span copt>Ⲯ ⲯ</span> | Ps ps | `ps` |
+| <span copt>Ⲋ ⲋ</span> | St st | `st` | <span copt>Ⲱ ⲱ</span> | Ō ō | `oo` |
+| <span copt>Ⲍ ⲍ</span> | Z z | `z` | <span copt>Ϣ ϣ</span> | Š š | `sh` |
+| <span copt>Ⲏ ⲏ</span> | Ē ē | `ee` | <span copt>Ϥ ϥ</span> | F f | `f` |
+| <span copt>Ⲑ ⲑ</span> | Th th | `th` | <span copt>Ϧ ϧ</span> | Ḥ ḥ | .`h` |
+| <span copt>Ⲓ ⲓ</span> | I i | `i`, `y` | <span copt>Ϩ ϩ</span> | H h | `h` |
+| <span copt>Ⲕ ⲕ</span> | K k | `k` | <span copt>Ϫ ϫ</span> | Č č | `tch` |
+| <span copt>Ⲗ ⲗ</span> | L l | `l` | <span copt>Ϭ ϭ</span> | Ky ky | `ky` |
+| <span copt>Ⲙ ⲙ</span> | M m | `m` | <span copt>Ϯ ϯ</span> | Ti ti | `ti` |
+| <span copt>Ⲛ ⲛ</span> | N n | `n` | <span copt>Ⲳ ⲳ</span> | ' | `"` `'` |
+| <span copt>Ⲝ ⲝ</span> | X x | `x`, `ks` | <span copt>Ⲹ ⲹ</span> | K̤ k̤ | `"k` |
+| <span copt>Ⲟ ⲟ</span> | O o | `o` | <span copt>Ⲻ ⲻ</span> | N̈ n̈ | `"n` |
+| <span copt>Ⲡ ⲡ</span> | P p | `p` | <span copt>Ⳃ ⳃ</span> | Ç̈ ç̈ | `"c` |
+| <span copt>Ⲣ ⲣ</span> | R r | `r` | <span copt>Ⳋ ⳋ</span> | Ç ç | `c` |
+| <span copt>Ⲥ ⲥ</span> | S s | `s` | <span copt>Ⳁ ⳁ</span> | 900 | `~p` |
 
 :::
 
@@ -88,7 +376,7 @@ section: 便利機能
 名詞の女性語尾のターは `_t`,
 ワスラ付きアリフは `/a`.
 
-<HLConverter src="/conv/ara.csv" dirRight="rtl" />
+<HLConverter src="/conv/ara.tsv" dirRight="rtl" />
 
 ::: details 対応表解説
 
@@ -202,23 +490,113 @@ f(:S:),g(:S:)
 
 ## イディッシュ語ヘブライ文字
 
-シュトゥメル・アリフ「א」は `|`．
+シュトゥメル・アリフ「<span hebr>א</span>」は `|`．
 ヘブライ語系の単語にのみ見られる文字の入力は，
-「בֿ」`*v`，
-「כּ」`*k`，
-「ח」`*kh`，
-「שׂ」`*s`,
-「ת」`*S`，
-「תּ」`*t`．
+「<span hebr>בֿ</span>」`*v`，
+「<span hebr>כּ</span>」`*k`，
+「<span hebr>ח</span>」`*kh`，
+「<span hebr>שׂ</span>」`*s`,
+「<span hebr>ת</span>」`*S`，
+「<span hebr>תּ</span>」`*t`．
 ラテン文字は語頭も小文字で入力すること．
 
-<HLConverter src="/conv/yid.csv" dirRight="rtl"  />
+<HLConverter src="/conv/yid.tsv" dirRight="rtl" fontRight="Noto Sans Hebrew" />
 
-## アイヌ語仮名
+## アイヌ語カタカナ
 
-北海道アイヌ語、樺太アイヌ語対応。
+北海道アイヌ語、樺太アイヌ語対応．
+喉頭破裂音は `'`．
 
-<HLConverter src="/conv/ain.csv" />
+<HLConverter src="/conv/ain.tsv" fontRight="Noto Sans JP" />
+
+::: details 変換表
+
+| | a | i | u | e | o |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| **'** | ア | イ | ウ | エ | オ |
+| **k** | カ | キ | ク | ケ | コ |
+| **s** | サ | シ | ス | セ | ソ |
+| **t** | タ | チ | トゥ | テ | ト |
+| **n** | ナ | ニ | ヌ | ネ | ノ |
+| **h** | ハ | ヒ | フ | ヘ | ホ |
+| **m** | マ | ミ | ム | メ | モ |
+| **y** | ヤ | | ユ | イェ | ヨ |
+| **r** | ラ | リ | ル | レ | ロ |
+| **w** | ワ | ウィ | | ウェ | ウォ |
+
+| | p | t | k | s | ss | m | r | h | y | w |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **ka** | カㇷ゚ | カッ | カㇰ | カㇱ | カㇲ | カㇺ | カㇻ | カㇵ | カイ | カウ |
+| **ki** | キㇷ゚ | キッ | キㇰ | キㇱ | キㇲ | キㇺ | キㇼ | キㇶ | | キウ |
+| **ku** | クㇷ゚ | クッ | クㇰ | クㇱ | クㇲ | クㇺ | クㇽ | クㇷ | クイ | |
+| **ke** | ケㇷ゚ | ケッ | ケㇰ | ケㇱ | ケㇲ | ケㇺ | ケㇾ | ケㇸ | ケイ | ケウ |
+| **ko** | コㇷ゚ | コッ | コㇰ | コㇱ | コㇲ | コㇺ | コㇿ | コㇹ | コイ | コウ |
+
+| ka'a | ki'i | ku'u | ke'e | ko'o |
+| :-: | :-: | :-: | :-: | :-: |
+| カア | キイ | クウ | ケエ | コオ |
+
+| kaa | kii | kuu | kee | koo |
+| :-: | :-: | :-: | :-: | :-: |
+| カー | キー | クー | ケー | コー |
+
+:::
+
+## サンスクリット・デーヴァナーガリー
+
+**IAST** (International Alphabet of Sanskrit Transliteration)
+による翻字を行います.
+対応可能な入力方式は**京都・ハーバード式, ITRANS, Velthuis**.
+数字も対応可能.
+
+<HLConverter src="/conv/nag.tsv" />
+
+::: details 対応表
+
+ラテン文字表記は上段が IAST,
+下段が入力方法 (最も実用的だと思われるもの).
+
+|>|>|>|母音字・母音記号|>|その他記号|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|**अ ◌**|a|**आ ा**|ā|**​ं**|ṃ|
+|^|a|^|A aa|^|M|
+|**इ ि**|i|**ई ी**|ī|**​ः**|ḥ|
+|^|i|^|I ii|^|H|
+|**उ ु**|u|**ऊ ू**|ū|**​ँ**|◌̃|
+|^|u|^|U uu|^|MM /|
+|**ऋ ृ**|ṛ|**ॠ ॄ**|ṝ|**ऽ**|'|
+|^|R|^|RR|^|' (apostrophe)|
+|**ऌ ॢ**|ḷ|**ॡ ॣ**|ḹ|**ॐ**|Oṃ (非 IAST)|
+|^|L|^|LL|^|O|
+|**ए े**|e|**ऐ ै**|ai|**।**|.|
+|^|e|^|ai|^|. (period)|
+|**ओ ो**|o|**औ ौ**|au|>||
+|^|o|^|au|^|^|
+
+|子音字|>|>|>|無声音|>|>|>|有声音|>|鼻音|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+||>|**無気音**|>|**有気音**|>|**無気音**|>|**有気音**|>||
+|**軟口蓋音**|**क**|ka|**ख**|kha|**ग**|ga|**घ**|gha|**ङ**|ṅa|
+|^|^|ka|^|kha|^|ga|^|gha|^|Ga|
+|**硬口蓋音**|**च**|ca|**छ**|cha|**ज**|ja|**झ**|jha|**ञ**|ña|
+|^|^|ca|^|cha|^|ja|^|jha|^|Ja|
+|**そり舌音**|**ट**|ṭa|**ठ**|ṭha|**ड**|ḍa|**ढ**|ḍha|**ण**|ṇa|
+|^|^|Ta|^|Tha|^|Da|^|Dha|^|Na|
+|**歯音**|**त**|ta|**थ**|tha|**द**|da|**ध**|dha|**न**|na|
+|^|^|ta|^|tha|^|da|^|dha|^|na|
+|**唇音**|**प**|pa|**फ**|pha|**ब**|ba|**भ**|bha|**म**|ma|
+|^|^|pa|^|pha|^|ba|^|bha|^|ma|
+|>|>|>|>|>|>|>|>|>|>||
+|**接近音**|**य**|ya|**र**|ra|**ल**|la|**व**|va|>||
+|^|^|ya|^|ra|^|la|^|va|^|^|
+|**摩擦音**|**श**|śa|**ष**|ṣa|**स**|sa|**ह**|ha|^|^|
+|^|^|za|^|Sa|^|sa|^|ha|^|^|
+
+::: details 入力方法の詳細
+
+![詳細][nag-lat table]
+
+:::
 
 ## ダイアクリティカルマーク付きラテン文字
 
@@ -229,7 +607,7 @@ f(:S:),g(:S:)
 
 詳しくは下の「対応表」を参照してください．
 
-<HLConverter src="/conv/lat.csv" />
+<HLConverter src="/conv/lat.tsv" />
 
 ::: details 対応表
 
@@ -237,13 +615,13 @@ f(:S:),g(:S:)
 
 | | 大文字 | 小文字 |
 | :-: | :-: | :-: |
-| Ææ | `A=E` | `a=e` |
-| Ĳĳ | `I=J` | `i=j` |
-| Œœ | `O=E` | `o=e` |
-| Øø | `O/` | `o/` |
-| ẞß | `S=Z` | `s=z` |
-| ſ | | `s/` |
-| Ʒʒ | `Z/` | `z/` |
+| **Æ æ** | `A=E` | `a=e` |
+| **Ĳ ĳ** | `I=J` | `i=j` |
+| **Œ œ** | `O=E` | `o=e` |
+| **Ø ø** | `O/` | `o/` |
+| **ẞ ß** | `S=Z` | `s=z` |
+| **ſ**| | `s/` |
+| **Ʒ ʒ** | `Z/` | `z/` |
 
 ### ダイアクリティカルマーク付きラテン文字 の例
 
@@ -276,4 +654,8 @@ f(:S:),g(:S:)
 
 ## 国際音声記号(X-SAMPA to IPA)
 
-<HLConverter src="/conv/ipa.csv" />
+<HLConverter src="/conv/ipa.tsv" />
+
+[grc-lat table]:https://www.loc.gov/catdir/cpso/romanization/greek.pdf
+[cop-lat table]:https://www.loc.gov/catdir/cpso/romanization/coptic.pdf
+[nag-lat table]:nag-lat.jpg

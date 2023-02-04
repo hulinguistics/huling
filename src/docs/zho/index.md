@@ -1,6 +1,7 @@
 ---
 title: 中国語 / 汉语 (普通话)
 section: 言語ごとの概説
+comment: true
 ---
 
 # {{ $frontmatter.title }}

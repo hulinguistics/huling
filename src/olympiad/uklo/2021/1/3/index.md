@@ -1,6 +1,7 @@
 ---
 title: UKLO2021R1-3 ワアマ語
 section: オリンピック問題解説集
+comment: true
 ---
 
 # {{ $frontmatter.title }}

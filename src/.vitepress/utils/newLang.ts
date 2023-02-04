@@ -1,26 +1,26 @@
 import fetch from 'node-fetch';
 import jsdom from 'jsdom';
 import path from 'path';
-import newPost from '../src/.vitepress/utils/newPost.js';
+import newPost from './newPost.js';
 
 const { JSDOM } = jsdom;
 
-const typeList = (typ) => {
+const typeList = (typ: string) => {
   switch (typ) {
     case 'new':
       return newLangPost;
     case 'iso':
-      return async (arg) => {
+      return async (arg: string) => {
         const { IsoCode } = await getLangData(arg);
         return IsoCode;
       };
     case 'jpn':
-      return async (arg) => {
+      return async (arg: string) => {
         const { JpnName } = await getLangData(arg);
         return JpnName;
       };
     case 'ntv':
-      return async (arg) => {
+      return async (arg: string) => {
         const { NtvName } = await getLangData(arg);
         return NtvName;
       };
@@ -36,7 +36,7 @@ const arg = process.argv[3];
   console.log(await typeList(typ)(arg));
 })();
 
-async function newLangPost(lang) {
+async function newLangPost(lang: string) {
   const { IsoCode, JpnName, NtvName } = await getLangData(lang);
 
   const postPath = path.join('src/docs/', IsoCode, 'index.md');
@@ -49,7 +49,7 @@ async function newLangPost(lang) {
   return await newPost(postPath, templatePath, dict);
 }
 
-async function getLangData(lang) {
+async function getLangData(lang: string) {
   const res = await fetch('https://ja.wikipedia.org/wiki/' + lang);
   const body = await res.text();
   const dom = new JSDOM(body);
@@ -80,7 +80,7 @@ async function getLangData(lang) {
     const spans = [...infobox.getElementsByTagName('span')].filter((span) => span.getAttribute('lang') != null);
     if (!spans[0]) return null;
     const ntv = spans[0].lastChild;
-    if (!ntv) return null;
+    if (!ntv?.textContent) return null;
     return ntv.textContent.trim()[0].toUpperCase() + ntv.textContent.trim().slice(1);
   })();
 
