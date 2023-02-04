@@ -1,0 +1,73 @@
+backend:
+  name: github
+  repo: hulinguistics/huling
+  branch: dev
+
+publish_mode: editorial_workflow
+
+media_folder: "docs/.vitepress/public/upload"
+public_folder: "/upload"
+
+site_url: https://huling.org/
+
+locale: ja
+
+collections:
+  - name: "docs"
+    label: "一般記事"
+    folder: "src/docs"
+    create: true
+    slug: "{{fields.slug}}/index"
+
+    fields:
+      - label: "タイトル"
+        name: "title"
+        widget: "string"
+
+      - label: "セクション"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "言語学の概説", value: "linguistics" }
+          - { label: "言語ごとの概説", value: "grammar" }
+          - { label: "言語の比較", value: "comparison" }
+          - { label: "便利機能", value: "tools" }
+          - { label: "その他の記事", value: "article" }
+
+      - label: "タグ"
+        name: "tags"
+        widget: "list"
+
+      - label: "パス"
+        name: "slug"
+        widget: "string"
+
+      - label: "本文"
+        name: "body"
+        widget: "markdown"
+
+  - name: "olympiad"
+    label: "オリンピック問題解説"
+    folder: "src/olympiad"
+    create: true
+    slug: "{{slug}}"
+
+    fields:
+      - label: "タイトル"
+        name: "title"
+        widget: "string"
+
+      - label: "セクション"
+        name: "section"
+        widget: "select"
+        options:
+          - { label: "言語学オリンピックについて", value: "general" }
+          - { label: "オリンピック問題解説集", value: "explanation" }
+
+      - label: "タグ"
+        name: "tags"
+        widget: "list"
+
+      - label: "本文"
+        name: "body"
+        widget: "markdown"
