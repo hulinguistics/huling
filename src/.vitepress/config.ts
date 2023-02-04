@@ -26,7 +26,7 @@ async function config() {
       socialLinks: [{ icon: 'twitter', link: 'https://twitter.com/HU_Linguistic' }],
 
       footer: {
-        copyright: 'Copyright © 2022 Huling',
+        copyright: `Copyright © 2022-${new Date().getFullYear()} <a href="https://twitter.com/HU_Linguistic" target="_blank" rel="noopener">Huling</a>`,
       },
     },
 
@@ -50,6 +50,7 @@ async function config() {
 }
 
 const nav = [
+  { text: 'Home', link: '/' },
   { text: 'About', link: '/about/' },
   { text: 'Booklet', link: '/booklet/' },
   { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
