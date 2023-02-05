@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
 import subsetFont from 'subset-font';
-import { getContents } from './getPosts.js';
+import { getFiles } from './getPosts.js';
 
 // コマンドライン引数
 const typ = process.argv[2];
@@ -41,17 +41,7 @@ const typeList = (typ: string) => {
 // 使われている文字の一覧を取得
 async function getCharaList(parent: string) {
   const charas = await Promise.all(
-    Array.from(
-      new Set(
-        (
-          await getContents(parent, ['md', 'tsv'])
-        )
-          .map((content) => {
-            return content;
-          })
-          .join() + ascii,
-      ),
-    ).sort(),
+    Array.from(new Set((await getFiles(parent, ['md', 'tsv'])).map((file) => file.content).join('') + ascii)).sort(),
   );
   return charas.join('');
 }
