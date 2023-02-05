@@ -1,6 +1,6 @@
 ---
 title: 「言語学オリンピック」とは？
-section: general
+section: about
 comment: true
 ---
 
