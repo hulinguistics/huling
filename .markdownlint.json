@@ -1,0 +1,11 @@
+{
+  "single-h1": false,
+  "first-line-h1": false,
+  "MD033": {
+    "allowed_elements": ["span", "br", "HLConverter"]
+  },
+  "MD013": {
+    "code_blocks": false,
+    "tables": false
+  }
+}

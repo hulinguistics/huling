@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "davidanson.vscode-markdownlint",
     "rvest.vs-code-prettier-eslint"
   ]
 }
