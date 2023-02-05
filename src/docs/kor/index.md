@@ -72,14 +72,10 @@ comment: true
 オノマトペを上手く使うと表現がとても豊かになるので,
 韓国朝鮮語を学びたいと思う方はぜひ身に付けてください.
 
-<!-- markdownlint-disable MD033 -->
-
 | 擬態語 | | 擬声語 | |
 | :-: | :-: | :-: | :-: |
 | 깡총깡총<br>[kkang-chong-kkang-chong] | ウサギが軽く飛ぶ様<br>(陽性母音) | 콜록콜록<br>[col-loc-col-loc] | コンコン<br>(陽性母音) |
 | 껑충껑충<br>[kkeong-chung-kkeong-chung] | ウサギが大きく飛ぶ様<br>(陰性母音) | 쿨럭쿨럭<br>[cul-luck-cul-luck] | ゴボゴボ<br>(陰性母音) |
-
-<!-- markdownlint-enable MD033 -->
 
 同じオノマトペでも, 母音群を切り替えることで様々な表現ができます.
 

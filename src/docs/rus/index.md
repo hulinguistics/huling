@@ -305,9 +305,7 @@ h よりも x の方が確実です.
 例えばキリル文字で схема と書きたい場合に sxema ではなく shema と入力すると,
 шема と出力されてしまいます.
 
-<!-- markdownlint-disable MD033 -->
 <HLConverter src="/conv/rus.tsv" />
-<!-- markdownlint-enable MD033 -->
 
 ## ロシア語とウクライナ語
 
