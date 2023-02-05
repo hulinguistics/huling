@@ -9,7 +9,7 @@
 
     <div v-if="tag" :key="tag">
       <h2 class="tag_title">{{ tag }}</h2>
-      <HLPages :tag="tag" />
+      <HLPages :tag="tag" :tag-click="setTag" />
     </div>
   </div>
 </template>
