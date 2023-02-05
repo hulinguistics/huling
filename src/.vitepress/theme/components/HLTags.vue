@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div v-if="tag">
+    <div v-if="tag" :key="tag">
       <h2 class="tag_title">{{ tag }}</h2>
       <HLPages :tag="tag" />
     </div>
