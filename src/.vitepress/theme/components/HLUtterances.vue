@@ -32,7 +32,7 @@ export default {
     const container = ref();
 
     onMounted(() => {
-      const utterances = window.document.createElement('script');
+      let utterances = window.document.createElement('script');
       utterances.type = 'text/javascript';
       utterances.src = 'https://utteranc.es/client.js';
       utterances.async = true;

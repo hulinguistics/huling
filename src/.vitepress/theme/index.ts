@@ -5,7 +5,6 @@ import DefaultTheme from 'vitepress/theme';
 import HLDocBefore from './components/layout/HLDocBefore.vue';
 import HLDocAfter from './components/layout/HLDocAfter.vue';
 import HLDocFooterBefore from './components/layout/HLDocFooterBefore.vue';
-import HLNetlifyCMS from './components/HLNetlifyCMS.vue';
 
 // 記事中で使うコンポーネント
 import HLConverter from './components/HLConverter.vue';
@@ -22,7 +21,6 @@ export default {
     });
   },
   enhanceApp({ app }) {
-    app.component('HLNetlifyCMS', HLNetlifyCMS);
     app.component('HLConverter', HLConverter);
   },
 };
