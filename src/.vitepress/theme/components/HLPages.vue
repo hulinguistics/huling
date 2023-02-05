@@ -5,7 +5,7 @@
         <h3>{{ post.frontMatter.title }}</h3>
       </a>
       <div class="tags">
-        <HLTag v-for="ptag in post.frontMatter.tags" :key="ptag" :name="ptag" />
+        <HLTag v-for="ptag in post.frontMatter.tags" :key="ptag" :name="ptag" @click="tagClick(ptag)" />
       </div>
     </div>
   </div>
@@ -23,6 +23,12 @@ export default {
     tag: {
       type: String,
       default: undefined,
+    },
+    tagClick: {
+      type: Function,
+      default: () => {
+        return;
+      },
     },
   },
   setup(props) {
