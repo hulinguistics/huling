@@ -2,7 +2,7 @@
   <div>
     <div class="tags">
       <div v-for="ptag in tags" :key="ptag.name">
-        <HLTag :name="ptag.name" />
+        <HLTag :name="ptag.name" @click="setTag(ptag.name)" />
         ({{ ptag.count }})
       </div>
     </div>
@@ -15,6 +15,7 @@
 </template>
 
 <script lang="ts">
+import { ref } from 'vue';
 import { useData } from 'vitepress';
 import HLTag from './HLTag.vue';
 import HLPages from './HLPages.vue';
@@ -26,8 +27,8 @@ export default {
   },
   setup() {
     const { theme } = useData();
-    const qparams = new URLSearchParams(location.href.split('?')[1]);
-    const tag = decodeURIComponent(qparams.get('tag') || '') || undefined;
+
+    // タグ一覧の生成
     let tags: { name: string; count: number }[] = [];
     theme.value.posts.forEach((post) => {
       post.frontMatter?.tags?.forEach((tag) => {
@@ -42,10 +43,19 @@ export default {
     });
     tags.sort((a, b) => b.count - a.count);
 
+    // クエリパラメータからタグを取得
+    const qparams = new URLSearchParams(location.href.split('?')[1]);
+    const getTag = () => decodeURIComponent(qparams.get('tag') || '') || undefined;
+    const tag = ref(getTag());
+    const setTag = (t: string) => {
+      tag.value = t;
+    };
+
     return {
       tag,
       tags,
       theme,
+      setTag,
     };
   },
 };
