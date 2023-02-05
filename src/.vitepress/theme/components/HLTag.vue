@@ -1,11 +1,13 @@
 <template>
-  <span class="HLTag">{{ display }}</span>
+  <a :href="`/tags/?tag=${encodeURIComponent(name)}`">
+    <span class="HLTag">{{ name }}</span>
+  </a>
 </template>
 
 <script lang="ts">
 export default {
   props: {
-    display: {
+    name: {
       type: String,
       required: true,
     },
@@ -18,9 +20,14 @@ export default {
   display: flex;
   gap: 0.1em;
   color: var(--vp-c-text-2);
+  transition: color 0.25s;
 
   &::before {
     content: '#';
+  }
+
+  &:hover {
+    color: var(--vp-c-brand);
   }
 }
 </style>

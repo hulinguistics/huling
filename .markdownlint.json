@@ -2,7 +2,7 @@
   "single-h1": false,
   "first-line-h1": false,
   "MD033": {
-    "allowed_elements": ["span", "br", "HLConverter"]
+    "allowed_elements": ["span", "br", "HLConverter", "HLTags"]
   },
   "MD013": {
     "code_blocks": false,

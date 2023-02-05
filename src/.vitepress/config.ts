@@ -1,6 +1,7 @@
 import { sidebar } from './scripts/sidebar';
 import footnote from 'markdown-it-footnote';
 import MarkdownItMergeCells from 'markdown-it-merge-cells';
+import { getPosts } from './scripts/getPosts';
 
 export default (async () => {
   return {
@@ -41,6 +42,7 @@ export default (async () => {
         { text: 'Booklet', link: '/booklet/' },
         { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
         { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
+        { text: 'Tags', link: '/tags/' },
       ],
 
       // nav 上のソーシャルリンク
@@ -57,6 +59,9 @@ export default (async () => {
         pattern: 'https://github.com/hulinguistics/huling/edit/dev/src/:path',
         text: 'Edit this page on GitHub',
       },
+
+      // 記事一覧
+      posts: await getPosts('src/'),
 
       // フッター
       footer: {

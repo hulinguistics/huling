@@ -27,11 +27,11 @@ export async function getPosts(parent: string) {
     (
       await getFiles(parent, ['md'])
     ).map(async (file) => {
-      const { data } = matter(file.content);
+      const { content, data } = matter(file.content);
       return {
-        content: file.content,
-        frontMatter: data,
         path: file.path.replace('src', ''),
+        frontMatter: data,
+        content: content,
       };
     }),
   );

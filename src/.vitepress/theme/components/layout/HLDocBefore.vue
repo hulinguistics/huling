@@ -2,7 +2,7 @@
   <div v-if="show" class="docAfter">
     <HLTitle :title="title" />
     <div class="tags">
-      <HLTag v-for="(tag, index) in tags" :key="index" :display="tag" />
+      <HLTag v-for="tag in tags" :key="tag" :name="tag" />
     </div>
   </div>
 </template>
