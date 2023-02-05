@@ -1,6 +1,6 @@
 ---
 title: JOL2019-4 イヌクティトゥット語
-section: explanation
+category: explanation
 tags: [
   "JOL",
   "統語",

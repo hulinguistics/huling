@@ -1,6 +1,6 @@
 ---
 title: JOL2022-5 ティンリン語
-section: explanation
+category: explanation
 tags: [
   "JOL",
   "統語",

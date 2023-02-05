@@ -1,6 +1,6 @@
 ---
 title: UKLO2021R1-1 オガム文字
-section: explanation
+category: explanation
 tags: [
   "UKLO",
   "文字",

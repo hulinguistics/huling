@@ -1,6 +1,6 @@
 ---
 title: 古典ギリシア語 / Ἑλληνική
-section: grammar
+category: grammar
 tags: [
   "文法概説",
   "古典ギリシア語",

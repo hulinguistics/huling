@@ -1,6 +1,6 @@
 ---
 title: ロシア語 / Русский
-section: grammar
+category: grammar
 tags: [
   "文法概説",
   "ロシア語",

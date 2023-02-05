@@ -15,8 +15,8 @@ async function config() {
       nav: nav,
 
       sidebar: {
-        '/docs/': await sidebar('src/docs/', 'src/.vitepress/sections/docs.json'),
-        '/olympiad/': await sidebar('src/olympiad/', 'src/.vitepress/sections/olympiad.json'),
+        '/docs/': await sidebar('src/docs/', 'src/.vitepress/categories/docs.json'),
+        '/olympiad/': await sidebar('src/olympiad/', 'src/.vitepress/categories/olympiad.json'),
       },
 
       editLink: {

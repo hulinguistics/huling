@@ -1,6 +1,6 @@
 ---
 title: 中国語 / 汉语 (普通话)
-section: grammar
+category: grammar
 tags: [
   "文法概説",
   "中国語",

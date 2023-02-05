@@ -1,6 +1,6 @@
 ---
 title: ラテン語 / Latina
-section: grammar
+category: grammar
 tags: [
   "文法概説",
   "ラテン語",

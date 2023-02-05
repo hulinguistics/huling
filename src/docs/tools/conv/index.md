@@ -1,6 +1,6 @@
 ---
 title: 文字変換器
-section: tools
+category: tools
 tags: [
   "便利機能",
   "文字変換器",

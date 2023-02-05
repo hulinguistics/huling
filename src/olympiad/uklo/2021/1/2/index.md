@@ -1,6 +1,6 @@
 ---
 title: UKLO2021R1-2 カビル語
-section: explanation
+category: explanation
 tags: [
   "UKLO",
   "統語",

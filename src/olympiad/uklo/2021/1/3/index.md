@@ -1,6 +1,6 @@
 ---
 title: UKLO2021R1-3 ワアマ語
-section: explanation
+category: explanation
 tags: [
   "UKLO",
   "統語",

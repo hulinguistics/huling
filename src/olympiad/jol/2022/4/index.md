@@ -1,6 +1,6 @@
 ---
 title: JOL2022-4 ヤオ語
-section: explanation
+category: explanation
 tags: [
   "JOL",
   "親族名称",

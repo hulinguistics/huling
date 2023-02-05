@@ -1,6 +1,6 @@
 ---
 title: 各言語の世界人権宣言
-section: comparison
+category: general
 comment: true
 tags: [
   "言語学",

@@ -1,6 +1,6 @@
 ---
 title: APLO2022-1 パナラ語
-section: explanation
+category: explanation
 tags: [
   "APLO",
   "統語",

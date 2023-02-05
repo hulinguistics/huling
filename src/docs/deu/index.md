@@ -1,6 +1,6 @@
 ---
 title: ドイツ語 / Deutsch
-section: grammar
+category: grammar
 tags: [
   "文法概説",
   "ドイツ語",

@@ -1,6 +1,6 @@
 ---
 title: JOL2017-3 モンゴル語
-section: explanation
+category: explanation
 tags: [
   "JOL",
   "文章",

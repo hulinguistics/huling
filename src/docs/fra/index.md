@@ -1,6 +1,6 @@
 ---
 title: フランス語 / Français
-section: grammar
+category: grammar
 tags: [
   "文法概説",
   "フランス語",

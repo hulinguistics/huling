@@ -1,6 +1,6 @@
 ---
 title: 文法用語の解説
-section: linguistics
+category: linguistics
 tags: [
   "言語学",
   "用語解説",
