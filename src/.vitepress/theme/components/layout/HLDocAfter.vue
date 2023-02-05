@@ -24,7 +24,7 @@
 <script lang="ts">
 import { ref, watch } from 'vue';
 import { useData } from 'vitepress';
-import HLUtterances from './HLUtterances.vue';
+import HLUtterances from '../HLUtterances.vue';
 
 export default {
   components: {

@@ -1,10 +1,13 @@
 ---
 title: 韓国朝鮮語 / 한국어
-section: 言語ごとの概説
+category: grammar
+tags: [
+  "文法概説",
+  "韓国朝鮮語",
+  "朝鮮語族",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 ## 系統
 

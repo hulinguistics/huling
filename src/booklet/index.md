@@ -1,8 +1,9 @@
 ---
 title: 頒布冊子
+docbefore: false
 ---
 
-![book image](./img/2022yuryo.png)
+![book image](./2022yuryo.png)
 
 ※画像はイメージです
 

@@ -1,10 +1,13 @@
 ---
 title: JOL2022-1 タグバヌワ文字
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "文字",
+  "☆2",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 日本言語学オリンピック2022
 

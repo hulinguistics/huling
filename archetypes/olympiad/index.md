@@ -1,10 +1,8 @@
 ---
 title: {{ Code }} {{ Name }}
-section: オリンピック問題解説集
+category: オリンピック問題解説集
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 {{ Title }}{{ Year }}{{ Round }}
 

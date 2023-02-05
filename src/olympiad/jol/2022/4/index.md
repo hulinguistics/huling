@@ -1,10 +1,13 @@
 ---
 title: JOL2022-4 ヤオ語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "親族名称",
+  "☆3",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 日本言語学オリンピック2022
 

@@ -1,10 +1,13 @@
 ---
 title: JOL2022-2 タワラ語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "韻律",
+  "☆2",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 日本言語学オリンピック2022
 

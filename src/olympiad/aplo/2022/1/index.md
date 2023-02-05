@@ -1,10 +1,13 @@
 ---
 title: APLO2022-1 パナラ語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "APLO",
+  "統語",
+  "☆5",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 Asia Pacific Linguistics Olympiad 2022（アジア太平洋言語学オリンピック2022）
 

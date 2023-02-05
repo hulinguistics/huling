@@ -1,10 +1,13 @@
 ---
 title: JOL2019-4 イヌクティトゥット語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "統語",
+  "☆4",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 日本言語学オリンピック2019
 

@@ -1,10 +1,12 @@
 ---
 title: 文法用語の解説
-section: 言語学の概説
+category: linguistics
+tags: [
+  "言語学",
+  "用語解説",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 ## 名詞に関する用語
 

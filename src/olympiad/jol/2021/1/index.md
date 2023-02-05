@@ -1,10 +1,13 @@
 ---
 title: JOL2021-1 カビル語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "統語",
+  "☆2",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 JOL2021
 

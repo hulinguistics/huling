@@ -1,10 +1,14 @@
 ---
 title: UKLO2021R1-3 ワアマ語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "UKLO",
+  "統語",
+  "対応",
+  "☆2",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough, Foundation)
 

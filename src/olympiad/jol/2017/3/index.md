@@ -1,10 +1,13 @@
 ---
 title: JOL2017-3 モンゴル語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "文章",
+  "☆4",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 日本言語学オリンピック2017
 

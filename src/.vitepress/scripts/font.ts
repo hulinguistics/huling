@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
 import subsetFont from 'subset-font';
-import { getContents } from './getPosts.js';
+import { getFiles } from './getPosts.js';
 
 // コマンドライン引数
 const typ = process.argv[2];
@@ -12,7 +12,7 @@ const arg = process.argv[3];
 const ascii = '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
 
 // font.config.json
-const configPath = 'src/.vitepress/theme/font.config.json';
+const configPath = 'src/.vitepress/font.json';
 
 // サブセットフォントURL
 const fontUrl = '/font/';
@@ -38,23 +38,14 @@ const typeList = (typ: string) => {
   console.log(await typeList(typ)(arg));
 })();
 
+// 使われている文字の一覧を取得
 async function getCharaList(parent: string) {
-  const charas = await Promise.all(
-    Array.from(
-      new Set(
-        (
-          await getContents(parent, ['md', 'tsv'])
-        )
-          .map((content) => {
-            return content;
-          })
-          .join() + ascii,
-      ),
-    ).sort(),
-  );
-  return charas.join('');
+  return (
+    await Promise.all(Array.from(new Set((await getFiles(parent, ['md', 'tsv'])).map((file) => file.content).join('') + ascii)).sort())
+  ).join('');
 }
 
+// サブセットフォントを作成
 async function createSubsetFont(parent: string) {
   const fontDir = path.join(publicDirPath, fontUrl);
   fs.existsSync(fontDir) && fs.removeSync(fontDir);
@@ -79,17 +70,24 @@ async function createSubsetFont(parent: string) {
     }
   }
 
-  createScss(config);
+  createScss(config, scssPath);
+  return config;
 }
 
+// サブセットフォントを作成(ドライラン)
 async function createSubsetFontDry(parent: string) {
   const config = JSON.parse(await fs.readFile(configPath, 'utf-8'));
-  createScss(config);
+
+  createScss(config, scssPath);
+  return config;
 }
 
-async function createScss(config: any) {
+// フォントを指定する Scss を生成
+async function createScss(config: any, scssPath: string) {
   const result: object[] = [];
-  if (config.root_family)
+
+  // :root のフォントの指定
+  if (config.root_family) {
     result.push({
       selector: ':root',
       style: [
@@ -99,9 +97,14 @@ async function createScss(config: any) {
         },
       ],
     });
+  }
+
+  // サブセットしたフォントを定義
   config.subsets.forEach((subset: any) => {
+    // 名前が無いときは何もしない
     if (!subset.name) return;
-    if (subset.tag)
+
+    if (subset.tag) {
       result.push({
         selector: '[' + subset.tag + ']',
         style: [
@@ -111,6 +114,8 @@ async function createScss(config: any) {
           },
         ],
       });
+    }
+
     subset.fonts.forEach((font: any) => {
       result.push({
         selector: '@font-face',
@@ -127,6 +132,8 @@ async function createScss(config: any) {
       });
     });
   });
+
+  // Scss を scssPath に書き込み
   if (result) fs.writeFileSync(scssPath, object2scss(result));
 }
 

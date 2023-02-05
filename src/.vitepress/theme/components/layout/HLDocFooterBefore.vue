@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import HLAuthor from './HLAuthor.vue';
+import HLAuthor from '../HLAuthor.vue';
 export default {
   components: {
     HLAuthor,

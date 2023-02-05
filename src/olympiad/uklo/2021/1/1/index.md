@@ -1,10 +1,13 @@
 ---
 title: UKLO2021R1-1 オガム文字
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "UKLO",
+  "文字",
+  "☆1",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 The UK Linguistics Olympiad 2021 Round1 (Breakthrough)
 

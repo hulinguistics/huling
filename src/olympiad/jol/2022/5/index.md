@@ -1,10 +1,13 @@
 ---
 title: JOL2022-5 ティンリン語
-section: オリンピック問題解説集
+category: explanation
+tags: [
+  "JOL",
+  "統語",
+  "☆3",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 日本言語学オリンピック2022
 

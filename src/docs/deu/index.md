@@ -1,10 +1,14 @@
 ---
 title: ドイツ語 / Deutsch
-section: 言語ごとの概説
+category: grammar
+tags: [
+  "文法概説",
+  "ドイツ語",
+  "ゲルマン語派",
+  "インド・ヨーロッパ語族",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 

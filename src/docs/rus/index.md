@@ -1,10 +1,14 @@
 ---
 title: ロシア語 / Русский
-section: 言語ごとの概説
+category: grammar
+tags: [
+  "文法概説",
+  "ロシア語",
+  "スラヴ語派",
+  "インド・ヨーロッパ語族",
+]
 comment: true
 ---
-
-# {{ $frontmatter.title }}
 
 ## 性, 数, 格
 
