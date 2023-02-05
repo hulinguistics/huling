@@ -35,8 +35,8 @@
     "dev": "yarn build:font-dry && yarn dev:vp",
     "build": "yarn build:font && yarn build:vp",
     "eject": "vitepress eject src",
-    "lint": "eslint --ext .js,.ts,.vue src && markdownlint src",
-    "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
+    "lint": "yarn lint:ts && yarn lint:md",
+    "fix": "yarn fix:ts",
     "dev:vp": "vitepress dev src",
     "build-dry": "yarn build:font-dry && yarn build:vp",
     "build:font": "yarn util:font subset src",
@@ -44,7 +44,10 @@
     "build:vp": "vitepress build src",
     "util:lang": "ts-node-esm src/.vitepress/utils/newLang.ts",
     "util:olym": "ts-node-esm src/.vitepress/utils/newOlym.ts",
-    "util:font": "ts-node-esm src/.vitepress/utils/font.ts"
+    "util:font": "ts-node-esm src/.vitepress/utils/font.ts",
+    "lint:ts": "eslint --ext .js,.ts,.vue src",
+    "lint:md": "markdownlint src",
+    "fix:ts": "eslint --fix --ext .js,.ts,.vue src"
   },
   "volta": {
     "node": "16.15.1",
