@@ -2,6 +2,7 @@ import { globby } from 'globby';
 import matter from 'gray-matter';
 import fs from 'fs-extra';
 
+// parent 以下から拡張子 ext を持つファイルのパスを取得
 export async function getFilePaths(parent: string, ext: string[]) {
   const paths = (
     await globby(
@@ -14,6 +15,7 @@ export async function getFilePaths(parent: string, ext: string[]) {
   return paths;
 }
 
+// parent 以下から拡張子 ext を持つファイルの中身を取得
 export async function getContents(parent: string, ext: string[]) {
   const contents = await Promise.all(
     (
@@ -25,6 +27,7 @@ export async function getContents(parent: string, ext: string[]) {
   return contents;
 }
 
+// parent 以下の記事を取得
 export async function getPosts(parent: string) {
   const posts = await Promise.all(
     (

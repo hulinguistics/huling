@@ -1,4 +1,4 @@
-import { getPosts } from '../utils/getPosts';
+import { getPosts } from './getPosts';
 import fs from 'fs-extra';
 
 // サイドバーの生成

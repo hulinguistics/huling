@@ -1,4 +1,4 @@
-import { sidebar } from './theme/sidebar';
+import { sidebar } from './utils/sidebar';
 import footnote from 'markdown-it-footnote';
 import MarkdownItMergeCells from 'markdown-it-merge-cells';
 
@@ -11,6 +11,26 @@ export default (async () => {
 
     // 最終更新の表示
     lastUpdated: true,
+
+    // head 内の値とか
+    head: [
+      ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+      ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+      ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+      ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+      ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#679fd1' }],
+      ['meta', { name: 'msapplication-TileColor', content: '#679fd1' }],
+      ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ],
+
+    // markdown 関連の設定
+    markdown: {
+      config: (md) => {
+        // markdown-it プラグイン
+        md.use(footnote);
+        md.use(MarkdownItMergeCells);
+      },
+    },
 
     // テーマ設定
     themeConfig: {
@@ -41,26 +61,6 @@ export default (async () => {
       // フッター
       footer: {
         copyright: `Copyright © 2022-${new Date().getFullYear()} <a href="https://twitter.com/HU_Linguistic" target="_blank" rel="noopener">Huling</a>`,
-      },
-    },
-
-    // head 内の値とか
-    head: [
-      ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-      ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-      ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
-      ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-      ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#679fd1' }],
-      ['meta', { name: 'msapplication-TileColor', content: '#679fd1' }],
-      ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ],
-
-    // markdown 関連の設定
-    markdown: {
-      config: (md) => {
-        // markdown-it プラグイン
-        md.use(footnote);
-        md.use(MarkdownItMergeCells);
       },
     },
   };
