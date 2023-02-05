@@ -32,16 +32,19 @@
     "vue": "^3.2.47"
   },
   "scripts": {
-    "dev": "yarn font-dry && vitepress dev src",
-    "build": "yarn font && vitepress build src",
-    "build-dry": "yarn font-dry && vitepress build src",
+    "dev": "yarn build:font-dry && yarn dev:vp",
+    "build": "yarn build:font && yarn build:vp",
     "eject": "vitepress eject src",
-    "font": "ts-node-esm src/.vitepress/utils/font.ts subset src",
-    "font-dry": "ts-node-esm src/.vitepress/utils/font.ts subset-dry src",
     "lint": "eslint --ext .js,.ts,.vue src && markdownlint src",
     "fix": "eslint --fix --ext .js,.ts,.vue src && eslint --fix --ext .js,.ts,.vue scripts",
+    "dev:vp": "vitepress dev src",
+    "build-dry": "yarn build:font-dry && yarn build:vp",
+    "build:font": "yarn util:font subset src",
+    "build:font-dry": "yarn util:font subset-dry src",
+    "build:vp": "vitepress build src",
     "util:lang": "ts-node-esm src/.vitepress/utils/newLang.ts",
-    "util:olym": "ts-node-esm src/.vitepress/utils/newOlym.ts"
+    "util:olym": "ts-node-esm src/.vitepress/utils/newOlym.ts",
+    "util:font": "ts-node-esm src/.vitepress/utils/font.ts"
   },
   "volta": {
     "node": "16.15.1",
