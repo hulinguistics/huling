@@ -15,12 +15,18 @@ export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
+      // 記事の上
       'doc-before': () => h(HLDocBefore),
+
+      // 記事のすぐ下
       'doc-after': () => h(HLDocAfter),
+
+      // 記事や前後記事リンクより下
       'doc-footer-before': () => h(HLDocFooterBefore),
     });
   },
   enhanceApp({ app }) {
+    // 文字変換器
     app.component('HLConverter', HLConverter);
   },
 };
