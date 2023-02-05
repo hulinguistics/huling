@@ -40,10 +40,9 @@ const typeList = (typ: string) => {
 
 // 使われている文字の一覧を取得
 async function getCharaList(parent: string) {
-  const charas = await Promise.all(
-    Array.from(new Set((await getFiles(parent, ['md', 'tsv'])).map((file) => file.content).join('') + ascii)).sort(),
-  );
-  return charas.join('');
+  return (
+    await Promise.all(Array.from(new Set((await getFiles(parent, ['md', 'tsv'])).map((file) => file.content).join('') + ascii)).sort())
+  ).join('');
 }
 
 // サブセットフォントを作成
