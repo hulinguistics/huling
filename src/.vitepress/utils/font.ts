@@ -12,7 +12,7 @@ const arg = process.argv[3];
 const ascii = '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
 
 // font.config.json
-const configPath = 'src/.vitepress/theme/font.config.json';
+const configPath = 'src/.vitepress/font.json';
 
 // サブセットフォントURL
 const fontUrl = '/font/';
