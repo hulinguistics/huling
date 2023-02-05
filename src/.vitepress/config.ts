@@ -1,4 +1,4 @@
-import { sidebar } from './utils/sidebar';
+import { sidebar } from './scripts/sidebar';
 import footnote from 'markdown-it-footnote';
 import MarkdownItMergeCells from 'markdown-it-merge-cells';
 

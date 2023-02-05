@@ -42,9 +42,9 @@
     "build:font": "yarn util:font subset src",
     "build:font-dry": "yarn util:font subset-dry src",
     "build:vp": "vitepress build src",
-    "util:lang": "ts-node-esm src/.vitepress/utils/newLang.ts",
-    "util:olym": "ts-node-esm src/.vitepress/utils/newOlym.ts",
-    "util:font": "ts-node-esm src/.vitepress/utils/font.ts",
+    "util:lang": "ts-node-esm src/.vitepress/scripts/newLang.ts",
+    "util:olym": "ts-node-esm src/.vitepress/scripts/newOlym.ts",
+    "util:font": "ts-node-esm src/.vitepress/scripts/font.ts",
     "lint:ts": "eslint --ext .js,.ts,.vue src",
     "lint:md": "markdownlint src",
     "fix:ts": "eslint --fix --ext .js,.ts,.vue src"
