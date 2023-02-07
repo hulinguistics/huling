@@ -1,14 +1,13 @@
 ---
 title: 韓国朝鮮語 / 한국어
 category: grammar
-tags: [
-  "文法概説",
-  "韓国朝鮮語",
-  "朝鮮語族",
-]
-comment: true
+tags:
+  - 文法概説
+  - 韓国朝鮮語
+  - 朝鮮語族
+slug: kor
+comment: "true"
 ---
-
 ## 系統
 
 韓国朝鮮語はアルタイ語族だという説が定説でしたが,
