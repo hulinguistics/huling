@@ -28,22 +28,6 @@ collections:
         hint: |
           言語ごとの概説なら「ドイツ語 / Deutsch」など
 
-      - label: "カテゴリ"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "言語学の概説", value: "linguistics" }
-          - { label: "言語ごとの概説", value: "grammar" }
-          - { label: "言語の比較", value: "comparison" }
-          - { label: "便利機能", value: "tools" }
-          - { label: "その他の記事", value: "article" }
-
-      - label: "タグ"
-        name: "tags"
-        widget: "list"
-        hint: |
-          [タグ一覧](https://huling.org/tags/)
-
       - label: "パス"
         name: "slug"
         widget: "string"
@@ -54,6 +38,21 @@ collections:
           [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
           参照)
         pattern: ['[a-z0-9-]{3,}', 'ラテン小文字, 算用数字, 半角ハイフン, 3字以上']
+
+      - label: "カテゴリ"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "言語学の概説", value: "linguistics" }
+          - { label: "言語ごとの概説", value: "grammar" }
+          - { label: "便利機能", value: "tools" }
+          - { label: "その他の記事", value: "article" }
+
+      - label: "タグ"
+        name: "tags"
+        widget: "list"
+        hint: |
+          [タグ一覧](https://huling.org/tags/)
 
       - label: "コメント機能"
         name: "comment"
