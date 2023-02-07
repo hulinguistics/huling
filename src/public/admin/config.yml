@@ -7,7 +7,7 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "docs/.vitepress/public/upload"
+media_folder: "src/public/upload"
 public_folder: "/upload"
 
 site_url: https://huling.org
