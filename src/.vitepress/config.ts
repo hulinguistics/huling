@@ -45,7 +45,7 @@ export default (async () => {
         { text: 'Booklet', link: '/booklet/' },
         { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
         { text: 'Olympiad', link: '/olympiad/about', activeMatch: '/olympiad/' },
-        { text: 'Tags', link: '/tags/' },
+        { text: 'Tags', link: '/tags' },
       ],
 
       // nav 上のソーシャルリンク

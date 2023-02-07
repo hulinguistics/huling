@@ -56,7 +56,7 @@ collections:
         name: tags
         widget: list
         hint: |
-          [タグ一覧](https://huling.org/tags/)
+          [タグ一覧](https://huling.org/tags)
 
       - label: コメント機能
         name: comment
@@ -102,7 +102,7 @@ collections:
         name: tags
         widget: list
         hint: |
-          [タグ一覧](https://huling.org/tags/)
+          [タグ一覧](https://huling.org/tags)
 
       - label: コメント機能
         name: comment
