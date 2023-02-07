@@ -43,7 +43,7 @@ export default (async () => {
         { text: 'Home', link: '/' },
         { text: 'About', link: '/about/' },
         { text: 'Booklet', link: '/booklet/' },
-        { text: 'Docs', link: '/docs/grammar/', activeMatch: '/docs/' },
+        { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
         { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
         { text: 'Tags', link: '/tags/' },
       ],

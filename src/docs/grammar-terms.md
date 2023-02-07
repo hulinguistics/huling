@@ -1,13 +1,12 @@
 ---
 title: 文法用語の解説
 category: linguistics
-tags: [
-  "言語学",
-  "用語解説",
-]
-comment: true
+tags:
+  - 言語学
+  - 用語解説
+slug: grammar-terms
+comment: "true"
 ---
-
 ## 名詞に関する用語
 
 ### 数
@@ -45,7 +44,7 @@ comment: true
 またロシア語やポーランド語は,
 かつて双数の区別をもっていた名残で,
 1, 2~4, 5 以上という分類により後ろの名詞を変化させます
-([ロシア語](/docs/rus/index.md)を参照のこと) .
+([ロシア語](/docs/rus.md)を参照のこと) .
 
 ### 性
 
