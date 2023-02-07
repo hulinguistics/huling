@@ -2,7 +2,7 @@ backend:
   name: github
   repo: hulinguistics/huling
   branch: dev
-  base_url: https://huling.org
+  base_url: https://133-theme.huling-dxj.pages.dev
   auth_endpoint: /api/auth
 
 publish_mode: editorial_workflow
