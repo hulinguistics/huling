@@ -1,15 +1,14 @@
 ---
 title: ドイツ語 / Deutsch
 category: grammar
-tags: [
-  "文法概説",
-  "ドイツ語",
-  "ゲルマン語派",
-  "インド・ヨーロッパ語族",
-]
-comment: true
+tags:
+  - 文法概説
+  - ドイツ語
+  - ゲルマン語派
+  - インド・ヨーロッパ語族
+slug: deu
+comment: "true"
 ---
-
 ## 性, 数, 格
 
 ### 性
