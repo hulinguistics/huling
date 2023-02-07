@@ -33,11 +33,11 @@ collections:
         widget: "string"
         hint: |
           ラテン文字, 算用数字, 半角ハイフン, 3字以上.
+          ダイアクリティカルマーク付きラテン文字不可.
           言語ごとの概説なら3文字の言語コード (**deu**, **fra** など.
           [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php),
           [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
           参照).
-          ダイアクリティカルマーク付きラテン文字不可.
           記事のURLは「https://huling.org/docs/(id)」.
         pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
 
@@ -49,6 +49,53 @@ collections:
           - { label: "言語ごとの概説", value: "grammar" }
           - { label: "便利機能", value: "tools" }
           - { label: "その他の記事", value: "article" }
+
+      - label: "タグ"
+        name: "tags"
+        widget: "list"
+        hint: |
+          [タグ一覧](https://huling.org/tags/)
+
+      - label: "コメント機能"
+        name: "comment"
+        widget: "boolean"
+        default: "true"
+
+      - label: "本文"
+        name: "body"
+        widget: "markdown"
+
+collections:
+  - name: "olympiad"
+    label: "オリンピック関連の記事"
+    folder: "src/olympiad"
+    create: true
+    slug: "{{fields.id}}"
+
+    fields:
+      - label: "タイトル"
+        name: "title"
+        widget: "string"
+        hint: |
+          問題解説なら「JOL2017-3 モンゴル語」など
+
+      - label: "記事ID"
+        name: "id"
+        widget: "string"
+        hint: |
+          ラテン文字, 算用数字, 半角ハイフン, 3字以上.
+          ダイアクリティカルマーク付きラテン文字不可.
+          問題解説なら「(大会略称)(開催年)(ラウンド)-(問題番号)」.
+          例) 「JOL2017-3」「UKLO2021R1-1」など.
+          記事のURLは「https://huling.org/olympiad/(id)」.
+        pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
+
+      - label: "カテゴリ"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "言語学オリンピックについて", value: "general" }
+          - { label: "オリンピック問題解説集", value: "explanation" }
 
       - label: "タグ"
         name: "tags"
