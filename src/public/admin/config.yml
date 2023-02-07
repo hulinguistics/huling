@@ -49,7 +49,7 @@ collections:
         options:
           - { label: 言語学の概説, value: linguistics }
           - { label: 言語ごとの概説, value: grammar }
-          - { label: 便利機能, value: tools }
+          - { label: 文字変換器, value: conv }
           - { label: その他の記事, value: article }
 
       - label: タグ
