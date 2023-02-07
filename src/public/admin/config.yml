@@ -65,7 +65,6 @@ collections:
         name: "body"
         widget: "markdown"
 
-collections:
   - name: "olympiad"
     label: "オリンピック関連の記事"
     folder: "src/olympiad"
