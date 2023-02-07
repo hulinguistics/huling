@@ -1,13 +1,12 @@
 ---
 title: 文法用語の解説
 category: linguistics
-tags: [
-  "言語学",
-  "用語解説",
-]
-comment: true
+tags:
+  - 言語学
+  - 用語解説
+slug: grammar-terms
+comment: "true"
 ---
-
 ## 名詞に関する用語
 
 ### 数
