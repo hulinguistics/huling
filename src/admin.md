@@ -3,4 +3,4 @@ title: Netlify CMS
 layout: false
 ---
 
-<HLNetlifyCMS />
+<HLNetlifyCMS config="/netlifycms.yml" />
