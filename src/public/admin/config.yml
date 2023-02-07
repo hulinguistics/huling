@@ -16,15 +16,17 @@ locale: ja
 
 collections:
   - name: "docs"
-    label: "一般記事"
+    label: "語学・言語学の記事"
     folder: "src/docs"
     create: true
-    slug: "{{fields.slug}}/index"
+    slug: "{{fields.slug}}"
 
     fields:
       - label: "タイトル"
         name: "title"
         widget: "string"
+        hint: |
+          言語ごとの概説なら「ドイツ語 / Deutsch」など
 
       - label: "カテゴリ"
         name: "category"
@@ -35,55 +37,23 @@ collections:
           - { label: "言語の比較", value: "comparison" }
           - { label: "便利機能", value: "tools" }
           - { label: "その他の記事", value: "article" }
-        default: "article"
 
       - label: "タグ"
         name: "tags"
         widget: "list"
+        hint: |
+          [タグ一覧](https://huling.org/tags/)
 
-      - label: "パス(ラテン文字3~6文字, 「言語ごとの概説」なら言語コード)"
+      - label: "パス"
         name: "slug"
         widget: "string"
-
-      - label: "コメント機能"
-        name: "comment"
-        widget: "boolean"
-        default: "true"
-
-      - label: "本文"
-        name: "body"
-        widget: "markdown"
-
-  - name: "olympiad"
-    label: "オリンピック問題解説"
-    folder: "src/olympiad"
-    create: true
-    slug: "{{fields.olympiad}}/{{fields.year}}/{{fields.round}}/{{fields.number}}/index"
-
-    fields:
-      - label: "タイトル"
-        name: "title"
-        widget: "string"
-
-      - label: "カテゴリ"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "オリンピック問題解説", value: "explanation" }
-        default: "explanation"
-
-      - label: "大会情報"
-        name: "olympiad_info"
-        widget: "object"
-        fields:
-          - {label: "大会名略称(ラテン小文字)", name: "name", widget: "string"}
-          - {label: "大会開催年", name: "year", widget: "number"}
-          - {label: "大会ラウンド", name: "round", widget: "number", required: false}
-          - {label: "大問番号", name: "number", widget: "number"}
-
-      - label: "タグ"
-        name: "tags"
-        widget: "list"
+        hint: |
+          ラテン小文字, 算用数字, 半角ハイフン, 3字以上.
+          言語ごとの概説なら3文字の言語コード (**deu**, **fra** など.
+          [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php),
+          [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
+          参照)
+        pattern: ['[a-z0-9-]{3,}', 'ラテン小文字, 算用数字, 半角ハイフン, 3字以上']
 
       - label: "コメント機能"
         name: "comment"
