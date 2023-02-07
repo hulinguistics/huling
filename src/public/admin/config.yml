@@ -28,6 +28,17 @@ collections:
         hint: |
           言語ごとの概説なら「ドイツ語 / Deutsch」など
 
+      - label: "パス"
+        name: "slug"
+        widget: "string"
+        hint: |
+          ラテン小文字, 算用数字, 半角ハイフン, 3字以上.
+          言語ごとの概説なら3文字の言語コード (**deu**, **fra** など.
+          [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php),
+          [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
+          参照)
+        pattern: ['[a-z0-9-]{3,}', 'ラテン小文字, 算用数字, 半角ハイフン, 3字以上']
+
       - label: "カテゴリ"
         name: "category"
         widget: "select"
@@ -42,17 +53,6 @@ collections:
         widget: "list"
         hint: |
           [タグ一覧](https://huling.org/tags/)
-
-      - label: "パス"
-        name: "slug"
-        widget: "string"
-        hint: |
-          ラテン小文字, 算用数字, 半角ハイフン, 3字以上.
-          言語ごとの概説なら3文字の言語コード (**deu**, **fra** など.
-          [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php),
-          [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
-          参照)
-        pattern: ['[a-z0-9-]{3,}', 'ラテン小文字, 算用数字, 半角ハイフン, 3字以上']
 
       - label: "コメント機能"
         name: "comment"
