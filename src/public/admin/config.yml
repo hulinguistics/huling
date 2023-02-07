@@ -20,6 +20,8 @@ collections:
     folder: src/docs
     create: true
     slug: "{{fields.id}}"
+    preview_path: "docs/{{slug}}"
+    preview_path_date_field: published_at
 
     fields:
       - label: タイトル
