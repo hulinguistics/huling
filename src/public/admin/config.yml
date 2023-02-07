@@ -34,7 +34,6 @@ collections:
         options:
           - { label: "言語学の概説", value: "linguistics" }
           - { label: "言語ごとの概説", value: "grammar" }
-          - { label: "言語の比較", value: "comparison" }
           - { label: "便利機能", value: "tools" }
           - { label: "その他の記事", value: "article" }
 
