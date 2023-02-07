@@ -13,6 +13,9 @@ export default (async () => {
     // 最終更新の表示
     lastUpdated: true,
 
+    // 拡張子 .html を隠す
+    cleanUrls: true,
+
     // head 内の値とか
     head: [
       ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
