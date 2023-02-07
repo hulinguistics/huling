@@ -1,12 +1,12 @@
 ---
 title: 古典ギリシア語 / Ἑλληνική
+id: grc
 category: grammar
 tags:
   - 文法概説
   - 古典ギリシア語
   - ヘレニック語派
   - インド・ヨーロッパ語族
-slug: grc
 comment: "true"
 ---
 ## 性, 数, 格

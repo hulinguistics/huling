@@ -1,12 +1,12 @@
 ---
 title: 中国語 / 汉语 (普通话)
+id: zho
 category: grammar
 tags:
   - 文法概説
   - 中国語
   - シナ語派
   - シナ・チベット語族
-slug: zho
 comment: "true"
 ---
 ## 性, 数, 格

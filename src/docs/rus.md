@@ -1,12 +1,12 @@
 ---
 title: ロシア語 / Русский
+id: rus
 category: grammar
 tags:
   - 文法概説
   - ロシア語
   - スラヴ語派
   - インド・ヨーロッパ語族
-slug: rus
 comment: "true"
 ---
 ## 性, 数, 格

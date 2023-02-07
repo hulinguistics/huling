@@ -1,12 +1,12 @@
 ---
 title: スペイン語 / Español
+id: spa
 category: grammar
 tags:
   - 文法概説
   - スペイン語
   - イタリック語派
   - インド・ヨーロッパ語族
-slug: spa
 comment: "true"
 ---
 ## 性, 数, 格

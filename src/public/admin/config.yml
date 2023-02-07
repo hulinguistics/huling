@@ -19,7 +19,7 @@ collections:
     label: "語学・言語学の記事"
     folder: "src/docs"
     create: true
-    slug: "{{fields.slug}}"
+    slug: "{{fields.id}}"
 
     fields:
       - label: "タイトル"
@@ -28,16 +28,18 @@ collections:
         hint: |
           言語ごとの概説なら「ドイツ語 / Deutsch」など
 
-      - label: "パス"
-        name: "slug"
+      - label: "記事ID"
+        name: "id"
         widget: "string"
         hint: |
-          ラテン小文字, 算用数字, 半角ハイフン, 3字以上.
+          ラテン文字, 算用数字, 半角ハイフン, 3字以上.
           言語ごとの概説なら3文字の言語コード (**deu**, **fra** など.
           [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php),
           [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
-          参照)
-        pattern: ['[a-z0-9-]{3,}', 'ラテン小文字, 算用数字, 半角ハイフン, 3字以上']
+          参照).
+          ダイアクリティカルマーク付きラテン文字不可.
+          記事のURLは「https://huling.org/docs/(id)」.
+        pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
 
       - label: "カテゴリ"
         name: "category"

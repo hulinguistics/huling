@@ -1,10 +1,10 @@
 ---
 title: 各言語の世界人権宣言
+id: udhr
 category: article
 tags:
   - 言語学
   - 比較
-slug: udhr
 comment: "true"
 ---
 ## 日本語
