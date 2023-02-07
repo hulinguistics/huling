@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0",
     "@types/fs-extra": "^11.0.1",
     "@types/jsdom": "^20.0.1",
     "@types/papaparse": "^5.3.7",
