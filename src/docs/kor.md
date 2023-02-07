@@ -1,11 +1,11 @@
 ---
 title: 韓国朝鮮語 / 한국어
+id: kor
 category: grammar
 tags:
   - 文法概説
   - 韓国朝鮮語
   - 朝鮮語族
-slug: kor
 comment: "true"
 ---
 ## 系統

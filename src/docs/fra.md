@@ -1,12 +1,12 @@
 ---
 title: フランス語 / Français
+id: fra
 category: grammar
 tags:
   - 文法概説
   - フランス語
   - イタリック語派
   - インド・ヨーロッパ語族
-slug: fra
 comment: "true"
 ---
 ## 性, 数, 格

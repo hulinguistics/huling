@@ -1,12 +1,12 @@
 ---
 title: ラテン語 / Latina
+id: lat
 category: grammar
 tags:
   - 文法概説
   - ラテン語
   - イタリック語派
   - インド・ヨーロッパ語族
-slug: lat
 comment: "true"
 ---
 ## 性, 数, 格
