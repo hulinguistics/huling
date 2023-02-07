@@ -56,7 +56,9 @@ collections:
         name: tags
         widget: list
         hint: |
-          [タグ一覧](https://huling.org/tags/)
+          [タグ一覧](https://huling.org/tags).
+          「#」不要.
+          仕切り文字は半角コンマ「,」.
 
       - label: コメント機能
         name: comment
@@ -102,7 +104,9 @@ collections:
         name: tags
         widget: list
         hint: |
-          [タグ一覧](https://huling.org/tags/)
+          [タグ一覧](https://huling.org/tags).
+          「#」不要.
+          仕切り文字は半角コンマ「,」.
 
       - label: コメント機能
         name: comment

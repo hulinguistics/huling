@@ -1,10 +1,18 @@
 <template>
-  <div ref="container"></div>
+  <div ref="container">
+    <link v-if="config" :href="config" type="text/yaml" rel="cms-config-url" />
+  </div>
 </template>
 
 <script lang="ts">
 import { ref, onMounted } from 'vue';
 export default {
+  props: {
+    config: {
+      type: String,
+      default: undefined,
+    },
+  },
   setup() {
     const container = ref();
     onMounted(() => {

@@ -1,5 +1,5 @@
 <template>
-  <a :href="`/tags/?tag=${encodeURIComponent(name)}`">
+  <a :href="`/tags?tag=${encodeURIComponent(name)}`">
     <span class="HLTag">{{ name }}</span>
   </a>
 </template>

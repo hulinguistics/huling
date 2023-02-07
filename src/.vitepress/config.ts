@@ -41,11 +41,11 @@ export default (async () => {
       // ページ上部の nav
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'About', link: '/about/' },
+        { text: 'About', link: '/about' },
         { text: 'Booklet', link: '/booklet/' },
         { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
-        { text: 'Olympiad', link: '/olympiad/about/', activeMatch: '/olympiad/' },
-        { text: 'Tags', link: '/tags/' },
+        { text: 'Olympiad', link: '/olympiad/about', activeMatch: '/olympiad/' },
+        { text: 'Tags', link: '/tags' },
       ],
 
       // nav 上のソーシャルリンク
