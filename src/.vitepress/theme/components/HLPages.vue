@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="post in posts" :key="post.frontMatter.title">
-      <a :href="post.path.replace('index.md', '')">
+      <a :href="post.path.replace('.md', '')">
         <h3>{{ post.frontMatter.title }}</h3>
       </a>
       <div class="tags">
@@ -33,13 +33,7 @@ export default {
   },
   setup(props) {
     const { theme } = useData();
-    const posts = theme.value.posts
-      .filter((post: any) => (props.tag ? post.frontMatter?.tags?.includes(props.tag) : true))
-      .map((post: any) => {
-        let p = post;
-        p.path = post.path.replace('index.md', '');
-        return p;
-      });
+    const posts = theme.value.posts.filter((post: any) => (props.tag ? post.frontMatter?.tags?.includes(props.tag) : true));
 
     return {
       theme,
