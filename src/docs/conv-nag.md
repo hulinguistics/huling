@@ -3,7 +3,6 @@ title: サンスクリット・デーヴァナーガリー変換器
 id: conv-nag
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - サンスクリット
   - デーヴァナーガリー

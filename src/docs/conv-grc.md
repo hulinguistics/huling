@@ -3,7 +3,6 @@ title: 古代ギリシア語ギリシア文字変換器
 id: conv-grc
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - 古代ギリシア語
   - ギリシア文字

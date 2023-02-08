@@ -3,7 +3,6 @@ title: ロシア語キリル文字変換器
 id: conv-rus
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - ロシア語
   - キリル文字
