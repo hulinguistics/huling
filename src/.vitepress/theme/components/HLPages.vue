@@ -4,20 +4,18 @@
       <a :href="post.path.replace('.md', '')">
         <h3>{{ post.frontMatter.title }}</h3>
       </a>
-      <div class="tags">
-        <HLTag v-for="ptag in post.frontMatter.tags" :key="ptag" :name="ptag" @click="tagClick(ptag)" />
-      </div>
+      <HLPageInfo :tags="post.frontMatter.tags" :tag-click="tagClick"></HLPageInfo>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { useData } from 'vitepress';
-import HLTag from './HLTag.vue';
+import HLPageInfo from './HLPageInfo.vue';
 
 export default {
   components: {
-    HLTag,
+    HLPageInfo,
   },
   props: {
     tag: {
@@ -51,12 +49,5 @@ h2 {
   &::before {
     content: '#';
   }
-}
-
-.tags {
-  margin-top: 10px;
-  display: flex;
-  gap: 5px 10px;
-  flex-wrap: wrap;
 }
 </style>

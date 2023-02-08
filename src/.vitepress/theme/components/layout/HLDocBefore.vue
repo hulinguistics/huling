@@ -1,9 +1,7 @@
 <template>
   <div v-if="show" class="docAfter">
     <HLTitle :title="title" />
-    <div class="tags">
-      <HLTag v-for="tag in tags" :key="tag" :name="tag" />
-    </div>
+    <HLPageInfo :tags="tags"></HLPageInfo>
   </div>
 </template>
 
@@ -11,12 +9,12 @@
 import { ref, watch } from 'vue';
 import { useData } from 'vitepress';
 import HLTitle from '../HLTitle.vue';
-import HLTag from '../HLTag.vue';
+import HLPageInfo from '../HLPageInfo.vue';
 
 export default {
   components: {
     HLTitle,
-    HLTag,
+    HLPageInfo,
   },
   setup() {
     const { frontmatter } = useData();
