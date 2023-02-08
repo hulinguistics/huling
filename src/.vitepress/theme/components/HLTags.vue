@@ -1,15 +1,18 @@
 <template>
   <div>
-    <div class="tags">
-      <div v-for="ptag in tags" :key="ptag.name">
-        <HLTag :name="ptag.name" @click="setTag(ptag.name)" />
-        ({{ ptag.count }})
-      </div>
+    <div v-if="tag" :key="tag" class="pages">
+      <h1 class="tag_title">{{ tag }}</h1>
+      <HLPages :tag="tag" :tag-click="setTag" />
     </div>
 
-    <div v-if="tag" :key="tag">
-      <h2 class="tag_title">{{ tag }}</h2>
-      <HLPages :tag="tag" :tag-click="setTag" />
+    <div class="tags">
+      <h3>タグ一覧</h3>
+      <div class="tags_inner">
+        <div v-for="ptag in tags" :key="ptag.name">
+          <HLTag :name="ptag.name" @click="setTag(ptag.name)" />
+          ({{ ptag.count }})
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -62,25 +65,31 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h2 {
-  display: flex;
-  gap: 0.1em;
+.pages {
+  margin-bottom: 50px;
 
-  &::before {
-    content: '#';
+  .tag_title {
+    display: flex;
+    gap: 0.1em;
+
+    &::before {
+      content: '#';
+    }
   }
 }
 
 .tags {
-  margin-top: 10px;
-  display: flex;
-  gap: 5px 15px;
-  flex-wrap: wrap;
-  color: var(--vp-c-text-2);
-
-  > div {
+  .tags_inner {
+    margin-top: 10px;
     display: flex;
-    gap: 5px;
+    gap: 5px 15px;
+    flex-wrap: wrap;
+    color: var(--vp-c-text-2);
+
+    div {
+      display: flex;
+      gap: 5px;
+    }
   }
 }
 </style>
