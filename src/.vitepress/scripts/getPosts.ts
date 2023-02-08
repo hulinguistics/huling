@@ -1,6 +1,7 @@
 import { globby } from 'globby';
 import matter from 'gray-matter';
 import fs from 'fs-extra';
+import { getGitLastUpdated } from './git.js';
 
 // parent 下の拡張子 ext を持つファイルのパスと中身を取得
 export async function getFiles(parent: string, ext: string[]) {
@@ -22,8 +23,8 @@ export async function getFiles(parent: string, ext: string[]) {
 }
 
 // parent 下の記事の取得
-export async function getPosts(parent: string) {
-  const posts = await Promise.all(
+export const getPosts = async (parent: string) =>
+  await Promise.all(
     (
       await getFiles(parent, ['md'])
     ).map(async (file) => {
@@ -32,8 +33,7 @@ export async function getPosts(parent: string) {
         path: file.path.replace('src', ''),
         frontMatter: data,
         content: content,
+        lastUpdated: await getGitLastUpdated(file.path),
       };
     }),
   );
-  return posts;
-}

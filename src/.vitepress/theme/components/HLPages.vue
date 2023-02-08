@@ -4,7 +4,7 @@
       <a :href="post.path.replace('.md', '')">
         <h3>{{ post.frontMatter.title }}</h3>
       </a>
-      <HLPageInfo :tags="post.frontMatter.tags" :tag-click="tagClick"></HLPageInfo>
+      <HLPageInfo :tags="post.frontMatter.tags" :tag-click="tagClick" :timestamp="post.lastUpdated"></HLPageInfo>
     </div>
   </div>
 </template>
@@ -31,7 +31,9 @@ export default {
   },
   setup(props) {
     const { theme } = useData();
-    const posts = theme.value.posts.filter((post: any) => (props.tag ? post.frontMatter?.tags?.includes(props.tag) : true));
+    const posts = theme.value.posts
+      .filter((post: any) => (props.tag ? post.frontMatter?.tags?.includes(props.tag) : true))
+      .sort((a: any, b: any) => b.lastUpdated - a.lastUpdated);
 
     return {
       theme,
