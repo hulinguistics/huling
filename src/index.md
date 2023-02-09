@@ -12,7 +12,7 @@ hero:
       link: /about
     - theme: alt
       text: Booklet
-      link: /booklet/
+      link: /booklet
 
 features:
   - title: 活動内容 

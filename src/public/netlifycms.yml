@@ -37,7 +37,6 @@ collections:
         widget: string
         hint: |
           言語ごとの概説なら「ドイツ語 / Deutsch」など
-
       - label: 記事ID
         name: id
         widget: string
@@ -50,7 +49,6 @@ collections:
           参照).
           記事のURLは「https://huling.org/docs/(id)」.
         pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
-
       - label: カテゴリ
         name: category
         widget: select
@@ -59,7 +57,6 @@ collections:
           - { label: 言語ごとの概説, value: grammar }
           - { label: 文字変換器, value: conv }
           - { label: その他の記事, value: article }
-
       - label: タグ
         name: tags
         widget: list
@@ -67,12 +64,10 @@ collections:
           [タグ一覧](https://huling.org/tags).
           「#」不要.
           仕切り文字は半角コンマ「,」.
-
       - label: コメント機能
         name: comment
         widget: boolean
         default: true
-
       - label: 本文
         name: body
         widget: markdown
@@ -97,7 +92,6 @@ collections:
         widget: string
         hint: |
           問題解説なら「JOL2017-3 モンゴル語」など
-
       - label: 記事ID
         name: id
         widget: string
@@ -108,14 +102,12 @@ collections:
           例) 「JOL2017-3」「UKLO2021R1-1」など.
           記事のURLは「https://huling.org/olympiad/(id)」.
         pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
-
       - label: カテゴリ
         name: category
         widget: select
         options:
           - { label: 言語学オリンピックについて, value: general }
           - { label: オリンピック問題解説集, value: explanation }
-
       - label: タグ
         name: tags
         widget: list
@@ -123,12 +115,10 @@ collections:
           [タグ一覧](https://huling.org/tags).
           「#」不要.
           仕切り文字は半角コンマ「,」.
-
       - label: コメント機能
         name: comment
         widget: boolean
         default: true
-
       - label: 本文
         name: body
         widget: markdown
@@ -137,6 +127,7 @@ collections:
     label: 固定ページ
     description: |
       トップページや about など
+
     files:
       - label: トップページ
         name: top
@@ -167,3 +158,19 @@ collections:
               - {label: タイトル, name: title, widget: string}
               - {label: 説明, name: details, widget: string}
           - {label: 本文, name: body, widget: hidden, default: ''}
+
+      - label: about
+        name: about
+        file: src/about.md
+        fields:
+          - {label: タイトル, name: title, widget: string}
+          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
+          - {label: 本文, name: body, widget: markdown}
+
+      - label: booklet
+        name: booklet
+        file: src/booklet.md
+        fields:
+          - {label: タイトル, name: title, widget: string}
+          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
+          - {label: 本文, name: body, widget: markdown}
