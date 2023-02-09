@@ -64,6 +64,13 @@ collections:
           [タグ一覧](https://huling.org/tags).
           「#」不要.
           仕切り文字は半角コンマ「,」.
+      - label: 筆者
+        name: author
+        widget: list
+        required: false
+        fields:
+          - {label: 表示名, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
       - label: コメント機能
         name: comment
         widget: boolean
@@ -115,6 +122,13 @@ collections:
           [タグ一覧](https://huling.org/tags).
           「#」不要.
           仕切り文字は半角コンマ「,」.
+      - label: 筆者
+        name: author
+        widget: list
+        required: false
+        fields:
+          - {label: 表示名, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
       - label: コメント機能
         name: comment
         widget: boolean
