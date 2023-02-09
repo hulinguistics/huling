@@ -7,12 +7,19 @@
       <HLPageInfo :tags="post.frontMatter.tags" :tag-click="tagClick" :timestamp="post.lastUpdated"></HLPageInfo>
     </div>
     <div v-if="paginate && pageList.length > 1" class="paginate">
-      <a v-if="pageNum > 1" :href="`?${tag ? `tag=${encodeURIComponent(tag)}&` : ''}p=${pageNum - 1}`">&lt;</a>
+      <a v-if="pageNum > 1" :href="`?${tag ? `tag=${encodeURIComponent(tag)}&` : ''}p=${pageNum - 1}`" @click="setPageNum(pageNum - 1)"
+        >&lt;</a
+      >
       <div v-for="p in pageList" :key="p">
-        <a v-if="p != pageNum" :href="`?${tag ? `tag=${encodeURIComponent(tag)}&` : ''}p=${p}`">{{ p }}</a>
+        <a v-if="p != pageNum" :href="`?${tag ? `tag=${encodeURIComponent(tag)}&` : ''}p=${p}`" @click="setPageNum(p)">{{ p }}</a>
         <span v-if="p == pageNum">{{ p }}</span>
       </div>
-      <a v-if="pageNum < pageList.length" :href="`?${tag ? `tag=${encodeURIComponent(tag)}&` : ''}p=${pageNum + 1}`">&gt;</a>
+      <a
+        v-if="pageNum < pageList.length"
+        :href="`?${tag ? `tag=${encodeURIComponent(tag)}&` : ''}p=${pageNum + 1}`"
+        @click="setPageNum(pageNum + 1)"
+        >&gt;</a
+      >
     </div>
   </div>
 </template>
