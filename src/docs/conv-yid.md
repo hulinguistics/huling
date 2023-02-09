@@ -3,7 +3,6 @@ title: イディッシュ語ヘブライ文字変換器
 id: conv-cop
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - イディッシュ語
   - ヘブライ文字

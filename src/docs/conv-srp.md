@@ -3,7 +3,6 @@ title: セルビア語クロアチア語キリル文字ラテン文字変換器
 id: conv-srp
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - セルビア語
   - クロアチア語

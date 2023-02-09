@@ -3,7 +3,6 @@ title: アイヌ語ローマ字カタカナ変換器
 id: conv-ain
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - アイヌ語
   - ラテン文字

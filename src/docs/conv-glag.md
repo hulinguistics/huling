@@ -3,7 +3,6 @@ title: 古教会スラヴ語グラゴル文字変換器
 id: conv-glag
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - 古教会スラヴ語
   - グラゴル文字

@@ -3,7 +3,6 @@ title: ダイアクリティカルマーク付きラテン文字変換器
 id: conv-lat
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - ラテン文字
 comment: "true"

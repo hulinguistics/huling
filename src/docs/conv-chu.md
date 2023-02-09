@@ -3,7 +3,6 @@ title: 古教会スラヴ語キリル文字変換器
 id: conv-chu
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - 古教会スラヴ語
   - キリル文字

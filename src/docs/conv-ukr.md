@@ -3,7 +3,6 @@ title: ウクライナ語キリル文字変換器
 id: conv-ukr
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - ウクライナ語
   - キリル文字

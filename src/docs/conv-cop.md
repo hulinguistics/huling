@@ -3,7 +3,6 @@ title: コプト語コプト文字変換器
 id: conv-cop
 category: conv
 tags:
-  - 便利機能
   - 文字変換器
   - コプト語
   - コプト文字
