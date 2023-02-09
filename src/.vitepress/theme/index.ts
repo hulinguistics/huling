@@ -9,6 +9,7 @@ import HLDocFooterBefore from './components/layout/HLDocFooterBefore.vue';
 // 記事中で使うコンポーネント
 import HLConverter from './components/HLConverter.vue';
 import HLTags from './components/HLTags.vue';
+import HLPages from './components/HLPages.vue';
 import HLNetlifyCMS from './components/HLNetlifyCMS.vue';
 
 import './scss/index.scss';
@@ -30,6 +31,9 @@ export default {
   enhanceApp({ app }) {
     // 文字変換器
     app.component('HLConverter', HLConverter);
+
+    // 記事一覧
+    app.component('HLPages', HLPages);
 
     // タグごとの記事一覧
     app.component('HLTags', HLTags);

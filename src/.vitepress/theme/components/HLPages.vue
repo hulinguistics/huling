@@ -41,12 +41,18 @@ export default {
       type: Number,
       default: undefined,
     },
+    parent: {
+      type: String,
+      default: '/',
+    },
   },
   setup(props) {
     const { theme } = useData();
 
     // 該当する投稿全て
     const postsAll = theme.value.posts
+      // parent で親ディレクトリ絞り込み，index.mdを除外
+      .filter((post: any) => post.path.startsWith(props.parent) && !post.path.startsWith(props.parent + 'index'))
       // tag が指定されているときは tag で絞り込み
       .filter((post: any) => (props.tag ? post.frontMatter?.tags?.includes(props.tag) : true))
       // 最終更新日時順に並び換え

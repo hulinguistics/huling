@@ -14,7 +14,7 @@ export async function getFiles(parent: string, ext: string[]) {
         },
       )
     )
-      .filter((path) => path.includes(parent))
+      .filter((path) => path.startsWith(parent))
       .map(async (path) => {
         const content = await fs.readFile(path, 'utf-8');
         return { path, content };
