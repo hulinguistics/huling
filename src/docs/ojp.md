@@ -1,5 +1,5 @@
 ---
-title: 上代日本語
+title: 上代日本語 / yamato₂ ko₂to₂ba
 id: ojp
 category: grammar
 tags:
