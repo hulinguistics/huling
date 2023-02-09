@@ -21,7 +21,15 @@ collections:
     create: true
     slug: "{{fields.id}}"
     preview_path: "docs/{{slug}}"
-    preview_path_date_field: published_at
+    summary: "{{title}} ({{filename}}.{{extension}}) {{commit_date}}"
+    sortable_fields: ['commit_date', 'title', 'commit_author']
+    view_filters:
+      - { label: 言語学の概説, field: category, pattern: linguistics }
+      - { label: 言語ごとの概説, field: category, pattern: grammar }
+      - { label: 文字変換器, field: category, pattern: conv }
+      - { label: その他の記事, field: category, pattern: article }
+    description: |
+      文法概説などの語学記事，言語学記事，その他寄稿など
 
     fields:
       - label: タイトル
@@ -74,6 +82,14 @@ collections:
     folder: src/olympiad
     create: true
     slug: "{{fields.id}}"
+    preview_path: "olympiad/{{slug}}"
+    summary: "{{title}} ({{filename}}.{{extension}}) {{commit_date}}"
+    sortable_fields: ['commit_date', 'title', 'commit_author']
+    view_filters:
+      - { label: 言語学オリンピックについて, field: category, pattern: general }
+      - { label: オリンピック問題解説集, field: category, pattern: explanation }
+    description: |
+      言語学オリンピック過去問題解説などの記事
 
     fields:
       - label: タイトル
