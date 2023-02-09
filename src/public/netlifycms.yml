@@ -132,3 +132,38 @@ collections:
       - label: 本文
         name: body
         widget: markdown
+
+  - name: static
+    label: 固定ページ
+    description: |
+      トップページや about など
+    files:
+      - label: トップページ
+        name: top
+        file: src/index.md
+        fields:
+          - {label: レイアウト, name: layout, widget: hidden, default: home}
+          - label: ヒーロー
+            name: hero
+            widget: object
+            fields:
+              - {label: 青字タイトル, name: name, widget: string}
+              - {label: 黒字タイトル, name: text, widget: string, required: false}
+              - {label: トップ画像, name: image, widget: image, choose_url: true, required: false}
+              - {label: サブタイトル, name: tagline, widget: string, required: false}
+              - label: リンクボタン
+                name: actions
+                widget: list
+                required: false
+                fields:
+                  - {label: テキスト, name: text, widget: string}
+                  - {label: テーマ, name: theme, widget: select, options: ['brand', 'alt']}
+                  - {label: リンク, name: link, widget: string}
+          - label: 紹介文
+            name: features
+            widget: list
+            required: false
+            fields:
+              - {label: タイトル, name: title, widget: string}
+              - {label: 説明, name: details, widget: string}
+          - {label: 本文, name: body, widget: hidden, default: ''}
