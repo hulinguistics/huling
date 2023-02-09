@@ -2,7 +2,7 @@
   <div>
     <div v-if="tag" :key="tag" class="pages">
       <h1 class="tag_title">{{ tag }}</h1>
-      <HLPages :tag="tag" :tag-click="setTag" />
+      <HLPages :tag="tag" :tag-click="setTag" :paginate="10" />
     </div>
 
     <div class="tags">
@@ -33,8 +33,8 @@ export default {
 
     // タグ一覧の生成
     let tags: { name: string; count: number }[] = [];
-    theme.value.posts.forEach((post) => {
-      post.frontMatter?.tags?.forEach((tag) => {
+    theme.value.posts.forEach((post: any) => {
+      post.frontMatter?.tags?.forEach((tag: any) => {
         if (tags.some((t) => t.name == tag)) {
           tags.forEach((t) => {
             if (t.name == tag) t.count++;
