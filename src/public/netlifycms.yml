@@ -12,7 +12,7 @@ public_folder: /upload
 
 site_url: https://huling.org
 
-locale: ja
+# locale: ja
 
 collections:
   - name: docs
@@ -21,13 +21,13 @@ collections:
     create: true
     slug: "{{fields.id}}"
     preview_path: "docs/{{slug}}"
-    summary: "{{title}} ({{filename}}.{{extension}}) {{commit_date}}"
-    sortable_fields: ['commit_date', 'title', 'commit_author']
-    view_filters:
-      - { label: 言語学の概説, field: category, pattern: linguistics }
-      - { label: 言語ごとの概説, field: category, pattern: grammar }
-      - { label: 文字変換器, field: category, pattern: conv }
-      - { label: その他の記事, field: category, pattern: article }
+    # summary: "{{title}} ({{filename}}.{{extension}}) {{commit_date}}"
+    # sortable_fields: ['commit_date', 'title', 'commit_author']
+    # view_filters:
+    #   - { label: 言語学の概説, field: category, pattern: linguistics }
+    #   - { label: 言語ごとの概説, field: category, pattern: grammar }
+    #   - { label: 文字変換器, field: category, pattern: conv }
+    #   - { label: その他の記事, field: category, pattern: article }
     description: |
       文法概説などの語学記事，言語学記事，その他寄稿など
 
@@ -43,10 +43,8 @@ collections:
         hint: |
           ラテン文字, 算用数字, 半角ハイフン, 3字以上.
           ダイアクリティカルマーク付きラテン文字不可.
-          言語ごとの概説なら3文字の言語コード (**deu**, **fra** など.
-          [ISO 639-2](https://www.loc.gov/standards/iso639-2/php/code_list.php),
-          [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
-          参照).
+          言語ごとの概説なら3文字の言語コード (deu, fra など.
+          ISO 639-2, ISO 639-3 参照).
           記事のURLは「https://huling.org/docs/(id)」.
         pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
       - label: カテゴリ
@@ -61,7 +59,6 @@ collections:
         name: tags
         widget: list
         hint: |
-          [タグ一覧](https://huling.org/tags).
           「#」不要.
           仕切り文字は半角コンマ「,」.
       - label: 筆者
@@ -85,11 +82,11 @@ collections:
     create: true
     slug: "{{fields.id}}"
     preview_path: "olympiad/{{slug}}"
-    summary: "{{title}} ({{filename}}.{{extension}}) {{commit_date}}"
-    sortable_fields: ['commit_date', 'title', 'commit_author']
-    view_filters:
-      - { label: 言語学オリンピックについて, field: category, pattern: general }
-      - { label: オリンピック問題解説集, field: category, pattern: explanation }
+    # summary: "{{title}} ({{filename}}.{{extension}}) {{commit_date}}"
+    # sortable_fields: ['commit_date', 'title', 'commit_author']
+    # view_filters:
+    #   - { label: 言語学オリンピックについて, field: category, pattern: general }
+    #   - { label: オリンピック問題解説集, field: category, pattern: explanation }
     description: |
       言語学オリンピック過去問題解説などの記事
 
@@ -119,7 +116,6 @@ collections:
         name: tags
         widget: list
         hint: |
-          [タグ一覧](https://huling.org/tags).
           「#」不要.
           仕切り文字は半角コンマ「,」.
       - label: 筆者
@@ -173,18 +169,18 @@ collections:
               - {label: 説明, name: details, widget: string}
           - {label: 本文, name: body, widget: hidden, default: ''}
 
-      - label: about
-        name: about
-        file: src/about.md
-        fields:
-          - {label: タイトル, name: title, widget: string}
-          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
-          - {label: 本文, name: body, widget: markdown}
+      # - label: about
+      #   name: about
+      #   file: src/about.md
+      #   fields:
+      #     - {label: タイトル, name: title, widget: string}
+      #     - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
+      #     - {label: 本文, name: body, widget: markdown}
 
-      - label: booklet
-        name: booklet
-        file: src/booklet.md
-        fields:
-          - {label: タイトル, name: title, widget: string}
-          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
-          - {label: 本文, name: body, widget: markdown}
+      # - label: booklet
+      #   name: booklet
+      #   file: src/booklet.md
+      #   fields:
+      #     - {label: タイトル, name: title, widget: string}
+      #     - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
+      #     - {label: 本文, name: body, widget: markdown}

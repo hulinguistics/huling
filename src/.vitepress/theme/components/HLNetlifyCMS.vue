@@ -18,7 +18,7 @@ export default {
     onMounted(() => {
       const cms = window.document.createElement('script');
       cms.type = 'text/javascript';
-      cms.src = 'https://unpkg.com/netlify-cms/dist/netlify-cms.js';
+      cms.src = 'https://unpkg.com/netlify-cms@2.9.7/dist/netlify-cms.js';
       cms.async = true;
       cms.crossOrigin = 'anonymous';
       container.value.append(cms);
