@@ -29,3 +29,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+div[data-slate-editor] {
+  -webkit-user-modify: read-write !important;
+}
+</style>
