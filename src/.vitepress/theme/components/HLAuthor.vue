@@ -22,7 +22,7 @@ export default {
     const getAuthor = (value: any) => {
       const authorObject = (author: any) => ({ name: author.name || author, url: author.url });
 
-      if (!value.author) {
+      if (!value.author?.length) {
         return [];
       } else if (typeof value.author === 'object' && value.author[0] !== undefined) {
         // author が複数人のとき
