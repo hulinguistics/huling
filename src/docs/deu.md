@@ -34,7 +34,7 @@ comment: 'true'
 | 無語尾 | der Wagen「車」 | die Wagen |
 | E 型 | das Jahr「年」 | die Jahre |
 | ER 型 | der Mann「男」 | die Männer |
-| (E)N 型 | das Name「名前」 | die Namen |
+| (E)N 型 | der Name「名前」 | die Namen |
 | S 型 | das Foto「写真」 | die Fotos |
 
 das Man > die Männer のように,
