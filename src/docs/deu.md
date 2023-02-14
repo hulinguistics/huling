@@ -67,9 +67,15 @@ ER 型は必ず幹母音が変音します.
 
 動詞の形としての時制は**現在**と**過去**の2つしか存在しません.
 純粋に時間的な未来は現在形で表されますが,
-推量や意図など話法的な意味を含む未来は助動詞 werden を用いて表現されます.
+推量や意図など話法的な意味を含む未来は動詞 werden を用いて表現されます.
 
-1. Morgen **werde** ich Tennnis spielen. 明日私はテニスをします. (意志)  
+1. Ich **spiele** Tennis. 私はテニスをしています. (現在)  
+  spiele : spielen「遊ぶ, (スポーツを)プレイする」の現在 1 人称単数形
+
+1. Ich **spielte** Tennis. 私はテニスをしました. (過去)  
+  spielte : spielen の過去 1 人称単数形
+
+1. Morgen **werde** ich Tennnis spielen. 明日私はテニスをします. (未来, 意志)  
   werde : werden の 1 人称単数形
 
 ## アスペクト
