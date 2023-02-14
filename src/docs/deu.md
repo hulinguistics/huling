@@ -102,9 +102,12 @@ ER 型は必ず幹母音が変音します.
 **能動態**と**受動態**がありますが, 動詞の形として存在しているわけでありません.
 受動文の作り方は主に助動詞 werden + 過去分詞で作ります.
 
-1. In Japan **wird** Japanisch **gesprochen**. 日本では日本語が話される (受動態)  
+1. Er **spricht** Japanisch. 彼は日本語を話す. (能動態)
+  spricht : sprechen「話す」の 3 人称単数形
+
+1. In Japan **wird** Japanisch **gesprochen**. 日本では日本語が話される. (受動態)  
   wird : werden の 3 人称単数形  
-  gesprochen : sprechen「話す」の過去分詞形
+  gesprochen : sprechen の過去分詞形
 
 ## 語順
 
