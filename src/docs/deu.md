@@ -61,44 +61,44 @@ das Man > die Männer のように,
 ## 時制
 
 動詞の形としての時制は**現在**と**過去**の2つしか存在しません.
-ですので未来の事柄について述べるときは法助動詞を使って表すことになります.
+純粋に時間的な未来は現在形で表されますが,
+推量や意図など話法的な意味を含む未来は助動詞 werden を用いて表現されます.
 
-- **Morgen** werde **ich** Tennnis **spielen**.  
-morgen : 朝 (副詞)  
-
+1. Morgen **werde** ich Tennnis **spielen**. 明日私はテニスをします. (意志)  
+  werde : werden の 1 人称単数形
 
 ## アスペクト
 
-完了相/未完了相がありますが, 未来時制の時と同様動詞の形として存在しているわけではありません.
+**完了相**/**未完了相**がありますが,
+未来時制の時と同様, 動詞の形として存在しているわけではありません.
 基本的に完了相は haben + 過去分詞で作りますが,
 一部 sein + 過去分詞で作るものもあります.
 
-(現在完了) Ich habe ein Buch gekauft. 「私は本を買った」  
-(habe は haben の 1 人称単数形)
+1. Ich **habe** ein Buch **gekauft**. 私は本を買った. (現在完了)  
+  habe : haben の 1 人称単数形  
+  gekauft : kaufen「買う」の過去分詞
 
 ## 法
 
 直説法, 接続法, 命令法があります.
-接続法はI式では要求や間接話法, II式では非現実の事柄について述べるときに使われます.
+接続法 I 式は要求や間接話法, II 式は非現実の事柄について述べるときに使われます.
 
-- (間接話法) “Ich bin müde.” → Er sei müde.「彼は疲れたと言っている」
-- (非現実) Wenn ich Zeit hätte, führe ich in die Stadt.「暇なら街へ行くのに」
+1. “Ich bin müde.” 私は疲れた. → Er **sei** müde. 彼は疲れたと言っている. (間接話法)
+1. Wenn ich Zeit **hätte**, **führe** ich in die Stadt. 暇なら街へ行くのに. (非現実話法)
 
 ## 態
 
 能動態と受動態がありますが, 動詞の形として存在しているわけでありません.
-受動文の作り方は主に助動詞 werden と過去分詞を組み合わせて作ります.
+受動文の作り方は主に助動詞 werden + 過去分詞で作ります.
 
-- (受動態) In Japan wird Japanisch gesprochen.  
-日本では日本語が話される  
-(wird は werden の 3 人称単数形)
+1. In Japan wird Japanisch gesprochen. 日本では日本語が話される (受動態)  
+  wird : werden の 3 人称単数形
 
 ## 語順
 
 ドイツ語では定動詞は文の二番目の要素に来ます (定型第2位).
 
-- ドイツ語 : **Fußball** spiele **ich** heute.
-- 逐語英訳 : **Football** play **I** today.
+1. Fußball **spiele** ich heute. 今日私はサッカーをします.
 
 ## 参考文献
 
