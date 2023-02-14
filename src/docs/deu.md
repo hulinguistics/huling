@@ -105,5 +105,6 @@ das Man > die Männer のように,
 ## 参考文献
 
 - 佐藤峻一 石川克知 橋本聡 鈴木純一 西村龍一,『ドイツ語の扉』, 同学社, 2021
+- 中島悠爾 平尾浩三 朝倉巧, 『必携ドイツ文法総まとめ』, 白水社, 2003
 - Bruce Mitchell / Fred C. Robinson,“A Guide To Old English”, WILLEY-BLACKWELL, 2021
 - Don Ringe,”From Proto-Indo-European to Proto-Germanic”, OXFORD LINGUISTICS, 2017
