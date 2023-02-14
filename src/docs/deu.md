@@ -64,7 +64,7 @@ das Man > die Männer のように,
 純粋に時間的な未来は現在形で表されますが,
 推量や意図など話法的な意味を含む未来は助動詞 werden を用いて表現されます.
 
-1. Morgen **werde** ich Tennnis **spielen**. 明日私はテニスをします. (意志)  
+1. Morgen **werde** ich Tennnis spielen. 明日私はテニスをします. (意志)  
   werde : werden の 1 人称単数形
 
 ## アスペクト
@@ -76,7 +76,7 @@ das Man > die Männer のように,
 
 1. Ich **habe** ein Buch **gekauft**. 私は本を買った. (現在完了)  
   habe : haben の 1 人称単数形  
-  gekauft : kaufen「買う」の過去分詞
+  gekauft : kaufen「買う」の過去分詞形
 
 ## 法
 
@@ -91,8 +91,9 @@ das Man > die Männer のように,
 **能動態**と**受動態**がありますが, 動詞の形として存在しているわけでありません.
 受動文の作り方は主に助動詞 werden + 過去分詞で作ります.
 
-1. In Japan wird Japanisch gesprochen. 日本では日本語が話される (受動態)  
-  wird : werden の 3 人称単数形
+1. In Japan **wird** Japanisch **gesprochen**. 日本では日本語が話される (受動態)  
+  wird : werden の 3 人称単数形  
+  gesprochen : sprechen「話す」の過去分詞形
 
 ## 語順
 
