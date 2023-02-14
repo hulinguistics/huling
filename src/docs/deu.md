@@ -29,11 +29,18 @@ comment: 'true'
 名詞には単数/複数の区別があります.
 複数形の作り方は大きく分けて五種類 (無語尾・E 型・ER 型・(E)N 型・S 型) があります.
 
-- 無語尾の例 : der Wagen「車」> die Wagen
+| 変化の型 | 単数 | 複数 |
+| :-: | :-- | :-- |
+| 無語尾 | der Wagen「車」 | die Wagen |
+| E 型 | das Jahr「年」 | die Jahre |
+| ER 型 | der Mann「男」 | die Männer |
+| (E)N 型 | das Name「名前」 | die Namen |
+| S 型 | das Foto「写真」 | die Fotos |
 
-- E 型の例 : das Jahr「年」> die Jahre
-
-- ER 型の例 : der Mann「男」> die Männer[^umlaut]
+das Man > die Männer のように,
+複数形になると母音の上に「¨」がつき,
+異なる母音となるものがあり,
+これをウムラウト[^umlaut]といいます.
 
 [^umlaut]: 同じくゲルマン語派である英語でも同じように man > men となり母音が変化します.
 これらは i ウムラウトといいゲルマン語共通の†母音調和現象です.
@@ -44,15 +51,6 @@ comment: 'true'
 また英語では \*-iz に相当する部分が脱落していますが,
 ドイツ語にはその痕跡 -er を見ることができます.
 この場合 \*z はロータシズム によって r となっています.
-
-- (E)N 型の例 : das Name「名前」> die Namen
-
-- S 型の例 : das Foto「写真」> die Fotos
-
-das Man > die Männer のように,
-複数形になると母音の上に「¨」がつき,
-異なる母音となるものがあり,
-これをウムラウトといいます.
 
 ### 格
 
@@ -65,8 +63,9 @@ das Man > die Männer のように,
 動詞の形としての時制は**現在**と**過去**の2つしか存在しません.
 ですので未来の事柄について述べるときは法助動詞を使って表すことになります.
 
-- ドイツ語 : **Morgen** werde **ich** Tennnis **spielen**.
-- 英語逐語訳 : **Tomorrow** will **I** tennis **play**.
+- **Morgen** werde **ich** Tennnis **spielen**.  
+morgen : 朝 (副詞)  
+
 
 ## アスペクト
 
