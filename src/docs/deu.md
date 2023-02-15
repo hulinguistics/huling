@@ -34,10 +34,10 @@ comment: 'true'
 | 変化の例 | 単数 | 複数 |
 | :-: | :-- | :-- |
 | 無語尾 | der Wagen「車」 | die Wagen |
-| E 型 | das Jahr「年」 | die Jahre |
-| ER 型 | der Mann「男」 | die Männer |
-| (E)N 型 | der Name「名前」 | die Namen |
-| S 型 | das Foto「写真」 | die Fotos |
+| E 型 | das Jahr「年」 | die Jahr**e** |
+| ER 型 | der Mann「男」 | die M**ä**nn**er** |
+| (E)N 型 | der Name「名前」 | die Name**n** |
+| S 型 | das Foto「写真」 | die Foto**s** |
 
 das Man > die Männer のように,
 複数形になると幹母音の上に「¨」がつき,
