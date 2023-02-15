@@ -28,12 +28,12 @@ comment: 'true'
 名詞の前に付く der, die, das は定冠詞です.
 定冠詞は名詞の性, 数, 格によって形が変化します.
 
-| 男性 | 中性 | 女性 | 複数 |
-| :-: | :-: | :-: | :-: |
-| der | das | die | die |
-| > | des | der | der |
-| > | dem | der | den |
-| den | das | die | die |
+| | 男性 | 中性 | 女性 | 複数 |
+| :-: | :-: | :-: | :-: | :-: |
+| 1格 | der | das | die | die |
+| 2格 | > | des | der | der |
+| 3格 | > | dem | der | den |
+| 4格 | den | das | die | die |
 
 :::
 
