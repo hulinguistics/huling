@@ -45,13 +45,13 @@ comment: 'true'
 名詞には**単数**/**複数**の区別があります.
 複数形の作り方は大きく分けて五種類 (無語尾・E 型・ER 型・(E)N 型・S 型) があります.
 
-| 変化の例 | 単数 | 複数 |
-| :-: | :-- | :-- |
-| 無語尾 | der Wagen「車」 | die Wagen |
-| E 型 | das Jahr「年」 | die Jahr**e** |
-| ER 型 | der Mann「男」 | die M**ä**nn**er** |
-| (E)N 型 | der Name「名前」 | die Name**n** |
-| S 型 | das Foto「写真」 | die Foto**s** |
+| 変化の例 | 幹母音の変音 | 単数 | 複数 |
+| :-: | :-: | :-- | :-- |
+| 無語尾 | 単語による | der Wagen「車」 | die Wagen |
+| E 型 | 単語による | das Jahr「年」 | die Jahr**e** |
+| ER 型 | する | der Mann「男」 | die M**ä**nn**er** |
+| (E)N 型 | しない | der Name「名前」 | die Name**n** |
+| S 型 | しない | das Foto「写真」 | die Foto**s** |
 
 ::: info ウムラウト
 
