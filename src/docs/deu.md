@@ -123,8 +123,8 @@ ER 型は必ず幹母音が変音します.
 
 | | 過去 | 現在 | 未来 |
 | :-: | :-- | :-- | :-- |
-| 未完了相 | 過去形 | 現在形 | werdenの現在変化 + 不定形 |
-| 完了相 | habenの過去変化 + 過去分詞 | habenの現在変化 + 過去分詞 | werdenの現在変化 + 過去分詞 + haben |
+| 未完了相 | ich wusste <br> 「私は知った」 | ich weiß <br> 「私は知る」 | ich werde ... wissen <br> 「私は知るだろう」 |
+| 完了相 | ich hatte ... gewusst <br> 「私は知っていた」 | ich habe ... gewusst <br> 「私は知っている」 | ich werde ... gewusst haben <br> 「私は知っているだろう」 |
 
 1. Ich **habe** ein Buch **gekauft**. 私は本を買った. (現在完了)  
   habe : haben の 1 人称単数形  
