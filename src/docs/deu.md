@@ -127,9 +127,7 @@ ER 型は必ず幹母音が変音します.
 | 完了相 | ich hatte ... gekauft <br> 「私は買っていた」 | ich habe ... gekauft <br> 「私は買っている(買った)」 | ich werde ... gekauft haben <br> 「私は買っているだろう(買っただろう)」 |
 
 1. Ich **habe** mir das Buch bereits **gekauft**. 私は既にその本を買った. (現在完了)  
-  habe : haben の 1 人称単数形  
-  bereits : 既に (副詞)  
-  gekauft : kaufen「買う」の過去分詞形
+  bereits : 既に (副詞)
 
 ## 法
 
