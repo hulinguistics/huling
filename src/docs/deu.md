@@ -38,10 +38,10 @@ comment: 'true'
 
 | | 男性 | 中性 | 女性 | 複数 |
 | :-: | :-: | :-: | :-: | :-: |
-| 1格 | der | das | die | die |
-| 2格 | > | des | der | der |
-| 3格 | > | dem | der | den |
-| 4格 | den | das | die | die |
+| **1格** | der | das | die | die |
+| **2格** | > | des | der | der |
+| **3格** | > | dem | der | den |
+| **4格** | den | das | die | die |
 
 名詞を覚える際に定冠詞を付けて覚えることで,
 名詞の性も覚えることができます.
