@@ -142,6 +142,8 @@ ER 型は必ず幹母音が変音します.
 | 未完了相 | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
 | 完了相 | ich hatte ... gekauft <br> 「私は買ってあった」 | ich habe ... gekauft <br> 「私は買ってある(買った)」 | ich werde ... gekauft haben <br> 「私は買ってあるだろう(買っただろう)」 |
 
+1. Ich **kaufe** mir das Buch. 私はその本を買います. (現在未完了)
+
 1. Ich **habe** mir das Buch bereits **gekauft**. 私は既にその本を買ってあります. (現在完了)  
   bereits : 既に (副詞)
 
