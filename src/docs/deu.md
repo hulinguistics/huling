@@ -103,7 +103,7 @@ ER 型は必ず幹母音が変音します.
 
 動詞の形としての時制は**現在**と**過去**の2つしか存在しません.
 純粋に時間的な未来は現在形で表されますが,
-推量や意図など話法的な意味を含む未来は動詞 werden を用いて表現されます.
+推量や意図など話法的な意味を含む未来は werden + 不定詞 (動詞の原型) で表されます.
 
 1. Ich **spiele** Tennis. 私はテニスをしています. (現在)  
   spiele : spielen「遊ぶ, (スポーツを)プレイする」の現在 1 人称単数形
@@ -111,7 +111,7 @@ ER 型は必ず幹母音が変音します.
 1. Ich **spielte** Tennis. 私はテニスをしました. (過去)  
   spielte : spielen の過去 1 人称単数形
 
-1. Morgen **werde** ich Tennnis spielen. 明日私はテニスをします. (未来, 意志)  
+1. Morgen **werde** ich Tennnis **spielen**. 明日私はテニスをします. (未来, 意志)  
   werde : werden の 1 人称単数形
 
 ## アスペクト
@@ -124,9 +124,9 @@ ER 型は必ず幹母音が変音します.
 | | 過去 | 現在 | 未来 |
 | :-: | :-- | :-- | :-- |
 | 未完了相 | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
-| 完了相 | ich hatte ... gekauft <br> 「私は買っていた」 | ich habe ... gekauft <br> 「私は買っている(買った)」 | ich werde ... gekauft haben <br> 「私は買っているだろう(買っただろう)」 |
+| 完了相 | ich hatte ... gekauft <br> 「私は買ってあった」 | ich habe ... gekauft <br> 「私は買ってある(買った)」 | ich werde ... gekauft haben <br> 「私は買ってあるだろう(買っただろう)」 |
 
-1. Ich **habe** mir das Buch bereits **gekauft**. 私は既にその本を買った. (現在完了)  
+1. Ich **habe** mir das Buch bereits **gekauft**. 私は既にその本を買ってあります. (現在完了)  
   bereits : 既に (副詞)
 
 ## 法
@@ -134,18 +134,18 @@ ER 型は必ず幹母音が変音します.
 **直説法**, **接続法**, **命令法**があります.
 接続法 I 式は要求や間接話法, II 式は非現実の事柄について述べるときに使われます.
 
-1. "Ich bin müde." 私は疲れた. → Er **sei** müde. 彼は疲れたと言っている. (間接話法)
+1. "Ich bin müde." 私は疲れました. → Er **sei** müde. 彼は疲れたと言っています. (間接話法)
 1. Wenn ich Zeit **hätte**, **führe** ich in die Stadt. 暇なら街へ行くのに. (非現実話法)
 
 ## 態
 
 **能動態**と**受動態**がありますが, 動詞の形として存在しているわけでありません.
-受動文の作り方は主に助動詞 werden + 過去分詞で作ります.
+受動文の作り方は主に werden + 過去分詞で作ります.
 
-1. Er **spricht** Japanisch. 彼は日本語を話す. (能動態)  
+1. Er **spricht** Japanisch. 彼は日本語を話します. (能動態)  
   spricht : sprechen「話す」の 3 人称単数形
 
-1. In Japan **wird** Japanisch **gesprochen**. 日本では日本語が話される. (受動態)  
+1. In Japan **wird** Japanisch **gesprochen**. 日本では日本語が話されます. (受動態)  
   wird : werden の 3 人称単数形  
   gesprochen : sprechen の過去分詞形
 
