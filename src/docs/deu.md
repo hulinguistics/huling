@@ -23,8 +23,12 @@ comment: 'true'
 - 女性名詞 : die Mutter「母」 die Hand「手」
 - 中性名詞 : das Kind「子供」 das Mädchen「少女」
 
+::: tips 定冠詞の曲用
+
 名詞の前に付く der, die, das は定冠詞です.
 定冠詞は名詞の性, 数, 格によって形が変化します.
+
+:::
 
 ### 数
 
