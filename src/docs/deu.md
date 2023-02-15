@@ -23,7 +23,7 @@ comment: 'true'
 - 女性名詞 : die Mutter「母」 die Hand「手」
 - 中性名詞 : das Kind「子供」 das Mädchen「少女」
 
-::: tips 定冠詞の曲用
+::: tip 定冠詞の曲用
 
 名詞の前に付く der, die, das は定冠詞です.
 定冠詞は名詞の性, 数, 格によって形が変化します.
@@ -34,6 +34,9 @@ comment: 'true'
 | 2格 | > | des | der | der |
 | 3格 | > | dem | der | den |
 | 4格 | den | das | die | die |
+
+名詞を覚える際に定冠詞を付けて覚えることで,
+名詞の性も覚えることができます.
 
 :::
 
@@ -50,6 +53,8 @@ comment: 'true'
 | (E)N 型 | der Name「名前」 | die Name**n** |
 | S 型 | das Foto「写真」 | die Foto**s** |
 
+::: info ウムラウト
+
 das Man > die Männer のように,
 複数形になると幹母音の上に「¨」がつき,
 異なる母音となるものがあり,
@@ -57,6 +62,8 @@ das Man > die Männer のように,
 ER 型は必ず幹母音が変音します.
 反対に, (E)N 型と S 型は幹母音は変音しません.
 無語尾型と E 型は変音するものとしないものがあるので注意しましょう.
+
+:::
 
 ### 格
 
