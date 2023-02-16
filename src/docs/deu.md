@@ -41,8 +41,10 @@ comment: 'true'
 
 | 変化の型 | 幹母音の変音 | 単数形の例 | 複数形の例 |
 | :-: | :-: | :-- | :-- |
-| 無語尾 | 単語による | der Wagen「車」 | die Wagen |
-| E 型 | 単語による | das Jahr「年」 | die Jahr**e** |
+| 無語尾 | する | der Garten「庭」 | die G**ä**rten |
+| ^ | しない | der Wagen「車」 | die Wagen |
+| E 型 | する | der Fuß「足」 | die F**ü**ß**e** |
+| ^ | しない | das Jahr「年」 | die Jahr**e** |
 | ER 型 | する | der Mann「男」 | die M**ä**nn**er** |
 | (E)N 型 | しない | der Name「名前」 | die Name**n** |
 | S 型 | しない | das Foto「写真」 | die Foto**s** |
