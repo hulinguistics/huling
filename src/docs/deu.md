@@ -119,6 +119,16 @@ ER 型は必ず幹母音が変音します.
 
 :::
 
+## 人称
+
+ドイツ語の動詞は主語の人称と数で活用します.
+
+| | 単数 | 複数 |
+| :-: | :-- | :-- |
+| 1人称 | **ich kaufe** <br> 「私は買う」 | **wir kaufen** <br> 「私達は買う」 |
+| 2人称 | **du kaufst** <br> 「君は買う」 | **ihr kauft** <br> 「君達は買う」 |
+| 3人称 | **er kauft** <br> 「彼は買う」 | **sie kaufen** <br> 「彼等は買う」 |
+
 ## 時制
 
 動詞の形としての時制は**現在**と**過去**の2つしか存在しません.
@@ -143,8 +153,8 @@ ER 型は必ず幹母音が変音します.
 
 | | 過去 | 現在 | 未来 |
 | :-: | :-- | :-- | :-- |
-| 未完了相 | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
-| 完了相 | ich hatte ... gekauft <br> 「私は買ってあった」 | ich habe ... gekauft <br> 「私は買ってある(買った)」 | ich werde ... gekauft haben <br> 「私は買ってあるだろう(買っただろう)」 |
+| 未完了相 | **ich kaufte** <br> 「私は買った」 | **ich kaufe** <br> 「私は買う」 | **ich werde ... kaufen** <br> 「私は買うだろう」 |
+| 完了相 | **ich hatte ... gekauft** <br> 「私は買ってあった」 | **ich habe ... gekauft** <br> 「私は買ってある(買った)」 | **ich werde ... gekauft** haben <br> 「私は買ってあるだろう(買っただろう)」 |
 
 1. Ich **kaufe** mir das Buch. 私はその本を買います. (現在未完了)
 
