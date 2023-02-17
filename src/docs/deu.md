@@ -141,12 +141,12 @@ ER 型は必ず幹母音が変音します.
 
 | | 過去 | 現在 | 未来 (推量・意図) |
 | :-: | :-- | :-- | :-- |
-| **単数1人称** | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
-| **単数2人称** | du kauftest <br> 「君は買った」 | du kaufst <br> 「君は買う」 | du wirst ... kaufen <br> 「君は買うだろう」 |
-| **単数3人称** | er kauftet <br> 「彼は買った」 | er kauft <br> 「彼は買う」 | er wird ... kaufen <br> 「彼は買うだろう」 |
-| **複数1人称** | wir kauften <br> 「私達は買った」 | wir kaufen <br> 「私達は買う」 | wir werden ... kaufen <br> 「私達は買うだろう」 |
-| **複数2人称** | ihr kauftet <br> 「君達は買った」 | ihr kauft <br> 「君達は買う」 | ihr werdet ... kaufen <br> 「君達は買うだろう」 |
-| **複数3人称** | sie kauften <br> 「彼等は買った」 | sie kaufen <br> 「彼等は買う」 | sie werden ... kaufen <br> 「彼等は買うだろう」 |
+| **単数 1 人称** | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
+| **単数 2 人称** | du kauftest <br> 「君は買った」 | du kaufst <br> 「君は買う」 | du wirst ... kaufen <br> 「君は買うだろう」 |
+| **単数 3 人称** | er kauftet <br> 「彼は買った」 | er kauft <br> 「彼は買う」 | er wird ... kaufen <br> 「彼は買うだろう」 |
+| **複数 1 人称** | wir kauften <br> 「私達は買った」 | wir kaufen <br> 「私達は買う」 | wir werden ... kaufen <br> 「私達は買うだろう」 |
+| **複数 2 人称** | ihr kauftet <br> 「君達は買った」 | ihr kauft <br> 「君達は買う」 | ihr werdet ... kaufen <br> 「君達は買うだろう」 |
+| **複数 3 人称** | sie kauften <br> 「彼等は買った」 | sie kaufen <br> 「彼等は買う」 | sie werden ... kaufen <br> 「彼等は買うだろう」 |
 
 :::
 
