@@ -124,16 +124,6 @@ ER 型は必ず幹母音が変音します.
 動詞の形としての時制は**現在**と**過去**の2つしか存在しません.
 純粋に時間的な未来は現在形で表されますが,
 推量や意図など話法的な意味を含む未来は werden + 不定詞 (動詞の不定形) で表されます.
-動詞の現在形・過去形と werden は主語の人称・数で語尾が変化します.
-
-| kaufen「買う」 | 過去 | 現在 | 未来 (推量・意図) |
-| :-: | :-- | :-- | :-- |
-| **単数1人称** | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
-| **単数2人称** | du kauftest <br> 「君は買った」 | du kaufst <br> 「君は買う」 | du wirst ... kaufen <br> 「君は買うだろう」 |
-| **単数3人称** | er kauftet <br> 「彼は買った」 | er kauft <br> 「彼は買う」 | er wird ... kaufen <br> 「彼は買うだろう」 |
-| **複数1人称** | wir kauften <br> 「私達は買った」 | wir kaufen <br> 「私達は買う」 | wir werden ... kaufen <br> 「私達は買うだろう」 |
-| **複数2人称** | ihr kauftet <br> 「君達は買った」 | ihr kauft <br> 「君達は買う」 | ihr werdet ... kaufen <br> 「君達は買うだろう」 |
-| **複数3人称** | sie kauften <br> 「彼等は買った」 | sie kaufen <br> 「彼等は買う」 | sie werden ... kaufen <br> 「彼等は買うだろう」 |
 
 1. Ich **spiele** Tennis. 私はテニスをしています. (現在)  
   spiele : spielen「遊ぶ, (スポーツを)プレイする」の現在 1 人称単数形
@@ -143,6 +133,22 @@ ER 型は必ず幹母音が変音します.
 
 1. Morgen **werde** ich Tennnis **spielen**. 明日私はテニスをします. (未来, 意志)  
   werde : werden の 1 人称単数形
+
+::: info 動詞の活用
+
+動詞の現在形・過去形と werden は主語の人称・数で語尾が変化します.
+例えば, 動詞 kaufen「買う」はそれぞれの時制で以下のように活用します.
+
+| | 過去 | 現在 | 未来 (推量・意図) |
+| :-: | :-- | :-- | :-- |
+| **単数1人称** | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
+| **単数2人称** | du kauftest <br> 「君は買った」 | du kaufst <br> 「君は買う」 | du wirst ... kaufen <br> 「君は買うだろう」 |
+| **単数3人称** | er kauftet <br> 「彼は買った」 | er kauft <br> 「彼は買う」 | er wird ... kaufen <br> 「彼は買うだろう」 |
+| **複数1人称** | wir kauften <br> 「私達は買った」 | wir kaufen <br> 「私達は買う」 | wir werden ... kaufen <br> 「私達は買うだろう」 |
+| **複数2人称** | ihr kauftet <br> 「君達は買った」 | ihr kauft <br> 「君達は買う」 | ihr werdet ... kaufen <br> 「君達は買うだろう」 |
+| **複数3人称** | sie kauften <br> 「彼等は買った」 | sie kaufen <br> 「彼等は買う」 | sie werden ... kaufen <br> 「彼等は買うだろう」 |
+
+:::
 
 ## アスペクト
 
