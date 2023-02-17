@@ -137,12 +137,12 @@ ER 型は必ず幹母音が変音します.
 
 | | 過去 | 現在 | 未来(推量) |
 | :-: | :-- | :-- | :-- |
-| 単数1人称 | **ich kaufe** <br> 「私は買う」 | **ich kaufte** <br> 「私は買った」 | **ich werde ... kaufen** <br> 「私は買うだろう」 |
-| 単数2人称 | **du kaufst** <br> 「君は買う」 | **du kauftest** <br> 「君は買った」 | **du wirst ... kaufen** <br> 「君は買うだろう」 |
-| 単数3人称 | **er kauft** <br> 「彼は買う」 | **er kauftet** <br> 「彼は買った」 | **er wird ... kaufen** <br> 「彼は買うだろう」 |
-| 複数1人称 | **wir kaufen** <br> 「私達は買う」 | **wir kauften** <br> 「私達は買った」 | **wir werden ... kaufen** <br> 「私達は買うだろう」 |
-| 複数2人称 | **ihr kauft** <br> 「君達は買う」 | **ihr kauftet** <br> 「君達は買った」 | **ihr werdet ... kaufen** <br> 「君達は買うだろう」 |
-| 複数3人称 | **sie kaufen** <br> 「彼等は買う」 | **sie kauften** <br> 「彼等は買った」 | **sie werden ... kaufen** <br> 「彼等は買うだろう」 |
+| **単数1人称** | ich kaufe <br> 「私は買う」 | ich kaufte <br> 「私は買った」 | ich werde ... kaufen <br> 「私は買うだろう」 |
+| **単数2人称** | du kaufst <br> 「君は買う」 | du kauftest <br> 「君は買った」 | du wirst ... kaufen <br> 「君は買うだろう」 |
+| **単数3人称** | er kauft <br> 「彼は買う」 | er kauftet <br> 「彼は買った」 | er wird ... kaufen <br> 「彼は買うだろう」 |
+| **複数1人称** | wir kaufen <br> 「私達は買う」 | wir kauften <br> 「私達は買った」 | wir werden ... kaufen <br> 「私達は買うだろう」 |
+| **複数2人称** | ihr kauft <br> 「君達は買う」 | ihr kauftet <br> 「君達は買った」 | ihr werdet ... kaufen <br> 「君達は買うだろう」 |
+| **複数3人称** | sie kaufen <br> 「彼等は買う」 | sie kauften <br> 「彼等は買った」 | sie werden ... kaufen <br> 「彼等は買うだろう」 |
 
 1. Ich **spiele** Tennis. 私はテニスをしています. (現在)  
   spiele : spielen「遊ぶ, (スポーツを)プレイする」の現在 1 人称単数形
@@ -162,8 +162,8 @@ ER 型は必ず幹母音が変音します.
 
 | | 過去 | 現在 | 未来 |
 | :-: | :-- | :-- | :-- |
-| 未完了相 | **ich kaufte** <br> 「私は買った」 | **ich kaufe** <br> 「私は買う」 | **ich werde ... kaufen** <br> 「私は買うだろう」 |
-| 完了相 | **ich hatte ... gekauft** <br> 「私は買ってあった」 | **ich habe ... gekauft** <br> 「私は買ってある(買った)」 | **ich werde ... gekauft** haben <br> 「私は買ってあるだろう(買っただろう)」 |
+| **未完了相** | ich kaufte <br> 「私は買った」 | ich kaufe <br> 「私は買う」 | ich werde ... kaufen <br> 「私は買うだろう」 |
+| **完了相** | ich hatte ... gekauft <br> 「私は買ってあった」 | ich habe ... gekauft <br> 「私は買ってある(買った)」 | ich werde ... gekauft haben <br> 「私は買ってあるだろう(買っただろう)」 |
 
 1. Ich **kaufe** mir das Buch. 私はその本を買います. (現在未完了)
 
