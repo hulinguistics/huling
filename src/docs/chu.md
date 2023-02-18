@@ -146,7 +146,7 @@ comment: "true"
 
 |キエフ断片|
 |:--:|
-|![キエフ断片7枚目右](/upload/Kiev_Folios,_fol._7r.jpg "キエフ断片7枚目右")|
+|![キエフ断片7枚目右](/upload/kiev_folios-_fol._7r.jpg "キエフ断片7枚目右")|
 
 |スプラシル写本|
 |:--:|
