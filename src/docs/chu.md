@@ -150,7 +150,7 @@ comment: "true"
 
 |スプラシル写本|
 |:--:|
-|![スプラシル写本１枚目右](/upload/Codex_Suprasliensis.jpg "スプラシル写本1ページ目")|
+|![スプラシル写本１枚目右](/upload/codex_suprasliensis.jpg "スプラシル写本1ページ目")|
 
 古教会スラヴ語の資料の大半は,
 上の画像のような**羊皮紙**の写本です.
