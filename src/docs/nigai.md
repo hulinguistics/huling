@@ -1,7 +1,7 @@
 ---
 title: 第二外国語解説
 id: nigai
-category: article
+category: nigai
 tags:
   - 北大生向け
   - 第二外国語解説
