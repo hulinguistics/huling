@@ -1,7 +1,7 @@
 ---
 title: '二外解説 :ドイツ語'
 id: nigai-deu
-category: article
+category: nigai
 tags:
   - 北大生向け
   - 第二外国語解説
