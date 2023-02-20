@@ -1,5 +1,5 @@
 ---
-title: '二外解説 :ドイツ語'
+title: 初習ドイツ語
 id: nigai-deu
 category: nigai
 tags:
