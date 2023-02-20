@@ -23,7 +23,10 @@ export async function sidebar(parant: string, categoryListPath: string) {
             text: post.frontMatter.title,
             link: post.path.replace('src', '').replace('index.md', ''),
           };
-        }),
+        })
+        .sort((a: any, b: any) =>
+          a.link.replace('.md', '') > b.link.replace('.md', '') ? 1 : a.link.replace('.md', '') < b.link.replace('.md', '') ? -1 : 0,
+        ),
     };
   });
 }
