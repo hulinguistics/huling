@@ -1,5 +1,5 @@
 ---
-title: 二外概説：ロシア語
+title: 初習ロシア語
 id: nigai-rus
 category: nigai
 tags:
