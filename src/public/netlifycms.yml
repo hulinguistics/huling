@@ -44,6 +44,7 @@ collections:
         options:
           - { label: 言語学の概説, value: linguistics }
           - { label: 言語ごとの概説, value: grammar }
+          - { label: 北大の第二外国語, value: nigai }
           - { label: 文字変換器, value: conv }
           - { label: その他の記事, value: article }
       - label: タグ
