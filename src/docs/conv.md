@@ -1,10 +1,10 @@
 ---
 title: 文字変換器について
 id: conv
-category: article
+category: conv
 tags:
   - 文字変換器
-comment: "true"
+comment: 'true'
 ---
 
 - 主にラテン文字 (ローマ字) と別の文字を**相互に**変換できます.
