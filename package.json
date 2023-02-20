@@ -20,6 +20,7 @@
     "gray-matter": "^4.0.3",
     "jsdom": "^21.1.0",
     "markdown-it-footnote": "^3.0.3",
+    "markdown-it-katex": "^2.0.3",
     "markdown-it-merge-cells": "https://github.com/xiupos/markdown-it-merge-cells.git#master",
     "node-fetch": "^3.3.0",
     "node-sass": "^8.0.0",

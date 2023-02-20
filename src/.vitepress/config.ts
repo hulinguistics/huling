@@ -1,7 +1,8 @@
 import { sidebar } from './scripts/sidebar';
-import footnote from 'markdown-it-footnote';
-import MarkdownItMergeCells from 'markdown-it-merge-cells';
 import { getPosts } from './scripts/getPosts';
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownItMergeCells from 'markdown-it-merge-cells';
+import markdownItKatex from 'markdown-it-katex';
 
 export default (async () => {
   return {
@@ -31,8 +32,9 @@ export default (async () => {
     markdown: {
       config: (md) => {
         // markdown-it プラグイン
-        md.use(footnote);
-        md.use(MarkdownItMergeCells);
+        md.use(markdownItFootnote);
+        md.use(markdownItMergeCells);
+        md.use(markdownItKatex);
       },
     },
 
