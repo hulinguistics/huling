@@ -8,8 +8,8 @@ tags:
   - グラゴル文字
 comment: "true"
 ---
-前舌のイェル (front jer) <span glag>ⱐ</span> は `/`,
-後舌のイェル (back jer) <span glag>ⱏ</span> は `//`.  
+前舌のイェル (front jer) <span glag>ⱐ</span> は `/` または `q`,  
+後舌のイェル (back jer) <span glag>ⱏ</span> は `//` または `qq`.  
 数字は1~999の範囲のみ対応.
 
 <HLConverter src="/conv/glag.tsv" fontRight="Shafarik" />
@@ -49,9 +49,9 @@ comment: "true"
 | <span glag>ⱍ</span> | č, ch | ch → <span glag>ⱍ</span> ↔ č |
 | <span glag>ⱎ</span> | š, sh | sh → <span glag>ⱎ</span> ↔ š |
 | <span glag>ⱋ</span> | št, sht | sht → <span glag>ⱋ</span> ↔ št |
-| <span glag>ⱏ</span> | ъ, " | " → <span glag>ⱏ</span> ↔ ъ |
+| <span glag>ⱏ</span> | ъ, //, qq | " → <span glag>ⱏ</span> ↔ ъ |
 | <span glag>ⱏⰹ</span> | y |  |
-| <span glag>ⱐ</span> | ь, ' | ' → <span glag>ⱐ</span> ↔ ь |
+| <span glag>ⱐ</span> | ь, /, q | ' → <span glag>ⱐ</span> ↔ ь |
 | <span glag>ⱑ</span> | ě, eh | eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱓ</span> | ju |  |
 | <span glag>ⱘ</span> | ǫ, onn | onn → <span glag>ⱘ</span> ↔ ǫ |
@@ -60,5 +60,5 @@ comment: "true"
 | <span glag>ⱗ</span> | ję, jenn | jenn → <span glag>ⱗ</span> ↔ ję |
 | <span glag>ⱛ</span> | ü, uh | uh → <span glag>ⱛ</span> ↔ ü |
 | <span glag> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
-| <span glag> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
+| <span glag> ҄</span> | ◌́, ^ | 口蓋化を表す記号 |
 | <span glag> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |

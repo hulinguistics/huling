@@ -1,0 +1,42 @@
+---
+title: ターナ文字文字変換器
+id: conv-thaa
+category: conv
+tags:
+  - 文字変換器
+  - ディベヒ語
+  - ターナ文字
+  - インド・イラン語派
+comment: "true"
+---
+<HLConverter src="/conv/thaa.tsv" dirRight="rtl"/>
+
+## 対応表
+
+|ターナ文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ラテン文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IPA|ISO 15919| |ターナ文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ラテン文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IPA|ISO 15919|アラビア文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|ހ|h|[h]|h| |ޙ|h'|[ħ]|h̤|ح|
+|ށ|sh|[ʂ]|ṣ|^|ޚ|kh|[x]|k͟h|خ|
+|ނ|n|[n]|n|^|ޜ|x|[ʒ]|ž|ژ|
+|ރ|r|[ɾ]|r|^|ޢ|ʿ (")|[ʕ]|‘|ع|
+|ބ|b|[b]|b|^|ޣ|gh|[ɣ]|ġ|غ|
+|ޅ|lh|[ɭ]|ḷ|^|ޥ|w|[w]|w|و|
+|ކ|k|[k]|k|^|ޛ|dh'|[ð]|ẕ|ذ|
+|އ|'|[ʔ]|'|^|ޠ|t'|[tˤ]|t̤|ط|
+|ވ|v|[ʋ]|v|^|ޡ|z'|[ðˤ]|ẓ|ظ|
+|މ|m|[m]|m|^|ޘ|th'|[θ]|s̱|ث|
+|ފ|f|[f]|f|^|ޤ|q|[q]|q|ق|
+|ދ|dh|[d̪]|d|^|ޞ|s'|[sˤ]|s̤|ص|
+|ތ|th|[t̪]|t|^|ޟ|l'|[dˤ]|ż|ض|
+|ލ|l|[l]|l|^|ޝ|sh'|[ʃ]|ś|ش|
+|ގ|g|[ɡ]|g|^|>|>|>|**母音**| |
+|ޏ|gn|[ɲ]|ñ|^|އަ|a|[a]|a|^|
+|ސ|s|[s̺]|s|^|އާ|aa|[aː]|ā|^|
+|ޑ|d|[ɖ]|ḍ|^|އި|i|[i]|i|^|
+|ޒ|z|[z̺]|z|^|އީ|ee|[iː]|ī|^|
+|ޓ|t|[ʈ]|ṭ|^|އު|u|[u]|u|^|
+|ޔ|y|[j]|y|^|އޫ|oo|[uː]|ū|^|
+|ޕ|p|[p]|p|^|އެ|e|[e]|e|^|
+|ޖ|j|[d͡ʒ]|j|^|އޭ|ey|[eː]|ē|^|
+|ޗ|ch|[t͡ʃ]|c|^|އޮ|o|[o]|o|^|
+|ޱ|ṇ (N)|[ɳ]|ṇ|^|އޯ|oa|[oː]|ō|^|
