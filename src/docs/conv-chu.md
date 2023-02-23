@@ -8,8 +8,8 @@ tags:
   - キリル文字
 comment: "true"
 ---
-前舌のイェル (front jer) <span cyrs>ь</span> は `/`,
-後舌のイェル (back jer) <span cyrs>ъ</span> は `//`.  
+前舌のイェル (front jer) <span cyrs>ь</span> は `/` または `q`,  
+後舌のイェル (back jer) <span cyrs>ъ</span> は `//` または `qq`.  
 一部の字母は後ろに `_` を加えることで別形になります (対応表を参照のこと).  
 数字は1~9999の範囲のみ対応.
 
@@ -51,9 +51,9 @@ comment: "true"
 | <span cyrs>ч</span> | č, ch | ch → <span cyrs>ч</span> ↔ č |
 | <span cyrs>ш</span> | š, sh | sh → <span cyrs>ш</span> ↔ š |
 | <span cyrs>щ</span> | št, sht | sht → <span cyrs>щ</span> ↔ št |
-| <span cyrs>ъ</span> | ъ, ŭ, // | 単独または一部の文字列の後ろで <br> // → <span cyrs>ъ</span> ↔ ŭ <br> （技術的な問題により） |
+| <span cyrs>ъ</span> | ъ, //, qq |  |
 | <span cyrs>ꙑ</span> | y |  |
-| <span cyrs>ь</span> | ь, ĭ, / | 単独または一部の文字列の後ろで <br> / → <span cyrs>ь</span> ↔ ĭ <br> （技術的な問題により） |
+| <span cyrs>ь</span> | ь, /, q |  |
 | <span cyrs>ѣ</span> | ě, eh | eh → <span cyrs>ѣ</span> ↔ ě |
 | <span cyrs>ꙗ</span> | ja |  |
 | <span cyrs>ѥ</span> | je |  |
@@ -68,5 +68,5 @@ comment: "true"
 | <span cyrs>ѵ</span> | ü, uh | uh → <span cyrs>ѵ</span> ↔ ü |
 | <span cyrs>ҁ</span> | q |  |
 | <span cyrs> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
-| <span cyrs> ҄</span> | ⏜, ^ | 口蓋化を表す記号 |
-| <span cyrs> ꙯</span> | ¯, & | 略記記号. 正しく表示されない可能性あり |
+| <span cyrs> ҄</span> | ◌́, ^ | 口蓋化を表す記号 |
+| <span cyrs> ꙯</span> | ¯, & | 略記記号. |
