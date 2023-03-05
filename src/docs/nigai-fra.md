@@ -1,5 +1,5 @@
 ---
-title: 二外解説：フランス語
+title: 初習フランス語
 id: nigai-fra
 category: nigai
 tags:
