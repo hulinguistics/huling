@@ -1,5 +1,5 @@
 ---
-title: 二外解説：スペイン語
+title: 初習スペイン語
 id: esp
 category: nigai
 tags:
