@@ -6,6 +6,8 @@ tags:
   - 文字変換器
   - サンスクリット
   - デーヴァナーガリー
+author:
+  - name: 宮西 大
 comment: "true"
 ---
 **IAST** (International Alphabet of Sanskrit Transliteration)

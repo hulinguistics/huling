@@ -1,5 +1,5 @@
 ---
-title: ターナ文字文字変換器
+title: ターナ文字変換器
 id: conv-thaa
 category: conv
 tags:
@@ -7,6 +7,8 @@ tags:
   - ディベヒ語
   - ターナ文字
   - インド・イラン語派
+author:
+  - name: 宮西 大
 comment: "true"
 ---
 <HLConverter src="/conv/thaa.tsv" dirRight="rtl"/>

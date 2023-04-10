@@ -7,6 +7,8 @@ tags:
   - 古典ギリシア語
   - ヘレニック語派
   - ギリシア文字
+author:
+  - name: 宮西 大
 comment: 'true'
 ---
 - **無気記号**：語頭のとき自動的に付加, **有気記号**：`h + 母音字`
@@ -20,12 +22,12 @@ comment: 'true'
 
 ## 対応表
 
-ギリシア文字からラテン文字への転写は
+ギリシア文字からラテン文字への翻字は
 **ALA-LC** (American Library Association – Library of Congress)
-の転写法を参考にしてアクセント記号を追加したものです.  
-[ALA-LC のラテン文字転写表](https://www.loc.gov/catdir/cpso/romanization/greek.pdf)
+の翻字法を参考にしてアクセント記号を追加したものです.  
+[ALA-LC のラテン文字翻字表](https://www.loc.gov/catdir/cpso/romanization/greek.pdf)
 
-|ギリシア文字|ラテン転写|入力方法|ギリシア文字|ラテン転写|入力方法|
+|ギリシア文字|ラテン翻字|入力方法|ギリシア文字|ラテン翻字|入力方法|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |**Π π**|P p|p|**Α α**|A a|a|
 |**Β β**|B b|b|**Ε ε**|E e|e|

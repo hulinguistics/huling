@@ -122,7 +122,7 @@ export default {
           const isReg = /\/.+\//.test(value[0]);
           const key = isReg ? value[0].replace(/\/(.+)\//, '$1') : value[0];
           if (key) {
-            output = output.replace(isReg ? new RegExp(key, 'gu') : key, value[1]);
+            output = isReg ? output.replace(new RegExp(key, 'gu'), value[1]) : output.replaceAll(key, value[1]);
             return output !== output_old;
           } else {
             return false;

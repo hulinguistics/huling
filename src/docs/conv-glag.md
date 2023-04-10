@@ -6,6 +6,8 @@ tags:
   - 文字変換器
   - 古教会スラヴ語
   - グラゴル文字
+author:
+  - name: 宮西 大
 comment: "true"
 ---
 前舌のイェル (front jer) <span glag>ⱐ</span> は `/` または `q`,  

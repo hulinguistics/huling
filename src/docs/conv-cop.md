@@ -14,13 +14,13 @@ supralinear stroke <span copt>◌̄</span> `-`,
 文字は下の対応表を参照.
 数字は1~9999の範囲のみ対応.
 ラテン文字記入上の区切り文字は `/`.
-[ALA-LC のラテン文字転写表](https://www.loc.gov/catdir/cpso/romanization/coptic.pdf)
+[ALA-LC のラテン文字翻字表](https://www.loc.gov/catdir/cpso/romanization/coptic.pdf)
 
 <HLConverter src="/conv/cop.tsv" fontRight="Noto Sans Coptic" />
 
 ## 対応表
 
-| コプト文字 | ラテン転写 | 入力方法 | コプト文字 | ラテン転写 | 入力方法 |
+| コプト文字 | ラテン翻字 | 入力方法 | コプト文字 | ラテン翻字 | 入力方法 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | <span copt>Ⲁ ⲁ</span> | A a | `a` | <span copt>Ⲧ ⲧ</span> | T t | `t` |
 | <span copt>Ⲃ ⲃ</span> | B b | `b` | <span copt>Ⲩ ⲩ</span> | U u | `u`, `w` |
