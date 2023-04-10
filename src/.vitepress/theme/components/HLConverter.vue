@@ -118,10 +118,12 @@ export default {
       let output: string = input;
       while (
         set.some((value: [string, string]) => {
-          if (value[0] && output.indexOf(value[0]) !== -1) {
-            const output_old = output;
-            output = output.replaceAll(value[0], value[1]);
-            return output != output_old;
+          const output_old = output;
+          const isReg = /\/.+\//.test(value[0]);
+          const key = isReg ? value[0].replace(/\/(.+)\//, '$1') : value[0];
+          if (key) {
+            output = isReg ? output.replace(new RegExp(key, 'gu'), value[1]) : output.replaceAll(key, value[1]);
+            return output !== output_old;
           } else {
             return false;
           }

@@ -7,6 +7,8 @@ tags:
   - ゴート語
   - ゴート文字
   - ゲルマン語派
+author:
+  - name: 宮西 大
 comment: "true"
 ---
 <HLConverter src="/conv/got.tsv" />

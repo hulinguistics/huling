@@ -6,6 +6,8 @@ tags:
   - 文字変換器
   - 古教会スラヴ語
   - キリル文字
+author:
+  - name: 宮西 大
 comment: "true"
 ---
 前舌のイェル (front jer) <span cyrs>ь</span> は `/` または `q`,  
@@ -26,7 +28,7 @@ comment: "true"
 | <span cyrs>д</span> | d |  |
 | <span cyrs>е</span> | e |  |
 | <span cyrs>ж</span> | ž, zh | zh → <span cyrs>ж</span> ↔ ž |
-| <span cyrs>ѕ</span> | dz |  |
+| <span cyrs>ѕ</span> | ʒ, dz |  |
 | <span cyrs>з</span> | z | z_ = <span cyrs>ꙁ</span> |
 | <span cyrs>и</span> | i |  |
 | <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 î <br> （技術的な問題により） |
@@ -50,7 +52,7 @@ comment: "true"
 | <span cyrs>ц</span> | c |  |
 | <span cyrs>ч</span> | č, ch | ch → <span cyrs>ч</span> ↔ č |
 | <span cyrs>ш</span> | š, sh | sh → <span cyrs>ш</span> ↔ š |
-| <span cyrs>щ</span> | št, sht | sht → <span cyrs>щ</span> ↔ št |
+| <span cyrs>щ</span> | št, sht | sht → <span cyrs>щ</span> ↔ št <br> sh.t = <span cyrs>шт</span> |
 | <span cyrs>ъ</span> | ъ, //, qq |  |
 | <span cyrs>ꙑ</span> | y |  |
 | <span cyrs>ь</span> | ь, /, q |  |
