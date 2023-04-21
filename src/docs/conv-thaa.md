@@ -15,7 +15,7 @@ comment: "true"
 
 ## 対応表
 
-|ターナ文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ラテン文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IPA|ISO 15919| |ターナ文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|ラテン文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|IPA|ISO 15919|アラビア文字 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|タ⁠ー⁠ナ⁠文⁠字|ラ⁠テ⁠ン⁠文⁠字|IPA|ISO 15919| |タ⁠ー⁠ナ⁠文⁠字|ラ⁠テ⁠ン⁠文⁠字|IPA|ISO 15919|ア⁠ラ⁠ビ⁠ア⁠文⁠字|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |ހ|h|[h]|h| |ޙ|h'|[ħ]|h̤|ح|
 |ށ|sh|[ʂ]|ṣ|^|ޚ|kh|[x]|k͟h|خ|
