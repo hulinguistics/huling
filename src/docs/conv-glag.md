@@ -1,5 +1,5 @@
 ---
-title: 古教会スラヴ語グラゴル文字変換器
+title: グラゴル文字変換器
 id: conv-glag
 category: conv
 tags:
@@ -10,9 +10,11 @@ author:
   - name: 宮西 大
 comment: "true"
 ---
-前舌のイェル (front jer) <span glag>ⱐ</span> は `/` または `q`,  
-後舌のイェル (back jer) <span glag>ⱏ</span> は `//` または `qq`.  
-数字は1~999の範囲のみ対応.
+- 前舌のイェル (front jer) <span cyrs>ь</span> : `/` または `q`
+- 後舌のイェル (back jer) <span cyrs>ъ</span> : `//` または `qq`
+- 鼻母音 ѧ ѫ ѩ ѭ : `@@ @ j@@ j@` または `enn onn jenn jonn`
+
+数字は1~999の範囲のみ対応. 使用したフォントは [Shafarik](https://sci.ponomar.net/).
 
 <HLConverter src="/conv/glag.tsv" fontRight="Shafarik" />
 
@@ -46,7 +48,7 @@ comment: "true"
 | <span glag>ⱇ</span> | f |  |
 | <span glag>ⱚ</span> | th |  |
 | <span glag>ⱈ</span> | x, h | h は zh (<span glag>ⰶ</span>), eh (<span glag>ⱑ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span glag>ⰵⱈ</span>, eh → <span glag>ⱑ</span> ↔ ě |
-| <span glag>ⱉ</span> | ô, oh |  |
+| <span glag>ⱉ</span> | ꞷ, w |  |
 | <span glag>ⱌ</span> | c |  |
 | <span glag>ⱍ</span> | č, ch | ch → <span glag>ⱍ</span> ↔ č |
 | <span glag>ⱎ</span> | š, sh | sh → <span glag>ⱎ</span> ↔ š |
@@ -56,11 +58,11 @@ comment: "true"
 | <span glag>ⱐ</span> | ь, /, q | ' → <span glag>ⱐ</span> ↔ ь |
 | <span glag>ⱑ</span> | ě, eh | eh → <span glag>ⱑ</span> ↔ ě |
 | <span glag>ⱓ</span> | ju |  |
-| <span glag>ⱘ</span> | ǫ, onn | onn → <span glag>ⱘ</span> ↔ ǫ |
-| <span glag>ⱙ</span> | jǫ, jonn | jonn → <span glag>ⱙ</span> ↔ jǫ |
-| <span glag>ⱔ</span> | ę, enn | enn → <span glag>ⱔ</span> ↔ ę |
-| <span glag>ⱗ</span> | ję, jenn | jenn → <span glag>ⱗ</span> ↔ ję |
+| <span glag>ⱘ</span> | ǫ, onn, @ | onn → <span glag>ⱘ</span> ↔ ǫ |
+| <span glag>ⱙ</span> | jǫ, jonn, j@ | jonn → <span glag>ⱙ</span> ↔ jǫ |
+| <span glag>ⱔ</span> | ę, enn, @@ | enn → <span glag>ⱔ</span> ↔ ę |
+| <span glag>ⱗ</span> | ję, jenn, j@@ | jenn → <span glag>ⱗ</span> ↔ ję |
 | <span glag>ⱛ</span> | ü, uh | uh → <span glag>ⱛ</span> ↔ ü |
 | <span glag> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
-| <span glag> ҄</span> | ◌́, ^ | 口蓋化を表す記号 |
+| <span glag> ҄</span> | ◌͡&nbsp;, ^ | 口蓋化を表す記号 |
 | <span glag> ꙯</span> | ¯, / | 略記記号. 正しく表示されない可能性あり |

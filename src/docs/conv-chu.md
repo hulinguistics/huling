@@ -10,10 +10,13 @@ author:
   - name: 宮西 大
 comment: "true"
 ---
-前舌のイェル (front jer) <span cyrs>ь</span> は `/` または `q`,  
-後舌のイェル (back jer) <span cyrs>ъ</span> は `//` または `qq`.  
+- 前舌のイェル (front jer) <span cyrs>ь</span> : `/` または `q`
+- 後舌のイェル (back jer) <span cyrs>ъ</span> : `//` または `qq`
+- 鼻母音 ѧ ѫ ѩ ѭ : `@@ @ j@@ j@` または `enn onn jenn jonn`
+- 略字 <span cyrs>◌ⷶ҇  ◌ⷠ҇ ◌ⷡ҇</span> ... : `^a ^b ^v` ... (<span cyrs>ѩ</span> などの一部字母は未対応)
+
 一部の字母は後ろに `_` を加えることで別形になります (対応表を参照のこと).  
-数字は1~9999の範囲のみ対応.
+数字は1~9999の範囲のみ対応. 使用したフォントは [Monomakh Unicode](https://sci.ponomar.net/) です.
 
 <HLConverter src="/conv/chu.tsv" fontRight="Monomakh Unicode" />
 
@@ -29,7 +32,7 @@ comment: "true"
 | <span cyrs>е</span> | e |  |
 | <span cyrs>ж</span> | ž, zh | zh → <span cyrs>ж</span> ↔ ž |
 | <span cyrs>ѕ</span> | ʒ, dz |  |
-| <span cyrs>з</span> | z | z_ = <span cyrs>ꙁ</span> |
+| <span cyrs>ꙁ</span> | z | z_ = <span cyrs>з</span> |
 | <span cyrs>и</span> | i |  |
 | <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 î <br> （技術的な問題により） |
 | <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
@@ -47,8 +50,8 @@ comment: "true"
 | <span cyrs>ф</span> | f |  |
 | <span cyrs>ѳ</span> | th |  |
 | <span cyrs>х</span> | x, h | h は zh (<span cyrs>ж</span>), eh (<span cyrs>ѣ</span>) などの記述にも使われているため, なるべく x を使うよう推奨. <br>e.g. ex ↔ <span cyrs>ех</span>, eh → <span cyrs>ѣ</span> ↔ ě |
-| <span cyrs>ѡ</span> | ô, oh | oh_ = <span cyrs>ѻ</span> |
-| <span cyrs>ѿ</span> | ôtъ, oht | oht → <span cyrs>ѿ</span> ↔ ôtъ <br> oh-t// → <span cyrs>ѡтъ</span> ↔ ôtъ |
+| <span cyrs>ѡ</span> | ꞷ, w | w_ = <span cyrs>ѻ</span> |
+| <span cyrs>ѿ</span> | wͭ, w^t | w^t → <span cyrs>ѿ</span> ↔ wͭ |
 | <span cyrs>ц</span> | c |  |
 | <span cyrs>ч</span> | č, ch | ch → <span cyrs>ч</span> ↔ č |
 | <span cyrs>ш</span> | š, sh | sh → <span cyrs>ш</span> ↔ š |
@@ -60,15 +63,28 @@ comment: "true"
 | <span cyrs>ꙗ</span> | ja |  |
 | <span cyrs>ѥ</span> | je |  |
 | <span cyrs>ю</span> | ju |  |
-| <span cyrs>ѫ</span> | ǫ, onn | onn → <span cyrs>ѫ</span> ↔ ǫ |
-| <span cyrs>ѭ</span> | jǫ, jonn | jonn → <span cyrs>ѭ</span> ↔ jǫ |
-| <span cyrs>ѧ</span> | ę, enn | enn → <span cyrs>ѧ</span> ↔ ę<br>enn_ = <span cyrs>ꙙ</span> |
-| <span cyrs>ѩ</span> | ję, jenn | jenn → <span cyrs>ѩ</span> ↔ ję<br>jenn_ = <span cyrs>ꙝ</span> |
+| <span cyrs>ѫ</span> | ǫ, onn, @ | onn → <span cyrs>ѫ</span> ↔ ǫ |
+| <span cyrs>ѭ</span> | jǫ, jonn, j@ | jonn → <span cyrs>ѭ</span> ↔ jǫ |
+| <span cyrs>ѧ</span> | ę, enn, @@ | enn → <span cyrs>ѧ</span> ↔ ę<br>enn_ = <span cyrs>ꙙ</span> |
+| <span cyrs>ѩ</span> | ję, jenn, j@@ | jenn → <span cyrs>ѩ</span> ↔ ję<br>jenn_ = <span cyrs>ꙝ</span> |
 | <span cyrs>ѯ</span> | ks |  |
 | <span cyrs>ѱ</span> | ps |  |
 | <span cyrs>ѳ</span> | th |  |
 | <span cyrs>ѵ</span> | ü, uh | uh → <span cyrs>ѵ</span> ↔ ü |
-| <span cyrs>ҁ</span> | q |  |
-| <span cyrs> ҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
-| <span cyrs> ҄</span> | ◌́, ^ | 口蓋化を表す記号 |
-| <span cyrs> ꙯</span> | ¯, & | 略記記号. |
+| <span cyrs>◌҃</span> | ˜, ~ | 略記記号のティトロ（titlo） |
+| <span cyrs>◌҄</span> | ◌͡&nbsp;, " | 口蓋化を表す記号 |
+| <span cyrs>◌꙯</span> | ¯, & | 略記記号 |
+| <span cyrs>◌҆, ◌҅</span> | ^'', ^' | ギリシア文字由来の気息記号 |
+
+## サンプル
+
+コードブロック右側のボタンでコピー！
+
+```txt
+ot/che nash/ izhe jesi na nebes/x//, da sv@@tit// s@@ im@@ tvoje.
+otqche nashq izhe jesi na nebesqxqq, da svenntitqq senn imenn tvoje.
+```
+
+```txt
+by^s am^ni ev^gh
+```

@@ -13,7 +13,7 @@ comment: "true"
 **IAST** (International Alphabet of Sanskrit Transliteration)
 による翻字を行います.
 対応可能な入力方式は**京都・ハーバード式, ITRANS, Velthuis**.
-数字も対応可能.
+数字も対応可能. [詳細](/upload/nag.pdf)
 
 <HLConverter src="/conv/nag.tsv" />
 
@@ -57,7 +57,3 @@ comment: "true"
 |^|^|ya|^|ra|^|la|^|va|^|^|
 |**摩擦音**|**श**|śa|**ष**|ṣa|**स**|sa|**ह**|ha|^|^|
 |^|^|za|^|Sa|^|sa|^|ha|^|^|
-
-## 入力方法の詳細
-
-![詳細](/upload/nag-lat.jpg)
