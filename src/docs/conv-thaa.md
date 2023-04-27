@@ -1,5 +1,5 @@
 ---
-title: ターナ文字変換器
+title: ターナ文字
 id: conv-thaa
 category: conv
 tags:
