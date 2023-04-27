@@ -1,5 +1,5 @@
 ---
-title: 国際音声字母(X-SAMPA to IPA)
+title: 国際音声字母 (X-SAMPA to IPA) 変換器
 id: conv-ipa
 category: conv
 tags:

@@ -1,5 +1,5 @@
 ---
-title: サンスクリット・デーヴァナーガリー
+title: サンスクリット・デーヴァナーガリー変換器
 id: conv-nag
 category: conv
 tags:

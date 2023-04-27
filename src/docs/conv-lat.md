@@ -1,5 +1,5 @@
 ---
-title: ダイアクリティカルマーク付きラテン文字
+title: ダイアクリティカルマーク付きラテン文字変換器
 id: conv-lat
 category: conv
 tags:

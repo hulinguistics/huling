@@ -1,5 +1,5 @@
 ---
-title: コプト文字
+title: コプト文字変換器
 id: conv-cop
 category: conv
 tags:

@@ -1,5 +1,5 @@
 ---
-title: ゴート文字
+title: ゴート文字変換器
 id: conv-got
 category: conv
 tags:

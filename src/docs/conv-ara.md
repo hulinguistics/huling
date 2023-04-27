@@ -1,5 +1,5 @@
 ---
-title: アラビア語アラビア文字
+title: アラビア語アラビア文字変換器
 id: conv-ara
 category: conv
 tags:

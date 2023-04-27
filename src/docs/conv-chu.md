@@ -1,5 +1,5 @@
 ---
-title: 古教会スラヴ語キリル文字
+title: 古教会スラヴ語キリル文字変換器
 id: conv-chu
 category: conv
 tags:

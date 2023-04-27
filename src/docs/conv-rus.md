@@ -1,5 +1,5 @@
 ---
-title: ロシア語キリル文字
+title: ロシア語キリル文字変換器
 id: conv-rus
 category: conv
 tags:

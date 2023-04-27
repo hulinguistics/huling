@@ -1,5 +1,5 @@
 ---
-title: 古教会スラヴ語グラゴル文字
+title: グラゴル文字変換器
 id: conv-glag
 category: conv
 tags:
