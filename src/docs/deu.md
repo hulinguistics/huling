@@ -26,11 +26,11 @@ comment: 'true'
 語尾や語義などで名詞の性を見分けるコツがあります.
 ただし, 表中 * が付いているものについては例外があります.
 
-|     | 男性                                           | 女性                                     | 中性                                          |
-| --- | :------------------------------------------: | :------------------------------------: | :-----------------------------------------: |
-| 語形  | **\-el***, **\-en*** <br> der Löffel「スプーン」   | **\-e*** <br> die Gruppe「グループ」         | **\-chen**, **\-lein** <br> das Mädchen「少女」 |
-| ^   | 動詞・名詞の語幹 + **\-(l)er** <br> der Musiker「音楽家」 | 男性名詞 + **\-in** <br> die Freundin「女友達」 | 他の品詞の転用 <br> das Essen「食事」                  |
-| 語義  | 四季, 月名, 曜日 <br> der Dienstag「火曜日」            | 船名*, 基数* <br> die Eins「1」              | 国名, 都市名, 鉱物* <br> das Eisen「鉄」              |
+| | 男性 | 女性 | 中性 |
+| :---: | :---: | :---: | :---: |
+| **語形** | **-⁠el***, **-⁠en*** <br> der Löffel「ス⁠プ⁠ー⁠ン」| **-e*** <br> die Gruppe「グ⁠ル⁠ー⁠プ」 | **-⁠chen**, **-⁠lein** <br> das Mädchen「少⁠女」|
+| ^ | 動⁠詞⁠・⁠名⁠詞⁠の⁠語⁠幹 + **-(l)er** <br> der Musiker「音⁠楽⁠家」 | 男性名詞 + **-⁠in** <br> die Freundin「女⁠友⁠達」 | 他の品詞の転用 <br> das Essen「食⁠事」|
+| **語義**  | 四⁠季, 月⁠名, 曜⁠日 <br> der Dienstag「火⁠曜⁠日」 | 船⁠名*, 基⁠数* <br> die Eins「1」 | 国名, 都⁠市⁠名, 鉱⁠物* <br> das Eisen「鉄」 |
 
 :::
 
@@ -39,15 +39,15 @@ comment: 'true'
 名詞には**単数**/**複数**の区別があります.
 名詞の複数形の作り方は大きく分けて五種類 (無語尾, E 型, ER 型, (E)N 型, S 型) があります.
 
-| 変化の型   | 幹母音の変音 | 例: 単数         | 複数                 |
-| :----: | :----: | ------------- | ------------------ |
-| 無語尾    | する     | der Garten「庭」 | die G**ä**rten     |
-| ^      | しない    | der Wagen「車」  | die Wagen          |
-| E 型    | する     | der Fuß「足」    | die F**ü**ß**e**   |
-| ^      | しない    | das Jahr「年」   | die Jahr**e**      |
-| ER 型   | する     | der Mann「男」   | die M**ä**nn**er** |
-| (E)N 型 | しない    | der Name「名前」  | die Name**n**      |
-| S 型    | しない    | das Foto「写真」  | die Foto**s**      |
+| 変化の型 | 幹母音の変音 | 例: 単数         | 複数                 |
+| :------: | :---------: | ---------------- | ------------------ |
+| 無語尾   | 有        | der Garten「庭」 | die G**ä**rten     |
+| ^       | 無       | der Wagen「車」  | die Wagen          |
+| E 型    | 有         | der Fuß「足」    | die F**ü**ß**e**   |
+| ^       | 無       | das Jahr「年」   | die Jahr**e**      |
+| ER 型   | 有         | der Mann「男」   | die M**ä**nn**er** |
+| (E)N 型 | 無       | der Name「名前」  | die Name**n**      |
+| S 型    | 無       | das Foto「写真」  | die Foto**s**      |
 
 ::: info ウムラウト
 
@@ -136,14 +136,14 @@ ER 型は必ず幹母音が変音します.
 動詞の現在形・過去形と werden は主語の人称・数で語尾が変化します.
 例えば, 動詞 kaufen「買う」はそれぞれの時制で以下のように活用します.
 
-|             | 過去                        | 現在                      | 未来 (推量・意図)                            |
-| :---------: | ------------------------- | ----------------------- | ------------------------------------- |
-| **単数 1 人称** | ich kaufte <br> 「私は買った」   | ich kaufe <br> 「私は買う」   | ich werde ... kaufen <br> 「私は買うだろう」   |
-| **単数 2 人称** | du kauftest <br> 「君は買った」  | du kaufst <br> 「君は買う」   | du wirst ... kaufen <br> 「君は買うだろう」    |
-| **単数 3 人称** | er kauftet <br> 「彼は買った」   | er kauft <br> 「彼は買う」    | er wird ... kaufen <br> 「彼は買うだろう」     |
-| **複数 1 人称** | wir kauften <br> 「私達は買った」 | wir kaufen <br> 「私達は買う」 | wir werden ... kaufen <br> 「私達は買うだろう」 |
-| **複数 2 人称** | ihr kauftet <br> 「君達は買った」 | ihr kauft <br> 「君達は買う」  | ihr werdet ... kaufen <br> 「君達は買うだろう」 |
-| **複数 3 人称** | sie kauften <br> 「彼等は買った」 | sie kaufen <br> 「彼等は買う」 | sie werden ... kaufen <br> 「彼等は買うだろう」 |
+| | | 過去 | 現在 | 未来 (推量・意図) |
+| :---: | :---: | :--- | :--- | :--- |
+| **単数** | **1 人称** | ich kaufte <br> 「私⁠は買⁠っ⁠た」| ich kaufe <br> 「私⁠は買⁠う」| ich werde ... kaufen <br> 「私⁠は買⁠う⁠だ⁠ろ⁠う」|
+|^| **2 人称** | du kauftest <br> 「君⁠は買⁠っ⁠た」  | du kaufst <br> 「君は買う」   | du wirst ... kaufen <br> 「君⁠は買⁠う⁠だ⁠ろ⁠う」    |
+|^| **3 人称** | er kauftet <br> 「彼⁠は買⁠っ⁠た」   | er kauft <br> 「彼は買う」    | er wird ... kaufen <br> 「彼⁠は買⁠う⁠だ⁠ろ⁠う」     |
+| **複数** | **1 人称** | wir kauften <br> 「私達は買⁠っ⁠た」 | wir kaufen <br> 「私⁠達⁠は買⁠う」 | wir werden ... kaufen <br> 「私達は買⁠う⁠だ⁠ろ⁠う」 |
+|^|**2 人称** | ihr kauftet <br> 「君達は買った」 | ihr kauft <br> 「君⁠達⁠は買⁠う」  | ihr werdet ... kaufen <br> 「君達は買⁠う⁠だ⁠ろ⁠う」 |
+|^|**3 人称** | sie kauften <br> 「彼⁠等⁠は買⁠っ⁠た」 | sie kaufen <br> 「彼⁠等⁠は買⁠う」 | sie werden ... kaufen <br> 「彼等は買⁠う⁠だ⁠ろ⁠う」 |
 
 :::
 
@@ -154,10 +154,10 @@ ER 型は必ず幹母音が変音します.
 基本的に完了相は haben + 過去分詞で作りますが,
 一部 sein + 過去分詞で作るものもあります.
 
-|          | 過去                                    | 現在                                       | 未来                                                    |
-| -------- | ------------------------------------- | ---------------------------------------- | ----------------------------------------------------- |
-| **未完了相** | ich kaufte <br> 「私は買った」               | ich kaufe <br> 「私は買う」                    | ich werde ... kaufen <br> 「私は買うだろう」                   |
-| **完了相**  | ich hatte ... gekauft <br> 「私は買ってあった」 | ich habe ... gekauft <br> 「私は買ってある(買った)」 | ich werde ... gekauft haben <br> 「私は買ってあるだろう(買っただろう)」 |
+|  | 過去 | 現在 | 未来 |
+| --- | --- | --- | --- |
+| **未完了相** | ich kaufte <br> 「私⁠は⁠買⁠っ⁠た」| ich kaufe <br> 「私⁠は⁠買⁠う」| ich werde ... kaufen <br> 「私⁠は⁠買⁠う⁠だ⁠ろ⁠う」|
+| **完了相**  | ich hatte ... gekauft <br> 「私⁠は⁠買⁠っ⁠て⁠あ⁠っ⁠た」 | ich habe ... gekauft <br> 「私⁠は⁠買⁠っ⁠て⁠あ⁠る(⁠買⁠っ⁠た⁠)」 | ich werde ... gekauft haben <br> 「私⁠は⁠買⁠っ⁠て⁠あ⁠る⁠だ⁠ろ⁠う(⁠買⁠っ⁠た⁠だ⁠ろ⁠う⁠)」 |
 
 1. Ich **kaufe** mir das Buch. 私はその本を買います. (現在未完了)
 2. Ich **habe** mir das Buch bereits **gekauft**. 私は既にその本を買ってあります. (現在完了)\
