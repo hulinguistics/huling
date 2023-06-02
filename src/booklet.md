@@ -11,7 +11,7 @@ docbefore: false
 
 | 媒体 | 場所 | 状況 |
 | :-: | :-: | :-: |
-| 紙 | 楡陵祭2023 教養棟 E218 合同出展 | 頒布中 |
+| 紙 | 楡陵祭2023 教養棟 E218 合同出店 | 頒布中 |
 | 電子 | [オンライン](https://vivliostyle.org/viewer/#src=https://booklet2023.huling.org/) | 公開中 |
 
 ### 概要
