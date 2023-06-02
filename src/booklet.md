@@ -1,13 +1,12 @@
 ---
 title: 頒布冊子
-docbefore: false
+docbefore: true
 ---
+## 『第三外国語概説・寄稿』 楡陵祭2023
 
 ![book image](/upload/2023yuryo.png)
 
 ※画像はイメージです
-
-## 『第三外国語概説・寄稿』 楡陵祭2023
 
 | 媒体 | 場所 | 状況 |
 | :-: | :-: | :-: |
@@ -39,6 +38,10 @@ docbefore: false
 :::
 
 ## 『言語学概説之書』 楡陵祭2022
+
+![book image](/upload/2022yuryo.png)
+
+※画像はイメージです
 
 | 媒体 | 場所 | 状況 |
 | :-: | :-: | :-: |
