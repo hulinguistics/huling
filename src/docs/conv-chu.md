@@ -12,7 +12,7 @@ comment: "true"
 ---
 - 前舌のイェル (front jer) <span cyrs>ь</span> : `/` または `q`
 - 後舌のイェル (back jer) <span cyrs>ъ</span> : `//` または `qq`
-- 鼻母音 ѧ ѫ ѩ ѭ : `@@ @ j@@ j@` または `enn onn jenn jonn`
+- 鼻母音 <span cyrs>ѧ ѫ ѩ ѭ</span> : `@@ @ j@@ j@` または `enn onn jenn jonn`
 - 略字 <span cyrs>◌ⷶ҇  ◌ⷠ҇ ◌ⷡ҇</span> ... : `^a ^b ^v` ... (<span cyrs>ѩ</span> などの一部字母は未対応)
 
 一部の字母は後ろに `_` を加えることで別形になります (対応表を参照のこと).  
