@@ -10,9 +10,9 @@ author:
   - name: 宮西 大
 comment: "true"
 ---
-- 前舌のイェル (front jer) <span cyrs>ь</span> : `/` または `q`
-- 後舌のイェル (back jer) <span cyrs>ъ</span> : `//` または `qq`
-- 鼻母音 ѧ ѫ ѩ ѭ : `@@ @ j@@ j@` または `enn onn jenn jonn`
+- 前舌のイェル (front jer) <span glag>ⱐ</span> : `/` または `q`
+- 後舌のイェル (back jer) <span glag>ⱏ</span> : `//` または `qq`
+- 鼻母音 <span glag>ⱔ ⱘ ⱗ ⱙ</span> : `@@ @ j@@ j@` または `enn onn jenn jonn`
 
 数字は1~999の範囲のみ対応. 使用したフォントは [Shafarik](https://sci.ponomar.net/).
 
