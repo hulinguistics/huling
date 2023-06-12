@@ -134,6 +134,18 @@
       ]
     },
     {
+      "name": "Noto Sans Arabic",
+      "tag": "arab",
+      "fonts": [
+        {
+          "src": "https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSansArabic/hinted/ttf/NotoSansArabic-Regular.ttf",
+          "style": "normal",
+          "weight": 400,
+          "display": "swap"
+        }
+      ]
+    },
+    {
       "name": "Monomakh Unicode",
       "tag": "cyrs",
       "fonts": [
