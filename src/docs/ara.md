@@ -8,7 +8,7 @@ tags:
   - セム語派
   - アフロ・アジア語族
 author:
-  - name: 文学部3年 加藤さえり
+  - name: 加藤さえり
 comment: true
 ---
 ## はじめに
