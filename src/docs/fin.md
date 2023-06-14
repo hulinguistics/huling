@@ -8,7 +8,7 @@ tags:
   - フィン・ウゴル語派
   - ウラル語族
 author:
-  - name: 総理1年 しゅう
+  - name: しゅう
 comment: true
 ---
 ##  フィンランド語の系統 
