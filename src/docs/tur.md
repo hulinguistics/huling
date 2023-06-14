@@ -7,7 +7,7 @@ tags:
   - トルコ語
   - テュルク諸語
 author:
-  - name: 文学部3年 くわもん
+  - name: くわもん
 comment: true
 ---
 ## トルコ語とその仲間たち
