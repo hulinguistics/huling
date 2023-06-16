@@ -6,8 +6,7 @@ tags:
   - 文法概説
   - トルコ語
   - テュルク諸語
-author:
-  - name: くわもん
+author: []
 comment: true
 ---
 ## トルコ語とその仲間たち
