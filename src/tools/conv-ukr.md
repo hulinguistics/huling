@@ -1,5 +1,5 @@
 ---
-title: ウクライナ語キリル文字変換器
+title: ウクライナ語キリル文字
 id: conv-ukr
 category: conv
 tags:
