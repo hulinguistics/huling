@@ -1,7 +1,7 @@
 ---
 title: 文字変換器について
 id: conv
-category: conv
+category: conv-about
 tags:
   - 文字変換器
 comment: 'true'

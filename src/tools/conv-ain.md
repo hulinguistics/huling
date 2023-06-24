@@ -1,5 +1,5 @@
 ---
-title: アイヌ語カタカナ変換器
+title: アイヌ語カタカナ
 id: conv-ain
 category: conv
 tags:

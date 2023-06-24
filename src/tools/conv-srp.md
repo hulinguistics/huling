@@ -1,6 +1,6 @@
 ---
-title: セルビア語クロアチア語・キリル文字ラテン文字変換器
-id: conv-srp
+title: セルビア語クロアチア語・キリル文字ラテン文字
+id: conv-SrpHrv
 category: conv
 tags:
   - 文字変換器

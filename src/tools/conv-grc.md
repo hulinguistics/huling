@@ -1,5 +1,5 @@
 ---
-title: 古典ギリシア語ギリシア文字変換器
+title: 古典ギリシア語ギリシア文字
 id: conv-grc
 category: conv
 tags:

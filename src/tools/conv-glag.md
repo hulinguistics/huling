@@ -1,5 +1,5 @@
 ---
-title: グラゴル文字変換器
+title: グラゴル文字
 id: conv-glag
 category: conv
 tags:

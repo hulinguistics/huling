@@ -47,6 +47,7 @@ export default (async () => {
         { text: 'Booklet', link: '/booklet' },
         { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
         { text: 'Olympiad', link: '/olympiad/about', activeMatch: '/olympiad/' },
+        { text: 'Tools', link: '/tools/conv', activeMatch: '/tools/' },
         { text: 'Tags', link: '/tags' },
       ],
 
@@ -57,6 +58,7 @@ export default (async () => {
       sidebar: {
         '/docs/': await sidebar('src/docs/', 'src/.vitepress/categories/docs.json'),
         '/olympiad/': await sidebar('src/olympiad/', 'src/.vitepress/categories/olympiad.json'),
+        '/tools/': await sidebar('src/tools/', 'src/.vitepress/categories/tools.json'),
       },
 
       // github 上編集ページに飛ぶリンク
