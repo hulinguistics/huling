@@ -10,7 +10,7 @@ comment: "true"
 ---
 **文化観光部2000年式**を基にハングルとラテン文字を翻字します．
 
-<HLConverter src="/conv/hang.tsv" />
+<HLConverterAlt src="/conv/hang.tsv" />
 
 ## 対応表
 
