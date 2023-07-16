@@ -6,6 +6,7 @@ tags:
   - 文字変換器
   - ロシア語
   - キリル文字
+  - スラヴ語派
 author:
   - name: 宮西 大
 comment: "true"

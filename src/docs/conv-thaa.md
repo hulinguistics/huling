@@ -7,6 +7,7 @@ tags:
   - ディベヒ語
   - ターナ文字
   - インド・イラン語派
+  - インド・ヨーロッパ語族
 author:
   - name: 宮西 大
 comment: "true"
