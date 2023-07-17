@@ -1,5 +1,5 @@
 ---
-title: ニヴフ語キリル文字変換器
+title: ニヴフ語キリル文字
 id: conv-niv
 category: conv
 tags:

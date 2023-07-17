@@ -1,5 +1,5 @@
 ---
-title: イディッシュ語ヘブライ文字変換器
+title: イディッシュ語ヘブライ文字
 id: conv-cop
 category: conv
 tags:
