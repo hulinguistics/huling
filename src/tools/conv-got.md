@@ -7,6 +7,7 @@ tags:
   - ゴート語
   - ゴート文字
   - ゲルマン語派
+  - インド・ヨーロッパ語族
 author:
   - name: 宮西 大
 comment: "true"
