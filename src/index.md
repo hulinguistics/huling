@@ -8,7 +8,7 @@ hero:
     - link: /booklet
       text: Booklet
       theme: alt
-    - link: /docs
+    - link: /docs/grammar-terms
       text: Docs
       theme: alt
   image: /top.svg
