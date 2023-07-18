@@ -5,7 +5,7 @@
     display: flex !important;
     justify-content: space-between;
     flex-direction: column-reverse;
-  
+
     @media (min-width: 640px) {
       flex-direction: row;
     }
