@@ -15,3 +15,8 @@
   --vp-c-brand-dark: var(--vp-c-blue-dark);
   --vp-c-brand-darker: var(--vp-c-blue-darker);
 }
+
+.katex-display {
+  overflow: hidden;
+  overflow-x: auto;
+}
