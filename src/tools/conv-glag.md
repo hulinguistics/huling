@@ -7,7 +7,6 @@ tags:
   - 古教会スラヴ語
   - グラゴル文字
   - スラヴ語派
-  - インド・ヨーロッパ語族
 author:
   - name: 宮西 大
 comment: "true"
