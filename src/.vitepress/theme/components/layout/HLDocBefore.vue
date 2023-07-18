@@ -1,5 +1,5 @@
 <template>
-  <div v-if="page.frontmatter.docbefore !== false">
+  <div class="HLDocBefore" v-if="page.frontmatter.docbefore !== false">
     <HLTitle :title="page.frontmatter.title" />
     <HLPageInfo :tags="page.frontmatter.tags"></HLPageInfo>
   </div>
@@ -23,6 +23,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.HLDocBefore {
+  margin-bottom: 24px;
+}
+
 .tags {
   margin-top: 10px;
   display: flex;
