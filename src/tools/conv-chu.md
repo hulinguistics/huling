@@ -1,5 +1,5 @@
 ---
-title: 古教会スラヴ語キリル文字
+title: 教会スラヴ語キリル文字
 id: conv-chu
 category: conv
 tags:
@@ -11,10 +11,8 @@ author:
   - name: 宮西 大
 comment: "true"
 ---
-- 前舌のイェル (front jer) <span cyrs>ь</span> : `/` または `q`
-- 後舌のイェル (back jer) <span cyrs>ъ</span> : `//` または `qq`
-- 鼻母音 <span cyrs>ѧ ѫ ѩ ѭ</span> : `@@ @ j@@ j@` または `enn onn jenn jonn`
-- 略字 <span cyrs>◌ⷶ҇  ◌ⷠ҇ ◌ⷡ҇</span> ... : `^a ^b ^v` ... (<span cyrs>ѩ</span> などの一部字母は未対応)
+- 弱化母音 イェル <span cyrs>ь, ъ</span> : `q` `/`, `qq` `//`
+- 鼻母音 ユス <span cyrs>ѧ ѫ ѩ ѭ</span> : `@@ @ j@@ j@` または `enn onn jenn jonn`
 
 一部の字母は後ろに `_` を加えることで別形になります (対応表を参照のこと).  
 数字は1~9999の範囲のみ対応. 使用したフォントは [Monomakh Unicode](https://sci.ponomar.net/) です.
@@ -22,6 +20,9 @@ comment: "true"
 <HLConverter src="/conv/chu.tsv" fontRight="Monomakh Unicode" />
 
 ## 対応表
+
+- 略字 <span cyrs>◌ⷶ҇  ◌ⷠ҇ ◌ⷡ҇</span> ... : `^a ^b ^v` ... (<span cyrs>ѩ</span> などの一部字母は未対応)
+- 数字を表す上線 <span cyrs>◌҃</span> : `=`
 
 | キ⁠リ⁠ル⁠文⁠字 | ラ⁠テ⁠ン⁠文⁠字 | 備考 |
 | :--: | :--: | :-- |
@@ -35,7 +36,7 @@ comment: "true"
 | <span cyrs>ѕ</span> | ʒ, dz |  |
 | <span cyrs>ꙁ</span> | z | z_ = <span cyrs>з</span> |
 | <span cyrs>и</span> | i |  |
-| <span cyrs>і</span> | î, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 î <br> （技術的な問題により） |
+| <span cyrs>і</span> | ì, j | 通例：キリル文字 <span cyrs>і</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>і</span> ↔ ラテン文字 ì <br> （技術的な問題により） |
 | <span cyrs>ꙇ</span> | ɩ, jj | 通例：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 i <br> 当変換器：キリル文字 <span cyrs>ꙇ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
 | <span cyrs>ћ</span> | ǵ, gh | gh → <span cyrs>ћ</span> ↔ ǵ |
 | <span cyrs>к</span> | k |  |
@@ -76,16 +77,34 @@ comment: "true"
 | <span cyrs>◌҄</span> | ◌͡&nbsp;, " | 口蓋化を表す記号 |
 | <span cyrs>◌꙯</span> | ¯, & | 略記記号 |
 | <span cyrs>◌҆, ◌҅</span> | ^'', ^' | ギリシア文字由来の気息記号 |
+| <span cyrs>⁘⹃, ⁘</span> | ::-, :: | 章節区切りの記号 |
+| <span cyrs>※, ⁜</span> | #, ## |^|
 
 ## サンプル
 
 コードブロック右側のボタンでコピー！
+
+- **主の祈り**
 
 ```txt
 ot/che nash/ izhe jesi na nebes/x//, da sv@@tit// s@@ im@@ tvoje.
 otqche nashq izhe jesi na nebesqxqq, da svenntitqq senn imenn tvoje.
 ```
 
+- **オストロミール福音書 ― 輔祭グリゴリーの後書き**  
+
 ```txt
-by^s am^ni ev^gh
+# AZQQGRIGORIIDI
+; jako^n . napisaxqqeuh^ggliee^'' . daizhego
+; raznehe^''segonapishe . tonemozi
+; zazqrehtimqnehgrehshqniku .
+; pochaxqqzhepisati . mc^sa . oktenn^b .
+; 21 . napamenn^t . ilariona . Aoko
+; nqcha^x . mc^sa . maija . vqq . 12 . napa^t .
+; e^''pifana :: moljuzhevqsehxqqpo
+; chitajonnshtixqqnemozehteklenn
+; ti . nqqispravlqshe . pochitaite .
+; Takoboist&yap&lqqpauhlqqgl&e
+; tq . Bl&te . Aneklqnehte ::-
+          AMINQQ ::-
 ```

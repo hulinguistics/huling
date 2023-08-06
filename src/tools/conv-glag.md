@@ -33,7 +33,7 @@ comment: "true"
 | <span glag>ⰷ</span> | dz |  |
 | <span glag>ⰸ</span> | z |  |
 | <span glag>ⰻ</span> | i |  |
-| <span glag>ⰹ</span> | î, j | 通例：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 î <br> （技術的な問題により） |
+| <span glag>ⰹ</span> | ì, j | 通例：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰹ</span> ↔ ラテン文字 ì <br> （技術的な問題により） |
 | <span glag>ⰺ</span> | ɩ, jj | 通例：グラゴル文字 <span glag>ⰺ</span> ↔ ラテン文字 i <br> 当変換器：グラゴル文字 <span glag>ⰺ</span> ↔ ラテン文字 ɩ <br> （技術的な問題により） |
 | <span glag>ⰼ</span> | ǵ, gh | gh → <span glag>ⰼ</span> ↔ ǵ |
 | <span glag>ⰽ</span> | k |  |
