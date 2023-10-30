@@ -83,7 +83,7 @@ comment: "true"
 |<span cyrs>Ꙙ</span>|EN\\ |<span cyrs>ꙙ</span>|eN\\ | | |
 |<span cyrs>Ꙝ</span>|JeN\\ |<span cyrs>ꙝ</span>|jeN\\ | | |
 |<span cyrs>Ꙛ</span>|AN\\ |<span cyrs>ꙛ</span>|aN\\ | | |
-|<span cyrs>Ꙟ</span>|Yn\\ |<span cyrs>ꙟ</span>|yn\\ | | |
+|<span cyrs>Ꙟ</span>|YN\\ |<span cyrs>ꙟ</span>|yN\\ | | |
 
 ### 記号・約物
 
