@@ -15,7 +15,7 @@ comment: "true"
 - 鼻母音 ユス <span cyrs>ѧ ѫ ѩ ѭ</span> : `@@ @ j@@ j@` または `eN oN jeN joN`
 
 一部の字母は後ろに `\` を加えることで別形になります (対応表を参照のこと).  
-数字は1~9999の範囲のみ対応. 使用したフォントは [Monomakh Unicode](https://sci.ponomar.net/) です.
+数字は1~9999の範囲のみ対応. 詳細は[こちら](/upload/conv-chu.pdf).
 
 <HLConverter src="/conv/chu.tsv" fontRight="Monomakh Unicode" />
 
@@ -65,10 +65,10 @@ comment: "true"
 |<span cyrs>Ꙧ</span>|M\\ |<span cyrs>ꙧ</span>|m\\ | | |
 |<span cyrs>Ҥ</span>|N\\ |<span cyrs>ҥ</span>|n\\ | | |
 |<span cyrs>Ꙩ</span>|O.\\ |<span cyrs>ꙩ</span>|o.\\ |<span cyrs>ᲂ</span>|o\\ |
-|<span cyrs>Ꙫ</span>|O.\\ |<span cyrs>ꙫ</span>|o.\\ |<span cyrs>ꙮ</span>|o.\\\\\\\\ |
-|<span cyrs>Ꙭ</span>|O.\\\\ |<span cyrs>ꙭ</span>|o.\\\\ |<span cyrs>ᲃ</span>|s\\ |
+|<span cyrs>Ꙫ</span>|O.\\\\ |<span cyrs>ꙫ</span>|o.\\\\ |<span cyrs>ꙮ</span>|o.\\\\\\\\ |
+|<span cyrs>Ꙭ</span>|O.\\\\\\ |<span cyrs>ꙭ</span>|o.\\\\\\ |<span cyrs>ᲃ</span>|s\\ |
 |<span cyrs>Ꚙ</span>|Oo\\ |<span cyrs>ꚙ</span>|oo\\ |<span cyrs>ᲄ</span>|t\\ |
-|<span cyrs>Ꚛ</span>|Ox\\ |<span cyrs>ꚛ</span>|ox\\ |<span cyrs>ᲅ</span>|t\\\\ |
+|<span cyrs>Ꚛ</span>|Oo\\\\ |<span cyrs>ꚛ</span>|oo\\\\ |<span cyrs>ᲅ</span>|t\\\\ |
 |<span cyrs>Ꙋ</span>|U\\ |<span cyrs>ꙋ</span>|u\\ |<span cyrs>ᲈ</span>|u\\\\ |
 |<span cyrs>Ѿ</span>|W\\t|<span cyrs>ѿ</span>|w\\t| | |
 |<span cyrs>Ѻ</span>|W\\ |<span cyrs>ѻ</span>|w\\ | | |
