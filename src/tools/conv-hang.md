@@ -1,5 +1,5 @@
 ---
-title: ハングル変換器
+title: ハングル
 id: conv-hang
 category: conv
 tags:
