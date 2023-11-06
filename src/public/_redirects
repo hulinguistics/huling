@@ -1,0 +1,4 @@
+/*/index.html /:splat 301
+/docs/grammar /docs/grammar-terms 301
+/docs/conv* /tools/conv:splat 301
+/docs/tools/conv/ /tools/conv 301

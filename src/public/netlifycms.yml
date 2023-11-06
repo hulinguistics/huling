@@ -1,0 +1,173 @@
+backend:
+  name: github
+  repo: hulinguistics/huling
+  branch: dev
+  base_url: https://huling.org
+  auth_endpoint: /api/auth
+
+publish_mode: editorial_workflow
+
+media_folder: src/public/upload
+public_folder: /upload
+
+site_url: https://huling.org
+
+collections:
+  - name: docs
+    label: 語学・言語学の記事
+    folder: src/docs
+    create: true
+    slug: "{{fields.id}}"
+    preview_path: "docs/{{slug}}"
+    description: |
+      文法概説などの語学記事，言語学記事，その他寄稿など
+
+    fields:
+      - label: タイトル
+        name: title
+        widget: string
+        hint: |
+          言語ごとの概説なら「ドイツ語 / Deutsch」など
+      - label: 記事ID
+        name: id
+        widget: string
+        hint: |
+          ラテン文字, 算用数字, 半角ハイフン, 3字以上.
+          ダイアクリティカルマーク付きラテン文字不可.
+          言語ごとの概説なら3文字の言語コード (deu, fra など.
+          ISO 639-2, ISO 639-3 参照).
+          記事のURLは「https://huling.org/docs/(id)」.
+        pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
+      - label: カテゴリ
+        name: category
+        widget: select
+        options:
+          - { label: 言語学の概説, value: linguistics }
+          - { label: 言語ごとの概説, value: grammar }
+          - { label: 北大の第二外国語, value: nigai }
+          - { label: 文字変換器, value: conv }
+          - { label: その他の記事, value: article }
+      - label: タグ
+        name: tags
+        widget: list
+        hint: |
+          「#」不要.
+          仕切り文字は半角コンマ「,」.
+      - label: 筆者
+        name: author
+        widget: list
+        required: false
+        fields:
+          - {label: 表示名, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+      - label: コメント機能
+        name: comment
+        widget: boolean
+        default: true
+      - label: 本文
+        name: body
+        widget: markdown
+
+  - name: olympiad
+    label: オリンピック関連の記事
+    folder: src/olympiad
+    create: true
+    slug: "{{fields.id}}"
+    preview_path: "olympiad/{{slug}}"
+    description: |
+      言語学オリンピック過去問題解説などの記事
+
+    fields:
+      - label: タイトル
+        name: title
+        widget: string
+        hint: |
+          問題解説なら「JOL2017-3 モンゴル語」など
+      - label: 記事ID
+        name: id
+        widget: string
+        hint: |
+          ラテン文字, 算用数字, 半角ハイフン, 3字以上.
+          ダイアクリティカルマーク付きラテン文字不可.
+          問題解説なら「(大会略称)(開催年)(ラウンド)-(問題番号)」.
+          例) 「JOL2017-3」「UKLO2021R1-1」など.
+          記事のURLは「https://huling.org/olympiad/(id)」.
+        pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
+      - label: カテゴリ
+        name: category
+        widget: select
+        options:
+          - { label: 言語学オリンピックについて, value: general }
+          - { label: オリンピック問題解説集, value: explanation }
+      - label: タグ
+        name: tags
+        widget: list
+        hint: |
+          「#」不要.
+          仕切り文字は半角コンマ「,」.
+      - label: 筆者
+        name: author
+        widget: list
+        required: false
+        fields:
+          - {label: 表示名, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+      - label: コメント機能
+        name: comment
+        widget: boolean
+        default: true
+      - label: 本文
+        name: body
+        widget: markdown
+
+  - name: static
+    label: 固定ページ
+    description: |
+      トップページや about など
+
+    files:
+      - label: トップページ
+        name: top
+        file: src/index.md
+        fields:
+          - {label: レイアウト, name: layout, widget: hidden, default: home}
+          - label: ヒーロー
+            name: hero
+            widget: object
+            fields:
+              - {label: 青字タイトル, name: name, widget: string}
+              - {label: 黒字タイトル, name: text, widget: string, required: false}
+              - {label: トップ画像, name: image, widget: image, choose_url: true, required: false}
+              - {label: サブタイトル, name: tagline, widget: string, required: false}
+              - label: リンクボタン
+                name: actions
+                widget: list
+                required: false
+                fields:
+                  - {label: テキスト, name: text, widget: string}
+                  - {label: テーマ, name: theme, widget: select, options: ['brand', 'alt']}
+                  - {label: リンク, name: link, widget: string}
+          - label: 紹介文
+            name: features
+            widget: list
+            required: false
+            fields:
+              - {label: タイトル, name: title, widget: string}
+              - {label: 説明, name: details, widget: string}
+          - {label: 本文, name: body, widget: hidden, default: ''}
+
+      - label: about
+        name: about
+        file: src/about.md
+        fields:
+          - {label: タイトル, name: title, widget: string}
+          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
+          - {label: 本文, name: body, widget: text}
+
+      - label: booklet
+        name: booklet
+        file: src/booklet.md
+        fields:
+          - {label: タイトル, name: title, widget: string}
+          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
+          - {label: 本文, name: body, widget: text}
