@@ -1,5 +1,6 @@
 ---
 title: 「北大言語学サークル Huling」とは？
+comment: true
 docbefore: false
 ---
 
@@ -22,8 +23,13 @@ docbefore: false
 
 ## 入会方法
 
-毎週金曜5限終了後の18:00~21:00過ぎくらいまで、教養棟1Fの[ディスカッション・ラウンジ](https://www.hokudai.ac.jp/gakusei/pdf/kikou1f_2021.pdf)[^1]で例会をしています。こちらに直接お越しください。
+**毎週金曜**5限終了後の**18:00~21:00**くらいまで、~~教養棟1Fの[リフレッシュ・コーナー (2)](https://www.hokudai.ac.jp/gakusei/pdf/kikou1f_2021.pdf)~~**文学部棟3F言語科学研究室**で例会をしています。
 
-ただし諸事情で例会の場所・日時を変更することがあるかもしれないので、可能であれば Twitter の [@HU_Linguistic](https://twitter.com/HU_Linguistic) に入会または見学希望の旨のDMを送ってください。
+入会または見学を希望される方は、以下のいずれかの方法で連絡してください。
 
-[^1]:リンク先の「リフレッシュ・コーナー (2)」
+- 本ページ下のコメント欄（要[Github](https://github.co.jp/)アカウント）
+- Instagram : [@hu_linguistic](https://www.instagram.com/hu_linguistic/)
+- Twitter : [@HU_Linguistic](https://twitter.com/HU_Linguistic)
+- メール : [linguistic.society.of.hu@gmail.com](linguistic.society.of.hu@gmail.com)
+
+※ Twitter・メールは担当者の性格上、返信が行くまで最大で半年かかることがあります。お急ぎの方はコメント欄または Instagram を強くおすすめいたします。
