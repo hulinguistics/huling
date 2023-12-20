@@ -131,7 +131,7 @@ otqche nashq izhe jesi na nebesqxqq, da sveNtitqq seN imeN tvoje.
 ; 21 . napameN^t^^ . ilariona . Aoko
 ; nqcha^x . mc^s^^a . maija . vqq . 12 . napa^t^^ .
 ; e^>pifana :: moljuzhevqsehxqqpo
-; chitajonnshtixqqnemozehtekleN
+; chitajoNshtixqqnemozehtekleN
 ; ti . nqqispravlqshe . pochitaite .
 ; Takobois^~~tyap^~~lqqpauhlqqg^~~le
 ; tq . Bl^~~te . Aneklqnehte ::-
