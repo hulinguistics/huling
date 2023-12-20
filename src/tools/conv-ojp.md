@@ -9,7 +9,7 @@ tags:
 comment: "true"
 ---
 
-<HLConverter src="/conv/ojp.tsv" />
+<HLConverter src="/conv/ojp_regex.tsv" />
 
 <!--
 tsvの書き方によっては計算が終わらずにページが固まることがあるから注意！
