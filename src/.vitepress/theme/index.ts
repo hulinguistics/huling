@@ -11,7 +11,7 @@ import HLConverter from './components/HLConverter.vue';
 import HLConverterAlt from './components/HLConverterAlt.vue';
 import HLTags from './components/HLTags.vue';
 import HLPages from './components/HLPages.vue';
-import HLNetlifyCMS from './components/HLNetlifyCMS.vue';
+import HLDecapCMS from './components/HLDecapCMS.vue';
 
 import './scss/index.scss';
 
@@ -41,6 +41,6 @@ export default {
     app.component('HLTags', HLTags);
 
     // Netlify CMS
-    app.component('HLNetlifyCMS', HLNetlifyCMS);
+    app.component('HLDecapCMS', HLDecapCMS);
   },
 };

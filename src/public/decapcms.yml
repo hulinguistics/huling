@@ -11,6 +11,9 @@ media_folder: src/public/upload
 public_folder: /upload
 
 site_url: https://huling.org
+logo_url: https://huling.org/top.svg
+
+locale: ja
 
 collections:
   - name: docs
@@ -37,7 +40,8 @@ collections:
           言語ごとの概説なら3文字の言語コード (deu, fra など.
           ISO 639-2, ISO 639-3 参照).
           記事のURLは「https://huling.org/docs/(id)」.
-        pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
+        pattern:
+          ["[a-zA-Z0-9-]{3,}", "ラテン文字, 算用数字, 半角ハイフン, 3字以上"]
       - label: カテゴリ
         name: category
         widget: select
@@ -58,8 +62,8 @@ collections:
         widget: list
         required: false
         fields:
-          - {label: 表示名, name: name, widget: string}
-          - {label: URL, name: url, widget: string, required: false}
+          - { label: 表示名, name: name, widget: string }
+          - { label: URL, name: url, widget: string, required: false }
       - label: コメント機能
         name: comment
         widget: boolean
@@ -92,7 +96,8 @@ collections:
           問題解説なら「(大会略称)(開催年)(ラウンド)-(問題番号)」.
           例) 「JOL2017-3」「UKLO2021R1-1」など.
           記事のURLは「https://huling.org/olympiad/(id)」.
-        pattern: ['[a-zA-Z0-9-]{3,}', 'ラテン文字, 算用数字, 半角ハイフン, 3字以上']
+        pattern:
+          ["[a-zA-Z0-9-]{3,}", "ラテン文字, 算用数字, 半角ハイフン, 3字以上"]
       - label: カテゴリ
         name: category
         widget: select
@@ -110,8 +115,8 @@ collections:
         widget: list
         required: false
         fields:
-          - {label: 表示名, name: name, widget: string}
-          - {label: URL, name: url, widget: string, required: false}
+          - { label: 表示名, name: name, widget: string }
+          - { label: URL, name: url, widget: string, required: false }
       - label: コメント機能
         name: comment
         widget: boolean
@@ -130,44 +135,75 @@ collections:
         name: top
         file: src/index.md
         fields:
-          - {label: レイアウト, name: layout, widget: hidden, default: home}
+          - { label: レイアウト, name: layout, widget: hidden, default: home }
           - label: ヒーロー
             name: hero
             widget: object
             fields:
-              - {label: 青字タイトル, name: name, widget: string}
-              - {label: 黒字タイトル, name: text, widget: string, required: false}
-              - {label: トップ画像, name: image, widget: image, choose_url: true, required: false}
-              - {label: サブタイトル, name: tagline, widget: string, required: false}
+              - { label: 青字タイトル, name: name, widget: string }
+              - {
+                  label: 黒字タイトル,
+                  name: text,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: トップ画像,
+                  name: image,
+                  widget: image,
+                  choose_url: true,
+                  required: false,
+                }
+              - {
+                  label: サブタイトル,
+                  name: tagline,
+                  widget: string,
+                  required: false,
+                }
               - label: リンクボタン
                 name: actions
                 widget: list
                 required: false
                 fields:
-                  - {label: テキスト, name: text, widget: string}
-                  - {label: テーマ, name: theme, widget: select, options: ['brand', 'alt']}
-                  - {label: リンク, name: link, widget: string}
+                  - { label: テキスト, name: text, widget: string }
+                  - {
+                      label: テーマ,
+                      name: theme,
+                      widget: select,
+                      options: ["brand", "alt"],
+                    }
+                  - { label: リンク, name: link, widget: string }
           - label: 紹介文
             name: features
             widget: list
             required: false
             fields:
-              - {label: タイトル, name: title, widget: string}
-              - {label: 説明, name: details, widget: string}
-          - {label: 本文, name: body, widget: hidden, default: ''}
+              - { label: タイトル, name: title, widget: string }
+              - { label: 説明, name: details, widget: string }
+          - { label: 本文, name: body, widget: hidden, default: "" }
 
       - label: about
         name: about
         file: src/about.md
         fields:
-          - {label: タイトル, name: title, widget: string}
-          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
-          - {label: 本文, name: body, widget: text}
+          - { label: タイトル, name: title, widget: string }
+          - {
+              label: タイトル表示,
+              name: docbefore,
+              widget: boolean,
+              default: false,
+            }
+          - { label: 本文, name: body, widget: markdown }
 
       - label: booklet
         name: booklet
         file: src/booklet.md
         fields:
-          - {label: タイトル, name: title, widget: string}
-          - {label: タイトル表示, name: docbefore, widget: boolean, default: false}
-          - {label: 本文, name: body, widget: text}
+          - { label: タイトル, name: title, widget: string }
+          - {
+              label: タイトル表示,
+              name: docbefore,
+              widget: boolean,
+              default: false,
+            }
+          - { label: 本文, name: body, widget: markdown }
