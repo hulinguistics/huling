@@ -2,6 +2,12 @@
 title: 言語当てゲーム Languessr
 id: languessr
 category: article
+tags:
+  - 言語学
+  - 比較
+  - 文字
+  - 統語
+  - 文章
 author:
   - name: xiupos
     url: ""
