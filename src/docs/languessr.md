@@ -6,7 +6,7 @@ tags:
   - 言語学
   - 比較
   - 文字
-  - 統語
+  - ""
   - 文章
 author:
   - name: xiupos
