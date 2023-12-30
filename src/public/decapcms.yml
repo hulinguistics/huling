@@ -193,7 +193,7 @@ collections:
               widget: boolean,
               default: false,
             }
-          - { label: 本文, name: body, widget: text }
+          - { label: 本文, name: body, widget: markdown }
 
       - label: booklet
         name: booklet
@@ -206,4 +206,4 @@ collections:
               widget: boolean,
               default: false,
             }
-          - { label: 本文, name: body, widget: text }
+          - { label: 本文, name: body, widget: markdown }
