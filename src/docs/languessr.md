@@ -13,7 +13,7 @@ author:
     url: ""
 comment: true
 ---
-ランダムに表示される Wikipedia の要約記事からその表示言語を当てるゲーム「[Languessr](https://languessr.xiupos.net/)」の紹介です。
+ランダムに表示される Wikipedia の要約記事からその表示言語を当てるブラウザゲーム「[Languessr](https://languessr.xiupos.net/)」の紹介です。
 
 [📖 Languessr - languessr.xiupos.net](https://languessr.xiupos.net/)
 
