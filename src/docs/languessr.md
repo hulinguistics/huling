@@ -6,7 +6,6 @@ tags:
   - 言語学
   - 比較
   - 文字
-  - ""
   - 文章
 author:
   - name: xiupos
