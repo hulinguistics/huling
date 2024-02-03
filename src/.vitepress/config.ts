@@ -52,7 +52,10 @@ export default (async () => {
       ],
 
       // nav 上のソーシャルリンク
-      socialLinks: [{ icon: 'twitter', link: 'https://twitter.com/HU_Linguistic' }],
+      socialLinks: [
+        { icon: 'twitter', link: 'https://twitter.com/HU_Linguistic' },
+        { icon: 'instagram', link: 'https://instagram.com/hu_linguistic' },
+      ],
 
       // ページ左側の sidebar
       sidebar: {
