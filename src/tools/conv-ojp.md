@@ -1,5 +1,5 @@
 ---
-title: 上代日本語
+title: 上代日本語上代特殊仮名遣
 id: conv-ojp
 category: conv
 tags:
@@ -10,6 +10,8 @@ comment: "true"
 ---
 
 <HLConverter src="/conv/ojp.tsv" />
+
+Frellesvig&Whitman式表記の上代特殊仮名遣を下付き数字ひらがなの表記に変換できます。[オックスフォード・NINJAL上代日本語コーパス(ONCOJ)](https://oncoj.ninjal.ac.jp/)のテキストをひらがなにするのに使ってください。
 
 <!--
 tsvの書き方によっては計算が終わらずにページが固まることがあるから注意！
