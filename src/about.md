@@ -9,7 +9,7 @@ docbefore: false
 
 ## 「北大言語学サークル Huling」とは？
 
-2022年3月末にできたばかりの、言語学を勉強したい人たちが集まったサークルです。現在30名程度が参加しています。様々な学年・学部学科の人たちが参加していて、言語学への造詣の深さも多様ですが、週1回ゆるーく活動しています。
+2022年3月末にできた、言語学を勉強したい人たちが集まったサークルです。所属人数は40名程度、例会には10名以上が参加しています。様々な学年・学部学科の人たちが所属しており、言語学への造詣の深さも多様ですが、週1回ゆるーく活動しています。
 
 ## 主な活動
 
@@ -23,7 +23,7 @@ docbefore: false
 
 ## 入会方法
 
-**毎週金曜**5限終了後の**18:00~21:00**くらいまで、~~教養棟1Fの[リフレッシュ・コーナー (2)](https://www.hokudai.ac.jp/gakusei/pdf/kikou1f_2021.pdf)~~**文学部棟3F言語科学研究室**で例会をしています。
+**毎週金曜**5限終了後の**18:00~21:00**くらいまで、~~教養棟1Fの[リフレッシュ・コーナー (2)](https://www.hokudai.ac.jp/gakusei/pdf/kikou1f_2021.pdf)~~**文学部棟3F言語科学研究室**で例会をしています。長期休暇中もやっているので在札中のヒマな方はぜひ！
 
 入会または見学を希望される方は、以下のいずれかの方法で連絡してください。
 
@@ -31,5 +31,3 @@ docbefore: false
 - Instagram : [@hu_linguistic](https://www.instagram.com/hu_linguistic/)
 - Twitter : [@HU_Linguistic](https://twitter.com/HU_Linguistic)
 - メール : [linguistic.society.of.hu@gmail.com](linguistic.society.of.hu@gmail.com)
-
-※ Twitter・メールは担当者の性格上、返信が行くまで最大で半年かかることがあります。お急ぎの方はコメント欄または Instagram を強くおすすめいたします。
