@@ -46,7 +46,7 @@ export default (async () => {
         { text: 'About', link: '/about' },
         { text: 'Booklet', link: '/booklet' },
         { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
-        { text: 'Olympiad', link: 'https://note.com/huling/m/mcd1d0bd424ad', activeMatch: '/olympiad/' },
+        { text: 'Olympiad', link: 'https://note.com/huling/m/mcd1d0bd424ad' },
         { text: 'Tools', link: '/tools/conv', activeMatch: '/tools/' },
         { text: 'Tags', link: '/tags' },
       ],
@@ -60,7 +60,6 @@ export default (async () => {
       // ページ左側の sidebar
       sidebar: {
         '/docs/': await sidebar('src/docs/', 'src/.vitepress/categories/docs.json'),
-        '/olympiad/': await sidebar('src/olympiad/', 'src/.vitepress/categories/olympiad.json'),
         '/tools/': await sidebar('src/tools/', 'src/.vitepress/categories/tools.json'),
       },
 

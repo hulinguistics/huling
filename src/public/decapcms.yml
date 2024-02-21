@@ -72,59 +72,6 @@ collections:
         name: body
         widget: markdown
 
-  - name: olympiad
-    label: オリンピック関連の記事
-    folder: src/olympiad
-    create: true
-    slug: "{{fields.id}}"
-    preview_path: "olympiad/{{slug}}"
-    description: |
-      言語学オリンピック過去問題解説などの記事
-
-    fields:
-      - label: タイトル
-        name: title
-        widget: string
-        hint: |
-          問題解説なら「JOL2017-3 モンゴル語」など
-      - label: 記事ID
-        name: id
-        widget: string
-        hint: |
-          ラテン文字, 算用数字, 半角ハイフン, 3字以上.
-          ダイアクリティカルマーク付きラテン文字不可.
-          問題解説なら「(大会略称)(開催年)(ラウンド)-(問題番号)」.
-          例) 「JOL2017-3」「UKLO2021R1-1」など.
-          記事のURLは「https://huling.org/olympiad/(id)」.
-        pattern:
-          ["[a-zA-Z0-9-]{3,}", "ラテン文字, 算用数字, 半角ハイフン, 3字以上"]
-      - label: カテゴリ
-        name: category
-        widget: select
-        options:
-          - { label: 言語学オリンピックについて, value: general }
-          - { label: オリンピック問題解説集, value: explanation }
-      - label: タグ
-        name: tags
-        widget: list
-        hint: |
-          「#」不要.
-          仕切り文字は半角コンマ「,」.
-      - label: 筆者
-        name: author
-        widget: list
-        required: false
-        fields:
-          - { label: 表示名, name: name, widget: string }
-          - { label: URL, name: url, widget: string, required: false }
-      - label: コメント機能
-        name: comment
-        widget: boolean
-        default: true
-      - label: 本文
-        name: body
-        widget: markdown
-
   - name: static
     label: 固定ページ
     description: |
