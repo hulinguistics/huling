@@ -46,7 +46,7 @@ export default (async () => {
         { text: 'About', link: '/about' },
         { text: 'Booklet', link: '/booklet' },
         { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
-        { text: 'Olympiad', link: '/olympiad/about', activeMatch: '/olympiad/' },
+        { text: 'Olympiad', link: 'https://note.com/huling/m/mcd1d0bd424ad', activeMatch: '/olympiad/' },
         { text: 'Tools', link: '/tools/conv', activeMatch: '/tools/' },
         { text: 'Tags', link: '/tags' },
       ],
