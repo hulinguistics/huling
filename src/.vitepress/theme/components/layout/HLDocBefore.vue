@@ -1,5 +1,5 @@
 <template>
-  <div class="HLDocBefore" v-if="page.frontmatter.docbefore !== false">
+  <div v-if="page.frontmatter.docbefore !== false" class="HLDocBefore">
     <HLTitle :title="page.frontmatter.title" />
     <HLPageInfo :tags="page.frontmatter.tags"></HLPageInfo>
   </div>
