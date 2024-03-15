@@ -68,7 +68,7 @@ export default (async () => {
         { text: 'Home', link: '/' },
         { text: 'About', link: '/about' },
         { text: 'Booklet', link: '/booklet' },
-        { text: 'Docs', link: '/docs/grammar-terms', activeMatch: '/docs/' },
+        { text: 'note', link: 'https://note.com/huling/m/m8a70e16198cc' },
         { text: 'Olympiad', link: 'https://note.com/huling/m/mcd1d0bd424ad' },
         { text: 'Tools', link: '/tools/conv', activeMatch: '/tools/' },
         { text: 'Tags', link: '/tags' },
@@ -85,7 +85,12 @@ export default (async () => {
         '/docs/': [
           {
             text: '言語学の概説',
-            items: [{ text: '文法用語の解説', link: '/docs/grammar-terms' }],
+            items: [
+              {
+                text: '文法用語の解説',
+                link: 'https://note.com/huling/n/nf91fa59c260b?magazine_key=m8a70e16198cc',
+              },
+            ],
           },
           {
             text: '言語ごとの概説',
