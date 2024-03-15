@@ -115,7 +115,10 @@ export default (async () => {
           {
             text: '北大の第二外国語',
             items: [
-              { text: '第二外国語解説', link: '/docs/nigai' },
+              {
+                text: '第二外国語解説',
+                link: 'https://note.com/huling/n/n3f6a86981368?magazine_key=m23eaa6287db4',
+              },
               {
                 text: '初習ドイツ語',
                 link: 'https://note.com/ncho_014/n/n522a4905d54d?magazine_key=m23eaa6287db4',
