@@ -8,9 +8,6 @@ hero:
     - link: /booklet
       text: Booklet
       theme: alt
-    - link: /docs/grammar-terms
-      text: Docs
-      theme: alt
     - theme: alt
       text: note
       link: https://note.com/huling/m/m8a70e16198cc
