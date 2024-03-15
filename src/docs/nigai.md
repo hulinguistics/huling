@@ -35,9 +35,9 @@ comment: true
 
 記事に書かれたことは個人の体験に基づくものです。年やクラスによる違いは大いにありますのでお気を付けください。
 
-- [ドイツ語](./nigai-deu)
+- [ドイツ語](https://note.com/ncho_014/n/n522a4905d54d?magazine_key=m23eaa6287db4)
 - [フランス語](./nigai-fra)
-- [ロシア語](./nigai-rus)
+- [ロシア語](https://note.com/xiupos/n/ndd8801567fa6?magazine_key=m23eaa6287db4)
 - [スペイン語](./nigai-spa)
 - [中国語](./nigai-zho)
 - 韓国語
