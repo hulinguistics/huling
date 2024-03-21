@@ -30,5 +30,4 @@ docbefore: false
 - 本ページ下のコメント欄（要[Github](https://github.co.jp/)アカウント）
 - Instagram : [@hu_linguistic](https://www.instagram.com/hu_linguistic/)
 - Twitter : [@HU_Linguistic](https://twitter.com/HU_Linguistic)
-- note : [huling](https://note.com/huling/m/m8a70e16198cc)
 - メール : [linguistic.society.of.hu@gmail.com](mailto:linguistic.society.of.hu@gmail.com)
