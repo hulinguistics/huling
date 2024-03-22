@@ -82,68 +82,6 @@ export default (async () => {
 
       // ページ左側の sidebar
       sidebar: {
-        '/docs/': [
-          {
-            text: '言語学の概説',
-            items: [
-              {
-                text: '文法用語の解説',
-                link: 'https://note.com/huling/n/nf91fa59c260b?magazine_key=m8a70e16198cc',
-              },
-            ],
-          },
-          {
-            text: '言語ごとの概説',
-            items: [
-              {
-                text: 'アイヌ語 / aynu itak',
-                link: 'https://note.com/_pccm4/n/nb6fc1700a166?magazine_key=md52cc1799218',
-              },
-              { text: 'アラビア語 / العربية', link: '/docs/ara' },
-              { text: '古教会スラヴ語 / словѣньскъ ѩзꙑкъ', link: '/docs/chu' },
-              {
-                text: 'ドイツ語 / Deutsch',
-                link: 'https://note.com/xiupos/n/nf230d839ea10?magazine_key=md52cc1799218',
-              },
-              { text: 'フィンランド語 / Suomi', link: '/docs/fin' },
-              { text: 'フランス語 / Français', link: '/docs/fra' },
-              { text: '古典ギリシア語 / Ἑλληνική', link: '/docs/grc' },
-              { text: '韓国朝鮮語 / 한국어', link: '/docs/kor' },
-              { text: 'ラテン語 / Latina', link: '/docs/lat' },
-              { text: 'ポーランド語 / Polski', link: '/docs/pol' },
-              { text: 'ロシア語 / Русский', link: '/docs/rus' },
-              { text: 'スペイン語 / Español', link: '/docs/spa' },
-              {
-                text: 'トルコ語 / Türkçe',
-                link: 'https://note.com/kuch1nawa/n/n33e99e0547d0?magazine_key=md52cc1799218',
-              },
-              { text: '中国語 / 汉语 (普通话)', link: '/docs/zho' },
-            ],
-          },
-          {
-            text: '北大の第二外国語',
-            items: [
-              {
-                text: '第二外国語解説',
-                link: 'https://note.com/huling/n/n3f6a86981368?magazine_key=m23eaa6287db4',
-              },
-              {
-                text: '初習ドイツ語',
-                link: 'https://note.com/ncho_014/n/n522a4905d54d?magazine_key=m23eaa6287db4',
-              },
-              { text: '初習フランス語', link: '/docs/nigai-fra' },
-              {
-                text: '初習ロシア語',
-                link: 'https://note.com/xiupos/n/ndd8801567fa6?magazine_key=m23eaa6287db4',
-              },
-              { text: '初習スペイン語', link: '/docs/nigai-spa' },
-              {
-                text: '初習中国語',
-                link: 'https://note.com/_pccm4/n/nb6b44d53ba01?magazine_key=m23eaa6287db4',
-              },
-            ],
-          },
-        ],
         '/tools/': await sidebar('src/tools/', 'src/.vitepress/categories/tools.json'),
       },
 
