@@ -95,7 +95,10 @@ export default (async () => {
           {
             text: '言語ごとの概説',
             items: [
-              { text: 'アイヌ語 / aynu itak', link: '/docs/ain' },
+              {
+                text: 'アイヌ語 / aynu itak',
+                link: 'https://note.com/_pccm4/n/nb6fc1700a166?magazine_key=md52cc1799218',
+              },
               { text: 'アラビア語 / العربية', link: '/docs/ara' },
               { text: '古教会スラヴ語 / словѣньскъ ѩзꙑкъ', link: '/docs/chu' },
               {
